@@ -4,7 +4,7 @@ from v2raySetting import *
 
 class UserVless:
     id: str
-    alter_id: int
+    alterId: int
     email: str
     security: str
     encryption: str
@@ -13,7 +13,7 @@ class UserVless:
     def __init__(self, id: str, alter_id: int = 0, email: str = "t@t.tt", security: str = "auto",
                  encryption: str = "none", flow: str = "") -> None:
         self.id = id
-        self.alter_id = alter_id
+        self.alterId = alter_id
         self.email = email
         self.security = security
         self.encryption = encryption
@@ -42,12 +42,12 @@ class Vless:
     tag: str
     protocol: str
     settings: SettingsVless
-    stream_settings: StreamSettings
+    streamSettings: StreamSettings
     mux: Mux
 
     def __init__(self, settings: SettingsVless, stream_settings: StreamSettings, mux: Mux) -> None:
         self.tag = "proxy_" + str(randint(1111, 9999))
         self.protocol = "vless"
         self.settings = settings
-        self.stream_settings = stream_settings
+        self.streamSettings = stream_settings
         self.mux = mux
