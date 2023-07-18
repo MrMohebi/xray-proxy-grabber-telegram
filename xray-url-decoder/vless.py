@@ -1,5 +1,5 @@
 from random import randint
-from v2raySetting import *
+from XraySetting import *
 
 
 class UserVless:

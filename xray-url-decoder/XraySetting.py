@@ -94,7 +94,8 @@ class TCPSettings:
 
     def __init__(self, accept_proxy_protocol: bool = None, header: dict = None) -> None:
         self.acceptProxyProtocol = accept_proxy_protocol if accept_proxy_protocol is not None else False
-        self.header = header if header is not None else {}
+        if header is not None:
+            self.header = header
 
 
 class StreamSettings:
