@@ -45,8 +45,8 @@ class Vless:
     streamSettings: StreamSettings
     mux: Mux
 
-    def __init__(self, settings: SettingsVless, stream_settings: StreamSettings, mux: Mux) -> None:
-        self.tag = "proxy_" + str(randint(1111, 9999))
+    def __init__(self, name: str, settings: SettingsVless, stream_settings: StreamSettings, mux: Mux) -> None:
+        self.tag = "proxy_" + str(randint(1111, 9999)) + "_" + name
         self.protocol = "vless"
         self.settings = settings
         self.streamSettings = stream_settings
