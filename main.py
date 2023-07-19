@@ -5,9 +5,9 @@ from git import Repo
 
 repo = Repo("./")
 
-with repo.config_writer() as git_config:
-    git_config.set_value('user', 'email', 'bot@auto.com')
-    git_config.set_value('user', 'name', 'Bot-auto')
+# with repo.config_writer() as git_config:
+#     git_config.set_value('user', 'email', 'bot@auto.com')
+#     git_config.set_value('user', 'name', 'Bot-auto')
 
 
 def extract_v2ray_links(text) -> list[str]:
