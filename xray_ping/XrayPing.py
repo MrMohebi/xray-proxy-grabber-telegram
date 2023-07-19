@@ -29,7 +29,8 @@ def real_delay(port: int, proxy_name: str):
 
 
 class XrayPing:
-    result: list[dict]
+    result: list[dict] = []
+    actives: list[dict] = []
 
     def __init__(self, configs: list[str]) -> None:
         confs = [json.loads(c) for c in configs]
@@ -68,17 +69,17 @@ class XrayPing:
         with open(configFilePath, 'w') as f:
             f.write(confFinalStr)
 
-        runXrayThread = Thread(target=subprocess.run, args=([Path("../xray_ping/xray").resolve(), "run", "-c", configFilePath],))
+        runXrayThread = Thread(target=subprocess.run, args=([Path("xray_ping/xray").resolve(), "run", "-c", configFilePath],))
         runXrayThread.daemon = True
         runXrayThread.start()
         # runXrayThread.join()
 
         time.sleep(5)
 
-        result = []
         for index, s in enumerate(socks):
             r = real_delay(s.port, s.tag.split("__")[1])
             r["proxy"] = confs[index]
-            result.append(r)
+            self.result.append(r)
+            if r["realDelay_ms"] > 0:
+                self.actives.append(r)
 
-        self.result = result

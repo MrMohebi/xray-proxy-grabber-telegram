@@ -30,17 +30,29 @@ class TLSSettings:
                  enable_session_resumption: bool = None, fingerprint: str = None,
                  pinned_peer_certificate_chain_sha256: List[str] = None) -> None:
         self.serverName = server_name
-        self.rejectUnknownSni = reject_unknown_sni if reject_unknown_sni is not None else False
-        self.allowInsecure = allow_insecure if allow_insecure is not None else False
-        self.alpn = alpn if alpn is not None else ["h2", "http/1.1"]
-        self.minVersion = min_version if min_version is not None else "1.1"
-        self.maxVersion = max_version if max_version is not None else "1.3"
-        self.cipherSuites = cipher_suites if cipher_suites is not None else ""
-        self.certificates = certificates if certificates is not None else []
-        self.disableSystemRoot = disable_system_root if disable_system_root is not None else False
-        self.enableSessionResumption = enable_session_resumption if enable_session_resumption is not None else False
-        self.fingerprint = fingerprint if fingerprint is not None else "chrome"
-        self.pinnedPeerCertificateChainSha256 = pinned_peer_certificate_chain_sha256 if pinned_peer_certificate_chain_sha256 is not None else [""]
+        if reject_unknown_sni is not None:
+            self.rejectUnknownSni = reject_unknown_sni
+        if allow_insecure is not None:
+            self.allowInsecure = allow_insecure
+        if alpn is not None:
+            self.alpn = alpn
+        if min_version is not None:
+            self.minVersion = min_version
+        if max_version is not None:
+            self.maxVersion = max_version
+        if cipher_suites is not None:
+            self.cipherSuites = cipher_suites
+        if certificates is not None:
+            self.certificates = certificates
+        if disable_system_root is not None:
+            self.disableSystemRoot = disable_system_root
+        if enable_session_resumption is not None:
+            self.enableSessionResumption = enable_session_resumption
+        if fingerprint is not None:
+            self.fingerprint = fingerprint
+        if pinned_peer_certificate_chain_sha256 is not None:
+            self.pinnedPeerCertificateChainSha256 = pinned_peer_certificate_chain_sha256
+
 
 
 class WsSettingsVless:
@@ -63,12 +75,18 @@ class GrpcSettings:
     def __init__(self, service_name: str = None, multi_mode: bool = None, idle_timeout: int = None,
                  health_check_timeout: int = None,
                  permit_without_stream: bool = None, initial_windows_size: int = None) -> None:
-        self.serviceName = service_name if service_name is not None else ""
-        self.multiMode = multi_mode if multi_mode is not None else False
-        self.idleTimeout = idle_timeout if idle_timeout is not None else 60
-        self.healthCheckTimeout = health_check_timeout if health_check_timeout is not None else 20
-        self.permitWithoutStream = permit_without_stream if permit_without_stream is not None else False
-        self.initialWindowsSize = initial_windows_size if initial_windows_size is not None else 0
+        if service_name is not None:
+            self.serviceName = service_name
+        if multi_mode is not None:
+            self.multiMode = multi_mode
+        if idle_timeout is not None:
+            self.idleTimeout = idle_timeout
+        if health_check_timeout is not None:
+            self.healthCheckTimeout = health_check_timeout
+        if permit_without_stream is not None:
+            self.permitWithoutStream = permit_without_stream
+        if initial_windows_size is not None:
+            self.initialWindowsSize = initial_windows_size
 
 
 class RealitySettings:

@@ -27,7 +27,7 @@ def extract_v2ray_links(text) -> list[str]:
 @app.on_message(filters.text & filters.channel & filters.chat(PROXY_CHANNELS))
 async def from_proxy_channels(client, message):
     global repo
-    messageText = message.text.lower()
+    messageText = message.text
     has_v2ray_proxy = "vless://" in messageText or "vmess://" in messageText or "trojan://" in messageText
     if has_v2ray_proxy:
         v2rayProxies = extract_v2ray_links(messageText)

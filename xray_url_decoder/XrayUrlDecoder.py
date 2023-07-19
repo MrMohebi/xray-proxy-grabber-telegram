@@ -27,7 +27,7 @@ class XrayUrlDecoder:
             case "vless":
                 self.vless_json()
             case _:
-                print("URL is incorrect")
+                print("schema {} is not supported yet".format(self.url.scheme))
 
     def stream_setting_obj(self) -> StreamSettings:
         wsSetting = None
@@ -38,7 +38,7 @@ class XrayUrlDecoder:
 
         match self.queries["type"]:
             case "grpc":
-                grpcSettings = GrpcSettings(self.getQuery("servicename"))
+                grpcSettings = GrpcSettings(self.getQuery("serviceName"))
             case "ws":
                 wsSetting = WsSettingsVless(self.getQuery("path"), {})
             case "tcp":
