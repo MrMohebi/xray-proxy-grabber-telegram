@@ -2,11 +2,6 @@ import json
 from urllib.parse import urlparse, parse_qs, ParseResult
 from vless import *
 
-import sys
-sys.path.insert(1, './../xray_ping')
-
-from xray_ping.XrayPing import XrayPing
-
 
 class XrayUrlDecoder:
     url: ParseResult
@@ -75,16 +70,3 @@ class XrayUrlDecoder:
 
     def vless_json_str(self) -> str:
         return json.dumps(self.vless_json(), default=lambda x: x.__dict__)
-
-
-
-b = XrayUrlDecoder(
-    "vless://86dee03e-8119-4215-e719-279602c5a366@cljoon.wtf-broo.ir:2087?encryption=none&security=tls&sni=cljoon.wtf-broo.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&path=%2F#JoonWS-MrAR")
-
-c = XrayUrlDecoder(
-    "vless://1fbe1e72-1a3b-4b75-dce5-5598631f7efc@levi.wtf-broo.ir:57356?encryption=none&security=reality&sni=telewebion.com&fp=chrome&pbk=sq7N8HmEL1cPskTNP4h5M31BqAoeIQ76bBcCDh9fKQc&spx=%2F&type=grpc#Heaven%2B2-qngk0z2yv")
-
-proxyPings = XrayPing(
-    [b.vless_json_str(), c.vless_json_str()])
-
-print(json.dumps(proxyPings.result))

@@ -1,11 +1,12 @@
-from client import app
+from client import app, PROXY_CHANNELS
 from pyrogram import filters
 import re
+from git import Repo
 
-PROXY_CHANNELS = ["test_telegram_bot_mrm"]
+repo = Repo("./")
 
 
-def extract_v2ray_links(text):
+def extract_v2ray_links(text) -> list[str]:
     regex = r"(vless|vmess|trojan):\/\/[^\\\n]*"
     matches = re.finditer(regex, text, re.MULTILINE)
     return [i.group() for i in matches]
@@ -18,7 +19,20 @@ async def from_proxy_channels(client, message):
     if has_v2ray_proxy:
         v2rayProxies = extract_v2ray_links(messageText)
         print(v2rayProxies)
-        await message.reply(v2rayProxies)
+        with open("./proxies_row_url.txt", 'a') as f:
+            f.write("\n".join(v2rayProxies))
+            f.write("\n")
 
 
 app.run()
+
+# b = XrayUrlDecoder(
+#     "vless://86dee03e-8119-4215-e719-279602c5a366@cljoon.wtf-broo.ir:2087?encryption=none&security=tls&sni=cljoon.wtf-broo.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&path=%2F#JoonWS-MrAR")
+#
+# c = XrayUrlDecoder(
+#     "vless://1fbe1e72-1a3b-4b75-dce5-5598631f7efc@levi.wtf-broo.ir:57356?encryption=none&security=reality&sni=telewebion.com&fp=chrome&pbk=sq7N8HmEL1cPskTNP4h5M31BqAoeIQ76bBcCDh9fKQc&spx=%2F&type=grpc#Heaven%2B2-qngk0z2yv")
+#
+# proxyPings = XrayPing(
+#     [b.vless_json_str(), c.vless_json_str()])
+#
+# print(json.dumps(proxyPings.result))
