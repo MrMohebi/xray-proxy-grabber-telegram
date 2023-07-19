@@ -5,6 +5,10 @@ from git import Repo
 
 repo = Repo("./")
 
+with repo.config_writer() as git_config:
+    git_config.set_value('user', 'email', 'bot@auto.com')
+    git_config.set_value('user', 'name', 'Bot-auto')
+
 
 def extract_v2ray_links(text) -> list[str]:
     regex = r"(vless|vmess|trojan):\/\/[^\\\n]*"
@@ -14,6 +18,7 @@ def extract_v2ray_links(text) -> list[str]:
 
 @app.on_message(filters.text & filters.channel & filters.chat(PROXY_CHANNELS))
 async def from_proxy_channels(client, message):
+    global repo
     messageText = message.text.lower()
     has_v2ray_proxy = "vless://" in messageText or "vmess://" in messageText or "trojan://" in messageText
     if has_v2ray_proxy:
@@ -22,6 +27,9 @@ async def from_proxy_channels(client, message):
         with open("./proxies_row_url.txt", 'a') as f:
             f.write("\n".join(v2rayProxies))
             f.write("\n")
+
+        repo.index.add([])
+        repo.index.commit('update proxies from {}'.format(message.sender_chat.username))
 
 
 app.run()
