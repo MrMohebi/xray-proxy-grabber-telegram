@@ -7,19 +7,20 @@ repo = Repo("./")
 
 
 def commitPushRowProxiesFile(chanelUsername):
-    with repo.config_reader() as git_config:
-        email = git_config.get_value('user', 'email')
-        user = git_config.get_value('user', 'name')
-    with repo.config_writer() as git_config:
-        git_config.set_value('user', 'email', 'bot@auto.com')
-        git_config.set_value('user', 'name', 'Bot-auto')
-    repo.remotes.origin.pull()
-    repo.index.add(["proxies_row_url.txt"])
-    repo.index.commit('update proxies from {}'.format(chanelUsername))
-    repo.remotes.origin.push()
-    with repo.config_writer() as git_config:
-        git_config.set_value('user', 'email', email)
-        git_config.set_value('user', 'name', user)
+    if not IS_DEBUG:
+        with repo.config_reader() as git_config:
+            email = git_config.get_value('user', 'email')
+            user = git_config.get_value('user', 'name')
+        with repo.config_writer() as git_config:
+            git_config.set_value('user', 'email', 'bot@auto.com')
+            git_config.set_value('user', 'name', 'Bot-auto')
+        repo.remotes.origin.pull()
+        repo.index.add(["proxies_row_url.txt"])
+        repo.index.commit('update proxies from {}'.format(chanelUsername))
+        repo.remotes.origin.push()
+        with repo.config_writer() as git_config:
+            git_config.set_value('user', 'email', email)
+            git_config.set_value('user', 'name', user)
 
 
 def extract_v2ray_links(text) -> list[str]:
