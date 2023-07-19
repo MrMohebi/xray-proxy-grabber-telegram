@@ -28,8 +28,10 @@ async def from_proxy_channels(client, message):
             f.write("\n".join(v2rayProxies))
             f.write("\n")
 
+        repo.remotes.origin.pull()
         repo.index.add(["proxies_row_url.txt"])
         repo.index.commit('update proxies from {}'.format(message.sender_chat.username))
+        repo.remotes.origin.push()
 
 
 app.run()
