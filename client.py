@@ -24,3 +24,6 @@ if len(os.getenv('PROXY_URL')) > 2:
     print(proxy)
 
 app = Client("v2ray-proxy-grabber-telegram", api_id, api_hash, proxy=proxy)
+
+
+PROXY_CHANNELS = os.getenv('PROXY_CHANNELS').split("@")
