@@ -1,13 +1,21 @@
-from client import app, PROXY_CHANNELS
+from client import app, PROXY_CHANNELS, IS_DEBUG
 from pyrogram import filters
 import re
 from git import Repo
 
 repo = Repo("./")
+if not IS_DEBUG:
+    with repo.config_writer() as git_config:
+        git_config.set_value('user', 'email', 'bot@auto.com')
+        git_config.set_value('user', 'name', 'Bot-auto')
 
-# with repo.config_writer() as git_config:
-#     git_config.set_value('user', 'email', 'bot@auto.com')
-#     git_config.set_value('user', 'name', 'Bot-auto')
+
+def commitPushRowProxiesFile(chanelUsername):
+    if not IS_DEBUG:
+        repo.remotes.origin.pull()
+        repo.index.add(["proxies_row_url.txt"])
+        repo.index.commit('update proxies from {}'.format(chanelUsername))
+        repo.remotes.origin.push()
 
 
 def extract_v2ray_links(text) -> list[str]:
@@ -28,11 +36,7 @@ async def from_proxy_channels(client, message):
             f.write("\n".join(v2rayProxies))
             f.write("\n")
 
-        repo.git.checkout('proxies')
-        repo.remotes.origin.pull()
-        repo.index.add(["proxies_row_url.txt"])
-        repo.index.commit('update proxies from {}'.format(message.sender_chat.username))
-        repo.remotes.origin.push()
+        commitPushRowProxiesFile(message.sender_chat.username)
 
 
 app.run()
