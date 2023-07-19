@@ -27,4 +27,4 @@ app = Client("v2ray-proxy-grabber-telegram", api_id, api_hash, proxy=proxy)
 
 
 PROXY_CHANNELS = os.getenv('PROXY_CHANNELS').split("@")
-IS_DEBUG = bool(os.getenv('DEBUG_MODE'))
+IS_DEBUG = bool(int(os.getenv('DEBUG_MODE')))
