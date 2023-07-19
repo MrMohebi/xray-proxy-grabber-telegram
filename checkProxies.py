@@ -15,10 +15,6 @@ load_dotenv()
 IS_DEBUG = bool(int(os.getenv('DEBUG_MODE')))
 
 repo = Repo("./")
-if not IS_DEBUG:
-    with repo.config_writer() as git_config:
-        git_config.set_value('user', 'email', 'bot@auto.com')
-        git_config.set_value('user', 'name', 'Bot-auto')
 
 
 def commitPushRActiveProxiesFile():
