@@ -10,14 +10,14 @@ api_id = int(os.getenv('API_ID'))
 api_hash = os.getenv('API_HASH')
 
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-PROXIES_REPO = os.getenv('PROXIES_REPO')
+REPO = os.getenv('REPO')
 IS_DEBUG = bool(int(os.getenv('DEBUG_MODE')))
 
 if os.path.exists("./repo/.git"):
     repo = Repo("./repo/")
 else:
     repo = Repo.clone_from(
-        "https://mrm:{TOKEN_GITHUB}@github.com/{REPO}".format(TOKEN_GITHUB=GITHUB_TOKEN, REPO=PROXIES_REPO), "./repo")
+        "https://mrm:{TOKEN_GITHUB}@github.com/{REPO}".format(TOKEN_GITHUB=GITHUB_TOKEN, REPO=REPO), "./repo")
 
 with repo.config_reader() as git_config:
     mainGitEmail = git_config.get_value('user', 'email')
