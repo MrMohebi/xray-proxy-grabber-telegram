@@ -1,0 +1,11 @@
+# ports: HOST:CONTAINER
+version: '3.8'
+services:
+    python:
+        build: .
+        container_name: xray-proxy-grabber-telegram-python
+        restart: unless-stopped
+        network_mode: host
+        volumes:
+            - ./v2ray-proxy-grabber-telegram.session:/v2ray-proxy-grabber-telegram.session
+
