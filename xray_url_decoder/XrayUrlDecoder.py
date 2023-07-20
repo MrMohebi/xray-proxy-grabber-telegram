@@ -51,7 +51,7 @@ class XrayUrlDecoder:
                 tlsSettings = TLSSettings(self.getQuery("sni"), fingerprint=self.getQuery("fp"))
             case "reality":
                 realitySettings = RealitySettings(self.getQuery("sni"), self.getQuery("pbk"),
-                                                  fingerprint=self.getQuery("fp"), spider_x=self.getQuery("spx"))
+                                                  fingerprint=self.getQuery("fp"), spider_x=self.getQuery("spx"), short_id=self.getQuery("sid"))
 
         streamSetting = StreamSettings(self.queries["type"], self.queries["security"], wsSetting, grpcSettings,
                                        tcpSettings, tlsSettings, realitySettings)
@@ -59,7 +59,7 @@ class XrayUrlDecoder:
         return streamSetting
 
     def vless_json(self) -> Vless:
-        user = UserVless(self.url.username)
+        user = UserVless(self.url.username, flow=self.getQuery("flow"))
         vnext = VnextVless(self.url.hostname, self.url.port, [user])
         setting = SettingsVless([vnext])
         streamSetting = self.stream_setting_obj()
