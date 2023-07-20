@@ -11,8 +11,9 @@ from xray_ping.XrayPing import XrayPing
 with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
     configs = []
     for url in rowProxiesFile:
-        c = XrayUrlDecoder(url)
-        configs.append(c.vless_json_str())
+        if len(url) > 10:
+            c = XrayUrlDecoder(url)
+            configs.append(c.vless_json_str())
 
     delays = XrayPing(configs)
     getLatestActiveConfigs()
