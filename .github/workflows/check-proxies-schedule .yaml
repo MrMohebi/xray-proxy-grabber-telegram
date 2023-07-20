@@ -2,10 +2,10 @@ name: check-proxies-schedule
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
-  push:
-    branches:
-      - master
+    - cron: "30 * * * *"
+#  push:
+#    branches:
+#      - master
 
 jobs:
   check-row-urls:
