@@ -37,10 +37,19 @@ def resetGitUser():
         gitCnf.set_value('user', 'name', mainGitUser)
 
 
-def getLatestRowProxy():
+def getLatestRowProxies():
     if not IS_DEBUG:
+        repo.git.execute(["git", "fetch", "--all"])
         repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_row_url.txt"])
         shutil.copyfile("./repo/proxies_row_url.txt", "proxies_row_url.txt")
+
+
+def getLatestActiveConfigs():
+    if not IS_DEBUG:
+        repo.git.execute(["git", "fetch", "--all"])
+        repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_active.txt"])
+        shutil.copyfile("./repo/proxies_active.txt", "proxies_active.txt")
+
 
 def commitPushRowProxiesFile(chanelUsername):
     if not IS_DEBUG:

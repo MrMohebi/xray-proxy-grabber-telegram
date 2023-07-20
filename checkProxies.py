@@ -1,6 +1,6 @@
 import json
 import sys
-from gitRepo import commitPushRActiveProxiesFile
+from gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
 
 sys.path.append('./xray_url_decoder/')
 sys.path.append('./xray_ping/')
@@ -15,6 +15,7 @@ with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
         configs.append(c.vless_json_str())
 
     delays = XrayPing(configs)
+    getLatestActiveConfigs()
     with open("./proxies_active.txt", 'w') as activeProxiesFile:
         for active in delays.actives:
             activeProxiesFile.write(json.dumps(active['proxy']) + "\n")
