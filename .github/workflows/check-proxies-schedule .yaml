@@ -1,0 +1,21 @@
+name: check-proxies-schedule
+
+on:
+  schedule:
+    - cron: "30 * * * *"
+  push:
+    branches:
+      - master
+
+jobs:
+  check-row-urls:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: "pip"
+      - run: |
+          pip install -r requirements.txt
+          python checkProxies.py
