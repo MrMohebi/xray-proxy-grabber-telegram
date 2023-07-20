@@ -1,38 +1,12 @@
 import json
 import sys
-import os
-from dotenv import load_dotenv
-
-from git import Repo
+from gitRepo import commitPushRActiveProxiesFile
 
 sys.path.append('./xray_url_decoder/')
 sys.path.append('./xray_ping/')
 
 from xray_url_decoder.XrayUrlDecoder import XrayUrlDecoder
 from xray_ping.XrayPing import XrayPing
-
-load_dotenv()
-IS_DEBUG = bool(int(os.getenv('DEBUG_MODE')))
-
-repo = Repo("./")
-
-
-def commitPushRActiveProxiesFile():
-    if not IS_DEBUG:
-        with repo.config_reader() as git_config:
-            email = git_config.get_value('user', 'email')
-            user = git_config.get_value('user', 'name')
-        with repo.config_writer() as git_config:
-            git_config.set_value('user', 'email', 'bot@auto.com')
-            git_config.set_value('user', 'name', 'Bot-auto')
-        repo.remotes.origin.pull()
-        repo.index.add(["proxies_active.txt"])
-        repo.index.commit('update active proxies')
-        repo.remotes.origin.push()
-        with repo.config_writer() as git_config:
-            git_config.set_value('user', 'email', email)
-            git_config.set_value('user', 'name', user)
-
 
 with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
     configs = []
