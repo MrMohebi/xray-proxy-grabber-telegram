@@ -2,7 +2,7 @@ from client import app, PROXY_CHANNELS
 from pyrogram import filters
 import re
 
-from gitRepo import commitPushRowProxiesFile
+from gitRepo import commitPushRowProxiesFile, getLatestRowProxy
 
 
 def extract_v2ray_links(text) -> list[str]:
@@ -18,6 +18,7 @@ async def from_proxy_channels(client, message):
     if has_v2ray_proxy:
         v2rayProxies = extract_v2ray_links(messageText)
         print(v2rayProxies)
+        getLatestRowProxy()
         with open("./proxies_row_url.txt", 'a') as f:
             f.write("\n".join(v2rayProxies))
             f.write("\n")

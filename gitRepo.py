@@ -17,7 +17,7 @@ if os.path.exists("./repo/.git"):
     repo = Repo("./repo/")
 else:
     repo = Repo.clone_from(
-        "https://mrm:{TOKEN_GITHUB}@github.com/{REPO}".format(TOKEN_GITHUB=GITHUB_TOKEN, REPO=PROXIES_REPO), "./repo", single_branch=True, b='proxies')
+        "https://mrm:{TOKEN_GITHUB}@github.com/{REPO}".format(TOKEN_GITHUB=GITHUB_TOKEN, REPO=PROXIES_REPO), "./repo")
 
 with repo.config_reader() as git_config:
     mainGitEmail = git_config.get_value('user', 'email')
@@ -37,9 +37,16 @@ def resetGitUser():
         gitCnf.set_value('user', 'name', mainGitUser)
 
 
+def getLatestRowProxy():
+    if not IS_DEBUG:
+        repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_row_url.txt"])
+        shutil.copyfile("./repo/proxies_row_url.txt", "proxies_row_url.txt")
+
 def commitPushRowProxiesFile(chanelUsername):
     if not IS_DEBUG:
-        repo.git.checkout('proxies')
+        repo.git.execute(["git", "fetch", "--all"])
+        repo.git.execute(["git", "reset", "--hard", "origin/master"])
+        repo.git.execute(["git", "pull"])
         shutil.copyfile("proxies_row_url.txt", "./repo/proxies_row_url.txt")
         repo.index.add(["proxies_row_url.txt"])
         changeGitUserToBot()
@@ -51,7 +58,9 @@ def commitPushRowProxiesFile(chanelUsername):
 
 def commitPushRActiveProxiesFile():
     if not IS_DEBUG:
-        repo.git.checkout('proxies')
+        repo.git.execute("git fetch --all")
+        repo.git.execute("git reset --hard origin/master")
+        repo.git.execute("git pull")
         shutil.copyfile("proxies_active.txt", "./repo/proxies_active.txt")
         repo.index.add(["proxies_active.txt"])
         changeGitUserToBot()
