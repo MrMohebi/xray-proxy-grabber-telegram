@@ -13,7 +13,9 @@ with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
     for url in rowProxiesFile:
         if len(url) > 10:
             c = XrayUrlDecoder(url)
-            configs.append(c.vless_json_str())
+            c_json = c.vless_json_str()
+            if c.isSupported:
+                configs.append(c_json)
 
     delays = XrayPing(configs)
     getLatestActiveConfigs()

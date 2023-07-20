@@ -8,6 +8,7 @@ class XrayUrlDecoder:
     queries: dict
     link: str
     name: str
+    isSupported: bool
 
     def __init__(self, link):
         self.link = link
@@ -15,6 +16,7 @@ class XrayUrlDecoder:
         self.name = self.url.fragment if len(self.url.fragment) > 0 else ""
         q = parse_qs(self.url.query)
         self.queries = {key: value[0] for key, value in q.items()}
+        self.isSupported = True
 
     def getQuery(self, key) -> str | None:
         try:
@@ -27,16 +29,17 @@ class XrayUrlDecoder:
             case "vless":
                 self.vless_json()
             case _:
+                self.isSupported = False
                 print("schema {} is not supported yet".format(self.url.scheme))
 
-    def stream_setting_obj(self) -> StreamSettings:
+    def stream_setting_obj(self) -> StreamSettings | None:
         wsSetting = None
         grpcSettings = None
         tcpSettings = None
         tlsSettings = None
         realitySettings = None
 
-        match self.queries["type"]:
+        match self.getQuery("type"):
             case "grpc":
                 grpcSettings = GrpcSettings(self.getQuery("serviceName"))
             case "ws":
@@ -44,14 +47,20 @@ class XrayUrlDecoder:
             case "tcp":
                 tcpSettings = TCPSettings()
             case _:
-                print("type '{}' is not supported yet".format(self.queries["type"]))
+                self.isSupported = False
+                print("type '{}' is not supported yet".format(self.getQuery("type")))
+                return
 
-        match self.queries["security"]:
+        match self.getQuery("security"):
             case "tls":
                 tlsSettings = TLSSettings(self.getQuery("sni"), fingerprint=self.getQuery("fp"))
             case "reality":
                 realitySettings = RealitySettings(self.getQuery("sni"), self.getQuery("pbk"),
                                                   fingerprint=self.getQuery("fp"), spider_x=self.getQuery("spx"), short_id=self.getQuery("sid"))
+            case _:
+                self.isSupported = False
+                print("security '{}' is not supported yet".format(self.getQuery("security")))
+                return
 
         streamSetting = StreamSettings(self.queries["type"], self.queries["security"], wsSetting, grpcSettings,
                                        tcpSettings, tlsSettings, realitySettings)
