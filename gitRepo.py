@@ -17,8 +17,13 @@ else:
         "https://mrm:{TOKEN_GITHUB}@github.com/{REPO}".format(TOKEN_GITHUB=GITHUB_TOKEN, REPO=REPO), "./repo")
 
 with repo.config_reader() as git_config:
-    mainGitEmail = git_config.get_value('user', 'email')
-    mainGitUser = git_config.get_value('user', 'name')
+    try:
+        mainGitEmail = git_config.get_value('user', 'email')
+        mainGitUser = git_config.get_value('user', 'name')
+    except:
+        mainGitEmail = "None"
+        mainGitUser = "None"
+
 
 
 def changeGitUserToBot():
