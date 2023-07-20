@@ -69,9 +69,9 @@ def commitPushRowProxiesFile(chanelUsername):
 
 def commitPushRActiveProxiesFile():
     if not IS_DEBUG:
-        repo.git.execute("git fetch --all")
-        repo.git.execute("git reset --hard origin/master")
-        repo.git.execute("git pull")
+        repo.git.execute(["git", "fetch", "--all"])
+        repo.git.execute(["git", "reset", "--hard", "origin/master"])
+        repo.git.execute(["git", "pull"])
         shutil.copyfile("proxies_active.txt", "./repo/proxies_active.txt")
         repo.index.add(["proxies_active.txt"])
         changeGitUserToBot()
