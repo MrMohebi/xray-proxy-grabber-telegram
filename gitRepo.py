@@ -6,9 +6,6 @@ import os
 
 load_dotenv()
 
-api_id = int(os.getenv('API_ID'))
-api_hash = os.getenv('API_HASH')
-
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 REPO = os.getenv('REPO')
 IS_DEBUG = bool(int(os.getenv('DEBUG_MODE')))

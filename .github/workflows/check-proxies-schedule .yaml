@@ -10,6 +10,10 @@ on:
 jobs:
   check-row-urls:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GG_GITHUB_TOKEN }}
+      REPO: ${{ secrets.REPO }}
+      DEBUG_MODE: 0
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
