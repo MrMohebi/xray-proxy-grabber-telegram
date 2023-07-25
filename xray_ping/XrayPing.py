@@ -13,7 +13,7 @@ from XrayConfig import XrayConfigSimple
 
 
 def real_delay(port: int, proxy_name: str):
-    test_url = 'https://guthib.com/'
+    test_url = 'http://detectportal.firefox.com/success.txt'
     proxy = "socks5://127.0.0.1:{}".format(port)
     delay = -1
     try:
@@ -31,6 +31,8 @@ def real_delay(port: int, proxy_name: str):
 class XrayPing:
     result: list[dict] = []
     actives: list[dict] = []
+    realDelay_under_1000: list[dict] = []
+    realDelay_under_1500: list[dict] = []
 
     def __init__(self, configs: list[str]) -> None:
         confs = [json.loads(c) for c in configs]
@@ -83,3 +85,7 @@ class XrayPing:
             if r["realDelay_ms"] > 0:
                 self.actives.append(r)
 
+            if 1000 >= r['realDelay_ms'] > 0:
+                self.realDelay_under_1000.append(r)
+            if 1500 >= r['realDelay_ms'] > 0:
+                self.realDelay_under_1500.append(r)

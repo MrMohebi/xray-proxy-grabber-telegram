@@ -23,4 +23,12 @@ with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
         for active in delays.actives:
             activeProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
+    with open("./proxies_active_under_1000ms.txt", 'w') as active1000ProxiesFile:
+        for active in delays.realDelay_under_1000:
+            active1000ProxiesFile.write(json.dumps(active['proxy']) + "\n")
+
+    with open("./proxies_active_under_1500ms.txt", 'w') as active1500ProxiesFile:
+        for active in delays.realDelay_under_1500:
+            active1500ProxiesFile.write(json.dumps(active['proxy']) + "\n")
+
 commitPushRActiveProxiesFile()
