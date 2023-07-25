@@ -58,6 +58,14 @@ To commit new proxies in ur repo, u should get [GitHub token](https://docs.githu
 Also, I explained How to get `api_id` [here](#telegram-grabber)
 
 
+## Filtered proxies files
+explained in the name of file :). every 30 minutes will be updated
+
+### `proxies_active.txt`
+### `proxies_active_under_1000ms.txt`
+### `proxies_active_under_1500ms.txt`
+### `proxies_active_no_403_under_1000ms.txt`
+
 ## ToDo
 - [x] vless protocol support
 - [x] reality security support
