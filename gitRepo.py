@@ -48,10 +48,11 @@ def getLatestRowProxies():
 def getLatestActiveConfigs():
     if not IS_DEBUG:
         repo.git.execute(["git", "fetch", "--all"])
-        repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_active.txt", "proxies_active_under_1000ms.txt", "proxies_active_under_1500ms.txt"])
+        repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_active.txt", "proxies_active_under_1000ms.txt", "proxies_active_under_1500ms.txt", "proxies_active_no_403_under_1000ms.txt"])
         shutil.copyfile("./repo/proxies_active.txt", "proxies_active.txt")
         shutil.copyfile("./repo/proxies_active_under_1000ms.txt", "proxies_active_under_1000ms.txt")
         shutil.copyfile("./repo/proxies_active_under_1500ms.txt", "proxies_active_under_1500ms.txt")
+        shutil.copyfile("./repo/proxies_active_no_403_under_1000ms.txt", "proxies_active_no_403_under_1000ms.txt")
 
 
 def commitPushRowProxiesFile(chanelUsername):
@@ -76,7 +77,8 @@ def commitPushRActiveProxiesFile():
         shutil.copyfile("proxies_active.txt", "./repo/proxies_active.txt")
         shutil.copyfile("proxies_active_under_1000ms.txt", "./repo/proxies_active_under_1000ms.txt")
         shutil.copyfile("proxies_active_under_1500ms.txt", "./repo/proxies_active_under_1500ms.txt")
-        repo.index.add(["proxies_active.txt", "proxies_active_under_1500ms.txt", "proxies_active_under_1000ms.txt"])
+        shutil.copyfile("proxies_active_no_403_under_1000ms.txt", "./repo/proxies_active_no_403_under_1000ms.txt")
+        repo.index.add(["proxies_active.txt", "proxies_active_under_1500ms.txt", "proxies_active_under_1000ms.txt", "proxies_active_no_403_under_1000ms.txt"])
         changeGitUserToBot()
         repo.index.commit('update active proxies')
         repo.remotes.origin.push()
