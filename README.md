@@ -2,6 +2,9 @@
 
 ###### **Attention:** by now we only support `vless` protocol. 
 
+###### **See more:** And also explore this project: [xray-iran-bridge-configs](https://github.com/MrMohebi/xray-iran-bridge-configs) :)
+ 
+
 ## Explanation
 This project is aimed at grabbing fresh proxies from Telegram channels and testing them by real-delay ping.
 A Telegram bot will listen on provided channels (even private ones), then parse new proxies and commit them to ur repo.
