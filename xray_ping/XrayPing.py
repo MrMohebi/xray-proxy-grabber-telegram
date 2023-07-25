@@ -29,7 +29,7 @@ def real_delay(port: int, proxy_name: str):
         pass
     print(f"Delay of {proxy_name}: {delay} seconds ")
 
-    return dict(proxy=proxy_name, realDelay_ms=round(delay if delay <= 0 else delay * 1000), is403=statusCode == 403)
+    return dict(proxy=proxy_name, realDelay_ms=round(delay if delay <= 0 else delay * 1000), is403=(statusCode == 403))
 
 
 class XrayPing:
