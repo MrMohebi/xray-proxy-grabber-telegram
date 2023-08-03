@@ -3,9 +3,11 @@ name: check-proxies-schedule
 on:
   schedule:
     - cron: "*/30 * * * *"
-#  push:
-#    branches:
-#      - master
+  push:
+     branches:
+       - master
+     paths:
+      - '**.yaml'
 
 jobs:
   check-row-urls:
