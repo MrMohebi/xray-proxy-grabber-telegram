@@ -1,6 +1,7 @@
 import json
 from urllib.parse import urlparse, parse_qs, ParseResult
 from vless import *
+from xray_url_decoder.IsValid import isValid_tls, isValid_reality, isValid_userVless, isValid_vnextVless
 
 
 class XrayUrlDecoder:
@@ -9,6 +10,7 @@ class XrayUrlDecoder:
     link: str
     name: str
     isSupported: bool
+    isValid: bool
 
     def __init__(self, link):
         self.link = link
@@ -17,6 +19,11 @@ class XrayUrlDecoder:
         q = parse_qs(self.url.query)
         self.queries = {key: value[0] for key, value in q.items()}
         self.isSupported = True
+        self.isValid = True
+
+    def setIsValid(self, status: bool):
+        if not status:
+            self.isValid = status
 
     def getQuery(self, key) -> str | None:
         try:
@@ -54,9 +61,14 @@ class XrayUrlDecoder:
         match self.getQuery("security"):
             case "tls":
                 tlsSettings = TLSSettings(self.getQuery("sni"), fingerprint=self.getQuery("fp"))
+                self.setIsValid(isValid_tls(tlsSettings))
+
             case "reality":
                 realitySettings = RealitySettings(self.getQuery("sni"), self.getQuery("pbk"),
-                                                  fingerprint=self.getQuery("fp"), spider_x=self.getQuery("spx"), short_id=self.getQuery("sid"))
+                                                  fingerprint=self.getQuery("fp"), spider_x=self.getQuery("spx"),
+                                                  short_id=self.getQuery("sid"))
+                self.setIsValid(isValid_reality(realitySettings))
+
             case _:
                 self.isSupported = False
                 print("security '{}' is not supported yet".format(self.getQuery("security")))
@@ -74,6 +86,8 @@ class XrayUrlDecoder:
         streamSetting = self.stream_setting_obj()
         mux = Mux()
         vless = Vless(self.name, setting, streamSetting, mux)
+
+        self.setIsValid(isValid_userVless(user) and isValid_vnextVless(vnext))
 
         return vless
 

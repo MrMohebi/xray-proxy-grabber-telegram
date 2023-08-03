@@ -1,3 +1,4 @@
+import re
 from random import randint
 from XraySetting import *
 
@@ -46,7 +47,7 @@ class Vless:
     mux: Mux
 
     def __init__(self, name: str, settings: SettingsVless, stream_settings: StreamSettings, mux: Mux) -> None:
-        self.tag = "proxy_" + str(randint(1111, 9999)) + "_" + name
+        self.tag = "proxy_" + str(randint(1111, 9999)) + "_" + re.sub(r'([/:+])+', '', name[:120])
         self.protocol = "vless"
         self.settings = settings
         self.streamSettings = stream_settings
