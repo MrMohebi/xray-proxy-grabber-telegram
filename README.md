@@ -75,5 +75,5 @@ explained in the name of file :). every 30 minutes will be updated
 - [ ] vmess protocol support
 - [ ] trojan protocol support
 - [ ] tcp security support
-- [ ] connect to iran bridge
-- [ ] update iran bridge with actives
+- [x] connect to iran bridge
+- [x] update iran bridge with actives
