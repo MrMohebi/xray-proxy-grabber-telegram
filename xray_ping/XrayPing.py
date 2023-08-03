@@ -32,6 +32,31 @@ def real_delay(port: int, proxy_name: str):
     return dict(proxy=proxy_name, realDelay_ms=round(delay if delay <= 0 else delay * 1000), is403=(statusCode == 403))
 
 
+def appendBypassMode(config: XrayConfigSimple) -> XrayConfigSimple:
+    inbounds = [Inbound(
+            "bypass_mode_43583495349",
+            3080,
+            "0.0.0.0",
+            "socks",
+            Sniffing(),
+            SocksSettings()
+        )] + config.inbounds
+    outbounds = [{'tag': 'direct-out_095667567568', 'protocol': 'freedom'}] + config.outbounds
+    rules = [Rule(
+            "bypass_mode_43583495349",
+            "direct-out_095667567568",
+            []
+        )] + config.routing.rules
+    print(config.outbounds)
+
+    route = XrayRouting(
+        "IPIfNonMatch",
+        "hybrid",
+        rules
+    )
+    return XrayConfigSimple(inbounds, outbounds, route)
+
+
 class XrayPing:
     result: list[dict] = []
     actives: list[dict] = []
@@ -40,14 +65,17 @@ class XrayPing:
     no403_realDelay_under_1000: list[dict] = []
 
     def __init__(self, configs: list[str]) -> None:
-        confs = [json.loads(c) for c in configs]
+        confs: list[dict] = [json.loads(c) for c in configs]
 
         socks = []
         rules = []
-        for outbound in confs:
+        # just to make sure there is no duplicated port :|
+        socksPorts = list(set([randint(11111, 49999) for _ in range(len(confs) * 2)]))
+
+        for index, outbound in enumerate(confs):
             socksInbound = Inbound(
                 "socks__" + outbound["tag"],
-                randint(11111, 49999),
+                socksPorts[index],
                 "0.0.0.0",
                 "socks",
                 Sniffing(),
@@ -68,7 +96,7 @@ class XrayPing:
             rules
         )
 
-        xrayConfig = XrayConfigSimple(socks, confs, route)
+        xrayConfig = appendBypassMode(XrayConfigSimple(socks, confs, route))
 
         confFinalStr = json.dumps(xrayConfig, default=lambda x: x.__dict__)
 
@@ -84,8 +112,12 @@ class XrayPing:
 
         time.sleep(5)
 
+        if real_delay(3080, "bypass_mode")["realDelay_ms"] < 0:
+            print(confFinalStr)
+            raise Exception("Created config is incorrect! it's printed above")
+
         for index, s in enumerate(socks):
-            r = real_delay(s.port, s.tag.split("__")[1])
+            r: dict = real_delay(s.port, s.tag.split("__")[1])
             r["proxy"] = confs[index]
             self.result.append(r)
             if r["realDelay_ms"] > 0:
@@ -98,3 +130,4 @@ class XrayPing:
 
             if 1500 >= r['realDelay_ms'] > 0:
                 self.realDelay_under_1500.append(r)
+

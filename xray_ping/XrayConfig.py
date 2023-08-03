@@ -6,11 +6,11 @@ class XrayConfigSimple:
     policy: dict
     log: dict
     inbounds: List[Inbound]
-    outbounds: List[str]
+    outbounds: List[dict]
     stats: dict
     routing: XrayRouting
 
-    def __init__(self, inbounds: List[Any], outbounds: List[Any], routing: XrayRouting, stats: dict = None,
+    def __init__(self, inbounds: List[Any], outbounds: List[dict], routing: XrayRouting, stats: dict = None,
                  policy: dict = None, log: dict = None) -> None:
         self.policy = policy if policy is not None else {
             "system": {
