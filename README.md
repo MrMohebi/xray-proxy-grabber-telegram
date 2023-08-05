@@ -74,6 +74,7 @@ explained in the name of file :). every 30 minutes will be updated
 - [x] reality security support
 - [x] vmess protocol support
 - [x] trojan protocol support
-- [ ] tcp security support
 - [x] connect to iran bridge
 - [x] update iran bridge with actives
+- [ ] tcp security support
+- [ ] server less grabber (no telegram or server needed)
