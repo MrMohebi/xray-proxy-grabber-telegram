@@ -24,7 +24,7 @@ To get started with the MTProto API, u should get `app_id` and `api_hash` which 
 
 On each new message that contains a proxy URL, [`proxies_row_url.txt`](./proxies_row_url.txt) will be updated real-time.
 
-###### *Tip:* u can use [`proxies_row_url.txt`](./proxies_row_url.txt) as subscription link in ur clients app (V2rayNG, V2rayN and etc):)
+###### *Tip:* u can use [`proxies_row_url.txt`](./proxies_row_url.txt) as subscription link in ur clients app (V2rayNG, V2rayN, etc):)
 
 
 ### Xray URL Decoder
