@@ -3,10 +3,11 @@ from xray_url_decoder.vless import UserVless, VnextVless
 
 
 def isValid_tls(config: TLSSettings) -> bool:
-    if config.serverName is not None and len(config.serverName):
-        return True
-
-    return False
+    return True
+    # if config.serverName is not None and len(config.serverName):
+    #     pass
+    #
+    # return False
 
 
 def isValid_reality(config: RealitySettings) -> bool:

@@ -1,7 +1,37 @@
 import json
-from urllib.parse import urlparse, parse_qs, ParseResult
+import base64
+from urllib.parse import parse_qs, ParseResult, urlencode, urlparse, urlunparse
 from vless import *
 from xray_url_decoder.IsValid import isValid_tls, isValid_reality, isValid_userVless, isValid_vnextVless
+from xray_url_decoder.XraySetting import GrpcSettings, TCPSettings, WsSettingsVless, RealitySettings, TLSSettings
+from xray_url_decoder.vmess import Vmess, UserVmess, VnextVmess, SettingsVmess
+from collections import namedtuple
+
+
+def convertVmessLinkToStandardLink(link):
+    data: dict = json.loads(base64.b64decode(link[8:]).decode('utf-8'))
+
+    data['type'] = data['net']
+    data['path'] = data.get('path', None)
+    data['aid'] = data.get('aid', None)
+    data['security'] = data.get('tls', None)
+
+    Components = namedtuple(
+        typename='Components',
+        field_names=['scheme', 'netloc', 'url', 'path', 'query', 'fragment']
+    )
+
+    url = urlunparse(
+        Components(
+            scheme='vmess',
+            netloc='{username}@{hostname}:{port}'.format(username=data['id'], hostname=data["add"], port=data["port"]),
+            query=urlencode(data),
+            path='',
+            url='',
+            fragment=data['ps']
+        )
+    )
+    return url
 
 
 class XrayUrlDecoder:
@@ -13,6 +43,10 @@ class XrayUrlDecoder:
     isValid: bool
 
     def __init__(self, link):
+        match link[:5]:
+            case "vmess":
+                link = convertVmessLinkToStandardLink(link)
+
         self.link = link
         self.url = urlparse(self.link)
         self.name = self.url.fragment if len(self.url.fragment) > 0 else ""
@@ -31,13 +65,21 @@ class XrayUrlDecoder:
         except KeyError:
             return None
 
-    def generate_json(self):
+    def generate_json(self) -> Vless | Vmess | None:
         match self.url.scheme:
             case "vless":
-                self.vless_json()
+                return self.vless_json()
+            case "vmess":
+                return self.vmess_json()
             case _:
                 self.isSupported = False
                 print("schema {} is not supported yet".format(self.url.scheme))
+
+    def generate_json_str(self) -> str:
+        json_obj = self.generate_json()
+        if json_obj is None:
+            return ""
+        return json.dumps(json_obj, default=lambda x: x.__dict__, ensure_ascii=False)
 
     def stream_setting_obj(self) -> StreamSettings | None:
         wsSetting = None
@@ -50,7 +92,11 @@ class XrayUrlDecoder:
             case "grpc":
                 grpcSettings = GrpcSettings(self.getQuery("serviceName"))
             case "ws":
-                wsSetting = WsSettingsVless(self.getQuery("path"), {})
+                headers = {}
+                if self.getQuery("sni") is not None:
+                    headers["Host"] = self.getQuery("sni")
+                wsSetting = WsSettingsVless(self.getQuery("path"), headers)
+
             case "tcp":
                 tcpSettings = TCPSettings()
             case _:
@@ -91,5 +137,12 @@ class XrayUrlDecoder:
 
         return vless
 
-    def vless_json_str(self) -> str:
-        return json.dumps(self.vless_json(), default=lambda x: x.__dict__)
+    def vmess_json(self) -> Vmess:
+        user = UserVmess(self.url.username, alterId=self.getQuery("aid"), security=self.getQuery("scy"))
+        vnext = VnextVmess(self.url.hostname, self.url.port, [user])
+        setting = SettingsVmess([vnext])
+        streamSetting = self.stream_setting_obj()
+        mux = Mux()
+        vmess = Vmess(self.name, setting, streamSetting, mux)
+
+        return vmess

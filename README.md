@@ -1,6 +1,6 @@
 # Xray Proxy Grabber
 
-###### **Attention:** by now we only support `vless` protocol. 
+###### **Attention:** by now we only support `vless` and `vmess` protocols. 
 
 ###### **See more:** And also explore this project: [xray-iran-bridge-configs](https://github.com/MrMohebi/xray-iran-bridge-configs) :)
  
@@ -72,7 +72,7 @@ explained in the name of file :). every 30 minutes will be updated
 ## ToDo
 - [x] vless protocol support
 - [x] reality security support
-- [ ] vmess protocol support
+- [x] vmess protocol support
 - [ ] trojan protocol support
 - [ ] tcp security support
 - [x] connect to iran bridge

@@ -1,6 +1,8 @@
 import re
 from random import randint
-from XraySetting import *
+from typing import List
+
+from xray_url_decoder.XraySetting import StreamSettings, Mux
 
 
 class UserVless:

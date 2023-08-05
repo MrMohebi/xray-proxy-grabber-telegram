@@ -29,7 +29,8 @@ class TLSSettings:
                  certificates: List[str] = None, disable_system_root: bool = None,
                  enable_session_resumption: bool = None, fingerprint: str = None,
                  pinned_peer_certificate_chain_sha256: List[str] = None) -> None:
-        self.serverName = server_name
+        if server_name is not None:
+            self.serverName = server_name
         if reject_unknown_sni is not None:
             self.rejectUnknownSni = reject_unknown_sni
         if allow_insecure is not None:
@@ -52,7 +53,6 @@ class TLSSettings:
             self.fingerprint = fingerprint
         if pinned_peer_certificate_chain_sha256 is not None:
             self.pinnedPeerCertificateChainSha256 = pinned_peer_certificate_chain_sha256
-
 
 
 class WsSettingsVless:
@@ -97,7 +97,8 @@ class RealitySettings:
     shortId: str
     spiderX: str
 
-    def __init__(self, server_name: str, public_key: str, short_id: str = None, fingerprint: str = None, show: bool = None, spider_x: str = None) -> None:
+    def __init__(self, server_name: str, public_key: str, short_id: str = None, fingerprint: str = None,
+                 show: bool = None, spider_x: str = None) -> None:
         self.serverName = server_name
         self.publicKey = public_key
         self.fingerprint = fingerprint if fingerprint is not None else "chrome"
