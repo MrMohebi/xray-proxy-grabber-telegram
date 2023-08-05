@@ -4,6 +4,7 @@ from urllib.parse import parse_qs, ParseResult, urlencode, urlparse, urlunparse
 from vless import *
 from xray_url_decoder.IsValid import isValid_tls, isValid_reality, isValid_userVless, isValid_vnextVless
 from xray_url_decoder.XraySetting import GrpcSettings, TCPSettings, WsSettingsVless, RealitySettings, TLSSettings
+from xray_url_decoder.trojan import Trojan, ServerTrojan, SettingsTrojan
 from xray_url_decoder.vmess import Vmess, UserVmess, VnextVmess, SettingsVmess
 from collections import namedtuple
 
@@ -71,6 +72,8 @@ class XrayUrlDecoder:
                 return self.vless_json()
             case "vmess":
                 return self.vmess_json()
+            case "trojan":
+                return self.trojan_json()
             case _:
                 self.isSupported = False
                 print("schema {} is not supported yet".format(self.url.scheme))
@@ -106,7 +109,10 @@ class XrayUrlDecoder:
 
         match self.getQuery("security"):
             case "tls":
-                tlsSettings = TLSSettings(self.getQuery("sni"), fingerprint=self.getQuery("fp"))
+                alpn = None
+                if self.getQuery("alpn") is not None:
+                    alpn = self.getQuery("alpn").split(",")
+                tlsSettings = TLSSettings(self.getQuery("sni"), fingerprint=self.getQuery("fp"), alpn=alpn)
                 self.setIsValid(isValid_tls(tlsSettings))
 
             case "reality":
@@ -146,3 +152,12 @@ class XrayUrlDecoder:
         vmess = Vmess(self.name, setting, streamSetting, mux)
 
         return vmess
+
+    def trojan_json(self) -> Trojan:
+        server = ServerTrojan(self.url.hostname, self.url.port, self.url.username)
+        setting = SettingsTrojan([server])
+        streamSetting = self.stream_setting_obj()
+        mux = Mux()
+        trojan = Trojan(self.name, setting, streamSetting, mux)
+
+        return trojan
