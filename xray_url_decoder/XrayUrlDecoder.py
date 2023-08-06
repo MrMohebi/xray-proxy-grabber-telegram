@@ -173,3 +173,24 @@ class XrayUrlDecoder:
         trojan = Trojan(self.name, setting, streamSetting, mux)
 
         return trojan
+
+    def is_equal_to_config(self, config_srt: str) -> bool:
+        config = json.loads(config_srt)
+        if config['protocol'] != self.url.scheme:
+            return False
+
+        match self.url.scheme:
+            case "vless":
+                return (config["settings"]["vnext"][0]["users"][0]["id"] == self.url.username and
+                        config["settings"]["vnext"][0]["port"] == self.url.port and
+                        config["settings"]["vnext"][0]["address"] == self.url.hostname)
+            case "vmess":
+                return (config["settings"]["vnext"][0]["users"][0]["id"] == self.url.username and
+                        config["settings"]["vnext"][0]["port"] == self.url.port and
+                        config["settings"]["vnext"][0]["address"] == self.url.hostname)
+            case "trojan":
+                return (config["settings"]["servers"][0]["password"] == self.url.username and
+                        config["settings"]["servers"][0]["port"] == self.url.port and
+                        config["settings"]["servers"][0]["address"] == self.url.hostname)
+
+        return False

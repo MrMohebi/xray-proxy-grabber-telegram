@@ -1,7 +1,11 @@
 import json
+import sys
 from urllib.parse import urlparse
 
+sys.path.append('./xray_url_decoder/')
+
 from gitRepo import getLatestActiveConfigs, getLatestRowProxies, commitPushRowProxiesFile
+from xray_url_decoder.XrayUrlDecoder import XrayUrlDecoder
 
 
 def keep_only_lines_and_remove_duplicates(file_path, lines_to_keep):
@@ -32,12 +36,17 @@ with open("./proxies_active.txt", 'r') as activeProxiesFile:
     for activeConfig in activeProxiesFile:
         if len(activeConfig) < 10: continue
 
-        activeConfigObj = json.loads(activeConfig)
-        # TODO: only supports vless by now!
         with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
             for (index, rowProxyUrl) in enumerate(rowProxiesFile):
-                if activeConfigObj["settings"]["vnext"][0]["users"][0]["id"] == urlparse(rowProxyUrl).username and activeConfigObj["settings"]["vnext"][0]["port"] == urlparse(rowProxyUrl).port and activeConfigObj["settings"]["vnext"][0]["address"] == urlparse(rowProxyUrl).hostname:
-                    lineNumberOfFounds.append(index + 1)
+                try:
+                    config = XrayUrlDecoder(rowProxyUrl)
+                    if config.isSupported and config.isValid and config.is_equal_to_config(activeConfig):
+                        lineNumberOfFounds.append(index + 1)
+                except:
+                    print("Error with these => ")
+                    print(rowProxyUrl)
+                    print(activeConfig)
+
 
 keep_only_lines_and_remove_duplicates("./proxies_row_url.txt", lineNumberOfFounds)
 
