@@ -1,3 +1,4 @@
+import ipaddress
 import json
 import base64
 from urllib.parse import parse_qs, ParseResult, urlencode, urlparse, urlunparse
@@ -9,6 +10,14 @@ from xray_url_decoder.vmess import Vmess, UserVmess, VnextVmess, SettingsVmess
 from collections import namedtuple
 
 
+def is_ipv6_address(hostname):
+    try:
+        ipaddress.IPv6Address(hostname)
+        return True
+    except ipaddress.AddressValueError:
+        return False
+
+
 def convertVmessLinkToStandardLink(link):
     data: dict = json.loads(base64.b64decode(link[8:]).decode('utf-8'))
 
@@ -16,6 +25,9 @@ def convertVmessLinkToStandardLink(link):
     data['path'] = data.get('path', None)
     data['aid'] = data.get('aid', None)
     data['security'] = data.get('tls', None)
+
+    if is_ipv6_address(data["add"]):
+        data["add"] = "[{}]".format(data["add"])
 
     Components = namedtuple(
         typename='Components',

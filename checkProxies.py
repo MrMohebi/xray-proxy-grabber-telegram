@@ -12,10 +12,13 @@ with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
     configs = []
     for url in rowProxiesFile:
         if len(url) > 10:
-            c = XrayUrlDecoder(url)
-            c_json = c.generate_json_str()
-            if c.isSupported and c.isValid:
-                configs.append(c_json)
+            try:
+                c = XrayUrlDecoder(url)
+                c_json = c.generate_json_str()
+                if c.isSupported and c.isValid:
+                    configs.append(c_json)
+            except:
+                print("There is error with this proxy => " + url)
 
     delays = XrayPing(configs)
     getLatestActiveConfigs()
