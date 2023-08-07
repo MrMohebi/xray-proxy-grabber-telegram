@@ -3,7 +3,7 @@ import json
 import base64
 from urllib.parse import parse_qs, ParseResult, urlencode, urlparse, urlunparse
 from vless import *
-from xray_url_decoder.IsValid import isValid_tls, isValid_reality, isValid_userVless, isValid_vnextVless
+from xray_url_decoder.IsValid import isValid_tls, isValid_reality, isValid_userVless, isValid_vnextVless, isValid_link
 from xray_url_decoder.XraySetting import GrpcSettings, TCPSettings, WsSettingsVless, RealitySettings, TLSSettings
 from xray_url_decoder.trojan import Trojan, ServerTrojan, SettingsTrojan
 from xray_url_decoder.vmess import Vmess, UserVmess, VnextVmess, SettingsVmess
@@ -68,6 +68,9 @@ class XrayUrlDecoder:
         self.isSupported = True
         self.isValid = True
 
+        if not isValid_link(self.url.username, self.url.hostname, self.url.port):
+            self.isValid = False
+
     def setIsValid(self, status: bool):
         if not status:
             self.isValid = status
@@ -78,7 +81,7 @@ class XrayUrlDecoder:
         except KeyError:
             return None
 
-    def generate_json(self) -> Vless | Vmess | None:
+    def generate_json(self) -> Vless | Vmess | Trojan | None:
         match self.url.scheme:
             case "vless":
                 return self.vless_json()

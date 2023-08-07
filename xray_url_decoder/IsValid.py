@@ -1,5 +1,21 @@
+import uuid
 from xray_url_decoder.XraySetting import TLSSettings, RealitySettings
 from xray_url_decoder.vless import UserVless, VnextVless
+
+
+def is_valid_uuid(value):
+    try:
+        uuid.UUID(str(value))
+        return True
+    except ValueError:
+        return False
+
+
+def isValid_link(username: str, address: str, port: int) -> bool:
+    if is_valid_uuid(username):
+        return True
+
+    return False
 
 
 def isValid_tls(config: TLSSettings) -> bool:
@@ -26,7 +42,8 @@ def isValid_userVless(config: UserVless) -> bool:
 
 
 def isValid_vnextVless(config: VnextVless) -> bool:
-    if config.address is not None and config.port is not None and len(config.address) > 2 and config.port > 0 and len(config.users) > 0:
+    if config.address is not None and config.port is not None and len(config.address) > 2 and config.port > 0 and len(
+            config.users) > 0:
         return True
 
     return False
