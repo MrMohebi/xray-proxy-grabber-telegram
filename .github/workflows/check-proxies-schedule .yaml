@@ -11,7 +11,7 @@ on:
 
 jobs:
   check-row-urls:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     env:
       GITHUB_TOKEN: ${{ secrets.GG_GITHUB_TOKEN }}
       REPO: ${{ secrets.REPO }}
