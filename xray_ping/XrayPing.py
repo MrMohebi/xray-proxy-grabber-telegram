@@ -34,19 +34,19 @@ def real_delay(port: int, proxy_name: str):
 
 def appendBypassMode(config: XrayConfigSimple) -> XrayConfigSimple:
     inbounds = [Inbound(
-            "bypass_mode_43583495349",
-            3080,
-            "0.0.0.0",
-            "socks",
-            Sniffing(),
-            SocksSettings()
-        )] + config.inbounds
+        "bypass_mode_43583495349",
+        3080,
+        "0.0.0.0",
+        "socks",
+        Sniffing(),
+        SocksSettings()
+    )] + config.inbounds
     outbounds = [{'tag': 'direct-out_095667567568', 'protocol': 'freedom'}] + config.outbounds
     rules = [Rule(
-            "bypass_mode_43583495349",
-            "direct-out_095667567568",
-            []
-        )] + config.routing.rules
+        "bypass_mode_43583495349",
+        "direct-out_095667567568",
+        []
+    )] + config.routing.rules
     print(config.outbounds)
 
     route = XrayRouting(
@@ -116,8 +116,12 @@ class XrayPing:
             print(confFinalStr)
             raise Exception("Created config is incorrect! it's printed above")
 
+        proxiesSorted = []
         for index, s in enumerate(socks):
-            r: dict = real_delay(s.port, s.tag.split("__")[1])
+            proxiesSorted.append(real_delay(s.port, s.tag.split("__")[1]))
+        proxiesSorted = sorted(proxiesSorted, key=lambda d: d['realDelay_ms'])
+
+        for index, r in enumerate(proxiesSorted):
             r["proxy"] = confs[index]
             self.result.append(r)
             if r["realDelay_ms"] > 0:
@@ -130,4 +134,3 @@ class XrayPing:
 
             if 1500 >= r['realDelay_ms'] > 0:
                 self.realDelay_under_1500.append(r)
-
