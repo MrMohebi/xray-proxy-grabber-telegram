@@ -41,7 +41,7 @@ with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
     with open("./proxies_for_ir_server_no403_u1s.txt", 'w') as active1000no403ForServerProxiesFile:
         for active in delays.no403_realDelay_under_1000:
             if active['proxy']["streamSettings"]["network"] not in ["ws"]:
-                active1000no403ProxiesFile.write(json.dumps(active['proxy']) + "\n")
+                active1000no403ForServerProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
 
 commitPushRActiveProxiesFile()
