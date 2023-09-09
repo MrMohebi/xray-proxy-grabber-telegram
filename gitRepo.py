@@ -41,8 +41,9 @@ def resetGitUser():
 def getLatestRowProxies():
     if not IS_DEBUG:
         repo.git.execute(["git", "fetch", "--all"])
-        repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_row_url.txt"])
+        repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_row_url.txt", "proxies_active_row_url.txt"])
         shutil.copyfile("./repo/proxies_row_url.txt", "proxies_row_url.txt")
+        shutil.copyfile("./repo/proxies_active_row_url.txt", "proxies_active_row_url.txt")
 
 
 def getLatestActiveConfigs():
@@ -62,7 +63,8 @@ def commitPushRowProxiesFile(chanelUsername):
         repo.git.execute(["git", "reset", "--hard", "origin/master"])
         repo.git.execute(["git", "pull"])
         shutil.copyfile("proxies_row_url.txt", "./repo/proxies_row_url.txt")
-        repo.index.add(["proxies_row_url.txt"])
+        shutil.copyfile("proxies_active_row_url.txt", "./repo/proxies_active_row_url.txt")
+        repo.index.add(["proxies_row_url.txt", "proxies_active_row_url.txt"])
         changeGitUserToBot()
         repo.index.commit('update proxies from {}'.format(chanelUsername))
         repo.remotes.origin.push()
