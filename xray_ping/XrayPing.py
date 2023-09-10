@@ -70,7 +70,7 @@ class XrayPing:
         socks = []
         rules = []
         # just to make sure there is no duplicated port :|
-        socksPorts = list(set([randint(11111, 49999) for _ in range(len(confs) * 2)]))
+        socksPorts = list(set([randint(2000, 49999) for _ in range(len(confs) * 2)]))
 
         for index, outbound in enumerate(confs):
             socksInbound = Inbound(
