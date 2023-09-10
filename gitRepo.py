@@ -57,6 +57,13 @@ def getLatestActiveConfigs():
         shutil.copyfile("./repo/proxies_for_ir_server_no403_u1s.txt", "proxies_for_ir_server_no403_u1s.txt")
 
 
+def getLatestGoodForGame():
+    if not IS_DEBUG:
+        repo.git.execute(["git", "fetch", "--all"])
+        repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_for_game_row_url.txt"])
+        shutil.copyfile("./repo/proxies_for_game_row_url.txt", "proxies_for_game_row_url.txt")
+
+
 def commitPushRowProxiesFile(chanelUsername):
     if not IS_DEBUG:
         repo.git.execute(["git", "fetch", "--all"])
@@ -88,3 +95,17 @@ def commitPushRActiveProxiesFile():
         repo.remotes.origin.push()
         resetGitUser()
         print('pushed => update active proxies')
+
+
+def commitPushForGameProxiesFile():
+    if not IS_DEBUG:
+        repo.git.execute(["git", "fetch", "--all"])
+        repo.git.execute(["git", "reset", "--hard", "origin/master"])
+        repo.git.execute(["git", "pull"])
+        shutil.copyfile("proxies_for_game_row_url.txt", "./repo/proxies_for_game_row_url.txt")
+        repo.index.add(["proxies_for_game_row_url.txt"])
+        changeGitUserToBot()
+        repo.index.commit('update good for games proxies')
+        repo.remotes.origin.push()
+        resetGitUser()
+        print('pushed => update good for games proxies')

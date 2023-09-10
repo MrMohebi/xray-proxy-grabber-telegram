@@ -54,6 +54,8 @@ class XrayUrlDecoder:
     name: str
     isSupported: bool
     isValid: bool
+    type: str
+    security: str
 
     def __init__(self, link):
         match link[:5]:
@@ -67,6 +69,9 @@ class XrayUrlDecoder:
         self.queries = {key: value[0] for key, value in q.items()}
         self.isSupported = True
         self.isValid = True
+
+        self.type = self.getQuery("type")
+        self.security = self.getQuery("security")
 
         if not isValid_link(self.url.username, self.url.hostname, self.url.port):
             self.isValid = False
@@ -106,7 +111,7 @@ class XrayUrlDecoder:
         tlsSettings = None
         realitySettings = None
 
-        match self.getQuery("type"):
+        match self.type:
             case "grpc":
                 grpcSettings = GrpcSettings(self.getQuery("serviceName"))
             case "ws":
@@ -119,10 +124,10 @@ class XrayUrlDecoder:
                 tcpSettings = TCPSettings()
             case _:
                 self.isSupported = False
-                print("type '{}' is not supported yet".format(self.getQuery("type")))
+                print("type '{}' is not supported yet".format(self.type))
                 return
 
-        match self.getQuery("security"):
+        match self.security:
             case "tls":
                 alpn = None
                 if self.getQuery("alpn") is not None:
@@ -138,10 +143,10 @@ class XrayUrlDecoder:
 
             case _:
                 self.isSupported = False
-                print("security '{}' is not supported yet".format(self.getQuery("security")))
+                print("security '{}' is not supported yet".format(self.security))
                 return
 
-        streamSetting = StreamSettings(self.queries["type"], self.queries["security"], wsSetting, grpcSettings,
+        streamSetting = StreamSettings(self.type, self.security, wsSetting, grpcSettings,
                                        tcpSettings, tlsSettings, realitySettings)
 
         return streamSetting

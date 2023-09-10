@@ -1,6 +1,7 @@
 import json
 import sys
-from gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
+from gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs, getLatestGoodForGame, \
+    commitPushForGameProxiesFile
 
 sys.path.append('./xray_url_decoder/')
 sys.path.append('./xray_ping/')
@@ -8,8 +9,14 @@ sys.path.append('./xray_ping/')
 from xray_url_decoder.XrayUrlDecoder import XrayUrlDecoder
 from xray_ping.XrayPing import XrayPing
 
+
+def is_good_for_game(config: XrayUrlDecoder):
+    return (config.type in ['tcp', 'grpc']) and (config.security in [None, "tls"])
+
+
 with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
     configs = []
+    for_game_proxies = []
     for url in rowProxiesFile:
         if len(url) > 10:
             try:
@@ -17,8 +24,17 @@ with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
                 c_json = c.generate_json_str()
                 if c.isSupported and c.isValid:
                     configs.append(c_json)
+
+                if is_good_for_game(c):
+                    for_game_proxies.append(url)
             except:
                 print("There is error with this proxy => " + url)
+
+    getLatestGoodForGame()
+    with open("./proxies_for_game_row_url.txt", 'w') as forGameProxiesFile:
+        for forGame in for_game_proxies:
+            forGameProxiesFile.write(forGame)
+    commitPushForGameProxiesFile()
 
     delays = XrayPing(configs)
     getLatestActiveConfigs()
@@ -42,6 +58,5 @@ with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
         for active in delays.no403_realDelay_under_1000:
             if active['proxy']["streamSettings"]["network"] not in ["ws", "grpc"]:
                 active1000no403ForServerProxiesFile.write(json.dumps(active['proxy']) + "\n")
-
 
 commitPushRActiveProxiesFile()
