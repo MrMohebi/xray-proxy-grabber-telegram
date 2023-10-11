@@ -59,11 +59,11 @@ getLatestActiveConfigs()
 getLatestRowProxies()
 
 lineNumberOfFounds = []
-with open("./proxies_active.txt", 'r') as activeProxiesFile:
+with open("collected-proxies/xray-json/actives_all.txt", 'r') as activeProxiesFile:
     for activeConfig in activeProxiesFile:
         if len(activeConfig) < 10: continue
 
-        with open("./proxies_row_url.txt", 'r') as rowProxiesFile:
+        with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
             # remove if it's not in active proxies
             for (index, rowProxyUrl) in enumerate(rowProxiesFile):
                 if len(rowProxyUrl) < 10: continue
@@ -75,9 +75,9 @@ with open("./proxies_active.txt", 'r') as activeProxiesFile:
                 except:
                     pass
 
-shutil.copyfile("./proxies_row_url.txt", "./proxies_active_row_url.txt")
+shutil.copyfile("collected-proxies/row-url/all.txt", "collected-proxies/row-url/actives.txt")
 
-keep_only_lines_and_remove_duplicates("./proxies_active_row_url.txt", lineNumberOfFounds)
-keep_only_lines_and_remove_duplicates("./proxies_row_url.txt", None)
+keep_only_lines_and_remove_duplicates("collected-proxies/row-url/actives.txt", lineNumberOfFounds)
+keep_only_lines_and_remove_duplicates("collected-proxies/row-url/all.txt", None)
 
 commitPushRowProxiesFile("------cleaning url list-------")

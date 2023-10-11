@@ -22,9 +22,9 @@ Because of that, it can grab proxies everywhere that u join them with ur real ac
 To get started with the MTProto API, u should get `app_id` and `api_hash` which I couldn't get them easily.
 ###### *Note:* Telegram detects u'r using a VPN and throws an error while creating `app_id` :|. Ask someone to create it for u.(God bless Telegram.)
 
-On each new message that contains a proxy URL, [`proxies_row_url.txt`](./proxies_row_url.txt) will be updated real-time.
+On each new message that contains a proxy URL, [`proxies_row_url.txt`](collected-proxies/row-url/all.txt) will be updated real-time.
 
-###### *Tip:* u can use [`proxies_row_url.txt`](./proxies_row_url.txt) as subscription link in ur clients app (V2rayNG, V2rayN, etc):)
+###### *Tip:* u can use [`proxies_row_url.txt`](collected-proxies/row-url/all.txt) as subscription link in ur clients app (V2rayNG, V2rayN, etc):)
 
 
 ### Xray URL Decoder
@@ -45,11 +45,11 @@ Also, nobody wrote it before. Come on guys.
 
 ### Auto Run Jobs 
 [`checkProxies.py`](./checkProxies.py) will be run every 30 minutes by the GitHub runner and check for grabbed proxies to be active.
-Next, sort these proxies by real delay ping and save them as JSON type in [`proxies_active.txt`](./proxies_active.txt)
+Next, sort these proxies by real delay ping and save them as JSON type in [`proxies_active.txt`](collected-proxies/xray-json/actives_all.txt)
 ###### *Note:* GitHub runners aren't in Iran, So proxy checker can't detect censored proxies. U can run it on ur server from Iran by cron jobs.
 
 
-[`cleanProxiesRowUrl.py`](./cleanProxiesRowUrl.py) will be run each 12 hours by GitHub runner and remove all URL proxies witch are not present in [`proxies_active.txt`](./proxies_active.txt).
+[`cleanProxiesRowUrl.py`](./cleanProxiesRowUrl.py) will be run each 12 hours by GitHub runner and remove all URL proxies witch are not present in [`proxies_active.txt`](collected-proxies/xray-json/actives_all.txt).
 So the url list will be clean always
 ###### *Note:* It means only supported protocols will remain, and all others will be deleted.
 

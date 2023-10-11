@@ -19,7 +19,7 @@ async def from_proxy_channels(client, message):
         v2rayProxies = extract_v2ray_links(messageText)
         print(v2rayProxies)
         getLatestRowProxies()
-        with open("./proxies_row_url.txt", 'a') as f:
+        with open("collected-proxies/row-url/all.txt", 'a') as f:
             f.write("\n".join(v2rayProxies))
             f.write("\n")
 
