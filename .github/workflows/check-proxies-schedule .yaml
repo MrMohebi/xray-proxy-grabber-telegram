@@ -1,13 +1,13 @@
 name: check-proxies-schedule
 
 on:
-  schedule:
-    - cron: "0 */1 * * *"
+  # schedule:
+  #   - cron: "0 */1 * * *"
   push:
      branches:
        - master
      paths:
-      - '**.yaml'
+      - '**.yaml__ttt__'
 
 jobs:
   check-row-urls:
