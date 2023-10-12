@@ -1,11 +1,11 @@
 name: clean-row-proxies-schedule
 
 on:
-  schedule:
-    - cron: "0 */3 * * *"
-#  push:
-#    branches:
-#      - master
+  # schedule:
+  #   - cron: "0 */3 * * *"
+ push:
+   branches:
+     - test
 
 jobs:
   clean-row-urls:
