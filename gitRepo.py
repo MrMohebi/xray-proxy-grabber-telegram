@@ -41,27 +41,16 @@ def resetGitUser():
 def getLatestRowProxies():
     if not IS_DEBUG:
         repo.git.execute(["git", "fetch", "--all"])
-        repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_row_url.txt", "proxies_active_row_url.txt"])
-        shutil.copyfile("./repo/proxies_row_url.txt", "proxies_row_url.txt")
-        shutil.copyfile("./repo/proxies_active_row_url.txt", "proxies_active_row_url.txt")
+        repo.git.execute(["git", "checkout", "remotes/origin/master", "collected-proxies"])
+        shutil.copytree("./repo/collected-proxies/row-url", "collected-proxies/row-url", dirs_exist_ok=True)
 
 
 def getLatestActiveConfigs():
     if not IS_DEBUG:
         repo.git.execute(["git", "fetch", "--all"])
-        repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_active.txt", "proxies_active_under_1000ms.txt", "proxies_active_under_1500ms.txt", "proxies_active_no_403_under_1000ms.txt", "proxies_for_ir_server_no403_u1s.txt"])
-        shutil.copyfile("./repo/proxies_active.txt", "proxies_active.txt")
-        shutil.copyfile("./repo/proxies_active_under_1000ms.txt", "proxies_active_under_1000ms.txt")
-        shutil.copyfile("./repo/proxies_active_under_1500ms.txt", "proxies_active_under_1500ms.txt")
-        shutil.copyfile("./repo/proxies_active_no_403_under_1000ms.txt", "proxies_active_no_403_under_1000ms.txt")
-        shutil.copyfile("./repo/proxies_for_ir_server_no403_u1s.txt", "proxies_for_ir_server_no403_u1s.txt")
-
-
-def getLatestGoodForGame():
-    if not IS_DEBUG:
-        repo.git.execute(["git", "fetch", "--all"])
-        repo.git.execute(["git", "checkout", "remotes/origin/master", "proxies_for_game_row_url.txt"])
-        shutil.copyfile("./repo/proxies_for_game_row_url.txt", "proxies_for_game_row_url.txt")
+        repo.git.execute(["git", "checkout", "remotes/origin/master", "collected-proxies"])
+        shutil.copytree("./repo/collected-proxies/xray-json", "collected-proxies/xray-json", dirs_exist_ok=True)
+        shutil.copytree("./repo/collected-proxies/clash-meta", "collected-proxies/clash-meta", dirs_exist_ok=True)
 
 
 def commitPushRowProxiesFile(chanelUsername):
@@ -69,9 +58,8 @@ def commitPushRowProxiesFile(chanelUsername):
         repo.git.execute(["git", "fetch", "--all"])
         repo.git.execute(["git", "reset", "--hard", "origin/master"])
         repo.git.execute(["git", "pull"])
-        shutil.copyfile("proxies_row_url.txt", "./repo/proxies_row_url.txt")
-        shutil.copyfile("proxies_active_row_url.txt", "./repo/proxies_active_row_url.txt")
-        repo.index.add(["proxies_row_url.txt", "proxies_active_row_url.txt"])
+        shutil.copytree("collected-proxies/row-url", "./repo/collected-proxies/row-url", dirs_exist_ok=True)
+        repo.index.add([r'collected-proxies/row-url\*'])
         changeGitUserToBot()
         repo.index.commit('update proxies from {}'.format(chanelUsername))
         repo.remotes.origin.push()
@@ -84,28 +72,12 @@ def commitPushRActiveProxiesFile():
         repo.git.execute(["git", "fetch", "--all"])
         repo.git.execute(["git", "reset", "--hard", "origin/master"])
         repo.git.execute(["git", "pull"])
-        shutil.copyfile("proxies_active.txt", "./repo/proxies_active.txt")
-        shutil.copyfile("proxies_active_under_1000ms.txt", "./repo/proxies_active_under_1000ms.txt")
-        shutil.copyfile("proxies_active_under_1500ms.txt", "./repo/proxies_active_under_1500ms.txt")
-        shutil.copyfile("proxies_active_no_403_under_1000ms.txt", "./repo/proxies_active_no_403_under_1000ms.txt")
-        shutil.copyfile("proxies_for_ir_server_no403_u1s.txt", "./repo/proxies_for_ir_server_no403_u1s.txt")
-        repo.index.add(["proxies_active.txt", "proxies_active_under_1500ms.txt", "proxies_active_under_1000ms.txt", "proxies_active_no_403_under_1000ms.txt", "proxies_for_ir_server_no403_u1s.txt"])
+        shutil.copytree("collected-proxies/xray-json", "./repo/collected-proxies/xray-json", dirs_exist_ok=True)
+        shutil.copytree("collected-proxies/clash-meta", "./repo/collected-proxies/clash-meta", dirs_exist_ok=True)
+        repo.index.add([r'collected-proxies/clash-meta\*'])
+        repo.index.add([r'collected-proxies/xray-json\*'])
         changeGitUserToBot()
         repo.index.commit('update active proxies')
         repo.remotes.origin.push()
         resetGitUser()
         print('pushed => update active proxies')
-
-
-def commitPushForGameProxiesFile():
-    if not IS_DEBUG:
-        repo.git.execute(["git", "fetch", "--all"])
-        repo.git.execute(["git", "reset", "--hard", "origin/master"])
-        repo.git.execute(["git", "pull"])
-        shutil.copyfile("proxies_for_game_row_url.txt", "./repo/proxies_for_game_row_url.txt")
-        repo.index.add(["proxies_for_game_row_url.txt"])
-        changeGitUserToBot()
-        repo.index.commit('update good for games proxies')
-        repo.remotes.origin.push()
-        resetGitUser()
-        print('pushed => update good for games proxies')
