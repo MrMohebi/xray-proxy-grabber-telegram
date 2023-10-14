@@ -13,14 +13,13 @@ def extract_v2ray_links(text) -> list[str]:
 
 
 # commit after every 50 proxy founded
-PROXY_COUNTER_DEFAULT = 50
-proxy_counter = PROXY_COUNTER_DEFAULT
+PROXY_COUNTER_DEFAULT = 2
 temp_proxy_holder = []
 
 
 @app.on_message(filters.text & filters.channel & filters.chat(PROXY_CHANNELS))
 async def from_proxy_channels(client, message):
-    global proxy_counter, PROXY_COUNTER_DEFAULT, temp_proxy_holder
+    global PROXY_COUNTER_DEFAULT, temp_proxy_holder
     messageText = message.text
     has_v2ray_proxy = "vless://" in messageText or "vmess://" in messageText or "trojan://" in messageText
     if has_v2ray_proxy:
@@ -30,17 +29,13 @@ async def from_proxy_channels(client, message):
 
         temp_proxy_holder = temp_proxy_holder + v2rayProxies
 
-        if proxy_counter < 0:
-            proxy_counter = PROXY_COUNTER_DEFAULT
-
+        if len(temp_proxy_holder) > PROXY_COUNTER_DEFAULT:
             getLatestRowProxies()
             with open("collected-proxies/row-url/all.txt", 'a') as f:
-                f.write("\n".join(v2rayProxies))
+                f.write("\n".join(temp_proxy_holder))
                 f.write("\n")
             commitPushRowProxiesFile(message.sender_chat.username)
-
-        else:
-            proxy_counter = proxy_counter - 1
+            temp_proxy_holder = []
 
 
 app.run()
