@@ -46,7 +46,7 @@ with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
     #         forGameProxiesFile.write(forGame)
     # commitPushForGameProxiesFile()
 
-    with open("collected-proxies/clash-meta/all.txt", 'w') as allClashProxiesFile:
+    with open("collected-proxies/clash-meta/all.yaml", 'w') as allClashProxiesFile:
         yaml.dump({"proxies": clash_meta_configs}, allClashProxiesFile)
 
     delays = XrayPing(configs)
