@@ -10,7 +10,10 @@ class Vmess(VBase, VNetwork):
     def __init__(self, uuid: str, vBase: VBase, bNetwork: VNetwork, alterId: int = None, cipher: str = None) -> None:
         self.uuid = uuid
         self.cipher = cipher if cipher is not None else "auto"
-        self.alterId = alterId if alterId is not None else 0
+        try:
+            self.alterId = int(alterId)
+        except:
+            self.alterId = 0
         VBase.__init__(self, vBase.type, vBase.name, vBase.server, vBase.port)
         VNetwork.__init__(self,
                           (bNetwork.network if hasattr(bNetwork, "network") else None),
