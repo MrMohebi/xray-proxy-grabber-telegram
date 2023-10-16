@@ -128,7 +128,8 @@ class ClashMetaDecoder:
 
         match self.type:
             case "grpc":
-                grpcOpts = GrpcOpts(self.getQuery("serviceName"))
+                if self.getQuery("serviceName") is not None:
+                    grpcOpts = GrpcOpts(self.getQuery("serviceName"))
             case "ws":
                 wsOpts = WsOpts(self.getQuery("sni"), self.getQuery("path"))
             case _:

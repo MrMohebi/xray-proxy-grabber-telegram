@@ -13,7 +13,7 @@ def extract_v2ray_links(text) -> list[str]:
 
 
 # commit after every 50 proxy founded
-PROXY_COUNTER_DEFAULT = 50
+PROXY_COUNTER_DEFAULT = 100
 temp_proxy_holder = []
 
 
