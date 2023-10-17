@@ -16,6 +16,11 @@ def is_good_for_game(config: XrayUrlDecoder):
     return (config.type in ['tcp', 'grpc']) and (config.security in [None, "tls"])
 
 
+# for more info, track this issue https://github.com/MetaCubeX/Clash.Meta/issues/801
+def is_buggy_in_clash_meta(config: ClashMetaDecoder):
+    return config.security == "reality" and config.type == "grpc"
+
+
 with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
     configs = []
     clash_meta_configs = []
@@ -32,7 +37,7 @@ with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
                 # ############# clash Meta ##########
                 ccm = ClashMetaDecoder(url)
                 ccm_json = ccm.generate_obj_str()
-                if c.isSupported and c.isValid:
+                if c.isSupported and c.isValid and (not is_buggy_in_clash_meta(ccm)):
                     clash_meta_configs.append(json.loads(ccm_json))
 
                 if is_good_for_game(c):
