@@ -55,7 +55,7 @@ with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
     getLatestActiveConfigs()
 
     with open("collected-proxies/clash-meta/all.yaml", 'w') as allClashProxiesFile:
-        yaml.dump({"proxies": clash_meta_configs}, allClashProxiesFile)
+        yaml.dump({"proxies": clash_meta_configs}, allClashProxiesFile, Dumper=yaml.BaseDumper)
 
     with open("collected-proxies/xray-json/actives_all.txt", 'w') as activeProxiesFile:
         for active in delays.actives:
