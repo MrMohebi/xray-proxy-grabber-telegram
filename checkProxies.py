@@ -1,6 +1,6 @@
 import json
 import sys
-import yaml
+from ruamel.yaml import YAML
 from gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
 
 sys.path.append('./xray_url_decoder/')
@@ -54,8 +54,9 @@ with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
     delays = XrayPing(configs)
     getLatestActiveConfigs()
 
+    yaml = YAML()
     with open("collected-proxies/clash-meta/all.yaml", 'w') as allClashProxiesFile:
-        yaml.dump({"proxies": clash_meta_configs}, allClashProxiesFile, Dumper=yaml.BaseDumper)
+        yaml.dump({"proxies": clash_meta_configs}, allClashProxiesFile)
 
     with open("collected-proxies/xray-json/actives_all.txt", 'w') as activeProxiesFile:
         for active in delays.actives:
