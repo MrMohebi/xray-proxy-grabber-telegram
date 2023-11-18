@@ -1,6 +1,5 @@
 # Xray Proxy Grabber
 
-###### **Attention:** by now we only support secure layers proxies like `TLS` and `Reality`. 
 
 ###### **See more:** And also explore this project: [xray-iran-bridge-configs](https://github.com/MrMohebi/xray-iran-bridge-configs) :)
  
@@ -67,5 +66,5 @@ Also, I explained How to get `api_id` [here](#telegram-grabber)
 - [x] trojan protocol support
 - [x] connect to iran bridge
 - [x] update iran bridge with actives
-- [ ] tcp security support
+- [x] tcp security support
 - [ ] server less grabber (no telegram or server needed)

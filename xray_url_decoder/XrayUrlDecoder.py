@@ -123,10 +123,40 @@ class XrayUrlDecoder:
                 headers = {}
                 if self.getQuery("sni") is not None:
                     headers["Host"] = self.getQuery("sni")
+                if self.getQuery("host"):
+                    headers["Host"] = self.getQuery("host")
                 wsSetting = WsSettingsVless(self.getQuery("path"), headers)
 
             case "tcp":
-                tcpSettings = TCPSettings()
+                if self.getQuery("headerType") == "http":
+                    header = {
+                        "type": "http",
+                        "request": {
+                            "version": "1.1",
+                            "method": "GET",
+                            "path": [
+                                (self.getQuery("path") if self.getQuery("path") is not None else "/")
+                            ],
+                            "headers": {
+                                "Host": [
+                                    self.getQuery("host")
+                                ],
+                                "User-Agent": [
+                                    ""
+                                ],
+                                "Accept-Encoding": [
+                                    "gzip, deflate"
+                                ],
+                                "Connection": [
+                                    "keep-alive"
+                                ],
+                                "Pragma": "no-cache"
+                            }
+                        }
+                    }
+
+                tcpSettings = TCPSettings(None, header)
+
             case _:
                 self.isSupported = False
                 print("type '{}' is not supported yet".format(self.type))
@@ -146,10 +176,10 @@ class XrayUrlDecoder:
                                                   short_id=self.getQuery("sid"))
                 self.setIsValid(isValid_reality(realitySettings))
 
-            case _:
-                self.isSupported = False
-                print("security '{}' is not supported yet".format(self.security))
-                return
+            # case _:
+            #     self.isSupported = False
+            #     print("security '{}' is not supported yet".format(self.security))
+            #     return
 
         streamSetting = StreamSettings(self.type, self.security, wsSetting, grpcSettings,
                                        tcpSettings, tlsSettings, realitySettings)
