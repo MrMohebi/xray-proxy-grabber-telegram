@@ -2,6 +2,7 @@ import ipaddress
 import json
 import base64
 import re
+import uuid
 from collections import namedtuple
 from urllib.parse import parse_qs, ParseResult, urlencode, urlparse, urlunparse
 
@@ -78,14 +79,17 @@ class ClashMetaDecoder:
     type: str
     security: str
 
-    def __init__(self, link):
+    def __init__(self, link, tagUUID=None):
         match link[:5]:
             case "vmess":
                 link = convertVmessLinkToStandardLink(link)
 
+        if tagUUID is None:
+            tagUUID = uuid.uuid4().hex
+
         self.link = link
         self.url = urlparse(self.link)
-        self.name = self.url.fragment if len(self.url.fragment) > 0 else ""
+        self.name = tagUUID + "_@_" + (self.url.fragment if len(self.url.fragment) > 0 else "")
         q = parse_qs(self.url.query)
         self.queries = {key: value[0] for key, value in q.items()}
         self.isSupported = True

@@ -35,7 +35,7 @@ class Trojan:
     mux: Mux
 
     def __init__(self, name: str, settings: SettingsTrojan, stream_settings: StreamSettings, mux: Mux) -> None:
-        self.tag = "proxy_" + str(randint(1111, 9999999)) + "_" + re.sub(r'([/:+])+', '', name[:120])
+        self.tag = name # "proxy_" + str(randint(1111, 9999999)) + "_" + re.sub(r'([/:+])+', '', name[:120])
         self.protocol = "trojan"
         self.settings = settings
         self.streamSettings = stream_settings

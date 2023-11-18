@@ -14,6 +14,6 @@ class VBase:
 
     def __init__(self, type: str, name: str, server: str, port: int) -> None:
         self.server = server
-        self.name = generateName(name)
+        self.name = name #generateName(name)
         self.type = type
         self.port = port

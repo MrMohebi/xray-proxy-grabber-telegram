@@ -1,5 +1,6 @@
 import json
 import sys
+import uuid
 from ruamel.yaml import YAML
 from gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
 
@@ -21,6 +22,8 @@ def is_buggy_in_clash_meta(config: ClashMetaDecoder):
     return config.security == "reality" and config.type == "grpc"
 
 
+
+
 with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
     configs = []
     clash_meta_configs = []
@@ -28,14 +31,16 @@ with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
     for url in rowProxiesFile:
         if len(url) > 10:
             try:
+                cusTag = uuid.uuid4().hex
+
                 # ############# xray ############
-                c = XrayUrlDecoder(url)
+                c = XrayUrlDecoder(url, cusTag)
                 c_json = c.generate_json_str()
                 if c.isSupported and c.isValid:
                     configs.append(c_json)
 
                 # ############# clash Meta ##########
-                ccm = ClashMetaDecoder(url)
+                ccm = ClashMetaDecoder(url, cusTag)
                 ccm_json = ccm.generate_obj_str()
                 if c.isSupported and c.isValid and (not is_buggy_in_clash_meta(ccm)):
                     clash_meta_configs.append(json.loads(ccm_json))
@@ -58,6 +63,16 @@ with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
     with open("collected-proxies/clash-meta/all.yaml", 'w') as allClashProxiesFile:
         yaml.dump({"proxies": clash_meta_configs}, allClashProxiesFile)
 
+    with open("collected-proxies/clash-meta/actives_under_1000ms.yaml", 'w') as active1000ClashProxiesFile:
+        values_to_filter = {d['proxy']['tag'].split("_@_")[0] for d in delays.realDelay_under_1000}
+        filtered_array = [item for item in clash_meta_configs if item['name'].split("_@_")[0] in values_to_filter]
+        yaml.dump({"proxies": filtered_array}, active1000ClashProxiesFile)
+
+    with open("collected-proxies/clash-meta/actives_under_1500ms.yaml", 'w') as active1500ClashProxiesFile:
+        values_to_filter = {d['proxy']['tag'].split("_@_")[0] for d in delays.realDelay_under_1500}
+        filtered_array = [item for item in clash_meta_configs if item['name'].split("_@_")[0] in values_to_filter]
+        yaml.dump({"proxies": filtered_array}, active1500ClashProxiesFile)
+
     with open("collected-proxies/xray-json/actives_all.txt", 'w') as activeProxiesFile:
         for active in delays.actives:
             activeProxiesFile.write(json.dumps(active['proxy']) + "\n")
@@ -79,5 +94,8 @@ with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
         for active in delays.no403_realDelay_under_1000:
             if active['proxy']["streamSettings"]["network"] not in ["ws", "grpc"]:
                 active1000no403ForServerProxiesFile.write(json.dumps(active['proxy']) + "\n")
+
+
+
 
 commitPushRActiveProxiesFile()
