@@ -30,7 +30,7 @@ def isValid_tls(config: TLSSettings) -> bool:
 
 def isValid_reality(config: RealitySettings) -> bool:
     if config.serverName is not None and config.publicKey is not None and len(config.serverName) > 2 and len(
-            config.publicKey) > 2 and isalnum(config.shortId):
+            config.publicKey) > 2 and (config.shortId is "" or isalnum(config.shortId)):
         return True
 
     return False
