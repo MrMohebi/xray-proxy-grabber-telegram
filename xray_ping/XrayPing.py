@@ -113,6 +113,7 @@ class XrayPing:
         time.sleep(5)
 
         if real_delay(3080, "bypass_mode")["realDelay_ms"] < 0:
+            print("***************************************************************************")
             print(confFinalStr)
             raise Exception("Created config is incorrect! it's printed above")
 
