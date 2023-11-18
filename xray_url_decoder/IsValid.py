@@ -1,4 +1,6 @@
 import uuid
+from curses.ascii import isalnum
+
 from xray_url_decoder.XraySetting import TLSSettings, RealitySettings
 from xray_url_decoder.vless import UserVless, VnextVless
 
@@ -28,7 +30,7 @@ def isValid_tls(config: TLSSettings) -> bool:
 
 def isValid_reality(config: RealitySettings) -> bool:
     if config.serverName is not None and config.publicKey is not None and len(config.serverName) > 2 and len(
-            config.publicKey) > 2:
+            config.publicKey) > 2 and isalnum(config.shortId):
         return True
 
     return False
