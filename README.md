@@ -2,7 +2,17 @@
 
 
 ###### **See more:** And also explore this project: [xray-iran-bridge-configs](https://github.com/MrMohebi/xray-iran-bridge-configs) :)
- 
+
+
+## Quick access
+
+|            | all                                                                                                                                  | active all                                                                                                                                | active ping under 1000ms                                                                                                                              | active ping under 1500ms                                                                                                                              | active ping under 1000ms and No google 403                                                                                                                |
+|------------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row URLs   | [subscription link](https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/all.txt) | [subscription link](https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/actives.txt)  | ask me to provide if u need                                                                                                                           | ask me to provide if u need                                                                                                                           | ask me to provide if u need                                                                                                                               |
+| Xray JSON  | ask me to provide if u need                                                                                                          | [json configs](https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/xray-json/actives_all.txt) | [json configs](https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/xray-json/actives_under_1000ms.txt)    | [json configs](https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/xray-json/actives_under_1500ms.txt)    | [json configs](https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/xray-json/actives_no_403_under_1000ms.txt) |
+| Clash Meta | [provider link](https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/all.yaml) | ask me to provide if u need                                                                                                               | [provider link](https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/actives_under_1000ms.yaml) | [provider link](https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/actives_under_1500ms.yaml) | ask me to provide if u need                                                                                                                               |
+
+
 
 ## Explanation
 This project is aimed at grabbing fresh proxies from Telegram channels and testing them by real-delay ping.
@@ -43,7 +53,7 @@ In [this part](./xray_ping) I run a xray-core temporarily, witch trys to GET a s
 Also, nobody wrote it before. Come on guys.
 
 ### Auto Run Jobs 
-[`checkProxies.py`](./checkProxies.py) will be run every 30 minutes by the GitHub runner and check for grabbed proxies to be active.
+[`checkProxies.py`](./checkProxies.py) will be run every 1 hour by the GitHub runner and check for grabbed proxies to be active.
 Next, sort these proxies by real delay ping and save them as JSON type in [`proxies_active.txt`](collected-proxies/xray-json/actives_all.txt)
 ###### *Note:* GitHub runners aren't in Iran, So proxy checker can't detect censored proxies. U can run it on ur server from Iran by cron jobs.
 
