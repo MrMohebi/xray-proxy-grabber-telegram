@@ -3,8 +3,8 @@ from gitRepo import getLatestRowProxies, commitPushRowProxiesFile
 
 with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
     if len(rowProxiesFile.readlines()) < 1000:
-        print("row proxies count(under 1000) => ", rowProxiesFile)
-        exit(1)
+        print("row proxies count(under 1000) => ", rowProxiesFile.readlines())
+        exit(0)
 
 
 getLatestRowProxies()
