@@ -1,19 +1,12 @@
-name: check-proxies-schedule
+name: clean-row-proxies-schedule
 
 on:
-  schedule:
-   - cron: "0 */1 * * *"
-  push:
-     branches:
-       - master
-     paths:
-      - '.github/**'
-
+ schedule:
+   - cron: "30 */1 * * *"
 
 jobs:
-  check-row-urls:
+  clean-row-urls:
     runs-on: ubuntu-latest
-    # runs-on: self-hosted
     env:
       GITHUB_TOKEN: ${{ secrets.GG_GITHUB_TOKEN }}
       REPO: ${{ secrets.REPO }}
@@ -28,7 +21,6 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
         shell: bash
-      - name: check urls
-        run: python checkProxies.py
+      - name: clean urls
+        run: python cleanProxiesRowUrl.py
         shell: bash
-

@@ -1,0 +1,27 @@
+name: clean-row-proxies-schedule
+
+on:
+ schedule:
+   - cron: "0 */2 * * *"
+
+
+jobs:
+  clean-row-urls:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GG_GITHUB_TOKEN }}
+      REPO: ${{ secrets.REPO }}
+      DEBUG_MODE: 0
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+        shell: bash
+      - name: clean urls
+        run: python dontLetGrowAllRowProxies.py
+        shell: bash
