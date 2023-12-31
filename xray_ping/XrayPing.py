@@ -64,7 +64,7 @@ class XrayPing:
     realDelay_under_1500: list[dict] = []
     no403_realDelay_under_1000: list[dict] = []
 
-    def __init__(self, configs: list[str]) -> None:
+    def __init__(self, configs: list[str], limit: int = 200) -> None:
         confs: list[dict] = [json.loads(c) for c in configs]
 
         socks = []
@@ -123,15 +123,16 @@ class XrayPing:
         proxiesSorted = sorted(proxiesSorted, key=lambda d: d['realDelay_ms'])
 
         for index, r in enumerate(proxiesSorted):
+
             r["proxy"] = confs[index]
             self.result.append(r)
-            if r["realDelay_ms"] > 0:
+            if r["realDelay_ms"] > 0 and len(self.actives) < limit:
                 self.actives.append(r)
 
-            if 1000 >= r['realDelay_ms'] > 0:
+            if 1000 >= r['realDelay_ms'] > 0 and len(self.realDelay_under_1000) < limit:
                 self.realDelay_under_1000.append(r)
                 if not r["is403"]:
                     self.no403_realDelay_under_1000.append(r)
 
-            if 1500 >= r['realDelay_ms'] > 0:
+            if 1500 >= r['realDelay_ms'] > 0  and len(self.realDelay_under_1500) < limit:
                 self.realDelay_under_1500.append(r)

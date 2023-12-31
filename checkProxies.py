@@ -56,7 +56,7 @@ with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
     #         forGameProxiesFile.write(forGame)
     # commitPushForGameProxiesFile()
 
-    delays = XrayPing(configs)
+    delays = XrayPing(configs, 200)
     getLatestActiveConfigs()
 
     yaml = YAML()
