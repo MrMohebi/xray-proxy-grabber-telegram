@@ -2,7 +2,7 @@ name: clean-row-proxies-schedule
 
 on:
  schedule:
-   - cron: "0 */1 * * *"
+   - cron: "30 */1 * * *"
  push:
    branches:
      - test
