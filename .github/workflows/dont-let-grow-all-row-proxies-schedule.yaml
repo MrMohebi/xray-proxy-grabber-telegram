@@ -6,7 +6,7 @@ on:
 
 
 jobs:
-  clean-row-urls:
+  dont-let-grow-all-row-proxies:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GG_GITHUB_TOKEN }}
@@ -22,6 +22,6 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
         shell: bash
-      - name: clean urls
+      - name: remove urls
         run: python dontLetGrowAllRowProxies.py
         shell: bash
