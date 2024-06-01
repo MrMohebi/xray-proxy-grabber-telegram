@@ -26,5 +26,5 @@ if len(os.getenv('PROXY_URL')) > 2:
 app = Client("v2ray-proxy-grabber-telegram", api_id, api_hash, proxy=proxy)
 
 
-PROXY_CHANNELS = os.getenv('PROXY_CHANNELS').split("@")
+PROXY_CHANNELS = os.getenv('PROXY_CHANNELS').lower().split("@")
 IS_DEBUG = bool(int(os.getenv('DEBUG_MODE')))
