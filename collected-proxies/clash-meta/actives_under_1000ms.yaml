@@ -1,51 +1,96 @@
 proxies:
-- uuid: a8a09765-7681-47ba-9ea0-e0ae79d51088
-  server: 172.66.46.224
-  name: 6b7de420990c491ba82b5fb3c8ec9d03_@_👉 🆔 @v2ray_configs_pool`
+- uuid: 0a48e54b-659e-4b3c-95e6-14da04954f25
+  server: time.is
+  name: 66b4db76a09f4ba9b0c1ab561c339f34_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: ir.proxystorepanel.eu.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: ir.proxystorepanel.eu.org
+    path: /Telegram@V2ray_Alpha/?ed=2048
+- uuid: 5bdf790f-0af2-4481-a624-41b66e7e3489
+  server: time.is
+  name: 4ebf0a9783b0448ab1a934ca944960f2_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: t-netplus-4vx.pages.dev
+  servername: cdn.ircp.online
   fingerprint: ''
   ws-opts:
     headers:
-      host: t-netplus-4vx.pages.dev
-    path: /?ed=2048
-- uuid: d425abd7-d3f3-49f7-a0da-7d6008c3256a
-  server: kifpool.me
-  name: a8082e5ab23b47f3832dade3a4dff13f_@_👉 🆔 @v2ray_configs_pool`
+      host: cdn.ircp.online
+    path: /@ln2ray?ed=2048
+- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  server: 3.97.145.236
+  name: 2b21b805ee7d452fa09d5065e96535b8_@_Telegram @VlessConfig 🇨🇦`
   type: vless
-  port: 443
+  port: 22222
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: api8.htve.ir
+  servername: telegram-channel-vlessconfig.sohala.uk
   fingerprint: ''
   ws-opts:
     headers:
-      host: api8.htve.ir
-    path: /
-- uuid: 05c8d77c-afb5-4304-8dc3-a166dae14ec0
-  server: www.parsvds.ir
-  name: 4bb4a3806e2747998e81a3a9fd2ad6ad_@_👉 🆔 @v2ray_configs_pool`
+      host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- uuid: c7a0b0ff-f092-48f6-8c3b-7554b84d907f
+  server: 2.189.59.2
+  name: db623212b7314b488dde68b8cbfc1a16_@_👉 🆔 @v2ray_configs_pool`
   type: vless
-  port: 8080
+  port: 443
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mci.unlimiteddev-vpn.Com.
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: Channel:@UnlimitedDev
+- uuid: 92791642-1471-4b93-980a-81030985f3ce
+  cipher: none
+  alterId: 0
+  server: 198.41.193.181
+  name: 67ddccf43bbe4de681f20837346700b7_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
   network: ws
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: /Telegram - @XvProxy - Telegram - @XvProxy
-- uuid: c416be20-32b3-467f-83c2-735e04d639f7
-  server: eagle.hafezdivan.online.
-  name: cd9246e1f7454e3f84395dc89f88f699_@_👉 🆔 @v2ray_configs_pool`
+    path: /vmess
+- uuid: 3ab8b59a-fdd7-47bb-ceca-b00079a78a61
+  server: 185.146.173.95
+  name: d7a7f4b75128441f91e6b3933c49c7f6_@_👉 🆔 @v2ray_configs_pool`
   type: vless
-  port: 443
+  port: 2052
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /join-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava?ed=2048
+- uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  cipher: auto
+  alterId: 0
+  server: 195.123.240.45
+  name: 831461ead7c446dda1d2d39088f423e9_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 12947
   network: ws
   tls: true
   udp: false
@@ -53,9 +98,37 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: /
-- uuid: f1ffb60d-07b6-4381-8ecf-c368f7c2762d
-  server: speed.cloudflare.com
-  name: c01aa5ae967e4e28bcc48fffaed03349_@_👉 🆔 @v2ray_configs_pool`
+- uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  cipher: auto
+  alterId: 0
+  server: 107.173.146.129
+  name: d9b90495e4ae44c294551c34e53086dc_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: 4e0ffe46-79da-4173-869e-a959529ff020
+  cipher: auto
+  alterId: 0
+  server: 65.109.212.182
+  name: 22d21a4dfa254195844e62f23e6a91b3_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 10000
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /9f264ded-e3c1-4b90-c503-4f40eb00fa11
+- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+  server: 104.21.29.238
+  name: 9f29860d2d0d4da98c2801a3955a153c_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 80
   network: ws
@@ -64,10 +137,111 @@ proxies:
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: /DSDaswd22!11*fdfm55247.COM.
+    path: /
+- uuid: 51136237-f007-5188-8d9a-2e0bca946c3e
+  server: 104.21.94.168
+  name: 409ae02b3a7e4bb8aba68ade4b863a1b_@_@Hope_Net-join-us-on-Telegram`
+  type: vless
+  port: 2095
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /DigiconnecT?ed=1024
+- uuid: e38fc872-a40d-4d1b-b5ae-cb281ecc5c13
+  server: 108.162.195.205
+  name: 
+    f411c19c19bc47b1a068e9f71232b5ae_@_@Hope_Net-join-us-on-Telegramvless://telegram-id-ArV2ray@www.speedtest.net:2095?path=%2Ftelegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry&security=none&encryption=none&host=3.V2.www.speedtest.net.salatinmacvc.ir.&type=ws#👉
+    🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder?ed=2048
+- uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 176.97.73.82
+  name: 33b4f7b7ede6426ab9d380100115a075_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: a.ssll.gay
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /
+- uuid: 041f929a-63f6-4af1-a492-8cbff5797b8a
+  server: avval.ir
+  name: e142992ad19a4d629b3a5f86a6392686_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2096
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: telegram-falcunargo-emiratess.falcunar.asso.eu.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: telegram-falcunargo-emiratess.falcunar.asso.eu.org
+    path: /?ed=2048
+- uuid: 4c836e91-49af-4857-afd8-808f96bef8ba
+  server: maz.maznet.cfd
+  name: 80148088c3b04ca99c8451d56ca7272c_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2083
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: join20.maznet.cfd
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: join20.maznet.cfd
+    path: '@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet'
+- uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+  cipher: auto
+  alterId: 0
+  server: 104.21.94.64
+  name: bceaebc3702f4e43b572b3aa33d88766_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: linja05.hwcar.sbs
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: linja05.hwcar.sbs
+    path: /linkws
+- uuid: 416f18ec-11f3-4648-9693-8c6480d0662d
+  server: ip.v2catch.buzz
+  name: 273799f23c8e445da86c73b88ea8e292_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
 - uuid: b8193a2e-f914-45d5-ced4-62ea5e02fcda
   server: 35.159.167.152
-  name: a4121c6be3b540e0bf23cb26694a8326_@_👉 🆔 @v2ray_configs_pool`
+  name: 47926eaff10849eba338c967b8fb4f34_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 8081
   network: tcp
@@ -75,1327 +249,107 @@ proxies:
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: 6db60c81-5e1b-456f-959e-e3508a872e19
-  server: zula.ir
-  name: 97442a196dc649dd87287d1e485d5af7_@_telegram ☂️ DailyV2ry
+- uuid: 3ab8b59a-fdd7-47bb-ceca-b00079a78a61
+  server: 185.146.173.95
+  name: 71efefd06dac454cb7713a715f8f3a6f_@_👉 🆔 @v2ray_configs_pool`
   type: vless
+  port: 2052
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /join-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava?ed=2048
+- uuid: 251780c1-1501-43b3-be2a-d144a20d479a
+  cipher: chacha20-poly1305
+  alterId: 0
+  server: 172.67.1.143
+  name: 22e069b047f24bcfb0cc3ad14e0a35c2_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
   port: 443
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: hdfy5autoip.foriran.trade
+  fingerprint: ''
+- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  server: 18.132.143.172
+  name: b33fd62dd1eb48aca231f86b2c5e3be6_@_Telegram @VlessConfig 🇬🇧`
+  type: vless
+  port: 22222
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: beach.oiobittsadasin30.shop
+  servername: telegram-channel-vlessconfig.sohala.uk
   fingerprint: ''
   ws-opts:
     headers:
-      host: beach.oiobittsadasin30.shop
-    path: /
-- uuid: 8554bc46-51a5-4e6b-aa0d-d466a2e61b77
-  server: zula.ir
-  name: 8ae69e8cd2a94c7da75911c81dc65ff7_@_telegram ☂️ DailyV2ry
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: cloud.oiobittsadasin30.shop
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: cloud.oiobittsadasin30.shop
-    path: /
-- uuid: 44b0c1fa-e78b-4483-8d36-aeb7658014a8
-  server: zula.ir
-  name: dc8ff353f48b4633b853428be5fc4611_@_telegram ☂️ DailyV2ry
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: dance.oiobittsadasin30.shop
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: dance.oiobittsadasin30.shop
-    path: /
-- uuid: c75aa965-10f0-4a75-b431-52c958c742cb
-  server: zula.ir
-  name: d14c442bcf914b9e85c42f1ad9aa4528_@_telegram ☂️ DailyV2ry
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: hidden-ffm8czocbugvz07qeg.oiobittsadasin30.shop
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hidden-ffm8czocbugvz07qeg.oiobittsadasin30.shop
-    path: /
-- uuid: 8d833986-e33e-4809-90f9-8a159e8f0df0
-  server: hidden-szl3jdcryiprutflck.oiobittsadasin30.shop
-  name: a14d844225a54d3c8e469d8fd4eadd26_@_telegram ☂️ 
-    DailyV2ryvless://b1d051cc-7a06-4dd1-9264-e9272e56c15b@Zula.ir:8080?path=DAILYConfigs%3Fed%3D8080&security=none&encryption=none&host=dailyCONFIGS-DAILYconfigs-DAILYconfigs.speedtest.net.vigilantecollection.com.&type=ws#👉
-    🆔 @v2ray_configs_pool`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: hidden-szl3jdcryiprutflck.oiobittsadasin30.shop
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hidden-szl3jdcryiprutflck.oiobittsadasin30.shop
-    path: /
-- uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+      host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- uuid: 367e9dd9-5081-4f12-962c-13d8fbbfaad4
   cipher: auto
   alterId: 0
-  server: speed.cloudflare.com
-  name: 2d26f9ff0f3349af875fa81c630feae6_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram/XV2ray
-- uuid: 89843ae3-922d-4f87-aae2-e1fd5981d4d3
-  server: speed.cloudflare.com
-  name: 9cd6f4f492c44cb18010914110ce8291_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8443
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: imrv2ray.hossienhost.ir
-  fingerprint: ''
-  grpc-opts:
-    grpc-service-name: '@iMrV2ray@iMrV2ray@iMrV2ray @iMrV2ray@iMrV2ray@iMrV2ray @iMrV2ray@iMrV2ray@iMrV2ray
-      @iMrV2ray@iMrV2ray@iMrV2ray @iMrV2ray@iMrV2ray@iMrV2ray @iMrV2ray@iMrV2ray@iMrV2ray'
-- uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  server: 160.123.255.208
-  name: 47455229c18a45ec853028a576b0401c_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: hkf.ylks.xyz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hkf.ylks.xyz
-    path: /blue
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 104.17.12.68
-  name: 67161964b35548fb978ffed72dbbd6c6_@_@Hope_Net-join-us-on-Telegram`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
-  server: 172.67.241.4
-  name: c349efcdf6b846579249a1286746eebb_@_@Hope_Net-join-us-on-Telegram`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: mmdv2.pages.dev
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: mmdv2.pages.dev
-    path: /
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 188.114.96.3
-  name: fc105106453143608949cb356f747d16_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: viEEzer-pANeL.paGES.DEv
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: viEEzer-pANeL.paGES.DEv
-    path: /HRj71tnRkPZV60Ea/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
-- uuid: 1f0ba37c-f66d-412d-9416-0245937d2546
-  server: subscription-marzbanameh-immmm-ioooph-gaooop-gggaobak-uuu.uu-ppp.holabpql.ir
-  name: ac34a9c8232b418a887e66b51e27f0a8_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 12345
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 1f0ba37c-f66d-412d-9416-0245937d2546
-  server: upload.ir
-  name: 2f1317e46f994335abba1699d1ba0830_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2096
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: jabiabsbj-jwi.holabpql.ir
-  fingerprint: ''
-  grpc-opts:
-    grpc-service-name: 2096vless
-- uuid: 3a2c2063-6841-4c31-859e-0054573b7bf3
   server: www.speedtest.net
-  name: 67c1c8f2dc6b42b08891afe956fe75f9_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8080
+  name: b7ff93aba22e4d8f97dfa6bba5be436f_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
   network: ws
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: 
-      /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
-- uuid: 21e6130a-c7ff-496e-a4ac-393e26dd068f
-  server: uk-chanel-mst1.poshakbany.ir
-  name: 3e380812e3e74f5abbdf11fff680b3a6_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 22026
-  network: tcp
+    path: /
+- uuid: 367e9dd9-5081-4f12-962c-13d8fbbfaad4
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 71e83cb1fab94abfa70c72d3880b6bd4_@_[🇨🇦]t.me/ConfigsHub
+  type: vmess
+  port: 80
+  network: ws
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: 5a7ade0f-f2c5-43e2-a2e5-60fc95b73e0c
-  server: uk-chanel-mst1.poshakbany.ir
-  name: 61a421e578db478b86aebe42996a63ca_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 55862
-  network: tcp
+  ws-opts:
+    path: /
+- uuid: 367e9dd9-5081-4f12-962c-13d8fbbfaad4
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 1ec8f8d837304b109ff168af22173c39_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: 40ad3cab-7aae-4466-8c82-e35ecb4deb76
-  server: uk-chanel-mst12.poshakbany.ir
-  name: 4870a43a0c684d86ab94603613dd620d_@_👉 🆔 @v2ray_configs_pool`
+  ws-opts:
+    path: /
+- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  server: 18.132.143.172
+  name: 4b78be6e246f47f4acf168110121b30c_@_👉 🆔 @v2ray_configs_pool`
   type: vless
-  port: 31468
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 2c86cf39-266b-413c-816b-2f77fd0f30b5
-  server: proxyforopeta.bestgameir2.ir
-  name: d7c15f1363b64de291b35b126a04084d_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 2083
+  port: 22222
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: proxyforopeta.bestgameir2.ir
+  servername: telegram-channel-vlessconfig.sohala.uk
   fingerprint: ''
   ws-opts:
     headers:
-      host: proxyforopeta.bestgameir2.ir
-    path: 
-      /JoinChanel-@proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.@proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta
-- uuid: c21aa81b-4fea-4923-90c0-ef01b45079ca
-  server: 80.76.43.182
-  name: ffc81edce5884769834e41bac14ec757_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 46900
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
-  server: 151.101.131.1
-  name: 6e6ac1a5c77147ae94c891cde185afd4_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2048
-- uuid: ffdd1d84-cdbc-49e9-a700-8f88ee65e7cd
-  server: 80.249.113.29
-  name: 489c99008d04444fa7d406b227fa1c3d_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 20038
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 06302c3a-60d5-44b0-ca3d-e4d8cdafb1f7
-  server: 80.249.113.29
-  name: fc5f6265c0764d47a281b9f9623e5558_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 30657
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 3fa4c645-f6a7-4a02-85ee-7289530a6d1e
-  server: 49.13.210.233
-  name: de63e0fe405c4e6dbded85891ad86bc9_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 9232
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: ba80e040-22f6-4665-bf34-7e9f43660c32
-  server: de.hosting-ip.com
-  name: 98121b8a5344402b9f3d5b70a67f0956_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: DAILYConfigs?ed=8080
-- uuid: 3fa4c645-f6a7-4a02-85ee-7289530a6d1e
-  server: 31.7.78.80
-  name: b562ac421c934ae899188c209d340cbb_@_[🇮🇷]t.me/ConfigsHub`
-  type: vless
-  port: 46036
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.122
-  name: c01cf5b3357c4f6ebf94e07fa3aea257_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.79
-  name: 47b82c6663764383a7c6868b6950821d_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.57.4
-  name: 56b9449d863d4bf6978b257d29e2cb37_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.46.36
-  name: 7122a5a77bc44d78b4b348e6bafe8919_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.46.39
-  name: 1d0ffd6a2f484275a6ea948ff96f4a4f_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  cipher: auto
-  alterId: 0
-  server: 104.19.21.240
-  name: 906ee4d53683493c85914655c85cfb14_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.32
-  name: c4862e0262af41a09b968b6cf874558d_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
-  cipher: auto
-  alterId: 0
-  server: cfcdn2.sanfencdn9.com
-  name: e0356ab966d445a7bcbc8fc72cffc968_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.20.25.146
-  name: d4b80e5adaee46679a9d9874a01743e8_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 172.64.198.249
-  name: 3f7c550a81db4f19906463d788a82e78_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.21.230
-  name: 0527a9026ac241e1961d53be473debac_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.45.47
-  name: 33b268b800ec473f933a75dea2ffcb1c_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.18.57.111
-  name: cd62d79905c54ff5ac0dceb9de774fbb_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.126
-  name: 30202c41ecb2481888af52abf8fb66c1_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  cipher: auto
-  alterId: 0
-  server: 104.19.46.123
-  name: 69d8a612aeb34939b91f6397fcbea455_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  cipher: auto
-  alterId: 0
-  server: 104.19.51.232
-  name: bf50900830414c39ab95515eb413c0cf_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  cipher: auto
-  alterId: 0
-  server: 104.19.46.233
-  name: 2eadea2eb97946bebd7935757eacd20f_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.46.59
-  name: 5f4083a10f5e4d46ba52a84ec249f425_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.46.27
-  name: 2f65a6dc72c84ae6bbe6c783b6d4b5dd_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.45.15
-  name: 5ca9c7577f804b90b6000d37a0d37806_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.58.175
-  name: 4559a2ee45a54805b85054f815a27692_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 172.64.167.35
-  name: 0fdf86f1cf3c4188ac0c3e75cd36a782_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  cipher: auto
-  alterId: 0
-  server: 193.160.130.117
-  name: b4ccf793bafb4ec292d9c942125157f5_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /linkws
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.21.63
-  name: 4e9c6cbea7ee4750855ce690760112a0_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 172.64.233.27
-  name: 9ff2f2eb7a034444a7b3f5fe2032a39c_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.45.13
-  name: 6ef04bda77a6422a8d4e5a3b92638472_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.26.7.132
-  name: 800744f5379d4f51b1d454f93658ed83_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  cipher: auto
-  alterId: 0
-  server: 104.19.38.22
-  name: cc70127b08de4fce8f3661d98690186c_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.18
-  name: 074ca5efb8c14203aa3d5c34400d4c85_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2048
-- uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.91
-  name: 54934396ffe64c45952b0210fadc38c7_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.231
-  name: 35c07030b7b34a288dbc06048d39f304_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.145
-  name: 6be3516b5684459c964c857d8ca9e4b0_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.38.8
-  name: 5f51836c0031462c9a57ec95b229aec8_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.26.0.56
-  name: 2ce7fbc310ca4df8bf36074c66655ed0_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  cipher: auto
-  alterId: 0
-  server: 104.18.57.121
-  name: 22c5a42d468d4014901a4f3bf4bd9200_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  cipher: auto
-  alterId: 0
-  server: 202.78.162.5
-  name: d78b06f367ff48d0bd6b0b1bcea2fb0a_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /@forwardv2ray
-- uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  cipher: auto
-  alterId: 0
-  server: 202.78.162.5
-  name: ca1703b0e64449beb894ac99505e8a30_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /@forwardv2ray
-- uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  cipher: auto
-  alterId: 0
-  server: www.darkroom.lol
-  name: 8abbfd93343a414da63a8a711bb57b47_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
-  cipher: auto
-  alterId: 0
-  server: us-sanfrancisco-02.t3csyun.buzz
-  name: ec9f024afe864314ab18043e076d45fc_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 34053
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  cipher: auto
-  alterId: 0
-  server: 104.17.156.224
-  name: 949d3c62611347669942e533432472b5_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  cipher: auto
-  alterId: 0
-  server: 172.67.164.78
-  name: 44ba11ce582f4a14bf2a2c6b3d6809ac_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
-  cipher: auto
-  alterId: 0
-  server: vip3.niuniupremium.xyz
-  name: fddf02ef4e374208985127222928223c_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 16928
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: f6c4905b-0308-4164-b1ad-4157531a8378
-  cipher: auto
-  alterId: 0
-  server: 148.135.40.190
-  name: 5b0bfb7935564ee2aedc454f9e32866b_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  cipher: auto
-  alterId: 0
-  server: 104.21.8.157
-  name: bd57f878248848dbbca113752b61d6da_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2082
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
-  cipher: auto
-  alterId: 0
-  server: cfcdn1.sanfencdn9.com
-  name: 3603a5368a804d06be6897bf3f652e30_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2082
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  cipher: auto
-  alterId: 0
-  server: 104.18.37.248
-  name: adb764b20d964e05ba8d606ff34b02cd_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.16
-  name: e79810ae794947cc8f1efe2d6551d484_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.65
-  name: e127f5bd42e94a238895bb8eddd81a9f_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  cipher: auto
-  alterId: 0
-  server: 120.232.240.56
-  name: f1956db13196447a9f38b808c79c181a_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 16928
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  cipher: auto
-  alterId: 0
-  server: p3.v2raybrasil.cloud
-  name: 3979be3ee1d34e628d9a91b9255c93cb_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  cipher: auto
-  alterId: 0
-  server: 104.19.32.46
-  name: 81f1e3cf7e85427383b869af7ce13068_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
-  cipher: auto
-  alterId: 0
-  server: russia.com
-  name: e047df4a301644f9ba6b33773449b43f_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  cipher: auto
-  alterId: 0
-  server: 172.67.130.140
-  name: 1c7251a041e148f48b1eadf8f8ceaa01_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2082
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  cipher: auto
-  alterId: 0
-  server: 172.64.175.213
-  name: 8033b9097256445981510363d8745b61_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: None
-- uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
-  cipher: auto
-  alterId: 0
-  server: 172.67.116.48
-  name: d5db894b67054c6b9623508ec031163f_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  cipher: auto
-  alterId: 0
-  server: server31.beheshtbaneh.com
-  name: 7f2e9c328344419e84475e28db9a7925_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  cipher: auto
-  alterId: 0
-  server: data-us-v1.shwjfkw.cn
-  name: bd18299972ab458ab71550f23e1ff906_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 20401
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /debian
-- uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  cipher: auto
-  alterId: 0
-  server: 104.21.82.183
-  name: 4d41a091e9804af69731a9715dc6e3b0_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  cipher: auto
-  alterId: 0
-  server: 202.78.162.5
-  name: 7034b4901a154beaba751a2cb3da5bbb_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /@forwardv2ray
-- uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  cipher: auto
-  alterId: 0
-  server: gov.uk
-  name: 60d2546c7a8349d68b58a0d66201f3c1_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /77848824
-- uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  cipher: auto
-  alterId: 0
-  server: server32.beheshtbaneh.com
-  name: 133c87a7337d42aa8499438ea008a29b_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 0921f18e-db32-4c07-939b-4388673bfe59
-  cipher: auto
-  alterId: 0
-  server: cfcdn1.sanfencdn9.com
-  name: f5db6736e5df4a75a880b1fe7252dff4_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /video/GQ2qE5Us9g
-- uuid: 0921f18e-db32-4c07-939b-4388673bfe59
-  cipher: auto
-  alterId: 0
-  server: cfcdn3.sanfencdn9.com
-  name: abd2461aa9db4b9fb096b3d465491ac4_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /video/P7EExoE2
-- uuid: 545d58da-5cf4-4dd5-8760-353509720b0a
-  cipher: auto
-  alterId: 0
-  server: sui.forlive.live
-  name: 2c464b9c8bda4461961bfa3db6228dcd_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 40396
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 65f4814a-c8a2-4bf1-84cf-023d9678c8fd
-  server: 185.146.173.58
-  name: df3c25808c4f4a9b8e7cb7f284c774d6_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER
-- uuid: 455cb58b-8d8c-4869-a0bb-8e3eedbfb335
-  server: 104.17.233.221
-  name: faa547ae5e1a4ba9a4f9628cdee31036_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg
-- uuid: 455cb58b-8d8c-4869-a0bb-8e3eedbfb335
-  server: 104.17.250.237
-  name: d311dcd9098a49f78d9a036905404575_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg
-- uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  cipher: auto
-  alterId: 0
-  server: 104.19.38.18
-  name: 16d8364762434bb0809ef2bc13576c27_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: github.com/Alvin9999
-- uuid: 34a83286-ba4e-4f0a-ac08-77a95469eeaf
-  server: 172.66.47.155
-  name: 489717c39d7b4e378ee1c017512e666f_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: pardazesh18.pages.dev
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: pardazesh18.pages.dev
-    path: /
-- uuid: 5d4fb4ee-cc86-4bdf-9777-ff6e759a8700
-  server: 104.16.60.8
-  name: 10a4da40368d47e1a21f70656261e529_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /48608/Down
-- uuid: ed66c352-647e-483b-b1e4-a4cbebfaed1c
-  server: 185.146.173.93
-  name: 152a7700b7134490b672ade3e546ada5_@_👉 🆔 
-    @v2ray_configs_pool`vless://afc57645-59fd-47d0-a370-eb7f300e61d6@www.speedtest.net:8080?path=%2FV2raxx%3Fed%3D1024&security=none&encryption=none&host=www.speedtest.net.ftp.debian.org.xn--79qr8bwg980ayroj80c.website.&type=ws#👉
-    🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2095
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /@V2RAXX?ed=1024
-- uuid: ed66c352-647e-483b-b1e4-a4cbebfaed1c
-  server: zula.ir
-  name: 5c0c3aaa97a0455c8950655973927120_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2095
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /@V2RAXX?ed=1024
+      host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
 - uuid: 3575bdad-99d2-4742-a3ed-c7fc7bdaa60d
   server: 172.67.223.232
-  name: f4cf66f9f4474494acb237ea0573e11c_@_👉 🆔 @v2ray_configs_pool`
+  name: 444fedc7d6134c79b35964157505c553_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 443
   network: ws
@@ -1408,9 +362,66 @@ proxies:
     headers:
       host: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
     path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
+  server: www.parsvds.ir
+  name: 0d14f36ec15844c8933ea2a8dfb955a0_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: VPNCUSTOMIZE?ed=8080
+- uuid: 3575bdad-99d2-4742-a3ed-c7fc7bdaa60d
+  server: 172.67.223.232
+  name: 210c6f2bfdea45a3bee404442fe490a0_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 11e5b771-1d4d-4362-b4b5-e39e75981f01
+  server: 172.67.198.111
+  name: 1efd3806d7784e63be439ca486886f65_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: 3e8B07A5.PUb000bpB.PAGes.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 3e8B07A5.PUb000bpB.PAGes.Dev
+    path: /TELEGRAM-MARAMBASHI/?ed=2048
+- uuid: 11e5b771-1d4d-4362-b4b5-e39e75981f01
+  server: 172.67.198.111
+  name: 9107a20630cb4581887ba73af5c2496a_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: 3e8B07A5.PUb000bpB.PAGes.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 3e8B07A5.PUb000bpB.PAGes.Dev
+    path: /TELEGRAM-MARAMBASHI/?ed=2048
 - uuid: 83aa2634-96a7-4ee6-aac1-07fd96f1c6c0
   server: zula.ir
-  name: 90bcc0a7f6704dc58a65a898b82fc443_@_👉 🆔 @v2ray_configs_pool`
+  name: c194185900b84a419792663a22b7e350_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 443
   network: ws
@@ -1423,26 +434,52 @@ proxies:
     headers:
       host: aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV
     path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
-- uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  cipher: auto
-  alterId: 0
-  server: 172.67.138.140
-  name: 89ec5831ec88485187dce8e8a59a5ec6_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
+- uuid: 83aa2634-96a7-4ee6-aac1-07fd96f1c6c0
+  server: zula.ir
+  name: 15303e964b3b4a6da97e1f66273b6731_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
   port: 443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: ivideos.sbs
+  servername: aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV
   fingerprint: ''
   ws-opts:
     headers:
-      host: ivideos.sbs
-    path: /linkws
-- uuid: c9aefa91-d73b-4ed9-88e7-7006b6a7b65c
-  server: www.parsvds.ir
-  name: e679830e41204e639a693da24baa1457_@_👉 🆔 @v2ray_configs_pool`
+      host: aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 367e9dd9-5081-4f12-962c-13d8fbbfaad4
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 9c47b5a2aef34a04984744845622b5bf_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: 367e9dd9-5081-4f12-962c-13d8fbbfaad4
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 10d06cbf106f47789204a1c8566b06b1_@_[🇨🇦]t.me/ConfigsHub
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
+  server: 188.114.97.3
+  name: b948f47c1c724303a30f59ce97ed6ada_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 80
   network: ws
@@ -1451,84 +488,356 @@ proxies:
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: Join--V2RAYFAST7.V2ray.re?ed=8080
-- uuid: 0c6b1c34-3ab0-408e-aa4b-49c7c7ac72bb
-  server: aakr-mtn-turkey.napfoding.ir
-  name: 81676226c4b34b7cb36f175154b418f7_@_👉 🆔 @v2ray_configs_pool`
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
+  server: 190.93.247.155
+  name: f38f4c3b87484797a778a3b4bd61c6bc_@_👉 🆔 @v2ray_configs_pool`
   type: vless
-  port: 12345
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
+  server: 185.146.173.68
+  name: 61e18199b12b4ef799c71b60af64c13f_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
+  server: check-host.net
+  name: 1d9c687ef7224c91aeb23cfbb80352f8_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: 58543352-91a6-488f-9e5b-c64fba625784
+  server: home.vpnprosec.com
+  name: 6461f632cd2b4fb18807819808d7779d_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: WebShopTwo.NiSvn.ir.
+  fingerprint: ''
+- uuid: 58543352-91a6-488f-9e5b-c64fba625784
+  server: home.vpnprosec.com
+  name: f515eac345e44a59be07b94d9902dfff_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: WebShopTwo.NiSvn.ir.
+  fingerprint: ''
+- uuid: ed66c352-647e-483b-b1e4-a4cbebfaed1c
+  server: zula.ir
+  name: 33301ccaa7cf4cd198fdb2be1d0ec6e9_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2095
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /@V2RAXX?ed=1024
+- uuid: ed66c352-647e-483b-b1e4-a4cbebfaed1c
+  server: zula.ir
+  name: 2089b4d8a70148779d16ee9f5175fce4_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2095
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /@V2RAXX?ed=1024
+- uuid: 67ce895d-e92f-41ed-a243-071f6d4d1b21
+  server: www.parsvds.ir
+  name: ee21c2890a1f4440a449a87d0b8430af_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: '@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn'
+- uuid: 67ce895d-e92f-41ed-a243-071f6d4d1b21
+  server: www.parsvds.ir
+  name: 9a6adb40296544d1b5257c04dbef4cbe_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 80
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: '@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn'
+- uuid: 2b5c2649-59e1-4a46-a2b7-17a323100517
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 802ee23699784c9fb5ee73da6d9a7b46_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: a637aaa5-677a-4037-8dbb-c97f5f53ad95
+  server: curt85.cxcurt.pics
+  name: bd086f4aa480464cb41b3501a04966c5_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2229
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: divarcdn.com
+  fingerprint: ''
+- uuid: ffdd1d84-cdbc-49e9-a700-8f88ee65e7cd
+  server: 80.249.113.29
+  name: 4547d29093ef40b1a1b5192678e0236a_@_[🇮🇷]t.me/ConfigsHub`
+  type: vless
+  port: 20038
   network: tcp
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: 0c6b1c34-3ab0-408e-aa4b-49c7c7ac72bb
-  server: aakr-ip-turkey.tajrish-rayaneh.ir
-  name: e04dabf3c18a4c3db9a90052429bf5b8_@_[🇨🇦]t.me/ConfigsHub`
+- uuid: 06302c3a-60d5-44b0-ca3d-e4d8cdafb1f7
+  server: 80.249.113.29
+  name: 2effbabb556247ecbbd3b04384bd5ce9_@_[🇮🇷]t.me/ConfigsHub`
   type: vless
-  port: 2096
-  network: grpc
+  port: 30657
+  network: tcp
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: ffdd1d84-cdbc-49e9-a700-8f88ee65e7cd
+  server: 80.249.113.29
+  name: 75485e2ec76844aeafe858ffdb99a5f1_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 20038
+  network: tcp
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 06302c3a-60d5-44b0-ca3d-e4d8cdafb1f7
+  server: 80.249.113.29
+  name: f33ad59247c8419bad9199144cc53355_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 30657
+  network: tcp
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 7f035a95-4b51-4e0b-8995-59864a9cde22
+  server: 104.16.181.38
+  name: 1242e12aabae4e46b9df91398b528e3f_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
   tls: true
   udp: false
-  client-fingerprint: chrome
-  servername: aakr-sni-turkey.tajrish-rayaneh.ir
-  fingerprint: ''
-  grpc-opts:
-    grpc-service-name: 2096vless
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 188.114.96.168
-  name: 22740a3020084705995dea462d622f10_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
+  client-fingerprint: randomized
+  servername: MSdOnoR.pagEs.dEV
   fingerprint: ''
   ws-opts:
-    path: /
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 104.17.108.254
-  name: ecb3d9da0bc5469990c56ff9be33a54d_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 108.162.198.172
-  name: e56e517be6754c2986b3556e1411b29d_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  server: 135.84.76.97
-  name: 722932d119ef425b965b323a9b398a31_@_👉 🆔 @v2ray_configs_pool`
+    headers:
+      host: MSdOnoR.pagEs.dEV
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 17a7bf97-fef5-4101-a5c5-7c730fabeeee
+  server: 104.16.190.131
+  name: 079fa65046cc4a8697d9151164cc64db_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: hkf.ylks.xyz
+  servername: bpb-worker-panel-h5f.pages.dev
   fingerprint: ''
   ws-opts:
     headers:
-      host: hkf.ylks.xyz
-    path: /blue
+      host: bpb-worker-panel-h5f.pages.dev
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 66dfb5f2-1c63-4d82-94a7-0915bedd93b9
+  server: 172.67.156.210
+  name: 1398df48efea40bf8b4b7890adca4aa5_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: safari
+  servername: knocked.aurorainiceland.com
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: knocked.aurorainiceland.com
+    path: /nimws?ed=/TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 66dfb5f2-1c63-4d82-94a7-0915bedd93b9
+  server: 172.67.156.210
+  name: 703dd562bf114d4d8dd6e502a913d63d_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: safari
+  servername: knocked.aurorainiceland.com
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: knocked.aurorainiceland.com
+    path: /nimws?ed=/TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 104.21.69.44
+  name: 78c5d062db394ed080481798dfca1576_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+  server: 146.56.37.60
+  name: 020b60e854ca447ea9e1662dc34eadfc_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 20018
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: dns68.putata.eu.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: dns68.putata.eu.org
+    path: /
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 172.67.138.69
+  name: 734e0c0b0d9c4aee80e97c7c1baf1348_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: 7f035a95-4b51-4e0b-8995-59864a9cde22
+  server: 104.16.181.38
+  name: 935f1bbe7f7d4d8d9184e68ce9023585_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: MSdOnoR.pagEs.dEV
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: MSdOnoR.pagEs.dEV
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 17a7bf97-fef5-4101-a5c5-7c730fabeeee
+  server: 104.16.190.131
+  name: ff55284241ac49afb181b4c5eb45d270_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: bpb-worker-panel-h5f.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: bpb-worker-panel-h5f.pages.dev
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 66dfb5f2-1c63-4d82-94a7-0915bedd93b9
+  server: 172.67.156.210
+  name: 45b5cd4422dc4f65bf57942801eb3749_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: safari
+  servername: knocked.aurorainiceland.com
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: knocked.aurorainiceland.com
+    path: /nimws?ed=/TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 66dfb5f2-1c63-4d82-94a7-0915bedd93b9
+  server: 172.67.156.210
+  name: cdf5c3b97e3146cfb4241b7975f3e927_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: safari
+  servername: knocked.aurorainiceland.com
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: knocked.aurorainiceland.com
+    path: /nimws?ed=/TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 104.21.69.44
+  name: 71189bf5b3644bd3a97ab473654670b6_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
 - uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
-  server: 104.17.233.236
-  name: 5774a55f76104096a91a2ea9b4596841_@_@Hope_Net-join-us-on-Telegram
+  server: 172.67.189.1
+  name: c8793e5ee96d413d938beb02f431d6f8_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 443
   network: ws
@@ -1541,9 +850,123 @@ proxies:
     headers:
       host: mmdv2.pages.dev
     path: /
-- uuid: 22b3cbba-e6ac-485a-8351-976a0415eab9
-  server: 104.21.20.104
-  name: f893322cdfa44b0dab35c2fe4dfd5b76_@_@Hope_Net-join-us-on-Telegram`
+- uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+  server: 146.56.37.60
+  name: 9c97706c3dd94e4ea5eb840a017e07c7_@_[🏁]t.me/ConfigsHub`
+  type: vless
+  port: 20018
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: dns68.putata.eu.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: dns68.putata.eu.org
+    path: /
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 104.21.69.44
+  name: 449ddbd4b02743439738d8784d1ce234_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 172.67.189.1
+  name: 170adea9a53f4389b7ee75a21c50f9d1_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+  server: 146.56.37.60
+  name: 629212016e2244edac19f35dca44d3f1_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 20018
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: dns68.putata.eu.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: dns68.putata.eu.org
+    path: /
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 104.21.69.44
+  name: 46789c77184345dd9e328122522c4337_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 172.67.189.1
+  name: 7490f23f39ac44018f353dad920f8f87_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+  server: 146.56.37.60
+  name: de09776551824785a067ad26004c2301_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 20018
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: dns68.putata.eu.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: dns68.putata.eu.org
+    path: /
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 172.67.189.1
+  name: 08ec33acd9d840d5920791c75c984b81_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+  server: 188.114.96.245
+  name: 7c5cdf5524354202b255da3a272a2b5c_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 80
   network: ws
@@ -1553,9 +976,406 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: /
-- uuid: 67ce895d-e92f-41ed-a243-071f6d4d1b21
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 172.67.236.46
+  name: de71bedc800f4952bae791130ef53bae_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 104.21.69.44
+  name: d912ad4ad37f4942ac1c0ade8ac8d811_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+  server: 146.56.37.60
+  name: 2613c1b0af6b46b69db427e29666fb3b_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 20018
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: dns68.putata.eu.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: dns68.putata.eu.org
+    path: /
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
   server: 172.67.138.69
-  name: e521530942ab4c4b96405fd8dbe7f65d_@_@Hope_Net-join-us-on-Telegram`
+  name: ad8c8efcdf694c9cab872b433e1751bf_@_@Hope_Net-join-us-on-Telegram`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+  server: 188.114.96.245
+  name: 6ae30c8cf6084ec8bca4ae95d7635830_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 172.67.138.69
+  name: 5c92fc24320e4fe787f853c76832b064_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 172.67.138.69
+  name: 12bc74a599294c98a5522a3002b4138b_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+  server: 188.114.96.245
+  name: 1f824f9b9dd94279985127fae45eb907_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 172.67.236.46
+  name: dc0f4da900c44ad883622ff6c0cd5558_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 172.67.236.46
+  name: 4ada1b85947d402589338e57a3065149_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+  server: 188.114.96.245
+  name: 15278bb6c63b4a01af528c23c4116c36_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 172.67.138.69
+  name: 34ef265e6536471d9253254e3526f6f4_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 172.67.236.46
+  name: 8662f2e9ad724a178bbfe19bb6157ede_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 104.21.69.44
+  name: ccdde44916ff44518ce94f4ac17e29d4_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 104.21.69.44
+  name: 886c54fb5846427194a032131da89c69_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: b570b7db-89d1-45e7-8fe7-7664aa89c894
+  server: 190.93.247.155
+  name: 77ea33bebf874ae49d34ceef6400db76_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: fb710ee0-f2d3-421c-8556-d23e5075f57e
+  server: 108.162.192.79
+  name: 38f6d09e4cf44ccb895106c9c6f5e134_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: bpb-worker-panel-chf.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: bpb-worker-panel-chf.pages.dev
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: b570b7db-89d1-45e7-8fe7-7664aa89c894
+  server: 190.93.247.155
+  name: 402c17a679564377b93528e3fb13e30c_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: fb710ee0-f2d3-421c-8556-d23e5075f57e
+  server: 108.162.192.79
+  name: 5022bbe1f8bd425e9f3fb89086e71cca_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: bpb-worker-panel-chf.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: bpb-worker-panel-chf.pages.dev
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: b570b7db-89d1-45e7-8fe7-7664aa89c894
+  server: 190.93.247.155
+  name: c4b89bbab7b34c388951c7c67a06e962_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: fb710ee0-f2d3-421c-8556-d23e5075f57e
+  server: 108.162.192.79
+  name: d184217cce044e0daf88c6c5444f9859_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: bpb-worker-panel-chf.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: bpb-worker-panel-chf.pages.dev
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: b570b7db-89d1-45e7-8fe7-7664aa89c894
+  server: 190.93.247.155
+  name: c2db96a3c77041de8c475eb8d744ba72_@_[🇨🇷]t.me/ConfigsHub`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: fb710ee0-f2d3-421c-8556-d23e5075f57e
+  server: 108.162.192.79
+  name: 1cb3324a09304cbe8988c73045b6fe22_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: bpb-worker-panel-chf.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: bpb-worker-panel-chf.pages.dev
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 3575bdad-99d2-4742-a3ed-c7fc7bdaa60d
+  server: 172.67.223.232
+  name: 97cfadb09c4c4c958f449f66d51735de_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 3575bdad-99d2-4742-a3ed-c7fc7bdaa60d
+  server: 172.67.223.232
+  name: 4b5b98d7572d43b59124ea829a015c94_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 11e5b771-1d4d-4362-b4b5-e39e75981f01
+  server: 172.67.198.111
+  name: 8da8946d52a9406cb3f224dffa4b7791_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: 3e8B07A5.PUb000bpB.PAGes.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 3e8B07A5.PUb000bpB.PAGes.Dev
+    path: /TELEGRAM-MARAMBASHI/?ed=2048
+- uuid: 11e5b771-1d4d-4362-b4b5-e39e75981f01
+  server: 172.67.198.111
+  name: 1e88297775ed4b34b0e576e4d3a19b1b_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: 3e8B07A5.PUb000bpB.PAGes.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 3e8B07A5.PUb000bpB.PAGes.Dev
+    path: /TELEGRAM-MARAMBASHI/?ed=2048
+- uuid: 83aa2634-96a7-4ee6-aac1-07fd96f1c6c0
+  server: zula.ir
+  name: 8d8d70c2e5734d969cf559d4a62c0f4a_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: 83aa2634-96a7-4ee6-aac1-07fd96f1c6c0
+  server: zula.ir
+  name: f8d1549034b84cc2955f7a9e34cec3ab_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
+  server: www.parsvds.ir
+  name: 176f116dde994229bee54a1b264f3a2e_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 80
   network: ws
@@ -1565,39 +1385,715 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: VPNCUSTOMIZE?ed=8080
-- uuid: db1abaeb-620f-5118-a715-da85df646e46
-  server: 104.20.74.62
-  name: fe3778fc0d194785a90a1b081aa4215c_@_👉 🆔 @v2ray_configs_pool`
+- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
+  server: www.parsvds.ir
+  name: dd78bb83fb4b4d4197d3645d2911e184_@_👉 🆔 @v2ray_configs_pool`
   type: vless
-  port: 2083
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: VPNCUSTOMIZE?ed=8080
+- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
+  server: www.parsvds.ir
+  name: ec1ab4fff7574b669e552fadc417fd34_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: VPNCUSTOMIZE?ed=8080
+- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
+  server: www.parsvds.ir
+  name: 55fae2d1535344b3b6ee619a7036f05f_@_lrnbymaa`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: VPNCUSTOMIZE?ed=8080
+- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
+  server: www.parsvds.ir
+  name: c1e4e511cbf347a286c159748f3572be_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: VPNCUSTOMIZE?ed=8080
+- uuid: 5456662d-9d1c-429b-9d3c-e47f2e89f013
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: e2e364322d2647b6817d7ad016487b54_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 282929a7-7247-4bfd-84f4-39e61484f313
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: c9f1ffcd16234cacb00b0578121ec56d_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 7c5df627-a185-468b-a90a-1b162e673a68
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 1bfbb7c998e948838a841b55e3b3ab54_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 5456662d-9d1c-429b-9d3c-e47f2e89f013
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 9cf13197991e4764996184d0f27200f3_@_[🇨🇦]t.me/ConfigsHub
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 282929a7-7247-4bfd-84f4-39e61484f313
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 6646215cdfdc48b0978b8f8127d3d58e_@_[🇨🇦]t.me/ConfigsHub
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 7c5df627-a185-468b-a90a-1b162e673a68
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: c9a9aad9b3564fc49b19a79f28572204_@_[🇺🇸]t.me/ConfigsHub
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 67ce895d-e92f-41ed-a243-071f6d4d1b21
+  server: www.parsvds.ir
+  name: fcab2c8e1a1b4f11b77e5e0a9e899d33_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: '@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn'
+- uuid: 7a5a4624-df8d-4955-bccc-b3fa6161411f
+  server: 162.159.135.249
+  name: 11cbc5ca69c54895a80eddbe6f77cda6_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2?ed=2560
+- uuid: 67ce895d-e92f-41ed-a243-071f6d4d1b21
+  server: www.parsvds.ir
+  name: c11d86d95aae43299831fc7aa0812917_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 80
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: '@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn'
+- uuid: 7a5a4624-df8d-4955-bccc-b3fa6161411f
+  server: 162.159.135.249
+  name: f4fb9d6509d246799915a1a9baeb172e_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2?ed=2560
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.19.42.139
+  name: 5c4f172864a846ff8731bf4e282ac2ef_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
   network: ws
   tls: true
   udp: false
-  client-fingerprint: firefox
-  servername: proxy.legendtom13.woRkerS.dev
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
   fingerprint: ''
   ws-opts:
     headers:
-      host: proxy.legendtom13.woRkerS.dev
-    path: vless-ws/?ed=2048
-- uuid: db1abaeb-620f-5118-a715-da85df646e46
-  server: 104.25.189.134
-  name: f4398d78d1a740dea10f8913dfe00b86_@_👉 🆔 @v2ray_configs_pool`
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- uuid: a8f8054f-b050-4923-ae9e-ac746a7ab0b2
+  server: 193.151.158.16
+  name: 66de851845f34f4daa6416de24b5a1af_@_👉 🆔 @v2ray_configs_pool`
   type: vless
-  port: 2083
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /@V2Graphy/giveaway/ws1?ed=2560
+- uuid: a8f8054f-b050-4923-ae9e-ac746a7ab0b2
+  server: 193.151.158.16
+  name: c6ce092955614bd09007c5aa67edc453_@_[🇮🇷]t.me/ConfigsHub`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /@V2Graphy/giveaway/ws1?ed=2560
+- uuid: 282929a7-7247-4bfd-84f4-39e61484f313
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: dbf8663b06ea463099a9e8054332f577_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 282929a7-7247-4bfd-84f4-39e61484f313
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: a05a7a150b7e4023b4978f03e022d6a7_@_[🇺🇸]t.me/ConfigsHub
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 282929a7-7247-4bfd-84f4-39e61484f313
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 81ad96db4c8045e2ba3c65dd35649133_@_[🇨🇦]t.me/ConfigsHub
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 282929a7-7247-4bfd-84f4-39e61484f313
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 07ad85488b7940e89b1c13277acbc2aa_@_[🇨🇦]t.me/ConfigsHub
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 282929a7-7247-4bfd-84f4-39e61484f313
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 76fe322d60ca4fa7a77b7c337d41bbfc_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 282929a7-7247-4bfd-84f4-39e61484f313
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 1cf45d26b5f14b6eb5bc3e175c3275b1_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 282929a7-7247-4bfd-84f4-39e61484f313
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 67dcbf1053ad4379b2dce51c19245d2c_@_👉 🆔 @v2ray_configs_pool
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: 282929a7-7247-4bfd-84f4-39e61484f313
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: aa0edd755f1643928d470c32b5183272_@_[🇨🇦]t.me/ConfigsHub
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
+- uuid: c7f86a29-0720-4266-8f60-f3db180354a9
+  server: 172.67.138.69
+  name: 99909f9a61d24ffba94c58fe08f2277d_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
+- uuid: fd84ac44-6eff-40a3-8bb4-80ff321b87e7
+  server: zextour.nimafraz.ir
+  name: ee63392d9c7545f1ae4fbfbd52b3e8cb_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /AvneWork?ed=2560
+- uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
+  server: 188.114.97.3
+  name: fa7f64d966284844aea1e2eb981e058b_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
+  server: 190.93.247.155
+  name: 09edca7a219442b092e7a8e0d75a069b_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
+  server: 185.146.173.68
+  name: 1de66982ca1b4ad1a01abe117dbdf0d0_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
+  server: check-host.net
+  name: 865f7ab8f967437e966b684f61950355_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  server: 151.101.130.133
+  name: 1d6fac8d33c843e1b55cffe39356b608_@_[🇺🇸]t.me/ConfigsHub`
+  type: vless
+  port: 443
   network: ws
   tls: true
   udp: false
-  client-fingerprint: edge
-  servername: proxy.legendtom13.WOrKErs.DEv
+  client-fingerprint: chrome
+  servername: www.Arizona.edu
   fingerprint: ''
   ws-opts:
     headers:
-      host: proxy.legendtom13.WOrKErs.DEv
-    path: vless-ws/?ed=2048
+      host: www.Arizona.edu
+    path: /
+- uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  server: 151.101.130.133
+  name: 1e16dc3bd647496597793e370e163b20_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: www.Arizona.edu
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: www.Arizona.edu
+    path: /
+- uuid: 1de40725-3e6b-42b1-9e3e-330c852d049e
+  server: 172.66.46.225
+  name: 680bdee71be04c27b1393d8e70b96d79_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: pardazeshvpn-tg56.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: pardazeshvpn-tg56.pages.dev
+    path: 
+      /Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN?ed=2048
+- uuid: 1de40725-3e6b-42b1-9e3e-330c852d049e
+  server: 172.66.46.225
+  name: d804a405237d4cd4b9a016b20324dff5_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 8443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: pardazeshvpn-tg56.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: pardazeshvpn-tg56.pages.dev
+    path: 
+      /Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN?ed=2048
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.16.108.35
+  name: dbdce5531ec5417f8d348ef825fafbd3_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- uuid: a8f8054f-b050-4923-ae9e-ac746a7ab0b2
+  server: 193.151.158.16
+  name: bbf926f03a114e5987c58340fde43ee1_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /@V2Graphy/giveaway/ws1?ed=2560
+- uuid: 1de40725-3e6b-42b1-9e3e-330c852d049e
+  server: 172.66.46.225
+  name: a32eeaf88e6a4ec982b0851f0e0d54c5_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: pardazeshvpn-tg56.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: pardazeshvpn-tg56.pages.dev
+    path: 
+      /Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN?ed=2048
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.16.108.35
+  name: 2e640d09729542a19e1cae1df7f58545_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.16.108.35
+  name: 927e17ff978f4859a9c2445a5250f0b3_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
+  server: www.parsvds.ir
+  name: b20290c84dff4803b05845e9afdffcdd_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: VPNCUSTOMIZE?ed=8080
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.18.30.227
+  name: 937e261ce36147f4a365766aa965524d_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.18.30.227
+  name: 6832720273df43b98861f6feb63af2aa_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
+  server: www.parsvds.ir
+  name: b72ab51c478b455d9c388ce6201848da_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: VPNCUSTOMIZE?ed=8080
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.18.30.227
+  name: 0f0efff0cdd04cd2b10ac1dc388bcb16_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
+  server: www.parsvds.ir
+  name: 0d8591e8457a4a19845dc685d6c30e3e_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: VPNCUSTOMIZE?ed=8080
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.18.84.115
+  name: 6ad2a6c3a7a94cfb986be703e73bcb25_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV
+    path: /bmkpskkiym1rrlxm?ed=2560
+- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
+  server: www.parsvds.ir
+  name: 7c45cac5660b44949bf3f84c1c158c50_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: VPNCUSTOMIZE?ed=8080
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.18.84.115
+  name: e043ff03ad944474aa13a24181c917bd_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV
+    path: /bmkpskkiym1rrlxm?ed=2560
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.18.84.115
+  name: ccf09991064846fabf27b868453a25dc_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV
+    path: /bmkpskkiym1rrlxm?ed=2560
+- uuid: fb928eb2-6ca0-4b05-a2ed-9871d8e0891e
+  server: www.speedtest.net
+  name: 9473d5f6796449838b31da4b8543a575_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2095
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /?ed=2048
+- uuid: fb928eb2-6ca0-4b05-a2ed-9871d8e0891e
+  server: 2a01:4f8:1c1b:13e5::1
+  name: 85a87b2fac58467294e4114c2a35cbb1_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2086
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /?ed=2048
 - uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
   server: 104.19.110.50
-  name: 01e0762f18214d5bb0c0c75880009185_@_👉 🆔 @v2ray_configs_pool`
+  name: 873308615bc24ab3ae64c7f98eb1f7a8_@_%F0%9F%94%B674%40oneclickvpnkeys
   type: vless
   port: 443
   network: ws
@@ -1612,7 +2108,7 @@ proxies:
     path: /
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 172.66.44.165
-  name: 8be9f2dcdd0c48a789afb73977d90673_@_👉 🆔 @v2ray_configs_pool`
+  name: 61fa23fc8fc049d7898ce2b0bb082c20_@_%F0%9F%94%B675%40oneclickvpnkeys
   type: vless
   port: 2096
   network: ws
@@ -1625,103 +2121,34 @@ proxies:
     headers:
       host: eB043Cc5.mKHaLili.PAgEs.DEv
     path: /
-- uuid: afc57645-59fd-47d0-a370-eb7f300e61d6
-  server: www.speedtest.net
-  name: a9bf1afae0c041f18166827254f38d42_@_👉 🆔 @v2ray_configs_pool`
+- uuid: b5c2c2bc-d064-4001-8d0f-570c9aebc80d
+  server: e.mr-tea.online
+  name: b8a5f3aae90f40239cf1654e55b3fd7d_@_%F0%9F%94%B669%40oneclickvpnkeys
   type: vless
-  port: 8080
-  network: ws
+  port: 5500
+  network: tcp
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-  ws-opts:
-    path: /V2raxx?ed=1024
-- uuid: 60e563c7-812f-4116-afaa-3fe6099c8354
-  server: speedtest.net
-  name: 364578b83b024c96a95069eeabf37b7b_@_👉 🆔 @v2ray_configs_pool`
+- uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  server: 151.101.194.133
+  name: 872efa23ed00472485f032d347bb93fb_@_%F0%9F%94%B671%40oneclickvpnkeys
   type: vless
   port: 443
   network: ws
   tls: true
   udp: false
-  client-fingerprint: firefox
-  servername: speedtest.net
+  client-fingerprint: chrome
+  servername: www.Arizona.edu
   fingerprint: ''
   ws-opts:
     headers:
-      host: speedtest.net
-    path: /?ed=1024
-- uuid: 60e563c7-812f-4116-afaa-3fe6099c8354
-  server: www.speedtest.net
-  name: 1c70468d24bd47378795986c685b6f93_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2095
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /teleGram-SvnTeam,TeleGram-SvnTeam,TeleGram-SvnTeam,TeleGram-SvnTeamTeleGram-SvnTeam,TeleGram-SvnTeam,TeleGram-SvnTeam,Telegram-SvnTeam?ed=2048
-- uuid: 60e563c7-812f-4116-afaa-3fe6099c8354
-  server: 108.162.195.204
-  name: 251bad353a4e486bac7cf01cf47845a2_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2095
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /teleGram-SvnTeam,TeleGram-SvnTeam,TeleGram-SvnTeam,TeleGram-SvnTeamTeleGram-SvnTeam,TeleGram-SvnTeam,TeleGram-SvnTeam,Telegram-SvnTeam?ed=2048
-- uuid: 60e563c7-812f-4116-afaa-3fe6099c8354
-  server: home.vpnprosec.com
-  name: d97ed815ad134b67b747cc2b671e4844_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 443
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: WebShopOne.NiSvn.ir.
-  fingerprint: ''
-- uuid: 60e563c7-812f-4116-afaa-3fe6099c8354
-  server: 104.31.16.15
-  name: d01d48f73e1d4891976fdfac8fbaa216_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2096
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: CafeBazarSoft98ir.misvn.ir.
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: CafeBazarSoft98ir.misvn.ir.
-    path: /cf?ed=2560
-- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  server: 15.237.15.173
-  name: b817f04d8a6f4d89ac8cd2d4227ac57d_@_Telegram @VlessConfig 🇫🇷`
-  type: vless
-  port: 22222
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: telegram-channel-vlessconfig.sohala.uk
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-ws
-- uuid: f9218057-ea4f-47cb-817d-fd4a657604cf
-  server: www.speedtest.net
-  name: e31c968751834850b5ab74d3fafabbba_@_👉 🆔 @v2ray_configs_pool`
+      host: www.Arizona.edu
+    path: /
+- uuid: 335e5e50-538e-413e-8b4e-8140efc0fa08
+  server: 185.146.173.143
+  name: 5bb9e616fb744c8182f787da2362d509_@_%F0%9F%94%B673%40oneclickvpnkeys
   type: vless
   port: 8880
   network: ws
@@ -1730,298 +2157,55 @@ proxies:
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: 
-      /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048
-- uuid: ef6f4516-ae49-4472-9cd0-33d321d56404
-  server: zula.ir
-  name: 15d8e35bd0604a82ad9ed188674c138f_@_👉 🆔 @v2ray_configs_pool`
+    path: /@EliV2--@Eliv2--@EliV2--@EliV2--wp-admin/index.html
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.17.228.60
+  name: 1b23ed8ea42a433c99fd7d19422759f2_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
+    path: /KkhHL0gsSoZ7M6id/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 162.159.246.186
+  name: 6fa59a586330426f8d9305dd38c79142_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: itsme.bklink.ir
+  servername: mmdv2.pages.dev
   fingerprint: ''
   ws-opts:
     headers:
-      host: itsme.bklink.ir
-    path: Join--V2RAYFAST7.V2ray.re?ed=8080
-- uuid: 702f8065-a727-4eb6-9b9c-b33bbe6925e2
-  server: www.speedtest.net
-  name: fe513d544de042048f930675ede87002_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /telegram-----------------@cassiusvpn--------——------telegram-----—————--------------@cassiusvpn-------------—----telegram-----—————--------------@cassiusvpn--------------------telegram-----—————--------------@cassiusvpn--------------------telegram-----—————--------------@cassiusvpn--------------------telegram-----—————--------------@cassiusvpn--------------—---telegram-----—————--------------@cassiusvpn--------------------telegram-----—————--------------@cassiusvpn------------—-----telegram-----—————--------------@cassiusvpn-------------—----telegram-----—————--------------@cassiusvpn------------------/?ed=2560=none
-- uuid: 5c4b88db-db55-4075-8b24-b96f272402bb
-  server: nl3.hosting-ip.com
-  name: 54301a4352f541aea5333520e68b48f5_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: DAILYConfigs?ed=8080
-- uuid: d7dd3a35b68b4992b319a85b8a1fc8e5
-  server: 20.247.120.107
-  name: 3d570af2166142418bfcb5089e3d2693_@_[🏁]t.me/ConfigsHub`
-  type: vless
-  port: 25383
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: dns68.putata.eu.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: dns68.putata.eu.org
-    path: /?ed=2048
-- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
-  server: www.parsvds.ir
-  name: c0a4a302906244afb8e24bbe43e5b006_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: VPNCUSTOMIZE?ed=8080
-- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
-  server: www.parsvds.ir
-  name: caad698c67154538875e03ca8bda0e22_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8080
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  grpc-opts:
-    grpc-service-name: 
-      Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android
-- uuid: 914fdeef-41a3-4ef0-ab53-f4c5cee31161
-  server: 104.16.11.133
-  name: 86a7812e0cc3401ba4d070faf2be31c9_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /@Vpn_Mikey،@Vpn_Mikey
-- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  server: 54.155.96.132
-  name: 757d14a4bd9d4e94818a51976977f04b_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 22222
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: telegram-channel-vlessconfig.sohala.uk
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-ws
-- uuid: 73d348ef-aadc-4c8a-92b1-4394e9f8abab
-  server: bestshop1x.channeltest.fun
-  name: e750852ccedc40a392a4f2f736e3e72e_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 36781
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: fc026366-2a6a-4fc4-b6a2-80b1437e673a
-  server: ascvrtnrtssntsrnsrtbvascascasc332vbgtrr3232dtfhtrydvfevr234fger.avash.pics
-  name: d18b48baf4a247f29dc7cd86f084272f_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 443
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 3d4676e6-a6e6-4033-98b7-1e9481809248
-  server: b2n.ir
-  name: 2cf43727c25d4ac7a0a3662f55a1c36a_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2096
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: api8.htve.ir
-  fingerprint: ''
-- uuid: 6c28de4c-b62f-48f9-8cb5-cfdb5a53e2c0
-  server: 217.60.245.4
-  name: a8abb267cfbe4892b068549332ca6105_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2083
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  cipher: auto
-  alterId: 0
-  server: 104.19.47.20
-  name: c274d56470ce407d9375ad154664a9e5_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 8443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: hk01.linkitnow.net
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hk01.linkitnow.net
-    path: /
-- uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 172.66.45.45
-  name: 4912a1c2161e43b2904372787fe2ec5d_@_👉 🆔 @v2ray_configs_pool`
+      host: mmdv2.pages.dev
+    path: telegram-marambashi/?ed=2048
+- uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  server: 151.101.194.133
+  name: d33b5c39e89c41099de23d6b105fadb0_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: edtunnel-csc.pages.dev
+  servername: www.Arizona.edu
   fingerprint: ''
   ws-opts:
     headers:
-      host: edtunnel-csc.pages.dev
-    path: /?ed=2048
-- uuid: 416f18ec-11f3-4648-9693-8c6480d0662d
-  server: ip.v2catch.buzz
-  name: 0eccaca50b9e41cdbbadd01b766577fe_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
+      host: www.Arizona.edu
     path: /
-- uuid: 416f18ec-11f3-4648-9693-8c6480d0662d
-  server: 172.67.199.19
-  name: fdd011b82c03473988855bf1b6643167_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  server: 13.39.236.75
-  name: e498f7fe59334509b51a016fbad9c084_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 22222
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: telegram-channel-vlessconfig.sohala.uk
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-ws
-- uuid: 90eae130-444d-11ef-b734-205c6d5f5d78
-  cipher: auto
-  alterId: 0
-  server: us-21.hihu.net
-  name: 35c34b83455147f18a71f961476b527c_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /0pb48tjx
-- uuid: ff94f56e-53bc-4d7d-83dc-35c87399451a
-  server: maz.maznet.cfd.
-  name: 9cfff4d6cb84475183854278b48ddcbe_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2083
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: join20.maznet.cfd
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: join20.maznet.cfd
-    path: '@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet'
-- uuid: 0b47a0c5-c120-41f9-810b-57003b901f94
-  server: www.speedtest.net
-  name: 233dee00697f447fb4422dc9803f5638_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=1024
-- uuid: 62d8526e-75d9-403c-8c78-1adbc9c721df
-  server: vip.hackers855.sbs
-  name: aa6bc02b782a436cb418dd15afd2f52a_@_[🇫🇮]t.me/ConfigsHub`
-  type: vless
-  port: 721
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 8545c44f-b1b4-4295-ae98-f0b6301a537f
-  server: 172.66.46.214
-  name: 358d5516fc264033b2e1a60fa70efb33_@_👉 🆔 
-    @v2ray_configs_pool`vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.194.133:443?path=%2F&security=tls&encryption=none&host=fraud.chase&type=ws&sni=www.Arizona.edu#%40V2ray1_Ng
-  type: vless
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: ios-azadnet.pages.dev
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ios-azadnet.pages.dev
-    path: /?ed=2048
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 104.24.196.20
-  name: 73ae6001386e40b98dae45718e401969_@_%40V2ray1_Ng+MTN+RTL+WIFI
+  name: d07952b551974f41878f9366a19186d0_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 2053
   network: ws
@@ -2036,7 +2220,172 @@ proxies:
     path: /TELEGRAM-PROXY_MTM/?ed=2048
 - uuid: 8545c44f-b1b4-4295-ae98-f0b6301a537f
   server: 172.66.46.214
-  name: 141bff9b86014e44be04a6b5b67a4b08_@_%40V2ray1_Ng
+  name: 26a1b11e958949bfa7ed2dfe898ef1f6_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2053
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: ios-azadnet.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: ios-azadnet.pages.dev
+    path: /?ed=2048
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.17.228.60
+  name: 3b9b495174c24feda616296b11355152_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
+    path: /KkhHL0gsSoZ7M6id/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 162.159.246.186
+  name: 2b420a9750bb4ce79cff40c22419d6fd_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: telegram-marambashi/?ed=2048
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 162.159.246.186
+  name: 28693e650c9a4f4ea069f72f7ca05327_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: telegram-marambashi/?ed=2048
+- uuid: 8545c44f-b1b4-4295-ae98-f0b6301a537f
+  server: 172.66.46.214
+  name: d27285d2d81e41e697a421a6cf1dc33b_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2053
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: ios-azadnet.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: ios-azadnet.pages.dev
+    path: /?ed=2048
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.24.196.20
+  name: 54d70bb0d5b541db92d8517b3b6c254e_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2053
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
+    path: /TELEGRAM-PROXY_MTM/?ed=2048
+- uuid: 8545c44f-b1b4-4295-ae98-f0b6301a537f
+  server: 172.66.46.214
+  name: cc56f477f5dd4e3d8e554835646f18c2_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2053
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: ios-azadnet.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: ios-azadnet.pages.dev
+    path: /?ed=2048
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.17.228.60
+  name: d009992a4aea4bf78273f3a17c3b736a_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
+    path: /KkhHL0gsSoZ7M6id/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 162.159.246.186
+  name: 49dea85c3959413390727cbec5ba7044_@_[🇺🇸]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: telegram-marambashi/?ed=2048
+- uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  server: 151.101.194.133
+  name: cccc48f7a80045a4baf681e6a81fc653_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: www.Arizona.edu
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: www.Arizona.edu
+    path: /
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.24.196.20
+  name: a744baea0a0a4d56868dd2bb90e7bf7a_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 2053
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
+    path: /TELEGRAM-PROXY_MTM/?ed=2048
+- uuid: 8545c44f-b1b4-4295-ae98-f0b6301a537f
+  server: 172.66.46.214
+  name: 6de811f9498545a6b20c5e5497634221_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 2053
   network: ws
@@ -2051,7 +2400,7 @@ proxies:
     path: /?ed=2048
 - uuid: 85b94f20-e563-498b-9d4b-a75438a51101
   server: 104.18.5.2
-  name: f1210cfcfab4430d8f7760adbc973bd9_@_%40V2ray1_Ng
+  name: d3d7aec6157649259984997910aa3fb4_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 2096
   network: ws
@@ -2064,9 +2413,121 @@ proxies:
     headers:
       host: VFIvE-teLeGram.PAGEs.Dev
     path: /5fz4m1ggihzpkyya?ed=2560
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.19.110.50
+  name: 617d831e357247ea80e19fe2ad88f944_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.19.110.50
+  name: 19a237a2a41a473a8a180db5b7f8955c_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 172.66.44.165
+  name: 815bcc8b644948e385c7107d717ea63a_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2096
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: eB043Cc5.mKHaLili.PAgEs.DEv
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: eB043Cc5.mKHaLili.PAgEs.DEv
+    path: /
+- uuid: 85b94f20-e563-498b-9d4b-a75438a51101
+  server: 104.18.5.2
+  name: 37581d00b29146109e83672873412683_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 2096
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: VFIvE-teLeGram.PAGEs.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: VFIvE-teLeGram.PAGEs.Dev
+    path: /5fz4m1ggihzpkyya?ed=2560
+- uuid: b5c2c2bc-d064-4001-8d0f-570c9aebc80d
+  server: e.mr-tea.online
+  name: 11849001a7d64c18858b2a12701c8f4f_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 5500
+  network: tcp
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  server: 151.101.194.133
+  name: 390e6e3266fc4f7199653adb4efc670b_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: www.Arizona.edu
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: www.Arizona.edu
+    path: /
+- uuid: 335e5e50-538e-413e-8b4e-8140efc0fa08
+  server: 185.146.173.143
+  name: f119887dce2a45d19a43e613301b348d_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /@EliV2--@Eliv2--@EliV2--@EliV2--wp-admin/index.html
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.19.110.50
+  name: 282e5d88cd4f4c588da8a0c27194eaf1_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 172.66.47.126
-  name: e2d0f221d722467d879fd6b638bf72b8_@_%40V2ray1_Ng`
+  name: 19bfda6ef6fb4e45aa4d872d8c5ba652_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 443
   network: ws
@@ -2079,628 +2540,215 @@ proxies:
     headers:
       host: 00e463Dc.beSTVPn-4xi.PAgES.dEv
     path: /yuyg5ujoovohfscy?ed=2560
-- uuid: ff94f56e-53bc-4d7d-83dc-35c87399451a
-  server: maz.maznet.cfd.
-  name: 825ffbf13ff64c85a7183048bb420256_@_👉 🆔 @v2ray_configs_pool`
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 172.66.44.165
+  name: 051e84840f4042fda4497a1f69a765f1_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
-  port: 2083
+  port: 2096
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: eB043Cc5.mKHaLili.PAgEs.DEv
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: eB043Cc5.mKHaLili.PAgEs.DEv
+    path: /
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 172.66.47.126
+  name: c72a26a2c9c945b884b81afd0bb6c036_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: join20.maznet.cfd
+  servername: 00e463Dc.beSTVPn-4xi.PAgES.dEv
   fingerprint: ''
   ws-opts:
     headers:
-      host: join20.maznet.cfd
-    path: '@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet'
-- uuid: 0b47a0c5-c120-41f9-810b-57003b901f94
-  server: www.speedtest.net
-  name: 3885190aa49d46aa902a3c0de0d4480d_@_👉 🆔 @v2ray_configs_pool`
+      host: 00e463Dc.beSTVPn-4xi.PAgES.dEv
+    path: /yuyg5ujoovohfscy?ed=2560
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 172.66.44.165
+  name: 9ad1a73582f546c5a1bcd669e7919882_@_👉 🆔 @v2ray_configs_pool`
   type: vless
-  port: 8080
+  port: 2096
   network: ws
-  tls: false
+  tls: true
   udp: false
-  client-fingerprint: chrome
+  client-fingerprint: randomized
+  servername: eB043Cc5.mKHaLili.PAgEs.DEv
   fingerprint: ''
   ws-opts:
-    path: 
-      /@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=1024
-- uuid: 62d8526e-75d9-403c-8c78-1adbc9c721df
-  server: vip.hackers855.sbs
-  name: d741f9e316d642829bde51874d9a5ea3_@_👉 🆔 @v2ray_configs_pool`
+    headers:
+      host: eB043Cc5.mKHaLili.PAgEs.DEv
+    path: /
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: 104.19.110.50
+  name: 7bce593363d44779b9e8e392e2dd54cf_@_👉 🆔 @v2ray_configs_pool`
   type: vless
-  port: 721
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 172.66.47.126
+  name: cea0199a965a41d7b1251dbf0aaf6b8f_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: 00e463Dc.beSTVPn-4xi.PAgES.dEv
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 00e463Dc.beSTVPn-4xi.PAgES.dEv
+    path: /yuyg5ujoovohfscy?ed=2560
+- uuid: b5c2c2bc-d064-4001-8d0f-570c9aebc80d
+  server: e.mr-tea.online
+  name: 4754c60f077847018e0012edfbfe277e_@_[🇫🇷]t.me/ConfigsHub`
+  type: vless
+  port: 5500
   network: tcp
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  cipher: auto
-  alterId: 0
-  server: 188.114.97.3
-  name: b72a3296e49b4d2197044d046ac3450d_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: afrhms16v.bestxray.buzz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: afrhms16v.bestxray.buzz
-    path: /linkws
-- uuid: ff94f56e-53bc-4d7d-83dc-35c87399451a
-  server: maz.maznet.cfd.
-  name: 7a72a1d5a76347a3abd88a9df6b44a5e_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2083
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: join20.maznet.cfd
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: join20.maznet.cfd
-    path: '@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet'
-- uuid: 0b47a0c5-c120-41f9-810b-57003b901f94
-  server: www.speedtest.net
-  name: 9120a9535d7e4e9fa4dc5a3a3b059f32_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=1024
-- uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  cipher: auto
-  alterId: 0
-  server: 188.114.97.3
-  name: 134c918338d94a079ea4e5d28b91c367_@_[🇨🇦]t.me/ConfigsHub
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: afrhms16v.bestxray.buzz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: afrhms16v.bestxray.buzz
-    path: /linkws
-- uuid: ff94f56e-53bc-4d7d-83dc-35c87399451a
-  server: maz.maznet.cfd.
-  name: 4a14ab91a52b4065a448a61cc8e85c8a_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 2083
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: join20.maznet.cfd
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: join20.maznet.cfd
-    path: '@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet'
-- uuid: 0b47a0c5-c120-41f9-810b-57003b901f94
-  server: www.speedtest.net
-  name: 842097cd753744e1b0c949894462042d_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=1024
-- uuid: 67ce895d-e92f-41ed-a243-071f6d4d1b21
-  server: www.parsvds.ir
-  name: f3981fbc0e784b9e8cf7822edbd00341_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  grpc-opts:
-    grpc-service-name: '@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn'
-- uuid: 67ce895d-e92f-41ed-a243-071f6d4d1b21
-  server: www.parsvds.ir
-  name: d13a0e04a2b543e7935373248cf4c1b7_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  grpc-opts:
-    grpc-service-name: '@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn'
-- uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  cipher: auto
-  alterId: 0
-  server: 188.114.97.3
-  name: 1810822797c64cb3ad43c639816af116_@_👉 🆔 @v2ray_configs_pool
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: afrhms16v.bestxray.buzz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: afrhms16v.bestxray.buzz
-    path: /linkws
-- uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  cipher: auto
-  alterId: 0
-  server: 188.114.97.3
-  name: 7970930b97de4313a21843ade634006d_@_[🇨🇦]t.me/ConfigsHub
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: afrhms16v.bestxray.buzz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: afrhms16v.bestxray.buzz
-    path: /linkws
-- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
-  server: www.parsvds.ir
-  name: b4bf8af18fac479d87f7a220c7c3caee_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: VPNCUSTOMIZE?ed=8080
-- uuid: 8545c44f-b1b4-4295-ae98-f0b6301a537f
-  server: 172.66.46.214
-  name: bd21e8a52c794be6a6c27bedb8f87924_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: ios-azadnet.pages.dev
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ios-azadnet.pages.dev
-    path: /Telegram-PROXY_MTM/?ed=2048
-- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
-  server: www.parsvds.ir
-  name: c1198614244e4b46b8ec8cda2c3149eb_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: VPNCUSTOMIZE?ed=8080
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 108.162.192.248
-  name: 3e29c4cafc85492193a873efdfa9955e_@_[🇨🇦]t.me/ConfigsHub`
+  server: 172.66.44.165
+  name: 53d6d2ea85f940fab9ec3fdfb80915f3_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 2096
   network: ws
   tls: true
   udp: false
-  client-fingerprint: chrome
-  servername: BPbp.KMEvpS.iR
+  client-fingerprint: randomized
+  servername: eB043Cc5.mKHaLili.PAgEs.DEv
   fingerprint: ''
   ws-opts:
     headers:
-      host: BPbp.KMEvpS.iR
+      host: eB043Cc5.mKHaLili.PAgEs.DEv
     path: /
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 172.64.233.193
-  name: bd535341782a44e8a81c545f60f769d0_@_[🇬🇧]t.me/ConfigsHub`
+- uuid: b5c2c2bc-d064-4001-8d0f-570c9aebc80d
+  server: e.mr-tea.online
+  name: 3f6bf26687e5491f8f1ba70293f137f8_@_👉 🆔 @v2ray_configs_pool`
   type: vless
-  port: 80
-  network: ws
+  port: 5500
+  network: tcp
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: b2e2f4d1-57fb-4bf2-b7a1-2fb65c10784c
-  server: 104.16.212.94
-  name: f9ef6a8037f44902bd88f083a512c0f6_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 172.64.233.193
-  name: 63fdab091ff04095afcc95d74a7a9667_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 108.162.192.248
-  name: 0f9b94afaa074fe294441504eedd4a53_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2096
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: BPbp.KMEvpS.iR
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: BPbp.KMEvpS.iR
-    path: /
-- uuid: b2e2f4d1-57fb-4bf2-b7a1-2fb65c10784c
-  server: 104.16.212.94
-  name: a39c85d422a345ee9d1639eee8311b1c_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 104.17.229.249
-  name: c97caba106154bb68b5b4aaef874ca13_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  server: 47.236.83.239
-  name: 59b9bccf43f441ea8b54297778a444f1_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: hkf.ylks.xyz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hkf.ylks.xyz
-    path: /?proxyip
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 104.17.243.185
-  name: fe6b8242f0884dafac5ad08fdbfc7da3_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 108.162.192.248
-  name: 99b79075b78047c29bb920549f9cab47_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2096
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: BPbp.KMEvpS.iR
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: BPbp.KMEvpS.iR
-    path: /
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 172.64.233.193
-  name: a8945bdf8644457c9c36aa640ab7f2ef_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 108.162.192.248
-  name: 5c8922c8f5ff49cbbe575dd790ac9d14_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2096
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: BPbp.KMEvpS.iR
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: BPbp.KMEvpS.iR
-    path: /
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 172.64.233.193
-  name: 0104380eb885433791c93f0a4ae13ecd_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 108.162.192.248
-  name: d4c503b4757d4fedac0d8d7f3a730386_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 2096
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: BPbp.KMEvpS.iR
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: BPbp.KMEvpS.iR
-    path: /
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 104.17.229.249
-  name: 5e811f173a52458baabbb626d92356c4_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 104.17.243.185
-  name: f484e48022b0489782768c21fead8430_@_@Hope_Net-join-us-on-Telegram`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 172.64.233.193
-  name: 8ea429b369a246b4923d4e9b9fd45f40_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: b2e2f4d1-57fb-4bf2-b7a1-2fb65c10784c
-  server: 104.16.212.94
-  name: 9ac799c0375d489dad3d6d4cd19f1c6a_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080
-- uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  server: 47.236.83.239
-  name: 2ed82e28d95b4569b53e2845114ab155_@_@Hope_Net-join-us-on-Telegram`
-  type: vless
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: hkf.ylks.xyz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hkf.ylks.xyz
-    path: /?proxyip
-- uuid: b2e2f4d1-57fb-4bf2-b7a1-2fb65c10784c
-  server: 104.16.212.94
-  name: a185f108e0844e84abda73f16ad71650_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080
-- uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  server: 47.236.83.239
-  name: 4185dc3d091a4335a9b0c1142dac466f_@_[🏁]t.me/ConfigsHub`
-  type: vless
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: hkf.ylks.xyz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hkf.ylks.xyz
-    path: /?proxyip
-- uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  server: 47.236.83.239
-  name: 2f23cc6e93fe4f8eb8fd7c5b53732433_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: hkf.ylks.xyz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hkf.ylks.xyz
-    path: /?proxyip
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 172.64.233.193
-  name: 6ca6d53e8bca434583b6cf3fcec3e26b_@_[🇬🇧]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 172.64.233.193
-  name: 7f7c5f6585e9469f87af3ec4c41c014e_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: e8f8236e-5f83-419d-8b0c-5b6ff27c2da6
-  server: www.parsvds.ir
-  name: 424c3353cfd742479f02fb70833674aa_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: VPNCUSTOMIZE?ed=8080
-- uuid: df4608a5-0ceb-4513-b991-596f541bccdb
-  server: 172.64.87.176
-  name: 33a5057ef0fb455d9cfea1f1c009287e_@_👉 🆔 @v2ray_configs_pool`
+- uuid: 3575bdad-99d2-4742-a3ed-c7fc7bdaa60d
+  server: 172.67.223.232
+  name: 1d4aea36b0eb4dc09e6da1d49deb6063_@_👉 🆔 @v2ray_configs_pool`
   type: vless
   port: 443
   network: ws
   tls: true
   udp: false
-  client-fingerprint: random
-  servername: cfdy.yueuzi.dynv6.net
+  client-fingerprint: randomized
+  servername: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
   fingerprint: ''
   ws-opts:
     headers:
-      host: cfdy.yueuzi.dynv6.net
-    path: /
-- uuid: df4608a5-0ceb-4513-b991-596f541bccdb
-  server: 172.64.87.176
-  name: 
-    7f8bca46ed4a4a249b194508bc72706b_@_%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%D9%85%D8%A7+%D8%AF%D8%B1+%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%3A+V2rayng_Fast%40`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: cfdy.yueuzi.dynv6.net
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: cfdy.yueuzi.dynv6.net
-    path: /
-- uuid: b2e2f4d1-57fb-4bf2-b7a1-2fb65c10784c
-  server: 104.16.212.94
-  name: 6ef09f740db2461a9d7f27188ea49f74_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080
-- uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  server: 47.236.83.239
-  name: 2c3aa2a96fdd476eb0c5ef5b1a4caebf_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: hkf.ylks.xyz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hkf.ylks.xyz
-    path: /?proxyip
-- uuid: 83aa2634-96a7-4ee6-aac1-07fd96f1c6c0
-  server: zula.ir
-  name: fd8e30e47a4b4dd0a703dfa114e75166_@_👉 🆔 @v2ray_configs_pool`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV
+      host: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
     path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  server: 151.101.194.133
+  name: 049b7a97519d43279a55e1fc9cdcb64f_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: www.Arizona.edu
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: www.Arizona.edu
+    path: /
+- uuid: 11e5b771-1d4d-4362-b4b5-e39e75981f01
+  server: 172.67.198.111
+  name: 45179cf3c5254577b108ef3935578fd4_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: 3e8B07A5.PUb000bpB.PAGes.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 3e8B07A5.PUb000bpB.PAGes.Dev
+    path: /TELEGRAM-MARAMBASHI/?ed=2048
+- uuid: 335e5e50-538e-413e-8b4e-8140efc0fa08
+  server: 185.146.173.143
+  name: 063ed8d6bde94dba8eeeccb008b54808_@_👉 🆔 @v2ray_configs_pool`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /@EliV2--@Eliv2--@EliV2--@EliV2--wp-admin/index.html
+- uuid: 3575bdad-99d2-4742-a3ed-c7fc7bdaa60d
+  server: 172.67.223.232
+  name: efe7d79c4ea94ad584079a368a444b06_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: maRgBarSEFASEd-molA-cHApI-moJaHED.PaGeS.Dev
+    path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed=2048
+- uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  server: 151.101.194.133
+  name: a9e15e3dfa36403c8047cb69905ad7ae_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: www.Arizona.edu
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: www.Arizona.edu
+    path: /
+- uuid: 11e5b771-1d4d-4362-b4b5-e39e75981f01
+  server: 172.67.198.111
+  name: 74210983cd8444fe8b168bd24616ba6a_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: 3e8B07A5.PUb000bpB.PAGes.Dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 3e8B07A5.PUb000bpB.PAGes.Dev
+    path: /TELEGRAM-MARAMBASHI/?ed=2048
