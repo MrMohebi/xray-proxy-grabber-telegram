@@ -51,6 +51,7 @@ def getLatestActiveConfigs():
         repo.git.execute(["git", "checkout", "remotes/origin/master", "collected-proxies"])
         shutil.copytree("./repo/collected-proxies/xray-json", "collected-proxies/xray-json", dirs_exist_ok=True)
         shutil.copytree("./repo/collected-proxies/clash-meta", "collected-proxies/clash-meta", dirs_exist_ok=True)
+        shutil.copytree("./repo/collected-proxies/xray-json-full", "collected-proxies/xray-json-full", dirs_exist_ok=True)
 
 
 def commitPushRowProxiesFile(chanelUsername):
@@ -74,8 +75,10 @@ def commitPushRActiveProxiesFile():
         repo.git.execute(["git", "pull"])
         shutil.copytree("collected-proxies/xray-json", "./repo/collected-proxies/xray-json", dirs_exist_ok=True)
         shutil.copytree("collected-proxies/clash-meta", "./repo/collected-proxies/clash-meta", dirs_exist_ok=True)
+        shutil.copytree("collected-proxies/xray-json-full", "./repo/collected-proxies/xray-json-full", dirs_exist_ok=True)
         repo.index.add([r'collected-proxies/clash-meta/*'])
         repo.index.add([r'collected-proxies/xray-json/*'])
+        repo.index.add([r'collected-proxies/xray-json-full/*'])
         changeGitUserToBot()
         repo.index.commit('update active proxies')
         repo.remotes.origin.push()

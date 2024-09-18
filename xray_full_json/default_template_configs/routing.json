@@ -1,0 +1,40 @@
+{
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "domainMatcher": "hybrid",
+    "balancers": [
+      {
+        "tag": "public-proxies",
+        "selector": [
+          "proxy_6069_Telegram+%28%40shopingv2ray%29",
+          "direct-out"
+        ],
+        "strategy": {
+          "type": "leastLoad"
+        }
+      }
+    ],
+    "rules": [
+      {
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "balancerTag": "public-proxies",
+        "type": "field"
+      }
+    ]
+  },
+  "burstObservatory": {
+    "subjectSelector":[
+      "proxy-DMIT"
+    ],
+    "pingConfig": {
+      "destination": "http://www.google.com/gen_204",
+      "interval": "15m",
+      "connectivity": "http://connectivitycheck.platform.hicloud.com/generate_204",
+      "timeout": "3s",
+      "sampling": 2
+    }
+  }
+}
