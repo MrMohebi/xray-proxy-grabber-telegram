@@ -1,8 +1,10 @@
 import json
 import sys
 import uuid
+import subprocess
 from ruamel.yaml import YAML
 from gitRepo import commitPushRActiveProxiesFile, getLatestActiveConfigs
+import consts
 
 sys.path.append('./xray_url_decoder/')
 sys.path.append('./clash_meta_url_decoder/')
@@ -11,6 +13,7 @@ sys.path.append('./xray_ping/')
 from xray_url_decoder.XrayUrlDecoder import XrayUrlDecoder
 from xray_ping.XrayPing import XrayPing
 from clash_meta_url_decoder.ClashMetaUrlDecoder import ClashMetaDecoder
+
 
 
 def is_good_for_game(config: XrayUrlDecoder):
@@ -73,27 +76,32 @@ with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
         filtered_array = [item for item in clash_meta_configs if item['name'].split("_@_")[0] in values_to_filter]
         yaml.dump({"proxies": filtered_array}, active1500ClashProxiesFile)
 
-    with open("collected-proxies/xray-json/actives_all.txt", 'w') as activeProxiesFile:
+    with open(consts.xrayJsonPath["active"]["all"], 'w') as activeProxiesFile:
         for active in delays.actives:
             activeProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
-    with open("collected-proxies/xray-json/actives_under_1000ms.txt", 'w') as active1000ProxiesFile:
+    with open(consts.xrayJsonPath["active"]["under1000ms"], 'w') as active1000ProxiesFile:
         for active in delays.realDelay_under_1000:
             active1000ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
-    with open("collected-proxies/xray-json/actives_under_1500ms.txt", 'w') as active1500ProxiesFile:
+    with open(consts.xrayJsonPath["active"]["under1500ms"], 'w') as active1500ProxiesFile:
         for active in delays.realDelay_under_1500:
             active1500ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
-    with open("collected-proxies/xray-json/actives_no_403_under_1000ms.txt", 'w') as active1000no403ProxiesFile:
+    with open(consts.xrayJsonPath["active"]["no403under1000ms"], 'w') as active1000no403ProxiesFile:
         for active in delays.no403_realDelay_under_1000:
             active1000no403ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
-    with open("collected-proxies/xray-json/actives_for_ir_server_no403_u1s.txt",
-              'w') as active1000no403ForServerProxiesFile:
-        for active in delays.no403_realDelay_under_1000:
-            if active['proxy']["streamSettings"]["network"] not in ["ws", "grpc"]:
-                active1000no403ForServerProxiesFile.write(json.dumps(active['proxy']) + "\n")
+    for key in consts.xrayJsonPath["active"]:
+        subprocess.call([
+            consts.xrayFullJsonExePath,
+            "-source",
+            consts.xrayJsonPath["active"][key],
+            "-output",
+            consts.xrayJsonFullPath["active"][key],
+            "-templates-path",
+            consts.xrayFullJsonTemplatesPath
+        ])
 
 
 
