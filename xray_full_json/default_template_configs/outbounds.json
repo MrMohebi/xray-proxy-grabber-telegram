@@ -1,0 +1,46 @@
+{
+  "outbounds": [
+    {
+      "tag": "proxy_1137_Kiava-SW-U7vless://53d6cb51-395d-4db2-84ed-bd35ed833046@chaaaaanel.vpnprosec.shop:2087/?type=tcp&security=reality&pbk=xeZVtb0ug038nNaUOPcHQdU_SN7Z1nZZLPfnEM624xo&fp=firefox&sni=zula.ir&sid=e2&spx=%2F#VIP-VpnProSec",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "sp7.kiava.fun",
+            "port": 8443,
+            "users": [
+              {
+                "id": "ac4e2c70-d86f-4ace-d50d-14218ec66e19",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": null
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sp7.kiava.fun",
+          "fingerprint": "chrome"
+        },
+        "wsSettings": {
+          "path": "/",
+          "headers": {}
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "direct-out",
+      "protocol": "freedom"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "dns":{
+    "hosts":{
+      "domain:googleapis.cn":"googleapis.com"
+    },
+    "servers":[
+      "1.1.1.1"
+    ]
+  },
+  "log":{
+    "loglevel":"warning"
+  },
+  "policy":{
+    "levels":{
+      "8":{
+        "connIdle":300,
+        "downlinkOnly":1,
+        "handshake":4,
+        "uplinkOnly":1
+      }
+    },
+    "system":{
+      "statsOutboundUplink":true,
+      "statsOutboundDownlink":true
+    }
+  },
+  "stats":{
+
+  }
+}
