@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
@@ -38,7 +39,7 @@ func main() {
 		basePath      = filepath.Join(*templatesPath, "base.json")
 	)
 
-	configBases, configsStr, err := getFreshPublicProxies(*source)
+	configBases, configsStr, err := getProxies(*source)
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -210,25 +211,41 @@ func getInbounds(filePath string) []Inbound {
 	return result.Inbounds
 }
 
-func getFreshPublicProxies(url string) ([]OutboundConfigBase, string, error) {
-	resp, err := http.Get(url)
-	if err != nil {
-		return nil, "", err
+func getProxies(path string) ([]OutboundConfigBase, string, error) {
+	var proxies string
+
+	if IsUrl(path) {
+		resp, err := http.Get(path)
+		if err != nil {
+			return nil, "", err
+		}
+		body, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			return nil, "", err
+		}
+		proxies = string(body)
+	} else {
+		fileData, err := ioutil.ReadFile(path)
+		if err != nil {
+			return nil, "", err
+		}
+		proxies = string(fileData)
 	}
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return nil, "", err
-	}
-	bodyStr := string(body)
-	bodyStr = "[" + strings.Trim(strings.Replace(bodyStr, "\n", ",", -1), ",") + ",{\"tag\": \"direct-out\",\"protocol\": \"freedom\"}]"
+
+	proxies = "[" + strings.Trim(strings.Replace(proxies, "\n", ",", -1), ",") + ",{\"tag\": \"direct-out\",\"protocol\": \"freedom\"}]"
 
 	var configs []OutboundConfigBase
-	err = json.Unmarshal([]byte(bodyStr), &configs)
+	err := json.Unmarshal([]byte(proxies), &configs)
 	if err != nil {
 		return nil, "", err
 	}
 
-	println("Got new proxies from => " + url)
+	println("Got new proxies from => " + path)
 
-	return configs, bodyStr, nil
+	return configs, proxies, nil
+}
+
+func IsUrl(str string) bool {
+	u, err := url.Parse(str)
+	return err == nil && u.Scheme != "" && u.Host != ""
 }
