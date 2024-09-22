@@ -1,8 +1,6 @@
 # Xray Proxy Grabber
 
-###### **See more:** also explore this project; the best solution to use these collected proxies : [clash-meta-iran-bridge-config](https://github.com/MrMohebi/clash-meta-iran-bridge-config) :)
-
-###### **See more:** And also this project for xray-core: [xray-iran-bridge-configs](https://github.com/MrMohebi/xray-iran-bridge-configs) :)
+###### **See more:** also explore this project; the best solution to use these collected proxies : [xray-iran-bridge-configs](https://github.com/MrMohebi/xray-iran-bridge-configs) :)
 
 
 ## Quick access
