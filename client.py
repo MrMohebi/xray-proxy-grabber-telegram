@@ -23,7 +23,9 @@ if len(os.getenv('PROXY_URL')) > 2:
     print("using proxy for telegram connection: ")
     print(proxy)
 
+print("creating app...")
 app = TelegramClient("v2ray-proxy-grabber-telegram", api_id, api_hash, proxy=proxy, auto_reconnect=True, connection_retries=20, retry_delay=5)
+print("app created.")
 
 
 PROXY_CHANNELS = os.getenv('PROXY_CHANNELS').lower().split("@")

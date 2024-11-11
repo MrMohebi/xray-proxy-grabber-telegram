@@ -41,4 +41,5 @@ async def handler(event):
                 temp_proxy_holder = []
 
 app.start()
+print("app started.")
 app.run_until_disconnected()
