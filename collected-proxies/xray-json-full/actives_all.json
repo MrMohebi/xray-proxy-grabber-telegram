@@ -8,9 +8,10 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "67a496610b3d4421a745c7365c094df4_@_👉🆔 @v2ray_configs_pool📡🇨🇦Canada`",
-      "f18ae6dda5714993820334c56edd2a26_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`",
-      "1dcca211d10a4ed498252627c25c7351_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`"
+      "6ce7b3351ade48988b3cd55dc6a13dd2_@_👉🆔 @v2ray_configs_pool📡🇺🇸United States`",
+      "4ab792fa72c54503a47d88247b57e8c2_@_👉🆔 @v2ray_configs_pool📡🇨🇦Canada`",
+      "bb9e4cdfeac34105802373d577b22145_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`",
+      "016bc881fe914890bf384bafbaf0b90d_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`"
     ]
   },
   "dns": {
@@ -63,6 +64,42 @@
       "settings": {
         "vnext": [
           {
+            "address": "151.101.3.8",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "1ada4aaf-77e6-4890-9efc-7a5048c20010",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "headers": {
+            "Host": "my.shad.ir"
+          },
+          "path": "/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=2560"
+        }
+      },
+      "tag": "6ce7b3351ade48988b3cd55dc6a13dd2_@_👉🆔 @v2ray_configs_pool📡🇺🇸United States`"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "104.18.203.232",
             "port": 80,
             "users": [
@@ -88,7 +125,7 @@
           "path": "/?ed=2560"
         }
       },
-      "tag": "67a496610b3d4421a745c7365c094df4_@_👉🆔 @v2ray_configs_pool📡🇨🇦Canada`"
+      "tag": "4ab792fa72c54503a47d88247b57e8c2_@_👉🆔 @v2ray_configs_pool📡🇨🇦Canada`"
     },
     {
       "mux": {
@@ -124,7 +161,7 @@
           "path": "/?ed=2560"
         }
       },
-      "tag": "f18ae6dda5714993820334c56edd2a26_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`"
+      "tag": "bb9e4cdfeac34105802373d577b22145_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`"
     },
     {
       "mux": {
@@ -160,7 +197,7 @@
           "path": "/orangevpns?ed=2560"
         }
       },
-      "tag": "1dcca211d10a4ed498252627c25c7351_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`"
+      "tag": "016bc881fe914890bf384bafbaf0b90d_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`"
     },
     {
       "protocol": "freedom",
@@ -185,9 +222,10 @@
     "balancers": [
       {
         "selector": [
-          "67a496610b3d4421a745c7365c094df4_@_👉🆔 @v2ray_configs_pool📡🇨🇦Canada`",
-          "f18ae6dda5714993820334c56edd2a26_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`",
-          "1dcca211d10a4ed498252627c25c7351_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`"
+          "6ce7b3351ade48988b3cd55dc6a13dd2_@_👉🆔 @v2ray_configs_pool📡🇺🇸United States`",
+          "4ab792fa72c54503a47d88247b57e8c2_@_👉🆔 @v2ray_configs_pool📡🇨🇦Canada`",
+          "bb9e4cdfeac34105802373d577b22145_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`",
+          "016bc881fe914890bf384bafbaf0b90d_@_👉🆔 @v2ray_configs_pool📡🇸🇪Sweden`"
         ],
         "strategy": {
           "type": "leastLoad"
