@@ -6,6 +6,8 @@ on:
   push:
      paths:
       - '.github/**'
+  # Manual triggers with workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   check-row-urls:
