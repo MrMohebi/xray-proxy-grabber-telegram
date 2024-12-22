@@ -8,12 +8,13 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "02a57325d68f49e5910f6939b98ed299_@_🇷🇺[openproxylist.com] vmess-RU",
-      "2eaf13d057ff4b0587318daf03f67b38_@_🇷🇺[openproxylist.com] vmess-RU",
-      "a10b3601d3d64a4b9eced1be356a1d62_@_🇷🇺[openproxylist.com] vmess-RU",
-      "f68bdd1a2ea74c90aa306d1e4d7a388d_@_🇷🇺[openproxylist.com] vmess-RU",
-      "acdcc30041c34225b4a05ab205e0c532_@_🇷🇺[openproxylist.com] vmess-RU",
-      "67a78d60f3a247a1ac742641d3350998_@_🇷🇺[openproxylist.com] vmess-RU"
+      "a9c53505e97a4a90b1f814207d7583ee_@_🇷🇺[openproxylist.com] vmess-RU",
+      "d67f20ce98d84ea18857e13ed2a8b6a4_@_🇷🇺[openproxylist.com] vmess-RU",
+      "b17ecd3435d247babd4cb2f4d30ad93d_@_🇷🇺[openproxylist.com] vmess-RU",
+      "b241122300b14a949d58a7096f7fca21_@_🇷🇺[openproxylist.com] vmess-RU",
+      "2a3a4babc65b4fceb2e64790b2c44bc9_@_🇷🇺[openproxylist.com] vmess-RU",
+      "dd805d04db1c4a059063828664e02e74_@_🇷🇺[openproxylist.com] vmess-RU",
+      "50f30db8a4644d82b4d9c9e765cad1d6_@_🇷🇺[openproxylist.com] vmess-RU"
     ]
   },
   "dns": {
@@ -87,7 +88,7 @@
           "path": "/"
         }
       },
-      "tag": "02a57325d68f49e5910f6939b98ed299_@_🇷🇺[openproxylist.com] vmess-RU"
+      "tag": "a9c53505e97a4a90b1f814207d7583ee_@_🇷🇺[openproxylist.com] vmess-RU"
     },
     {
       "mux": {
@@ -119,7 +120,7 @@
           "path": "/"
         }
       },
-      "tag": "2eaf13d057ff4b0587318daf03f67b38_@_🇷🇺[openproxylist.com] vmess-RU"
+      "tag": "d67f20ce98d84ea18857e13ed2a8b6a4_@_🇷🇺[openproxylist.com] vmess-RU"
     },
     {
       "mux": {
@@ -151,7 +152,7 @@
           "path": "/"
         }
       },
-      "tag": "a10b3601d3d64a4b9eced1be356a1d62_@_🇷🇺[openproxylist.com] vmess-RU"
+      "tag": "b17ecd3435d247babd4cb2f4d30ad93d_@_🇷🇺[openproxylist.com] vmess-RU"
     },
     {
       "mux": {
@@ -183,7 +184,7 @@
           "path": "/"
         }
       },
-      "tag": "f68bdd1a2ea74c90aa306d1e4d7a388d_@_🇷🇺[openproxylist.com] vmess-RU"
+      "tag": "b241122300b14a949d58a7096f7fca21_@_🇷🇺[openproxylist.com] vmess-RU"
     },
     {
       "mux": {
@@ -215,7 +216,7 @@
           "path": "/"
         }
       },
-      "tag": "acdcc30041c34225b4a05ab205e0c532_@_🇷🇺[openproxylist.com] vmess-RU"
+      "tag": "2a3a4babc65b4fceb2e64790b2c44bc9_@_🇷🇺[openproxylist.com] vmess-RU"
     },
     {
       "mux": {
@@ -247,7 +248,39 @@
           "path": "/"
         }
       },
-      "tag": "67a78d60f3a247a1ac742641d3350998_@_🇷🇺[openproxylist.com] vmess-RU"
+      "tag": "dd805d04db1c4a059063828664e02e74_@_🇷🇺[openproxylist.com] vmess-RU"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "176.32.33.100",
+            "port": 47545,
+            "users": [
+              {
+                "alterId": "0",
+                "id": "1f3d7c35-2f67-41f0-b65d-c8687948d7e4",
+                "level": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": null,
+        "wsSettings": {
+          "headers": {},
+          "path": "/"
+        }
+      },
+      "tag": "50f30db8a4644d82b4d9c9e765cad1d6_@_🇷🇺[openproxylist.com] vmess-RU"
     },
     {
       "protocol": "freedom",
@@ -272,12 +305,13 @@
     "balancers": [
       {
         "selector": [
-          "02a57325d68f49e5910f6939b98ed299_@_🇷🇺[openproxylist.com] vmess-RU",
-          "2eaf13d057ff4b0587318daf03f67b38_@_🇷🇺[openproxylist.com] vmess-RU",
-          "a10b3601d3d64a4b9eced1be356a1d62_@_🇷🇺[openproxylist.com] vmess-RU",
-          "f68bdd1a2ea74c90aa306d1e4d7a388d_@_🇷🇺[openproxylist.com] vmess-RU",
-          "acdcc30041c34225b4a05ab205e0c532_@_🇷🇺[openproxylist.com] vmess-RU",
-          "67a78d60f3a247a1ac742641d3350998_@_🇷🇺[openproxylist.com] vmess-RU"
+          "a9c53505e97a4a90b1f814207d7583ee_@_🇷🇺[openproxylist.com] vmess-RU",
+          "d67f20ce98d84ea18857e13ed2a8b6a4_@_🇷🇺[openproxylist.com] vmess-RU",
+          "b17ecd3435d247babd4cb2f4d30ad93d_@_🇷🇺[openproxylist.com] vmess-RU",
+          "b241122300b14a949d58a7096f7fca21_@_🇷🇺[openproxylist.com] vmess-RU",
+          "2a3a4babc65b4fceb2e64790b2c44bc9_@_🇷🇺[openproxylist.com] vmess-RU",
+          "dd805d04db1c4a059063828664e02e74_@_🇷🇺[openproxylist.com] vmess-RU",
+          "50f30db8a4644d82b4d9c9e765cad1d6_@_🇷🇺[openproxylist.com] vmess-RU"
         ],
         "strategy": {
           "type": "leastLoad"
