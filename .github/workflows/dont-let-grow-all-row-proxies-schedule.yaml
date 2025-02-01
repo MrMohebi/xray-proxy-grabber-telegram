@@ -3,7 +3,8 @@ name: dont-let-grow-all-row-proxies-schedule
 on:
  schedule:
    - cron: "0 */2 * * *"
-
+ # Manual triggers with workflow_dispatch
+ workflow_dispatch:
 
 jobs:
   dont-let-grow-all-row-proxies:
