@@ -2,8 +2,8 @@ import shutil
 from gitRepo import getLatestRowProxies, commitPushRowProxiesFile
 
 with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
-    if len(rowProxiesFile.readlines()) < 1000:
-        print("row proxies count(under 1000) => ", rowProxiesFile.readlines())
+    if len(rowProxiesFile.readlines()) < 400:
+        print("row proxies count(under 400) => ", rowProxiesFile.readlines())
         exit(0)
 
 
