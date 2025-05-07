@@ -37,7 +37,7 @@ On each new message that contains a proxy URL, [`proxies_row_url.txt`](collected
 
 
 ### Xray URL Decoder
-This [part of project](./xray_url_decoder) aimed to decode and convert proxy URL to python class witch can be played with.
+This [part of project](./xray_url_decoder) aimed to decode and convert proxy URL to python class which can be played with.
 Because of this part I only support `vless` 
 
 I couldn't find it anywhere. Really nobody wrote it before !? :| 
@@ -48,7 +48,7 @@ If u know any repo done this before, notify me, tnx.
 ### Xray ping
 To test grabbed proxies, be only relied on ping of server on that port is not a correct approach.
 
-In [this part](./xray_ping) I run a xray-core temporarily, witch trys to GET a simple html page by real connection throw proxy.
+In [this part](./xray_ping) I run a xray-core temporarily, which tries to GET a simple html page by real connection throw proxy.
 
 Also, nobody wrote it before. Come on guys.
 
@@ -58,7 +58,7 @@ Next, sort these proxies by real delay ping and save them as JSON type in [`prox
 ###### *Note:* GitHub runners aren't in Iran, So proxy checker can't detect censored proxies. U can run it on ur server from Iran by cron jobs.
 
 
-[`cleanProxiesRowUrl.py`](./cleanProxiesRowUrl.py) will be run each 12 hours by GitHub runner and remove all URL proxies witch are not present in [`proxies_active.txt`](collected-proxies/xray-json/actives_all.txt).
+[`cleanProxiesRowUrl.py`](./cleanProxiesRowUrl.py) will be run each 12 hours by GitHub runner and remove all URL proxies which are not present in [`proxies_active.txt`](collected-proxies/xray-json/actives_all.txt).
 So the url list will be clean always
 ###### *Note:* It means only supported protocols will remain, and all others will be deleted.
 
