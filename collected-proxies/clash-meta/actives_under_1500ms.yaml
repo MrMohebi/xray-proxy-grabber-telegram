@@ -1,64 +1,88 @@
 proxies:
-- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  server: 18.130.5.254
-  name: 8b484c87b29a4d79b8f31b5aae486a6c_@_@Hope_Net-join-us-on-Telegram
+- uuid: 4d91916f-a7fd-419b-8b90-640bb8d1b9f4
+  server: 104.17.147.22
+  name: 3075b3c5795442b0af271a0c6acc621d_@_@meli_proxyy
   type: vless
-  port: 22222
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: TITanTabLOmaNAHaMRaH.IR
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: TITanTabLOmaNAHaMRaH.IR
+    path: /Telegram@Filter_breaker/?ed=2560
+- uuid: 704198c4-37b9-473d-a5de-0333276f2f6c
+  server: 104.17.148.22
+  name: 6649355851df410d80ca9c29666e78f3_@_@meli_proxyy
+  type: vless
+  port: 2053
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: maHsA2.cFFoRM.sIte
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: maHsA2.cFFoRM.sIte
+    path: /Telegram@Filter_breaker
+- uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: 104.17.148.22
+  name: 60c0b58390b34aecaaaf8790fadadfa1_@_@meli_proxyy
+  type: vless
+  port: 443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: telegram-channel-vlessconfig.sohala.uk
+  servername: add.lobia.sbs
   fingerprint: ''
   ws-opts:
     headers:
-      host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-ws
-- uuid: dbf403f4-b871-4446-8712-675562dbbb7b
-  server: 195.85.59.161
-  name: 382840135f9b49ac9f67bd7c28c29652_@_@Hope_Net-join-us-on-Telegram
+      host: add.lobia.sbs
+    path: /Telegram@Filter_breaker
+- uuid: fb056fa4-1d55-4845-aa0b-9360163239d4
+  server: v2shop3.bing-net.com
+  name: c6b612d76aa8465da1f2eeadd62f6acb_@_@meli_proxyy
   type: vless
-  port: 2086
-  network: ws
+  port: 4903
+  network: tcp
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-  ws-opts:
-    path: /?ed=2560
-- uuid: bffb19cc-3f9c-4245-83e4-71c4eb54d7e0
-  server: 108.162.193.81
-  name: 42853a514b3c434f96d3330d605918b6_@_@Hope_Net-join-us-on-Telegram
+- uuid: cba0b35b-8943-4c70-a864-9f78145b7897
+  server: 104.22.22.78
+  name: b74a09a098494541872091cb1a90160a_@_@meli_proxyy`
   type: vless
-  port: 443
+  port: 80
   network: ws
-  tls: true
+  tls: false
   udp: false
-  client-fingerprint: chrome
-  servername: 3m9l6g.allgums.com
+  client-fingerprint: random
+  servername: agolna.mahsaamini.dpdns.org
   fingerprint: ''
   ws-opts:
     headers:
-      host: 3m9l6g.allgums.com
-    path: /wss
-- uuid: e493d21d-e907-4f0b-ab2a-0953828214f5
-  server: 162.159.38.232
-  name: 6bef8e21f203406eab082c13685db36f_@_@Hope_Net-join-us-on-Telegram`
+      host: agolna.mahsaamini.dpdns.org
+    path: /Telegram@Filter_breaker/?ed=2560
+- uuid: 2a943112-138b-432d-a3a5-277ea2fd8a2e
+  server: 104.17.147.22
+  name: d46a21dafba54e1ea32b1751e8a46e90_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
-  network: ws
+  network: grpc
   tls: true
   udp: false
-  client-fingerprint: chrome
-  servername: o7tge7.losanglesapps.com
+  client-fingerprint: firefox
+  servername: Tp912RiMgE.nEwReTr432As.InFo
   fingerprint: ''
-  ws-opts:
-    headers:
-      host: o7tge7.losanglesapps.com
-    path: /wss
-- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  server: www.speedtest.net
-  name: a60614e52d4f425dae2d8e502c9c765c_@_``
+- uuid: b6d7cf47-ad52-4019-889f-d2ff40f3b684
+  server: 151.101.0.155
+  name: a1ee4b8e138d473494f7f6ba0b8679c6_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 80
   network: ws
@@ -67,10 +91,10 @@ proxies:
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: /?ed=2560
+    path: /
 - uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 65.109.198.232
-  name: 25d12d1d709d4488886445ae2d8d1e8e_@_@Hope_Net-join-us-on-Telegram
+  server: 95.217.13.58
+  name: 51c8ed3b478d4685ae849c1ca69f6621_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 8880
   network: grpc
@@ -78,158 +102,335 @@ proxies:
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: dbf403f4-b871-4446-8712-675562dbbb7b
-  server: 195.85.59.95
-  name: 9c4fec833f694a7dbd72bde14e409cbe_@_@Hope_Net-join-us-on-Telegram
+- uuid: 8c65262b-5f3b-4476-bf5b-094f9817c21d
+  server: 104.21.69.44
+  name: 719911adc0724ec18e1f9a482422ab8a_@_@Hope_Net-join-us-on-Telegram`
   type: vless
-  port: 8080
+  port: 8443
   network: ws
-  tls: false
+  tls: true
   udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2560
-- uuid: 405fd03c-6913-3817-bfdf-d4bdd575592c
-  cipher: auto
-  alterId: 2
-  server: 12.mamamajd.site
-  name: 3bf3790569d14ddb92e4885e4175f80b_@_@Hope_Net-join-us-on-Telegram
-  type: vmess
-  port: 23612
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5
-  cipher: auto
-  alterId: 0
-  server: 18.143.139.166
-  name: e569cec37a2b4c74ab6978e96cec89fc_@_@Hope_Net-join-us-on-Telegram
-  type: vmess
-  port: 40000
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /bby
-- uuid: 33d8f3fb-17e9-42e4-9d6a-ca3b85377fcc
-  server: 151.101.64.155
-  name: 611d3d7047b6480d8e23f3258455900d_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: e8c5e684-019f-4b79-f741-401008b3a56d
-  server: 151.101.66.228
-  name: f54fc2205c954c9293943b11cf879c8f_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /olem/ws?ed=1024
-- uuid: 55eabac0-5279-47b3-8213-5e9db25f4454
-  server: 151.101.64.155
-  name: 19f3dd6248014cdcb37dbdbfbdf8679b_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048
-- uuid: e8c5e684-019f-4b79-f741-401008b3a56d
-  server: 151.101.130.219
-  name: 2846537865b34795ac0500b70d86a61a_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /olem/ws?ed=1024
-- uuid: d1ed44c8-d23a-4bf1-aa9c-fd93ae260cb2
-  server: 151.101.192.155
-  name: c426eb70c36848df8cb1ebe5d5e53c91_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: vipfast_7.com
+  client-fingerprint: firefox
+  servername: foodrover.ir
   fingerprint: ''
   ws-opts:
     headers:
-      host: vipfast_7.com
+      host: foodrover.ir
     path: /
-- server: 162.159.192.163
-  name: 3dfb559fda594c728eee2b30e9b21875_@_@Hope_Net-join-us-on-Telegram
+- uuid: b27f4d97-2562-4867-ae20-45e625eec5f5
+  server: 151.101.2.228
+  name: 671f23070ec34bc2a44900d3f565cce0_@_@Hope_Net-join-us-on-Telegram`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  server: 104.16.38.178
+  name: 2937853f05014f9991addb8a99a7c3de_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: pormang.webhost99.workers.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.26.14.85
+  name: 611624d70df346fa8efe5e677bfda19e_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: a.xn--i-sx6a60i.us.kg.
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: a.xn--i-sx6a60i.us.kg.
+    path: /MTMVPN-MTMVPN-MTMVPN-MTMVPN?ed=2560
+- uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  server: 66.235.200.149
+  name: e6df84e1073d47bdb7e9a2a548aa0a6a_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: pormang.webhost99.workers.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: pormang.webhost99.workers.dev
+    path: /
+- uuid: 384d86c0-2f2c-5156-98b5-27bbc14f4315
+  server: join.mosiv2.fastly80-3.hosting-ip.com
+  name: 5777e63d3db7454dbaea3a2fd1affc36_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: Join-Bede-MOSiv2.IR
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: Join-Bede-MOSiv2.IR
+    path: /
+- uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  server: 185.133.35.30
+  name: 6a0c2521fd0a4f4aac23ddd141124f2c_@_@Hope_Net-join-us-on-Telegram`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: zz.bgm2024.us.kg
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: zz.bgm2024.us.kg
+    path: /fp=chrome
+- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  server: 104.17.147.22
+  name: 8ac356b51d8f4eeea966fbe8a0c12c4f_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram@V2ray_Alpha/?ed=2560
+- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  server: 18.198.92.103
+  name: ac4584466f4c4c02aeb9602ca1334a65_@_@VlessConfig 🇩🇪
+  type: vless
+  port: 22224
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: trojan.burgerip.co.uk
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: trojan.burgerip.co.uk
+    path: /telegram-channel-vlessconfig
+- uuid: e6592058-1e2d-4068-8d4a-6f4e2d044008
+  cipher: auto
+  alterId: 0
+  server: 140.245.47.172
+  name: 172cc540911f4d7d8ac6bead27e97037_@_@Hope_Net-join-us-on-Telegram
+  type: vmess
+  port: 23452
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  server: 104.16.38.178
+  name: 3b4a812d0be340d991a11f7785e06dc6_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: pormang.webhost99.workers.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: pormang.webhost99.workers.dev
+    path: /
+- uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.26.14.85
+  name: 7488295fd8af484782397cff4409d632_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: a.xn--i-sx6a60i.us.kg.
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: a.xn--i-sx6a60i.us.kg.
+    path: /
+- uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  server: 104.20.129.2
+  name: 6409ade3ddbc4c4fb4ef4ad0362c135a_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: pormang.webhost99.workers.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: pormang.webhost99.workers.dev
+    path: /
+- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  name: 4e96f33cce284a2892a189cc05ac1f41_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
+- uuid: 9da21010-6025-430a-9ce9-6096673d86d1
+  server: x3.snaapppfree.com
+  name: c754ec81bbdd4259b8140f5bc163e841_@_🇩🇪[openproxylist.com] vless-DE```
+  type: vless
+  port: 1360
+  network: tcp
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- server: 172.67.205.131
+  name: cdbc4f07b1d44057964689ba897c899b_@_🇺🇸[openproxylist.com] trojan-US```
   type: trojan
   port: 443
-  password: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  password: f898ffcb-6417-4373-9640-0b66091e8206
   client-fingerprint: chrome
-- uuid: 3058e698-61fd-4d12-95bc-f1fe4c071713
-  server: www.speedtest.net
-  name: ff26a58b4c014ddbafefa1c7204b5337_@_🇸🇬[openproxylist.com] vless-SG```
+- server: 104.21.63.135
+  name: b8d17972bf674e00996f14b88d642466_@_🇺🇸[openproxylist.com] trojan-US```
+  type: trojan
+  port: 443
+  password: fa050497-fc2a-45ee-89c0-96670c4ecb65
+  client-fingerprint: chrome
+- server: 172.67.172.71
+  name: acb7e7b613f64cd2aba6caf17067cf84_@_🇺🇸[openproxylist.com] trojan-US```
+  type: trojan
+  port: 443
+  password: a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2
+  client-fingerprint: chrome
+- server: 104.21.78.206
+  name: 11c720069bc94dbe844a637913614c4b_@_🇸🇬[openproxylist.com] trojan-SG```
+  type: trojan
+  port: 2083
+  password: 13253e6e-a1f7-4090-801f-a8dc2b083bef
+  client-fingerprint: chrome
+- uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  server: 66.235.200.5
+  name: 1cd9c66b45464f1b885aa28bbda7789b_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: pormang.webhost99.workers.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: pormang.webhost99.workers.dev
+    path: /
+- uuid: b27f4d97-2562-4867-ae20-45e625eec5f5
+  server: hajlab.ucdavis.edu
+  name: 06f5d30c970e4b8b86cab3532b0d836c_@_@Hope_Net-join-us-on-Telegram`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net
+    path: /
+- uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  cipher: auto
+  alterId: 2
+  server: tk.hzlt.tkddns.xyz
+  name: f168930501c944578fe031a2eca4f748_@_@Hope_Net-join-us-on-Telegram
+  type: vmess
+  port: 22643
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: zxjp-c.tkong.cc
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: zxjp-c.tkong.cc
+    path: /
+- uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  server: 190.93.244.221
+  name: 14bb577c12cd4de3860429e7f7cd3349_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: random
+  servername: gozargah.validbv7996.ir
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: gozargah.validbv7996.ir
+    path: /
+- server: 104.21.7.147
+  name: f72bb56764214443adc0d524bb6acc04_@_🇺🇸[openproxylist.com] trojan-US```
+  type: trojan
+  port: 443
+  password: 4b33b482-25bc-49e4-b866-878c914d945a
+  client-fingerprint: chrome
+- server: 172.67.149.202
+  name: e31b3e28eafb40f2a584645af7ada05d_@_🇺🇸[openproxylist.com] trojan-US```
+  type: trojan
+  port: 443
+  password: 19a78eeb-d83a-4364-b095-b7dd93436320
+  client-fingerprint: chrome
+- uuid: 03e92910-34b1-4245-ac63-04a865f43cd5
+  server: 172.67.199.104
+  name: 796b9b31513643cc871dbe05852beeb4_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: hOZori.iR
+  servername: 3eRt.4444916.xyz
   fingerprint: ''
   ws-opts:
     headers:
-      host: hOZori.iR
-    path: /Telegram@V2ray_Alpha
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 91.107.241.24
-  name: eab01fd2a67043b6a6f38dfb7bac8337_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  cipher: auto
-  alterId: 0
-  server: 104.19.48.236
-  name: 73578fbf0732410a8e1594028fe1b326_@_@Hope_Net-join-us-on-Telegram
-  type: vmess
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /dabai.in172.67.71.198
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 185.148.106.219
-  name: 2cc355027ae54847b2f69bbea50c8a62_@_🇸🇬[openproxylist.com] vless-SG```
+      host: 3eRt.4444916.xyz
+    path: /f7vKDX2UecxmlPhIJoo2wcE6Q
+- uuid: b00fb164-0491-432a-baf0-c904d1953425
+  server: 151.101.130.219
+  name: dbfed0f682a4463d90ef687ca07380cb_@_🇩🇪[openproxylist.com] vless-DE```
   type: vless
   port: 80
   network: ws
@@ -238,4 +439,40 @@ proxies:
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: Telegram@V2ray_Alpha/?ed=2560
+    path: /ed=2560
+- server: 104.21.24.195
+  name: 344c4493c4a5437da8418ee832829b4e_@_🇺🇸[openproxylist.com] trojan-US```
+  type: trojan
+  port: 443
+  password: a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2
+  client-fingerprint: chrome
+- uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 172.67.73.163
+  name: bc3931861d28409ca3094d44da9020f1_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: a.xn--i-sx6a60i.us.kg.
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: a.xn--i-sx6a60i.us.kg.
+    path: /MTMVPN?ed=2560
+- uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  server: 66.235.200.30
+  name: 9076962724f949c69f261f5c99f38f74_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: pormang.webhost99.workers.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: pormang.webhost99.workers.dev
+    path: /
