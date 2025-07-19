@@ -1,60 +1,70 @@
 proxies:
-- uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  cipher: auto
-  alterId: 0
-  server: 162.159.45.219
-  name: a369f157f25a44d98cfc8346111820a5_@_@Hope_Net-join-us-on-Telegram
-  type: vmess
-  port: 8880
+- uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  server: 185.251.83.50
+  name: 22d08ce4422045508d03af71e53517a2_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: va.zhuk.us.kg
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: va.zhuk.us.kg
+    path: /?ed=2560
+- server: 162.159.153.2
+  name: 049d88c848074ec98f7a3a2248f42fa8_@_@Hope_Net-join-us-on-Telegram
+  type: trojan
+  port: 80
+  password: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
+  client-fingerprint: chrome
+- uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  server: 162.159.153.218
+  name: f19858d8c56a4ab0a0ab886dfba80bc3_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: aaa.zhuk.us.kg
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: aaa.zhuk.us.kg
+    path: /youlingkaishi
+- server: 104.17.148.22
+  name: 07d75e351b3f4580b93262e59d5ac474_@_@Hope_Net-join-us-on-Telegram
+  type: trojan
+  port: 8080
+  password: ce87300f-02c9-4993-ac78-a3d2c0ed1c6e
+  client-fingerprint: chrome
+- uuid: bfc04e96-d4d4-43c3-8b39-30d2793e9de5
+  server: de.chatoochak.com
+  name: c0d366d1972445af91ee42fa244e2e7e_@_🇩🇪[openproxylist.com] vless-DE```
+  type: vless
+  port: 443
   network: ws
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: /github.com/Alvin9999
-- uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  server: 188.42.88.219
-  name: 0a308847d822477e8df668c1b21e1b65_@_@Hope_Net-join-us-on-Telegram
+    path: /
+- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  server: 3.65.111.43
+  name: 0792ee22c96442e9a59d46b7bf3702b1_@_@VlessConfig 🇩🇪
   type: vless
-  port: 443
+  port: 22224
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: va.zhuk.us.kg
+  servername: trojan.burgerip.co.uk
   fingerprint: ''
   ws-opts:
     headers:
-      host: va.zhuk.us.kg
-    path: /?ed=2560
-- uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  server: 188.164.159.17
-  name: 3ac15da87cd646d5a249299a55d4ffd8_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: va.zhuk.us.kg
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: va.zhuk.us.kg
-    path: /?ed=2560
-- uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  server: 77.75.199.150
-  name: 621daa3a5ebf4875a606436dafb3a7dd_@_@Hope_Net-join-us-on-Telegram`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: va.zhuk.us.kg
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: va.zhuk.us.kg
-    path: /?ed=2560
+      host: trojan.burgerip.co.uk
+    path: /telegram-channel-vlessconfig
