@@ -8,7 +8,10 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "9ed8fc06891a4a388fa53438f36d2ba9_@_@Hope_Net-join-us-on-Telegram"
+      "17b34fbad53f407cb81b4297bbe502b8_@_@Hope_Net-join-us-on-Telegram",
+      "23c513d1f2ee4d0095f7cddb9e46d6ad_@_@Hope_Net-join-us-on-Telegram",
+      "8c46845289bd4641bf3c4b85e79cdbd0_@_@Hope_Net-join-us-on-Telegram",
+      "511e9ed8d59f4d5cbd597dd6aefdd9a4_@_@Hope_Net-join-us-on-Telegram"
     ]
   },
   "dns": {
@@ -61,7 +64,39 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.114.78",
+            "address": "46.29.161.228",
+            "port": 8863,
+            "users": [
+              {
+                "alterId": "0",
+                "id": "679070ac-4a61-44dd-9d1a-f3ff623214aa",
+                "level": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": null,
+        "wsSettings": {
+          "headers": {},
+          "path": "/"
+        }
+      },
+      "tag": "17b34fbad53f407cb81b4297bbe502b8_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.26.0.242",
             "port": 2086,
             "users": [
               {
@@ -84,7 +119,75 @@
           "path": "github.com/Alvin9999"
         }
       },
-      "tag": "9ed8fc06891a4a388fa53438f36d2ba9_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "23c513d1f2ee4d0095f7cddb9e46d6ad_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.21.238.212",
+            "port": 2082,
+            "users": [
+              {
+                "alterId": "0",
+                "id": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+                "level": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": null,
+        "wsSettings": {
+          "headers": {
+            "Host": "e4.6929198.xyz"
+          },
+          "path": "github.com/Alvin9999"
+        }
+      },
+      "tag": "8c46845289bd4641bf3c4b85e79cdbd0_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.45.47",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": "0",
+                "id": "7d92ffc9-02e1-4087-8a46-cc4d76560917",
+                "level": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": null,
+        "wsSettings": {
+          "headers": {
+            "Host": "e5.808075.xyz"
+          },
+          "path": "github.com/Alvin9999"
+        }
+      },
+      "tag": "511e9ed8d59f4d5cbd597dd6aefdd9a4_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "protocol": "freedom",
@@ -109,7 +212,10 @@
     "balancers": [
       {
         "selector": [
-          "9ed8fc06891a4a388fa53438f36d2ba9_@_@Hope_Net-join-us-on-Telegram"
+          "17b34fbad53f407cb81b4297bbe502b8_@_@Hope_Net-join-us-on-Telegram",
+          "23c513d1f2ee4d0095f7cddb9e46d6ad_@_@Hope_Net-join-us-on-Telegram",
+          "8c46845289bd4641bf3c4b85e79cdbd0_@_@Hope_Net-join-us-on-Telegram",
+          "511e9ed8d59f4d5cbd597dd6aefdd9a4_@_@Hope_Net-join-us-on-Telegram"
         ],
         "strategy": {
           "type": "leastLoad"
