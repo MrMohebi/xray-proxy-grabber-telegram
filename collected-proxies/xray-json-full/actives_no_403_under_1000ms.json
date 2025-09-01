@@ -8,14 +8,16 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "406b4150d07c4d02afb9267bd0f76b6d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "208d7037b83f42dd976cd975445c37e4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
-      "889bb1c59c7e4c59a54c282c79eea26d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "a7def8d277c1428cad7338dd103c6c5a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "b8f401a596a54225bf4965ea3357fa62_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "014632709c6642eca0aef1235ab6fd8d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "0e33a3d7c77a4e11a52272f82705984b_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "d265092745ab421198413e549e69714a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "470b8a72e1fa41e39ac6fc27b1fe6e50_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "d9860771762a4077954d51692b6172ae_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "9808999cee1144ae9e722c7046838baa_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "cb5c06c7652349d0bb20a0d8b1b7aef1_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
+      "1da155f109af45a085e581a84325b123_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "762294448e6e4daab6d3d6aa1fd05d38_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "3e593797ef69455a96ed2f6d1a7836d2_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "5a3b027a5f824e0ebba312dbd03dfa9f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "687338e73d3f4343b3eab1c30a224da3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "904539124b6240d1ab05655cab5dc346_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     ]
   },
   "dns": {
@@ -68,6 +70,83 @@
       "settings": {
         "vnext": [
           {
+            "address": "fierce-data.seotoolsforyou.co.uk",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "c313c27c-97ff-45ed-ab5c-64641af5debc",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "headers": {},
+          "path": "/"
+        }
+      },
+      "tag": "470b8a72e1fa41e39ac6fc27b1fe6e50_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.164.5",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "ec7de7e0-3f09-4ef4-8a34-e441917d65fa",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "verina.ccantarella.dns-dynamic.net"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "verina.ccantarella.dns-dynamic.net"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "d9860771762a4077954d51692b6172ae_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "obedient-detail.seotoolsforyou.co.uk",
             "port": 80,
             "users": [
@@ -91,7 +170,7 @@
           "path": "/"
         }
       },
-      "tag": "406b4150d07c4d02afb9267bd0f76b6d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "9808999cee1144ae9e722c7046838baa_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -134,7 +213,7 @@
           "path": "/"
         }
       },
-      "tag": "208d7037b83f42dd976cd975445c37e4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
+      "tag": "cb5c06c7652349d0bb20a0d8b1b7aef1_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
     },
     {
       "mux": {
@@ -168,7 +247,7 @@
           "path": "/"
         }
       },
-      "tag": "889bb1c59c7e4c59a54c282c79eea26d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "1da155f109af45a085e581a84325b123_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -204,7 +283,7 @@
           "path": "/"
         }
       },
-      "tag": "a7def8d277c1428cad7338dd103c6c5a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "762294448e6e4daab6d3d6aa1fd05d38_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -247,7 +326,7 @@
           "path": "/"
         }
       },
-      "tag": "b8f401a596a54225bf4965ea3357fa62_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "3e593797ef69455a96ed2f6d1a7836d2_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -286,7 +365,7 @@
           "path": "/?ed"
         }
       },
-      "tag": "014632709c6642eca0aef1235ab6fd8d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "5a3b027a5f824e0ebba312dbd03dfa9f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -320,7 +399,7 @@
           "path": "/"
         }
       },
-      "tag": "0e33a3d7c77a4e11a52272f82705984b_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "687338e73d3f4343b3eab1c30a224da3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -360,7 +439,7 @@
           "path": "/proxyip=zani.yaemiko.ggff.net"
         }
       },
-      "tag": "d265092745ab421198413e549e69714a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "904539124b6240d1ab05655cab5dc346_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "protocol": "freedom",
@@ -385,14 +464,16 @@
     "balancers": [
       {
         "selector": [
-          "406b4150d07c4d02afb9267bd0f76b6d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "208d7037b83f42dd976cd975445c37e4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
-          "889bb1c59c7e4c59a54c282c79eea26d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "a7def8d277c1428cad7338dd103c6c5a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "b8f401a596a54225bf4965ea3357fa62_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "014632709c6642eca0aef1235ab6fd8d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "0e33a3d7c77a4e11a52272f82705984b_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "d265092745ab421198413e549e69714a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+          "470b8a72e1fa41e39ac6fc27b1fe6e50_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "d9860771762a4077954d51692b6172ae_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "9808999cee1144ae9e722c7046838baa_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "cb5c06c7652349d0bb20a0d8b1b7aef1_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
+          "1da155f109af45a085e581a84325b123_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "762294448e6e4daab6d3d6aa1fd05d38_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "3e593797ef69455a96ed2f6d1a7836d2_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "5a3b027a5f824e0ebba312dbd03dfa9f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "687338e73d3f4343b3eab1c30a224da3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "904539124b6240d1ab05655cab5dc346_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
         ],
         "strategy": {
           "type": "leastLoad"
