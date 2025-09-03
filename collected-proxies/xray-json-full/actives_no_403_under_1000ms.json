@@ -8,11 +8,15 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "f33726cce91a4df59230c51f00befd78_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "2950c5496e804016add4631bd7ec1696_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
-      "346c8b1cbb7d477d9f9d7f00c7231d18_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "1a9ef2b70b5f4ba2bc162e8fe4929209_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "0b22c9afdf3242a680931dbfee535055_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "ab78d81c9db7424283bbaef2d9eb7604_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "bbceac2a527d474389f1000d0e270415_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "3ed2d8cb64814138b90f3b761f4351a3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
+      "a9d1efe18b69463aa9aeeb5a97a9700d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "6a11f03a83a7498cbf85d1d6da48fd67_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "7307a7375b744d9fa83f0b3841709eae_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "1bf3ed020e8240f7ab53cf01307d1499_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "ab956f10f8eb47c7bbfa581e1fdb4f13_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "8fa3306a92d34b2a84b9a0fed077b0c8_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     ]
   },
   "dns": {
@@ -65,6 +69,49 @@
       "settings": {
         "vnext": [
           {
+            "address": "172.67.164.5",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "ec7de7e0-3f09-4ef4-8a34-e441917d65fa",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "verina.ccantarella.dns-dynamic.net"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "verina.ccantarella.dns-dynamic.net"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "ab78d81c9db7424283bbaef2d9eb7604_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "obedient-detail.seotoolsforyou.co.uk",
             "port": 80,
             "users": [
@@ -88,7 +135,7 @@
           "path": "/"
         }
       },
-      "tag": "f33726cce91a4df59230c51f00befd78_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "bbceac2a527d474389f1000d0e270415_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -131,7 +178,7 @@
           "path": "/"
         }
       },
-      "tag": "2950c5496e804016add4631bd7ec1696_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
+      "tag": "3ed2d8cb64814138b90f3b761f4351a3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
     },
     {
       "mux": {
@@ -165,7 +212,7 @@
           "path": "/"
         }
       },
-      "tag": "346c8b1cbb7d477d9f9d7f00c7231d18_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "a9d1efe18b69463aa9aeeb5a97a9700d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -201,7 +248,7 @@
           "path": "/"
         }
       },
-      "tag": "1a9ef2b70b5f4ba2bc162e8fe4929209_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "6a11f03a83a7498cbf85d1d6da48fd67_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -244,7 +291,120 @@
           "path": "/"
         }
       },
-      "tag": "0b22c9afdf3242a680931dbfee535055_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "7307a7375b744d9fa83f0b3841709eae_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.161.143",
+            "port": 2096,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "f690c2da-bdc3-4538-999e-d2bb8a541188",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "baomei.pages.dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "baomei.pages.dev"
+          },
+          "path": "/?ed"
+        }
+      },
+      "tag": "1bf3ed020e8240f7ab53cf01307d1499_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "bewildered-poem.seotoolsforyou.co.uk",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "0f4865d9-9405-4703-a282-46e326e6d9e7",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "headers": {},
+          "path": "/"
+        }
+      },
+      "tag": "ab956f10f8eb47c7bbfa581e1fdb4f13_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.26.14.69",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "carlotta.shoorekeeper.cloudns.org"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "carlotta.shoorekeeper.cloudns.org"
+          },
+          "path": "/proxyip=zani.yaemiko.ggff.net"
+        }
+      },
+      "tag": "8fa3306a92d34b2a84b9a0fed077b0c8_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "protocol": "freedom",
@@ -269,11 +429,15 @@
     "balancers": [
       {
         "selector": [
-          "f33726cce91a4df59230c51f00befd78_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "2950c5496e804016add4631bd7ec1696_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
-          "346c8b1cbb7d477d9f9d7f00c7231d18_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "1a9ef2b70b5f4ba2bc162e8fe4929209_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "0b22c9afdf3242a680931dbfee535055_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+          "ab78d81c9db7424283bbaef2d9eb7604_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "bbceac2a527d474389f1000d0e270415_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "3ed2d8cb64814138b90f3b761f4351a3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
+          "a9d1efe18b69463aa9aeeb5a97a9700d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "6a11f03a83a7498cbf85d1d6da48fd67_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "7307a7375b744d9fa83f0b3841709eae_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "1bf3ed020e8240f7ab53cf01307d1499_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "ab956f10f8eb47c7bbfa581e1fdb4f13_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "8fa3306a92d34b2a84b9a0fed077b0c8_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
         ],
         "strategy": {
           "type": "leastLoad"
