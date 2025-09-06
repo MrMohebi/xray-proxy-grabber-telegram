@@ -8,16 +8,17 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "c2e4ef9b5f824cb58f098f117877ab5c_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "5031bc2065624a54954651bdf75e9ad6_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
-      "50401973a6b542daa635a97ff19abc60_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "c275d000a84c4071a1999a245302e6fd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "b0ef3b0d31a4407f9efda0708267b35e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "7ceaa5010be646ea9845180660e1dc1e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "87677376b93b4bb1adf24551316f218a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "d88f3cf9c7dc49c389d0c504125614bb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "ec968a94a686414a8c2838a2e8440bdd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "95bdd1b6528a4c748c76a21d71cb95b4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "ceba6222022245018b71d21244a7235d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "ba40a43bb56b4f9daa2ea7735d4e2f54_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "d833e6e2b3a84ca69166c1379075d41e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
+      "86baf7ceed2f4ffcb780d12d11942df9_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "851b07725541422d943e8d73039a526d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "259eaa2434834105a898d073234ff74c_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "4a777e39edbb48f3ac9736d1645eeb7c_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "6c435d1dcd414ebf961c353b5bbeecd3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "fc3341e1d32e4552bf727e118a918ee1_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "cdc44baa30754bf49a59cb5a7cec8759_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "952643ed44414f6b879018e6f0be124b_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     ]
   },
   "dns": {
@@ -70,6 +71,49 @@
       "settings": {
         "vnext": [
           {
+            "address": "172.67.164.5",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "ec7de7e0-3f09-4ef4-8a34-e441917d65fa",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "verina.ccantarella.dns-dynamic.net"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "verina.ccantarella.dns-dynamic.net"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "ceba6222022245018b71d21244a7235d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "obedient-detail.seotoolsforyou.co.uk",
             "port": 80,
             "users": [
@@ -93,7 +137,7 @@
           "path": "/"
         }
       },
-      "tag": "c2e4ef9b5f824cb58f098f117877ab5c_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "ba40a43bb56b4f9daa2ea7735d4e2f54_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -136,7 +180,7 @@
           "path": "/"
         }
       },
-      "tag": "5031bc2065624a54954651bdf75e9ad6_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
+      "tag": "d833e6e2b3a84ca69166c1379075d41e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
     },
     {
       "mux": {
@@ -170,7 +214,7 @@
           "path": "/"
         }
       },
-      "tag": "50401973a6b542daa635a97ff19abc60_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "86baf7ceed2f4ffcb780d12d11942df9_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -206,7 +250,7 @@
           "path": "/"
         }
       },
-      "tag": "c275d000a84c4071a1999a245302e6fd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "851b07725541422d943e8d73039a526d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -249,7 +293,7 @@
           "path": "/"
         }
       },
-      "tag": "b0ef3b0d31a4407f9efda0708267b35e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "259eaa2434834105a898d073234ff74c_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -288,7 +332,7 @@
           "path": "/?ed"
         }
       },
-      "tag": "7ceaa5010be646ea9845180660e1dc1e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "4a777e39edbb48f3ac9736d1645eeb7c_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -322,7 +366,7 @@
           "path": "/"
         }
       },
-      "tag": "87677376b93b4bb1adf24551316f218a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "6c435d1dcd414ebf961c353b5bbeecd3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -362,7 +406,7 @@
           "path": "/proxyip=zani.yaemiko.ggff.net"
         }
       },
-      "tag": "d88f3cf9c7dc49c389d0c504125614bb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "fc3341e1d32e4552bf727e118a918ee1_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -402,7 +446,7 @@
           "path": "/Free-CF-Proxy-AD192.3.113.4-19318"
         }
       },
-      "tag": "ec968a94a686414a8c2838a2e8440bdd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "cdc44baa30754bf49a59cb5a7cec8759_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -442,7 +486,7 @@
           "path": "/proxyip=zani.yaemiko.ggff.net"
         }
       },
-      "tag": "95bdd1b6528a4c748c76a21d71cb95b4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "952643ed44414f6b879018e6f0be124b_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "protocol": "freedom",
@@ -467,16 +511,17 @@
     "balancers": [
       {
         "selector": [
-          "c2e4ef9b5f824cb58f098f117877ab5c_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "5031bc2065624a54954651bdf75e9ad6_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
-          "50401973a6b542daa635a97ff19abc60_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "c275d000a84c4071a1999a245302e6fd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "b0ef3b0d31a4407f9efda0708267b35e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "7ceaa5010be646ea9845180660e1dc1e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "87677376b93b4bb1adf24551316f218a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "d88f3cf9c7dc49c389d0c504125614bb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "ec968a94a686414a8c2838a2e8440bdd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "95bdd1b6528a4c748c76a21d71cb95b4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+          "ceba6222022245018b71d21244a7235d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "ba40a43bb56b4f9daa2ea7735d4e2f54_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "d833e6e2b3a84ca69166c1379075d41e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
+          "86baf7ceed2f4ffcb780d12d11942df9_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "851b07725541422d943e8d73039a526d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "259eaa2434834105a898d073234ff74c_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "4a777e39edbb48f3ac9736d1645eeb7c_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "6c435d1dcd414ebf961c353b5bbeecd3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "fc3341e1d32e4552bf727e118a918ee1_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "cdc44baa30754bf49a59cb5a7cec8759_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "952643ed44414f6b879018e6f0be124b_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
         ],
         "strategy": {
           "type": "leastLoad"
