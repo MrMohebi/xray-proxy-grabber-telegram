@@ -8,15 +8,15 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "9b0c522b66274ae3b5a224429941162a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "6a3fbd89e0f8411ea0f10a174d7623d0_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "35baaa3fb076433f86d7644a2ff90d41_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "3334a43a72a646b69acec599728f297d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "1a9e1d0fdb0843de86c0b203e18373d4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "c42a22a84b954701a0def23a30363e1a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
-      "7ef446eb58954b5db7799f22d503254a_@_I🇩🇪All¹ | @meli_proxyy",
-      "9de852dd97f34725a6b43a89a2b2036d_@_🇩🇪All² | @meli_proxyy",
-      "523656e5e91040dbad628add02afa5e9_@_%F0%9F%87%B8%F0%9F%87%AC%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray`"
+      "cc68c84da8604c1b991f4c7925b9a287_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "aebf338ee71944b388f5884cb09a8206_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "6b591410644c4622ad2fa72927a1800f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "2cf4b45932b843bdb1c699c00a0889cb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "5c06632a0dc14b95a9de3088c88b6a53_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "338904bd36d443e088eaa421e3effda3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "537bc4620dc045cc868cbcd9028270b4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "a3b7a9e106a4434484941397fd5b7fbd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
+      "af1b231e4ecd47d3996a26f4f495e23a_@_I🇩🇪All¹ | @meli_proxyy"
     ]
   },
   "dns": {
@@ -69,6 +69,88 @@
       "settings": {
         "vnext": [
           {
+            "address": "www.ums.id",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "carlotta.shoorekeeper.cloudns.org"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "carlotta.shoorekeeper.cloudns.org"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "cc68c84da8604c1b991f4c7925b9a287_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.161.143",
+            "port": 2096,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "f690c2da-bdc3-4538-999e-d2bb8a541188",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "baomei.pages.dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "baomei.pages.dev"
+          },
+          "path": "/?ed"
+        }
+      },
+      "tag": "aebf338ee71944b388f5884cb09a8206_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "bewildered-poem.seotoolsforyou.co.uk",
             "port": 80,
             "users": [
@@ -92,7 +174,7 @@
           "path": "/"
         }
       },
-      "tag": "9b0c522b66274ae3b5a224429941162a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "6b591410644c4622ad2fa72927a1800f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -132,7 +214,7 @@
           "path": "/proxyip=zani.yaemiko.ggff.net"
         }
       },
-      "tag": "6a3fbd89e0f8411ea0f10a174d7623d0_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "2cf4b45932b843bdb1c699c00a0889cb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -172,7 +254,7 @@
           "path": "/Free-CF-Proxy-AD192.3.113.4-19318"
         }
       },
-      "tag": "35baaa3fb076433f86d7644a2ff90d41_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "5c06632a0dc14b95a9de3088c88b6a53_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -212,7 +294,7 @@
           "path": "/proxyip=zani.yaemiko.ggff.net"
         }
       },
-      "tag": "3334a43a72a646b69acec599728f297d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "338904bd36d443e088eaa421e3effda3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -252,7 +334,7 @@
           "path": "/"
         }
       },
-      "tag": "1a9e1d0fdb0843de86c0b203e18373d4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "537bc4620dc045cc868cbcd9028270b4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -285,7 +367,7 @@
           "path": "/Stupid-World/103.106.228.126-2053"
         }
       },
-      "tag": "c42a22a84b954701a0def23a30363e1a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
+      "tag": "a3b7a9e106a4434484941397fd5b7fbd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
     },
     {
       "mux": {
@@ -316,72 +398,7 @@
         "network": "grpc",
         "security": "none"
       },
-      "tag": "7ef446eb58954b5db7799f22d503254a_@_I🇩🇪All¹ | @meli_proxyy"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "95.164.45.90",
-            "port": 8880,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "df0680ca-e43c-498d-ed86-8e196eedd012",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {},
-        "network": "grpc",
-        "security": "none"
-      },
-      "tag": "9de852dd97f34725a6b43a89a2b2036d_@_🇩🇪All² | @meli_proxyy"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "communal-loss.oneeat.co",
-            "port": 80,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "headers": {},
-          "path": "/"
-        }
-      },
-      "tag": "523656e5e91040dbad628add02afa5e9_@_%F0%9F%87%B8%F0%9F%87%AC%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray`"
+      "tag": "af1b231e4ecd47d3996a26f4f495e23a_@_I🇩🇪All¹ | @meli_proxyy"
     },
     {
       "protocol": "freedom",
@@ -406,15 +423,15 @@
     "balancers": [
       {
         "selector": [
-          "9b0c522b66274ae3b5a224429941162a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "6a3fbd89e0f8411ea0f10a174d7623d0_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "35baaa3fb076433f86d7644a2ff90d41_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "3334a43a72a646b69acec599728f297d_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "1a9e1d0fdb0843de86c0b203e18373d4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "c42a22a84b954701a0def23a30363e1a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
-          "7ef446eb58954b5db7799f22d503254a_@_I🇩🇪All¹ | @meli_proxyy",
-          "9de852dd97f34725a6b43a89a2b2036d_@_🇩🇪All² | @meli_proxyy",
-          "523656e5e91040dbad628add02afa5e9_@_%F0%9F%87%B8%F0%9F%87%AC%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray`"
+          "cc68c84da8604c1b991f4c7925b9a287_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "aebf338ee71944b388f5884cb09a8206_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "6b591410644c4622ad2fa72927a1800f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "2cf4b45932b843bdb1c699c00a0889cb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "5c06632a0dc14b95a9de3088c88b6a53_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "338904bd36d443e088eaa421e3effda3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "537bc4620dc045cc868cbcd9028270b4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "a3b7a9e106a4434484941397fd5b7fbd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
+          "af1b231e4ecd47d3996a26f4f495e23a_@_I🇩🇪All¹ | @meli_proxyy"
         ],
         "strategy": {
           "type": "leastLoad"
