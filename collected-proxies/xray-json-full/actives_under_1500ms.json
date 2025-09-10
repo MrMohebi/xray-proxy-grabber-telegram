@@ -8,16 +8,15 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "cc68c84da8604c1b991f4c7925b9a287_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "aebf338ee71944b388f5884cb09a8206_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "6b591410644c4622ad2fa72927a1800f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "2cf4b45932b843bdb1c699c00a0889cb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "5c06632a0dc14b95a9de3088c88b6a53_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "338904bd36d443e088eaa421e3effda3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "537bc4620dc045cc868cbcd9028270b4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-      "a3b7a9e106a4434484941397fd5b7fbd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
-      "af1b231e4ecd47d3996a26f4f495e23a_@_I🇩🇪All¹ | @meli_proxyy",
-      "a56c9f648c5d466cac10fec27fb403b5_@_🇩🇪All² | @meli_proxyy"
+      "854b02e4a8544386ae4a8e8a618c3fb2_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "2f60739bf1b74fe2b080815cd6e90ce2_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "d15319440086462b8a209c07a67abd4a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "5c26deea89e64684b65c8a9a0fa688a5_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "365839d20ffc482baf28ba476ff9e036_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "fa208781aa0f4d5092e01aa43e84af2e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "bcfcb631d9604ce5ba9ede75a9ebd43f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "8c92d5f512674a418d8cb99b208907bb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+      "c7c3169689c3434ebbeb9f34d8c18195_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
     ]
   },
   "dns": {
@@ -70,6 +69,42 @@
       "settings": {
         "vnext": [
           {
+            "address": "25.25.25.188",
+            "port": 8880,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "583ceab3-4022-4553-9158-9bedc625ad4e",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "headers": {
+            "Host": "ip.langmanshanxi.top"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "854b02e4a8544386ae4a8e8a618c3fb2_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "www.ums.id",
             "port": 443,
             "users": [
@@ -102,7 +137,7 @@
           "path": "/"
         }
       },
-      "tag": "cc68c84da8604c1b991f4c7925b9a287_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "2f60739bf1b74fe2b080815cd6e90ce2_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -141,7 +176,7 @@
           "path": "/?ed"
         }
       },
-      "tag": "aebf338ee71944b388f5884cb09a8206_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "d15319440086462b8a209c07a67abd4a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -175,7 +210,7 @@
           "path": "/"
         }
       },
-      "tag": "6b591410644c4622ad2fa72927a1800f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "5c26deea89e64684b65c8a9a0fa688a5_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -215,7 +250,7 @@
           "path": "/proxyip=zani.yaemiko.ggff.net"
         }
       },
-      "tag": "2cf4b45932b843bdb1c699c00a0889cb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "365839d20ffc482baf28ba476ff9e036_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -255,7 +290,7 @@
           "path": "/Free-CF-Proxy-AD192.3.113.4-19318"
         }
       },
-      "tag": "5c06632a0dc14b95a9de3088c88b6a53_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "fa208781aa0f4d5092e01aa43e84af2e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -295,7 +330,7 @@
           "path": "/proxyip=zani.yaemiko.ggff.net"
         }
       },
-      "tag": "338904bd36d443e088eaa421e3effda3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "bcfcb631d9604ce5ba9ede75a9ebd43f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -335,7 +370,7 @@
           "path": "/"
         }
       },
-      "tag": "537bc4620dc045cc868cbcd9028270b4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
+      "tag": "8c92d5f512674a418d8cb99b208907bb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8"
     },
     {
       "mux": {
@@ -368,69 +403,7 @@
           "path": "/Stupid-World/103.106.228.126-2053"
         }
       },
-      "tag": "a3b7a9e106a4434484941397fd5b7fbd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.231.205.99",
-            "port": 8880,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "df0680ca-e43c-498d-ed86-8e196eedd012",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {},
-        "network": "grpc",
-        "security": "none"
-      },
-      "tag": "af1b231e4ecd47d3996a26f4f495e23a_@_I🇩🇪All¹ | @meli_proxyy"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "95.164.45.90",
-            "port": 8880,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "df0680ca-e43c-498d-ed86-8e196eedd012",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {},
-        "network": "grpc",
-        "security": "none"
-      },
-      "tag": "a56c9f648c5d466cac10fec27fb403b5_@_🇩🇪All² | @meli_proxyy"
+      "tag": "c7c3169689c3434ebbeb9f34d8c18195_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
     },
     {
       "protocol": "freedom",
@@ -455,16 +428,15 @@
     "balancers": [
       {
         "selector": [
-          "cc68c84da8604c1b991f4c7925b9a287_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "aebf338ee71944b388f5884cb09a8206_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "6b591410644c4622ad2fa72927a1800f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "2cf4b45932b843bdb1c699c00a0889cb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "5c06632a0dc14b95a9de3088c88b6a53_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "338904bd36d443e088eaa421e3effda3_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "537bc4620dc045cc868cbcd9028270b4_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
-          "a3b7a9e106a4434484941397fd5b7fbd_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```",
-          "af1b231e4ecd47d3996a26f4f495e23a_@_I🇩🇪All¹ | @meli_proxyy",
-          "a56c9f648c5d466cac10fec27fb403b5_@_🇩🇪All² | @meli_proxyy"
+          "854b02e4a8544386ae4a8e8a618c3fb2_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "2f60739bf1b74fe2b080815cd6e90ce2_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "d15319440086462b8a209c07a67abd4a_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "5c26deea89e64684b65c8a9a0fa688a5_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "365839d20ffc482baf28ba476ff9e036_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "fa208781aa0f4d5092e01aa43e84af2e_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "bcfcb631d9604ce5ba9ede75a9ebd43f_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "8c92d5f512674a418d8cb99b208907bb_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8",
+          "c7c3169689c3434ebbeb9f34d8c18195_@_%F0%9F%85%BC%F0%9F%85%B4%F0%9F%85%B7%F0%9F%85%B3%F0%9F%85%B8```"
         ],
         "strategy": {
           "type": "leastLoad"
