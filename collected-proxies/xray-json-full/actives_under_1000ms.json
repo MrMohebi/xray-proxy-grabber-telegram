@@ -8,7 +8,8 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "af8f3a61024245d6bfa35fcbf7da80a3_@_%40`"
+      "5a6d672463364d0d8f1c897203d209fd_@_%40`",
+      "e3ee22ded41b4ff28b1e4a994a5f81ba_@_%40meli_proxyy`"
     ]
   },
   "dns": {
@@ -86,7 +87,38 @@
           "path": "/193.123.81.105=443"
         }
       },
-      "tag": "af8f3a61024245d6bfa35fcbf7da80a3_@_%40`"
+      "tag": "5a6d672463364d0d8f1c897203d209fd_@_%40`"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "pqh25v7.waipdirect.shop",
+            "port": 8880,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "e4824193-4f54-453b-d037-88368e85ef0e",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {},
+        "network": "grpc",
+        "security": "none"
+      },
+      "tag": "e3ee22ded41b4ff28b1e4a994a5f81ba_@_%40meli_proxyy`"
     },
     {
       "protocol": "freedom",
@@ -111,7 +143,8 @@
     "balancers": [
       {
         "selector": [
-          "af8f3a61024245d6bfa35fcbf7da80a3_@_%40`"
+          "5a6d672463364d0d8f1c897203d209fd_@_%40`",
+          "e3ee22ded41b4ff28b1e4a994a5f81ba_@_%40meli_proxyy`"
         ],
         "strategy": {
           "type": "leastLoad"
