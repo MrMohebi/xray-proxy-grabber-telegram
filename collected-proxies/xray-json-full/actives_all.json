@@ -8,7 +8,8 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "a707051a7be64a2fbb01148494c53279_@_%40meli_proxyy`"
+      "5af6bc0cd85d40508d9f9ac452d542ad_@_%40`",
+      "99b2365b53c84fa7943961348bd67a7a_@_%40meli_proxyy`"
     ]
   },
   "dns": {
@@ -61,6 +62,42 @@
       "settings": {
         "vnext": [
           {
+            "address": "45.131.4.85",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": null,
+        "wsSettings": {
+          "headers": {
+            "Host": "zoomgov.vipren.biz.id"
+          },
+          "path": "/193.123.81.105=443"
+        }
+      },
+      "tag": "5af6bc0cd85d40508d9f9ac452d542ad_@_%40`"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "pqh25v7.waipdirect.shop",
             "port": 8880,
             "users": [
@@ -81,7 +118,7 @@
         "network": "grpc",
         "security": "none"
       },
-      "tag": "a707051a7be64a2fbb01148494c53279_@_%40meli_proxyy`"
+      "tag": "99b2365b53c84fa7943961348bd67a7a_@_%40meli_proxyy`"
     },
     {
       "protocol": "freedom",
@@ -106,7 +143,8 @@
     "balancers": [
       {
         "selector": [
-          "a707051a7be64a2fbb01148494c53279_@_%40meli_proxyy`"
+          "5af6bc0cd85d40508d9f9ac452d542ad_@_%40`",
+          "99b2365b53c84fa7943961348bd67a7a_@_%40meli_proxyy`"
         ],
         "strategy": {
           "type": "leastLoad"
