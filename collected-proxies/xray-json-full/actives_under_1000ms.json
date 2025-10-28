@@ -8,8 +8,7 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "7c4e485e8e7d495db27062e1bc778ef5_@_%40`",
-      "c5589851ad80474799c407e7530eafb4_@_%40meli_proxyy`"
+      "7abf2b6b3d2a487db4c008b3efed99c8_@_%40`"
     ]
   },
   "dns": {
@@ -87,38 +86,7 @@
           "path": "/193.123.81.105=443"
         }
       },
-      "tag": "7c4e485e8e7d495db27062e1bc778ef5_@_%40`"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pqh25v7.waipdirect.shop",
-            "port": 8880,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "e4824193-4f54-453b-d037-88368e85ef0e",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {},
-        "network": "grpc",
-        "security": "none"
-      },
-      "tag": "c5589851ad80474799c407e7530eafb4_@_%40meli_proxyy`"
+      "tag": "7abf2b6b3d2a487db4c008b3efed99c8_@_%40`"
     },
     {
       "protocol": "freedom",
@@ -143,8 +111,7 @@
     "balancers": [
       {
         "selector": [
-          "7c4e485e8e7d495db27062e1bc778ef5_@_%40`",
-          "c5589851ad80474799c407e7530eafb4_@_%40meli_proxyy`"
+          "7abf2b6b3d2a487db4c008b3efed99c8_@_%40`"
         ],
         "strategy": {
           "type": "leastLoad"
