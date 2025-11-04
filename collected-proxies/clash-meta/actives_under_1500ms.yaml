@@ -1,9 +1,61 @@
 proxies:
+- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+  server: 638968239153205239.london-blkaft-aaaw.info
+  name: 062547c1696545c59e04d2003ef15f3a_@_%40meli_proxyy
+  type: vless
+  port: 8880
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 2a2d5f5d-6acb-438f-ba25-f3cbc6614b63
+  server: 51.38.232.101
+  name: aebe638079e74754b175c80154a1b0fd_@_%40meli_proxyy
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /vless/
+- uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
+  server: 104.18.82.55
+  name: 1c85f262ce814ab9bbfbce6d1541788e_@_%40meli_proxyy`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: vless.hubp.de
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: vless.hubp.de
+    path: /
+- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  server: 51.45.27.83
+  name: f3b3f90f4d974eeaa31fbb5aff103add_@_@VlessConfig 🇨🇵
+  type: vless
+  port: 22224
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: trojan.burgerip.co.uk
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: trojan.burgerip.co.uk
+    path: /telegram-channel-vlessconfig
 - uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
   cipher: auto
   alterId: 0
   server: 172.67.199.34
-  name: 8ae17a8acf8947ac80bd62b78103acae_@_@Hope_Net-join-us-on-Telegram
+  name: 98d457bb61234d15939c2cba9bd4cf95_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 443
   network: ws
@@ -17,7 +69,7 @@ proxies:
   cipher: auto
   alterId: 0
   server: 45.155.249.151
-  name: dd6c2f38693648878ed2976a21d4ce9a_@_@Hope_Net-join-us-on-Telegram
+  name: ccaf06bb885e41929d9dae5ae74f85d5_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 80
   network: ws
@@ -29,7 +81,7 @@ proxies:
     path: /
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
   server: 162.243.31.155
-  name: c322216756f741fb9f467f75abdfb683_@_telegram ☂️ DailyV2ry
+  name: cee87aba18cb445eab2d3e4e8f25ae5f_@_telegram ☂️ DailyV2ry
   type: vless
   port: 59483
   network: grpc
@@ -39,7 +91,7 @@ proxies:
   fingerprint: ''
 - uuid: b8ae2fd1-1da4-4fa6-a199-1c6bd8fe0d7d
   server: 142.93.167.46
-  name: 0e99e6692c93430abe1a326fca83919e_@_telegram 🍊 DailyV2ry
+  name: 7e89f873bd4a4a3cb374b6ad971e39ce_@_telegram 🍊 DailyV2ry
   type: vless
   port: 443
   network: grpc
@@ -47,19 +99,9 @@ proxies:
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
-  server: 162.243.226.198
-  name: fa05c5541c2d48ebb9dd1d56a99fb6db_@_telegram 🌟 DailyV2ry
-  type: vless
-  port: 59483
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
 - uuid: c1f5a603-b530-45ed-94ee-fe8ccf827a91
   server: colin.ns.cloudflare.com
-  name: 20ef49cdbc9745769ee9c3a3ba5ff409_@_telegram 🚀 DailyV2ry
+  name: ff8fdf508b2646d88c6b7b607df08afc_@_telegram 🚀 DailyV2ry
   type: vless
   port: 443
   network: grpc
@@ -69,7 +111,7 @@ proxies:
   fingerprint: ''
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
   server: 162.243.1.240
-  name: b18ac8c2859f40b8b89fdd4187f0528e_@_telegram ⚡️ DailyV2ry
+  name: 64985ccfbf2c4c76bb961df9878a8bea_@_telegram ⚡️ DailyV2ry
   type: vless
   port: 59483
   network: grpc
@@ -79,32 +121,7 @@ proxies:
   fingerprint: ''
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
   server: 162.243.38.102
-  name: 36db16209806434b98ff576546d28314_@_telegram 🎯 DailyV2ry
-  type: vless
-  port: 59483
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 0423f7a2-87bd-4302-95e2-c3c01881bdc7
-  server: www.speedtest.net
-  name: 181abda19f4848ae9de5f357d90f83ff_@_telegram 🎪 DailyV2ry
-  type: vless
-  port: 2087
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: DfVrMvWc3.SoLeRiOs.nEt
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: DfVrMvWc3.SoLeRiOs.nEt
-    path: /
-- uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
-  server: 162.243.226.100
-  name: adad756118ea44dea48048e81dfae7ca_@_telegram 🍀 DailyV2ry
+  name: 564103cb85934c14b33a3e5ea7e8aeee_@_telegram 🎯 DailyV2ry
   type: vless
   port: 59483
   network: grpc
@@ -114,7 +131,7 @@ proxies:
   fingerprint: ''
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
   server: 107.170.29.10
-  name: d599c609d7b2470d8d7e582130855df2_@_telegram 🌺 DailyV2ry
+  name: f3aee3411d3a4a64ac03895b7861610f_@_telegram 🌺 DailyV2ry
   type: vless
   port: 59483
   network: grpc
@@ -124,7 +141,7 @@ proxies:
   fingerprint: ''
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
   server: 162.243.219.205
-  name: 7331f4c64d5f4dde84cf513f5f0f01b1_@_telegram ☂️ DailyV2ry
+  name: 9ce8a16c2cee4dc990660b03c13683ed_@_telegram ☂️ DailyV2ry
   type: vless
   port: 59483
   network: grpc
@@ -134,7 +151,7 @@ proxies:
   fingerprint: ''
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
   server: 107.170.9.208
-  name: 558e7e70d2e6492bbbbfb44556ca7967_@_telegram 🍊 DailyV2ry
+  name: 57cae78e5864451b8c5dd5cc2a9f1540_@_telegram 🍊 DailyV2ry
   type: vless
   port: 59483
   network: grpc
@@ -144,7 +161,7 @@ proxies:
   fingerprint: ''
 - uuid: b682dae9-f38e-44cd-a426-aa0beb4ccf4f
   server: 165.227.170.185
-  name: 1f226d2a00014a7493be6af462ae1c28_@_telegram 🌟 DailyV2ry
+  name: 5ee2a5cf354a4a10959e876f316ee02a_@_telegram 🌟 DailyV2ry
   type: vless
   port: 443
   network: grpc
@@ -152,19 +169,9 @@ proxies:
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
-  server: 162.243.47.113
-  name: 6f0c3bcfdd8f4bdaa51b9b1c43a36015_@_telegram 🚀 DailyV2ry
-  type: vless
-  port: 59483
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
 - uuid: 115e0e05-2820-4ae9-bf62-4142ce058574
   server: m63a.vip784.com
-  name: b828fdb084784bae84ea66378c19882a_@_telegram ⚡️ DailyV2ry
+  name: f90a477662bd47c0a28181bc96ab8e88_@_telegram ⚡️ DailyV2ry
   type: vless
   port: 33801
   network: tcp
@@ -174,17 +181,7 @@ proxies:
   fingerprint: ''
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
   server: 107.170.6.102
-  name: 0e7cc47d81b3445a8f1c84c748b98c64_@_telegram 🎯 DailyV2ry
-  type: vless
-  port: 59483
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
-  server: 162.243.120.133
-  name: 03477b0e769648f097c381105d0e5598_@_telegram 🎪 DailyV2ry
+  name: 8d04a2b2c86f4c9f95f04cb8645ebbbd_@_telegram 🎯 DailyV2ry
   type: vless
   port: 59483
   network: grpc
@@ -194,7 +191,7 @@ proxies:
   fingerprint: ''
 - uuid: b313276b-f66c-4c18-b69f-2ef9d438def9
   server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-  name: a306dbbb4ae54a68a37da42e9f3c3797_@_telegram 🌈 DailyV2ry
+  name: 1de9bc084ae24d7e990e51c7e920ed9e_@_telegram 🌈 DailyV2ry
   type: vless
   port: 443
   network: ws
@@ -209,7 +206,7 @@ proxies:
     path: /api/v1
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
   server: 107.170.53.207
-  name: a425f49707074cb182cded06593a8753_@_telegram 🍀 DailyV2ry
+  name: b54a11c7137345ed94b72722aeaecba7_@_telegram 🍀 DailyV2ry
   type: vless
   port: 59483
   network: grpc
@@ -219,7 +216,7 @@ proxies:
   fingerprint: ''
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
   server: 162.243.94.240
-  name: 41cb9c8806a9404d874fb3af3ff62686_@_telegram 🌺 DailyV2ry
+  name: 086e4dc3350a4fdd8341321022f046da_@_telegram 🌺 DailyV2ry
   type: vless
   port: 59483
   network: grpc
@@ -229,7 +226,7 @@ proxies:
   fingerprint: ''
 - uuid: aac5267c-93e1-44d2-97a0-be936b98690a
   server: m48a.vip784.com
-  name: bd75efbb445e482ea45e326a5ee45685_@_telegram ☂️ DailyV2ry
+  name: 79e60ed78bb5487fb818208ac6247610_@_telegram ☂️ DailyV2ry
   type: vless
   port: 33801
   network: tcp
@@ -239,7 +236,7 @@ proxies:
   fingerprint: ''
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
   server: 192.241.251.158
-  name: 46d926e3cd634d3a97df5c69cfec9dac_@_telegram 🌟 DailyV2ry
+  name: 895a3fb391bc43419ac072c27394721e_@_telegram 🌟 DailyV2ry
   type: vless
   port: 59483
   network: grpc
@@ -249,7 +246,7 @@ proxies:
   fingerprint: ''
 - uuid: b682dae9-f38e-44cd-a426-aa0beb4ccf4f
   server: 165.227.138.143
-  name: 768ac2be9fdd47f7987eef90741554a1_@_telegram 🚀 DailyV2ry
+  name: 076d9e07c510407a98f11b82939566f3_@_telegram 🚀 DailyV2ry
   type: vless
   port: 443
   network: grpc
@@ -259,7 +256,7 @@ proxies:
   fingerprint: ''
 - uuid: b8ae2fd1-1da4-4fa6-a199-1c6bd8fe0d7d
   server: 206.81.23.172
-  name: e59ee90c26e9451a9a0dae05ca9f19f3_@_telegram ⚡️ DailyV2ry
+  name: 44ccf1a012a44e1381e2e930a39625eb_@_telegram ⚡️ DailyV2ry
   type: vless
   port: 443
   network: grpc
@@ -269,39 +266,9 @@ proxies:
   fingerprint: ''
 - uuid: b8ae2fd1-1da4-4fa6-a199-1c6bd8fe0d7d
   server: 161.35.207.27
-  name: d2ca1c5f431740479aa1a14e67c00530_@_telegram 🎯 DailyV2ry
+  name: 426d758ac92e46ae9ed95c52c4575cf1_@_telegram 🎯 DailyV2ry
   type: vless
   port: 443
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 185.153.183.210
-  name: bfcfeb5e0218401a92db97facc189807_@_@meli_proxyy
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 401374e6-df77-41fb-f638-dad8184f175b
-  server: 185.236.232.108
-  name: 0139a15c05114d59b254d890e3529102_@_@meli_proxyy
-  type: vless
-  port: 80
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 185.231.205.155
-  name: 381fc0290fb44e168d18a62056a5d3da_@_@meli_proxyy
-  type: vless
-  port: 8880
   network: grpc
   tls: false
   udp: false
@@ -311,7 +278,7 @@ proxies:
   cipher: auto
   alterId: 0
   server: 198.41.208.200
-  name: ea093b4911f043df9f1170ff582214e6_@_@Hope_Net-join-us-on-Telegram
+  name: 76aad1ade01f4cddb26de7c421703dbd_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 80
   network: ws
@@ -321,25 +288,11 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: /
-- uuid: 6fea1649-425b-4092-bf53-29792152c925
-  cipher: auto
-  alterId: 0
-  server: 172.67.199.34
-  name: 662099738b2b406c9e6b077f7f69d453_@_@Hope_Net-join-us-on-Telegram
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
 - uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
   cipher: auto
   alterId: 0
   server: 104.16.89.44
-  name: e0d66c0632be46d2bab33c6b8d58122d_@_@Hope_Net-join-us-on-Telegram
+  name: b6f8992b4b2d4b078bc93af54e19136d_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 443
   network: ws
@@ -349,33 +302,3 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: /
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 638955951255889101.oslo-prx-dnraacu.info
-  name: 823732b0f30041788c4860e98039f047_@_🇫🇷[openproxylist.com] vless-FR```
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 638930975314214829.dublin-drc-tusabu.info
-  name: 5d8a00d9a3284092b48a15c87c17c048_@_🇫🇷[openproxylist.com] vless-FR```
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 171.22.114.47
-  name: d308a0efc5b942f88cbde38151461392_@_🇫🇮[openproxylist.com] vless-FI```
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
