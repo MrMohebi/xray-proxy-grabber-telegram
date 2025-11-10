@@ -1,7 +1,22 @@
 proxies:
+- uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  server: 162.120.94.253
+  name: 105eb2c0db654d278c4ecaef2d957b38_@_@meli_proxyy
+  type: vless
+  port: 2096
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: vless.muzheng.top
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: vless.muzheng.top
+    path: /
 - uuid: 9641326b-376f-45ac-8ce7-dea3bbf974f3
   server: 51.195.92.49
-  name: 45c58d2f669043778688a9ee7ec10f78_@_@meli_proxyy
+  name: c8be90c08d294964aad5ef2c41722d40_@_@meli_proxyy
   type: vless
   port: 80
   network: ws
@@ -13,7 +28,7 @@ proxies:
     path: /
 - uuid: 2a2d5f5d-6acb-438f-ba25-f3cbc6614b63
   server: 51.38.232.101
-  name: e21751aeeb344a5980ce202df9db7845_@_@meli_proxyy
+  name: e07d499647da45dd94e46aeb64eb7d83_@_@meli_proxyy
   type: vless
   port: 80
   network: ws
@@ -25,7 +40,7 @@ proxies:
     path: /vless/
 - uuid: 5951f0b3-ee56-4776-a2ab-27edaf865183
   server: 151.101.194.228
-  name: bba3ebddf4f7483da3d57ccd666b2dc0_@_@Hope_Net-join-us-on-Telegram
+  name: 1bf84788a385432ebcd84a5b9d2fdb07_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 80
   network: ws
@@ -37,7 +52,7 @@ proxies:
     path: /
 - uuid: 45d6db68-8895-468a-80f7-de24553e5b2f
   server: 156.238.18.162
-  name: c756c9b5ddea46fabf5bf8e9cf9d77cc_@_@Hope_Net-join-us-on-Telegram
+  name: 80fb355b2d53410d850ad3ad8a25d1a4_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: grpc
@@ -50,7 +65,7 @@ proxies:
     grpc-service-name: '@ConfigTell'
 - uuid: fb083876-d209-43d3-a3a7-76e662ab2b1b
   server: 151.101.66.219
-  name: 1eac6807fc2a4471892217d6af471bca_@_@Hope_Net-join-us-on-Telegram`
+  name: 9629e953a904471a984a115a6d4ca49c_@_@Hope_Net-join-us-on-Telegram`
   type: vless
   port: 443
   network: ws
@@ -65,7 +80,7 @@ proxies:
     path: /@melov2ray/ws?ed=2048
 - uuid: 8bfd6fd4-15cf-4b6f-c21e-b3ed890879fb
   server: 104.21.28.188
-  name: fc19bdf309c14096a6ede224c7cd89a0_@_@Hope_Net-join-us-on-Telegram
+  name: 0e7bdd5d54c44f8e8c8b716e18924a5a_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 8880
   network: ws
@@ -77,7 +92,7 @@ proxies:
     path: /?ed=2560
 - uuid: 45d6db68-8895-468a-80f7-de24553e5b2f
   server: 45.133.247.51
-  name: e6c729c847484b8e82afea736d0a7f30_@_@Hope_Net-join-us-on-Telegram
+  name: 9065f38f42e24a8caf194f8c630d5dc1_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: grpc
@@ -90,7 +105,7 @@ proxies:
     grpc-service-name: '@ConfigTell'
 - uuid: 53fe5c8b-0dac-411e-a4d6-5346ad7ef018
   server: 151.101.130.228
-  name: a86fffa194d741f4b4d762f8d69e16ed_@_@Hope_Net-join-us-on-Telegram`
+  name: aa8f68a94f484de78ff90ba1efba4747_@_@Hope_Net-join-us-on-Telegram`
   type: vless
   port: 443
   network: ws
@@ -108,7 +123,7 @@ proxies:
   cipher: auto
   alterId: 0
   server: 188.114.96.2
-  name: d2c5b5aa7fd04568ba6da6e24644323a_@_@Hope_Net-join-us-on-Telegram
+  name: 105a799ad83a4afc8021c7b3818551bb_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 443
   network: ws
@@ -120,7 +135,7 @@ proxies:
     path: /
 - uuid: 40dde5dd-0eca-4218-8e13-8125303d343a
   server: 172.67.217.235
-  name: c5aa99827eeb417498388160b363c064_@_@Hope_Net-join-us-on-Telegram
+  name: c896cb937c704cbb986e84cd994c89cf_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 8443
   network: ws
@@ -135,7 +150,7 @@ proxies:
     path: /Telegram,VPNCUSTOMIZE?ed=8443
 - uuid: 45d6db68-8895-468a-80f7-de24553e5b2f
   server: 173.245.49.6
-  name: d43cd6b6c9774e9db27b438beddaffa3_@_@Hope_Net-join-us-on-Telegram
+  name: db446ae463234461b5a7c06ef6a56257_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: grpc
@@ -147,14 +162,14 @@ proxies:
   grpc-opts:
     grpc-service-name: '@ConfigTell'
 - server: 104.17.61.7
-  name: b61f0d1a860d4d9caf4d89aefd029371_@_@Hope_Net-join-us-on-Telegram
+  name: 4c1a86c16286477696cf6992a2a16a76_@_@Hope_Net-join-us-on-Telegram
   type: trojan
   port: 443
   password: 4732adfa16c6450bbef87264e41332db
   client-fingerprint: chrome
 - uuid: 34122889-900a-42dc-a5c0-a570556e6a1a
   server: 151.101.3.8
-  name: d1e68de046b94315a563dd7a57525cef_@_@Hope_Net-join-us-on-Telegram
+  name: c996fdbc6afb41e08ed35b68875f45ce_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 80
   network: ws
@@ -166,7 +181,7 @@ proxies:
     path: /AOagIIfbJJ0hbXIwCE6mq
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 104.17.148.22
-  name: 0eaf3af8214d4f48bad47642715ea414_@_@Hope_Net-join-us-on-Telegram`
+  name: cf1403ff10784a308653c602e72c95e3_@_@Hope_Net-join-us-on-Telegram`
   type: vless
   port: 2087
   network: ws
@@ -181,7 +196,7 @@ proxies:
     path: /0UxKbsrnJxzOR4Em
 - uuid: 45d6db68-8895-468a-80f7-de24553e5b2f
   server: 192.65.217.53
-  name: 5fc39c0d66a44cbebf5776ee298b768c_@_@Hope_Net-join-us-on-Telegram
+  name: 36c83cb8cf9c4c67957871a443508499_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: grpc
@@ -194,7 +209,7 @@ proxies:
     grpc-service-name: '@ConfigTell'
 - uuid: 0f48aef7-ddce-4930-bc6f-b16b415f1a21
   server: 151.101.2.165
-  name: 39dbbeaa309e4d4680558af57e6ec710_@_@Hope_Net-join-us-on-Telegram
+  name: 2173a681acdf4c0aacb6c374896b8309_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 80
   network: ws
@@ -206,7 +221,7 @@ proxies:
     path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
 - uuid: 45d6db68-8895-468a-80f7-de24553e5b2f
   server: 45.142.120.190
-  name: 2983ee6cf1d14f4caebe412af9b2c874_@_@Hope_Net-join-us-on-Telegram`
+  name: 5d07ad335f4f4276aa2d6df8fe5d7430_@_@Hope_Net-join-us-on-Telegram`
   type: vless
   port: 443
   network: grpc
@@ -219,7 +234,7 @@ proxies:
     grpc-service-name: '@ConfigTell'
 - uuid: 10b3cbba-e6ac-485a-8381-976a0415eab9
   server: 172.67.188.9
-  name: c7661aa98fb34effa6b0273b37641e69_@_@Hope_Net-join-us-on-Telegram
+  name: 868125ae6eae4620ad4175bd94062047_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: ws
@@ -234,7 +249,7 @@ proxies:
     path: /
 - uuid: 9d5e7586-64e1-4c29-9d47-6cbbd57fe8d1
   server: 104.16.190.131
-  name: a89ff19bb09448db81f3083d582125b8_@_@Hope_Net-join-us-on-Telegram
+  name: 2305d2686ab34b5abd0797f2142ca53e_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 8443
   network: ws
@@ -251,7 +266,7 @@ proxies:
   cipher: auto
   alterId: 0
   server: www.visa.com
-  name: be0def6bdb3d46fda6d06f6737b4aff4_@_@Hope_Net-join-us-on-Telegram
+  name: c66eb82c1cfd47a3a502dfca34b2563b_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 2095
   network: ws
@@ -263,7 +278,7 @@ proxies:
     path: /
 - uuid: 0f48aef7-ddce-4930-bc6f-b16b415f1a21
   server: 151.101.2.216
-  name: 6b584dbea7b149018ec8381f8859ab6e_@_@Hope_Net-join-us-on-Telegram
+  name: 655b2c0891a34e069a237fee75273dc4_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 80
   network: ws
@@ -277,7 +292,7 @@ proxies:
   cipher: auto
   alterId: 0
   server: text1.xbywwcp.us
-  name: 0511b89e39b3492abd49346220922881_@_@Hope_Net-join-us-on-Telegram
+  name: 751566b313054b76b7a64b647f9f8c5e_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 80
   network: ws
@@ -291,7 +306,7 @@ proxies:
   cipher: auto
   alterId: 0
   server: in03.my1188.org
-  name: 666095101195489badccd7b68547165b_@_@Hope_Net-join-us-on-Telegram
+  name: 88d3f7c293684a56aafa9b0cb19ace8a_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 63069
   network: ws
@@ -303,7 +318,7 @@ proxies:
     path: /
 - uuid: 6e2da8f6-c0a8-4f5c-b86c-2a0691334edb
   server: 151.101.2.216
-  name: 7b9063d2e52447bcbf1cf56e48a525c4_@_@Hope_Net-join-us-on-Telegram
+  name: 0c47b48a0b8c4903a3574bd4f3ee2532_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 80
   network: ws
@@ -315,7 +330,7 @@ proxies:
     path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
 - uuid: 5951f0b3-ee56-4776-a2ab-27edaf865183
   server: 151.101.130.228
-  name: 138cdf4acbfe416eaa9f432333fa7c11_@_@Hope_Net-join-us-on-Telegram
+  name: b9bf95af7d7447eb9f894e286da9489c_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 80
   network: ws
@@ -327,7 +342,7 @@ proxies:
     path: /
 - uuid: 5951f0b3-ee56-4776-a2ab-27edaf865183
   server: 151.101.2.228
-  name: 4aadfbfdf51745b49bcfaed31524a48a_@_@Hope_Net-join-us-on-Telegram
+  name: 573fa20413bd4d5dbde8f7202cc19113_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: ws
@@ -341,14 +356,14 @@ proxies:
       host: hajlab.ucdavis.edu
     path: /
 - server: 104.17.147.11
-  name: 3c9a4d0ea9ed4a139b8f7f8889305758_@_@Hope_Net-join-us-on-Telegram`
+  name: 0e4de084640a4466a9f0cf87b4bd7936_@_@Hope_Net-join-us-on-Telegram`
   type: trojan
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   client-fingerprint: chrome
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 172.66.44.167
-  name: 84fc1f7101274b6bafd392351c2c30e9_@_@Hope_Net-join-us-on-Telegram
+  name: a02dfba0e8a84b2f9469c068eeb8fee2_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 8443
   network: ws
@@ -363,7 +378,7 @@ proxies:
     path: /F9DVuhwdBN6mSnuE?ed=2560
 - uuid: 7d3b945d-0f23-4719-9fae-50033251e2fd
   server: 76.223.54.146
-  name: d6c5d20b96e048d4a65c6baa5dd6c1ab_@_@Hope_Net-join-us-on-Telegram
+  name: cae9aa8351b649738397975d397033de_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: ws
@@ -376,19 +391,3 @@ proxies:
     headers:
       host: 9pgcn69xy7i539t1wtli.khodavakili.buzz
     path: /kos_madar_publisher
-- uuid: 8a2665b5-5214-4b4d-b101-424a5e1a6a87
-  server: 151.101.130.228
-  name: d7ca4633a3554eea9c9ca2d034b1b672_@_@Hope_Net-join-us-on-Telegram`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: Zmaoz.Faculty.Ucdavis.Edu
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Zmaoz.Faculty.Ucdavis.Edu
-    path: 
-      /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
