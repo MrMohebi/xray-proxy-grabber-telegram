@@ -8,18 +8,18 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "832408c44afa45379163a650924407b6_@_@VlessConfig 🇨🇵",
-      "b145c18f81794262af3532a7c71acc29_@_@meli_proxyy",
-      "7c638305369740debdd4f3881abcdbd7_@_%40meli_proxyy",
-      "729b3da989544289877e6b6a76fc6fb4_@_@Hope_Net-join-us-on-Telegram",
-      "2a9021339439410fae7f99ac86062e1b_@_@Hope_Net-join-us-on-Telegram",
-      "769f5a477a1c4f7ea72c2235d4eb747f_@_@Hope_Net-join-us-on-Telegram",
-      "debee3d7907a4a23998010c696357e94_@_@Hope_Net-join-us-on-Telegram",
-      "33f2e6615348403584e2c2af023de435_@_🇩🇪@V2ray_official | All¹`",
-      "6a2db000758e4c89b116eefb2d51a438_@_@Hope_Net-join-us-on-Telegram`",
-      "656986b61a1246e5876a86328466397f_@_@Hope_Net-join-us-on-Telegram",
-      "df68953120df4e63850eca25000e6210_@_@Hope_Net-join-us-on-Telegram`",
-      "cbca43d9bbff43888a96ea0e4d879219_@_@Hope_Net-join-us-on-Telegram"
+      "c161ef24628c49b7a099f0d27812304f_@_@Hope_Net-join-us-on-Telegram",
+      "625907284f5b4f13a8132b0788dca10a_@_@VlessConfig 🇨🇵",
+      "0bfa470e692c4ff4bb1053b44f342311_@_@meli_proxyy",
+      "607f58095d844b9cb1ccfa34a7994100_@_%40meli_proxyy",
+      "7eca896160194ce9b46a0e2c4ba04de8_@_@Hope_Net-join-us-on-Telegram",
+      "dfb206a5ffc34901808fe8c1f41b6ad4_@_@Hope_Net-join-us-on-Telegram",
+      "c8ffb3ef4dc94f6589730b27abf40f02_@_@Hope_Net-join-us-on-Telegram",
+      "36da16c2dca8460787cc0e81478e7d12_@_@Hope_Net-join-us-on-Telegram",
+      "cc76653e0886439d8c481222f7a92fb7_@_🇩🇪@V2ray_official | All¹`",
+      "08470f31b0c34f7296a4ae999f95188f_@_@Hope_Net-join-us-on-Telegram`",
+      "819753c28e314287a726ac27674535d1_@_@Hope_Net-join-us-on-Telegram",
+      "d2ef93c37f344c0086a181059fb44b9d_@_@Hope_Net-join-us-on-Telegram`"
     ]
   },
   "dns": {
@@ -68,6 +68,48 @@
         "concurrency": -1,
         "enabled": false
       },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "151.101.194.133",
+            "port": 443,
+            "users": [
+              {
+                "alterId": "0",
+                "id": "3cfa48fe-c4a9-482b-82ab-e6c02fee55d2",
+                "level": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "firefox",
+          "serverName": "live.989bull.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "Dbdjhiw72ebsu272hs519j.com"
+          },
+          "path": "ws/?ed=2048"
+        }
+      },
+      "tag": "c161ef24628c49b7a099f0d27812304f_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -100,7 +142,7 @@
           "path": "/telegram-channel-vlessconfig"
         }
       },
-      "tag": "832408c44afa45379163a650924407b6_@_@VlessConfig 🇨🇵"
+      "tag": "625907284f5b4f13a8132b0788dca10a_@_@VlessConfig 🇨🇵"
     },
     {
       "mux": {
@@ -134,7 +176,7 @@
           "path": "/"
         }
       },
-      "tag": "b145c18f81794262af3532a7c71acc29_@_@meli_proxyy"
+      "tag": "0bfa470e692c4ff4bb1053b44f342311_@_@meli_proxyy"
     },
     {
       "mux": {
@@ -192,7 +234,7 @@
           }
         }
       },
-      "tag": "7c638305369740debdd4f3881abcdbd7_@_%40meli_proxyy"
+      "tag": "607f58095d844b9cb1ccfa34a7994100_@_%40meli_proxyy"
     },
     {
       "mux": {
@@ -225,7 +267,7 @@
           "path": "/Telegram@V2ray_Alpha/?ed=2048"
         }
       },
-      "tag": "729b3da989544289877e6b6a76fc6fb4_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "7eca896160194ce9b46a0e2c4ba04de8_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -264,7 +306,7 @@
           "path": "/@vistav2ray---@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray?ed=2048"
         }
       },
-      "tag": "2a9021339439410fae7f99ac86062e1b_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "dfb206a5ffc34901808fe8c1f41b6ad4_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -303,7 +345,7 @@
           "path": "/?ed"
         }
       },
-      "tag": "769f5a477a1c4f7ea72c2235d4eb747f_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "c8ffb3ef4dc94f6589730b27abf40f02_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -347,7 +389,7 @@
           "path": "/@custom_config?ed=2560"
         }
       },
-      "tag": "debee3d7907a4a23998010c696357e94_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "36da16c2dca8460787cc0e81478e7d12_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -383,7 +425,7 @@
           "path": "/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048"
         }
       },
-      "tag": "33f2e6615348403584e2c2af023de435_@_🇩🇪@V2ray_official | All¹`"
+      "tag": "cc76653e0886439d8c481222f7a92fb7_@_🇩🇪@V2ray_official | All¹`"
     },
     {
       "mux": {
@@ -419,7 +461,7 @@
           "path": "/melo/"
         }
       },
-      "tag": "6a2db000758e4c89b116eefb2d51a438_@_@Hope_Net-join-us-on-Telegram`"
+      "tag": "08470f31b0c34f7296a4ae999f95188f_@_@Hope_Net-join-us-on-Telegram`"
     },
     {
       "mux": {
@@ -455,7 +497,7 @@
           "path": "/"
         }
       },
-      "tag": "656986b61a1246e5876a86328466397f_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "819753c28e314287a726ac27674535d1_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -499,52 +541,7 @@
           "path": "/AOagIIfbJJ0hbXIwCE6mq"
         }
       },
-      "tag": "df68953120df4e63850eca25000e6210_@_@Hope_Net-join-us-on-Telegram`"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.17.234.114",
-            "port": 8443,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "7daf6801-f3b9-4139-8394-2dd91723c26f",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "alpn": [
-            "h3",
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "serverName": "Join.VPNCUSTOMIZE.speedtest.net.Naziitness.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "Join.VPNCUSTOMIZE.speedtest.net.Naziitness.com"
-          },
-          "path": "/Telegram,VPNCUSTOMIZE?ed=8080"
-        }
-      },
-      "tag": "cbca43d9bbff43888a96ea0e4d879219_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "d2ef93c37f344c0086a181059fb44b9d_@_@Hope_Net-join-us-on-Telegram`"
     },
     {
       "protocol": "freedom",
@@ -569,18 +566,18 @@
     "balancers": [
       {
         "selector": [
-          "832408c44afa45379163a650924407b6_@_@VlessConfig 🇨🇵",
-          "b145c18f81794262af3532a7c71acc29_@_@meli_proxyy",
-          "7c638305369740debdd4f3881abcdbd7_@_%40meli_proxyy",
-          "729b3da989544289877e6b6a76fc6fb4_@_@Hope_Net-join-us-on-Telegram",
-          "2a9021339439410fae7f99ac86062e1b_@_@Hope_Net-join-us-on-Telegram",
-          "769f5a477a1c4f7ea72c2235d4eb747f_@_@Hope_Net-join-us-on-Telegram",
-          "debee3d7907a4a23998010c696357e94_@_@Hope_Net-join-us-on-Telegram",
-          "33f2e6615348403584e2c2af023de435_@_🇩🇪@V2ray_official | All¹`",
-          "6a2db000758e4c89b116eefb2d51a438_@_@Hope_Net-join-us-on-Telegram`",
-          "656986b61a1246e5876a86328466397f_@_@Hope_Net-join-us-on-Telegram",
-          "df68953120df4e63850eca25000e6210_@_@Hope_Net-join-us-on-Telegram`",
-          "cbca43d9bbff43888a96ea0e4d879219_@_@Hope_Net-join-us-on-Telegram"
+          "c161ef24628c49b7a099f0d27812304f_@_@Hope_Net-join-us-on-Telegram",
+          "625907284f5b4f13a8132b0788dca10a_@_@VlessConfig 🇨🇵",
+          "0bfa470e692c4ff4bb1053b44f342311_@_@meli_proxyy",
+          "607f58095d844b9cb1ccfa34a7994100_@_%40meli_proxyy",
+          "7eca896160194ce9b46a0e2c4ba04de8_@_@Hope_Net-join-us-on-Telegram",
+          "dfb206a5ffc34901808fe8c1f41b6ad4_@_@Hope_Net-join-us-on-Telegram",
+          "c8ffb3ef4dc94f6589730b27abf40f02_@_@Hope_Net-join-us-on-Telegram",
+          "36da16c2dca8460787cc0e81478e7d12_@_@Hope_Net-join-us-on-Telegram",
+          "cc76653e0886439d8c481222f7a92fb7_@_🇩🇪@V2ray_official | All¹`",
+          "08470f31b0c34f7296a4ae999f95188f_@_@Hope_Net-join-us-on-Telegram`",
+          "819753c28e314287a726ac27674535d1_@_@Hope_Net-join-us-on-Telegram",
+          "d2ef93c37f344c0086a181059fb44b9d_@_@Hope_Net-join-us-on-Telegram`"
         ],
         "strategy": {
           "type": "leastLoad"
