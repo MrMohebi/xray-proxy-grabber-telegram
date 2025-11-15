@@ -8,10 +8,8 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "129fa0d553a04f23899a4a0a61dbbfae_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
-      "e81232536f454cdc857f045b0a18ecb4_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
-      "d4e0321c48fc46e8bdd85b87f3cd2c95_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
-      "fd7538a9d3924500bc5c29d7ccde6213_@_🆔@v2ray_configs_pool"
+      "4600d5cdf1ad4b9292383c404228a880_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
+      "22759365f67a42889548ef152474a9c1_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
     ]
   },
   "dns": {
@@ -64,47 +62,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "34.254.224.37",
-            "port": 48056,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "d811ecf9-4029-4794-a43e-3611c3575b9e",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "www.bing.com"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "serverName": "34.254.224.37"
-        }
-      },
-      "tag": "129fa0d553a04f23899a4a0a61dbbfae_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "45.12.133.176",
             "port": 8880,
             "users": [
@@ -125,7 +82,7 @@
         "network": "grpc",
         "security": "none"
       },
-      "tag": "e81232536f454cdc857f045b0a18ecb4_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+      "tag": "4600d5cdf1ad4b9292383c404228a880_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
     },
     {
       "mux": {
@@ -164,39 +121,7 @@
           "path": "/websocketpl"
         }
       },
-      "tag": "d4e0321c48fc46e8bdd85b87f3cd2c95_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.253.7.178",
-            "port": 20521,
-            "users": [
-              {
-                "alterId": "0",
-                "id": "d24c499b-3b25-441e-9c6e-b12421a91041",
-                "level": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": null,
-        "wsSettings": {
-          "headers": {},
-          "path": "/"
-        }
-      },
-      "tag": "fd7538a9d3924500bc5c29d7ccde6213_@_🆔@v2ray_configs_pool"
+      "tag": "22759365f67a42889548ef152474a9c1_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
     },
     {
       "protocol": "freedom",
@@ -221,10 +146,8 @@
     "balancers": [
       {
         "selector": [
-          "129fa0d553a04f23899a4a0a61dbbfae_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
-          "e81232536f454cdc857f045b0a18ecb4_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
-          "d4e0321c48fc46e8bdd85b87f3cd2c95_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
-          "fd7538a9d3924500bc5c29d7ccde6213_@_🆔@v2ray_configs_pool"
+          "4600d5cdf1ad4b9292383c404228a880_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
+          "22759365f67a42889548ef152474a9c1_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
         ],
         "strategy": {
           "type": "leastLoad"
