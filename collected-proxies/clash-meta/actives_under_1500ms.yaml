@@ -2,7 +2,7 @@ proxies:
 - uuid: d811ecf9-4029-4794-a43e-3611c3575b9e
   server: 34.254.224.37
   name: 
-    14c9db95965941a1ab859d82cbf75704_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+    129fa0d553a04f23899a4a0a61dbbfae_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
   type: vless
   port: 48056
   network: grpc
@@ -16,7 +16,7 @@ proxies:
 - uuid: df0680ca-e43c-498d-ed86-8e196eedd012
   server: 45.12.133.176
   name: 
-    770d4ee42ec7429abef624d5cf1d461c_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+    e81232536f454cdc857f045b0a18ecb4_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
   type: vless
   port: 8880
   network: grpc
@@ -27,7 +27,7 @@ proxies:
 - uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
   server: 81.161.98.228
   name: 
-    2dddc2ee675448e2a7094a232114ba5e_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+    d4e0321c48fc46e8bdd85b87f3cd2c95_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
   type: vless
   port: 1443
   network: ws
@@ -40,3 +40,17 @@ proxies:
     headers:
       host: doc.mail.ru
     path: /websocketpl
+- uuid: d24c499b-3b25-441e-9c6e-b12421a91041
+  cipher: auto
+  alterId: 0
+  server: 66.253.7.178
+  name: fd7538a9d3924500bc5c29d7ccde6213_@_🆔@v2ray_configs_pool
+  type: vmess
+  port: 20521
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /

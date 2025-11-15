@@ -8,8 +8,9 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "14c9db95965941a1ab859d82cbf75704_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
-      "770d4ee42ec7429abef624d5cf1d461c_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+      "129fa0d553a04f23899a4a0a61dbbfae_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
+      "e81232536f454cdc857f045b0a18ecb4_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
+      "d4e0321c48fc46e8bdd85b87f3cd2c95_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
     ]
   },
   "dns": {
@@ -92,7 +93,7 @@
           "serverName": "34.254.224.37"
         }
       },
-      "tag": "14c9db95965941a1ab859d82cbf75704_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+      "tag": "129fa0d553a04f23899a4a0a61dbbfae_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
     },
     {
       "mux": {
@@ -123,7 +124,46 @@
         "network": "grpc",
         "security": "none"
       },
-      "tag": "770d4ee42ec7429abef624d5cf1d461c_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+      "tag": "e81232536f454cdc857f045b0a18ecb4_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "81.161.98.228",
+            "port": 1443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "00f02ab2-6f2d-449f-a089-d182a2fac59a",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "doc.mail.ru"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "cdn.filterai.ru"
+          },
+          "path": "/websocketpl"
+        }
+      },
+      "tag": "d4e0321c48fc46e8bdd85b87f3cd2c95_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
     },
     {
       "protocol": "freedom",
@@ -148,8 +188,9 @@
     "balancers": [
       {
         "selector": [
-          "14c9db95965941a1ab859d82cbf75704_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
-          "770d4ee42ec7429abef624d5cf1d461c_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+          "129fa0d553a04f23899a4a0a61dbbfae_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
+          "e81232536f454cdc857f045b0a18ecb4_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
+          "d4e0321c48fc46e8bdd85b87f3cd2c95_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
         ],
         "strategy": {
           "type": "leastLoad"
