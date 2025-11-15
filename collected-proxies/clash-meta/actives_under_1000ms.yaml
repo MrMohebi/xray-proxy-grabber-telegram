@@ -1,7 +1,7 @@
 proxies:
 - uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
-  server: 162.243.31.155
-  name: ab1ab25b69ae476fa7a7d3e2f8f1d86a_@_United%20States%2054%20dailyv2ry
+  server: 192.241.243.201
+  name: b03db416468b42c182df3c52606ad31d_@_United%20States%2038%20dailyv2ry
   type: vless
   port: 59483
   network: grpc
@@ -9,38 +9,50 @@ proxies:
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: de579858-98f4-428f-859c-7eecd985b9de
-  cipher: auto
-  alterId: 0
-  server: 185.146.173.25
-  name: 3378501a6ced4aa78929fba1a5c1bd4e_@_telegram 🌈 dailyv2ry
-  type: vmess
+- uuid: 401374e6-df77-41fb-f638-dad8184f175b
+  server: pqh27v2.globalfymain.com
+  name: b98414273b744c0bacc95f8f6e8aa6c8_@_telegram%20%F0%9F%9A%80%20dailyv2ry
+  type: vless
   port: 80
-  network: ws
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: pqh27v2.globalfymain.com
+  fingerprint: ''
+- uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
+  server: 162.243.67.202
+  name: c767ff91c2fb4a6c91072e741420e546_@_United%20States%2085%20dailyv2ry
+  type: vless
+  port: 59483
+  network: grpc
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: c7158ca6-7c6c-4701-bf7d-df0f98a9ca33
-  server: speedtest.org
-  name: b621f43dab5f4ae993a494114939489d_@_USA%2059%20dailyv2ry
+- uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
+  server: 162.243.59.24
+  name: 2f66e43e95c54e058fee9608097254b2_@_United%20States%2026%20dailyv2ry
   type: vless
-  port: 443
-  network: ws
-  tls: true
+  port: 59483
+  network: grpc
+  tls: false
   udp: false
   client-fingerprint: chrome
-  servername: aksvw.emma-yalla.info
   fingerprint: ''
-  ws-opts:
-    headers:
-      host: aksvw.emma-yalla.info
-    path: /harman
+- uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
+  server: 162.243.31.155
+  name: 885f5c0e10c649ea89b31024f1301d8e_@_United%20States%2054%20dailyv2ry
+  type: vless
+  port: 59483
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
 - uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
   server: 198.41.223.140
-  name: 3cebeb53feef4d49b34b8db4c8551ace_@_@meli_proxyy
+  name: 2ea0ae5b799c41749c6844a3d5d68be3_@_@meli_proxyy
   type: vless
   port: 443
   network: ws
@@ -55,22 +67,7 @@ proxies:
     path: /?ed=2048Join---
 - uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
   server: 162.159.152.53
-  name: 93dfe5602159437b93b0b54840dd4818_@_@meli_proxyy
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: vless.hubp.de
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: vless.hubp.de
-    path: /
-- uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-  server: 104.18.82.55
-  name: fd5dccc42216472aa9bac526c8b7d265_@_@meli_proxyy
+  name: e5bc74a8cc1c499a982e32487082f1d4_@_@meli_proxyy
   type: vless
   port: 443
   network: ws
@@ -85,7 +82,7 @@ proxies:
     path: /
 - uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
   server: 8.39.125.194
-  name: a246799802f04f62944bff0273b28d00_@_@meli_proxyy
+  name: 059a90f4450a4c58ac94acc68899247a_@_@meli_proxyy
   type: vless
   port: 443
   network: ws
@@ -100,7 +97,7 @@ proxies:
     path: /?ed=2048J_T
 - uuid: 12345678-1234-1234-1234-123456789123
   server: 185.176.24.61
-  name: 10fcd5ce451c439892a4cc3ae677f5b5_@_@meli_proxyy
+  name: 2990c1f4c8fb45f1bcfec7835b1e5901_@_@meli_proxyy
   type: vless
   port: 2096
   network: ws
@@ -115,7 +112,7 @@ proxies:
     path: /snippets
 - uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
   server: 173.245.58.113
-  name: c546fade234c4d2bb8190ee3fce6942e_@_@meli_proxyy
+  name: 38a5ce8c91dc4c8bb4b59bb50bee6c5a_@_@meli_proxyy
   type: vless
   port: 443
   network: ws
@@ -128,24 +125,9 @@ proxies:
     headers:
       host: snippets.nneko.netlib.re
     path: /?ed=2048Join---A
-- uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-  server: 104.18.82.55
-  name: fed0505c4504463db192aa937ef28465_@_@meli_proxyy
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: vless.hubp.de
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: vless.hubp.de
-    path: /?ed=Join---_---T?ed=512
 - uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
   server: 8.39.125.85
-  name: 21ff893579cc4e5f852c47f3e2373141_@_@meli_proxyy
+  name: a732392f43eb410781ea4a680e672112_@_@meli_proxyy
   type: vless
   port: 443
   network: ws
@@ -158,54 +140,9 @@ proxies:
     headers:
       host: snippets.nneko.netlib.re
     path: /?ed=2048J--_T
-- uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-  server: 104.18.82.55
-  name: 4d14f7cffaea4e5ea667d4457a1f5ab0_@_@meli_proxyy
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: vless.hubp.de
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: vless.hubp.de
-    path: /?ed=2560
-- uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
-  server: 198.41.223.140
-  name: 5afa919a0f36465ebdbe816d758f0466_@_@meli_proxyy
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: snippets.nneko.netlib.re
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: snippets.nneko.netlib.re
-    path: /?ed=2048_T
-- uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
-  server: 198.41.223.140
-  name: f6398e155aa84c3a900678c04f2130df_@_@meli_proxyy
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: snippets.nneko.netlib.re
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: snippets.nneko.netlib.re
-    path: /?ed=2048
 - uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
   server: 185.143.232.224
-  name: c9b4c04907ec45ada390f502876a1882_@_@meli_proxyy`
+  name: 9b81589d5541417c9c99349a4578182e_@_@meli_proxyy`
   type: vless
   port: 80
   network: ws
@@ -215,22 +152,11 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: /news
-- uuid: f0bfb408-c836-4cc5-88e8-2894ffad32fa
-  server: soso.clinet-sofftmeto.ir
-  name: 7b948ca55e3b4e1489fb26d7ff3ce6ef_@_%40`
-  type: vless
-  port: 2087
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: soso.clinet-sofftmeto.ir
-  fingerprint: ''
 - uuid: d24c499b-3b25-441e-9c6e-b12421a91041
   cipher: auto
   alterId: 0
   server: 66.253.7.178
-  name: 27c14c3c7b11414a8ada86145552520d_@_🇺🇸[openproxylist.com] vmess-US
+  name: 4d6ad1ce726249978fe3f3ef28f4a756_@_🇺🇸[openproxylist.com] vmess-US
   type: vmess
   port: 20521
   network: ws
@@ -240,22 +166,9 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: /
-- uuid: 5adfc317-2483-45ad-bd84-d2779540ffa3
-  server: 172.66.156.81
-  name: f754855be7464e16b39f957ddf29d618_@_🇺🇸%40ghalagyann`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
 - uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
   server: 15.188.0.98
-  name: d4d54e7de66a47b49e2130717273471e_@_@VlessConfig 🇨🇵
+  name: 97e5e570c18a43c3a9916364b856cf68_@_@VlessConfig 🇨🇵
   type: vless
   port: 22224
   network: ws
@@ -270,7 +183,7 @@ proxies:
     path: /telegram-channel-vlessconfig
 - uuid: 1a6abc83-f50b-4166-a0b6-b14f389deb29
   server: 94.182.222.24
-  name: dbb4528dac8c41d99ea151af453bd112_@_@Hope_Net-join-us-on-Telegram
+  name: 3868749b59844972b3b61fe7bafd9fb6_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 388
   network: tcp
@@ -280,7 +193,7 @@ proxies:
   fingerprint: ''
 - uuid: 3b5985aa-8133-43bb-b43d-639533a304de
   server: 104.17.148.22
-  name: 4de2b79727034a50b24e74157268c88d_@_@Hope_Net-join-us-on-Telegram
+  name: 96fcfcff8df245918043df7957f16208_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 8443
   network: grpc
@@ -294,7 +207,7 @@ proxies:
   cipher: auto
   alterId: 0
   server: 104.26.7.132
-  name: 6658e1653f7b4107b91cd2fdb36e3d74_@_@Hope_Net-join-us-on-Telegram
+  name: ba77d40a18e646229c1e0fa10fa95aa1_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 2082
   network: ws
@@ -305,7 +218,7 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
 - server: 104.16.159.5
-  name: b781466dafb240d5b964325a70f3ad90_@_@Hope_Net-join-us-on-Telegram
+  name: 129e51e474c6422a89391eb8da2aa81f_@_@Hope_Net-join-us-on-Telegram
   type: trojan
   port: 443
   password: 984e400bf5d541b7b0815913fe0c432a
@@ -314,7 +227,7 @@ proxies:
   cipher: auto
   alterId: 0
   server: 172.64.167.19
-  name: a01ea2c3a2e54af6ad48825d5fa08e2a_@_@Hope_Net-join-us-on-Telegram
+  name: 061f080ee7214bbe9bc1fedc772f090e_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 2082
   network: ws
@@ -324,45 +237,3 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: github.com/Alvin9999
-- uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
-  server: 193.124.18.13
-  name: 1fd204730db543e9a54cb30acc390674_@_%40FarazV2ray
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: snippets.mnmnm.netlib.re
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: snippets.mnmnm.netlib.re
-    path: /?ed=
-- uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
-  server: 172.111.146.64
-  name: 72314fb6ba964c7091bf7210f7b0fc0a_@_%40FarazV2ray
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /vless/
-- uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
-  server: 173.245.58.113
-  name: d68bf199cd5542bea4e963a7f5b162f5_@_%40FarazV2ray
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: snippets.nneko.netlib.re
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: snippets.nneko.netlib.re
-    path: /?ed=2048
