@@ -8,8 +8,9 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "4600d5cdf1ad4b9292383c404228a880_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
-      "22759365f67a42889548ef152474a9c1_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+      "a50751250f654b72a0e4e8136c0b1e3c_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
+      "05bff97138b04c61bdfea0817eb9e94d_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
+      "9de6f81d17e641f094a8b99b22efaefc_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
     ]
   },
   "dns": {
@@ -62,6 +63,47 @@
       "settings": {
         "vnext": [
           {
+            "address": "34.254.224.37",
+            "port": 48056,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "d811ecf9-4029-4794-a43e-3611c3575b9e",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "www.bing.com"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "34.254.224.37"
+        }
+      },
+      "tag": "a50751250f654b72a0e4e8136c0b1e3c_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "45.12.133.176",
             "port": 8880,
             "users": [
@@ -82,7 +124,7 @@
         "network": "grpc",
         "security": "none"
       },
-      "tag": "4600d5cdf1ad4b9292383c404228a880_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+      "tag": "05bff97138b04c61bdfea0817eb9e94d_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
     },
     {
       "mux": {
@@ -121,7 +163,7 @@
           "path": "/websocketpl"
         }
       },
-      "tag": "22759365f67a42889548ef152474a9c1_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+      "tag": "9de6f81d17e641f094a8b99b22efaefc_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
     },
     {
       "protocol": "freedom",
@@ -146,8 +188,9 @@
     "balancers": [
       {
         "selector": [
-          "4600d5cdf1ad4b9292383c404228a880_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
-          "22759365f67a42889548ef152474a9c1_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
+          "a50751250f654b72a0e4e8136c0b1e3c_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
+          "05bff97138b04c61bdfea0817eb9e94d_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7",
+          "9de6f81d17e641f094a8b99b22efaefc_@_%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7"
         ],
         "strategy": {
           "type": "leastLoad"
