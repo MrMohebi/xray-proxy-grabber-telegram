@@ -8,14 +8,11 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "bf6398b8991b42c7996d6e5acf558ec3_@_@Hope_Net-join-us-on-Telegram`",
-      "9a23cb1c218746e880311572782019dc_@_%28%40VmessProtocol%29%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%88%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%87%A9%F0%9F%87%AA",
-      "cab85b7b04124404bf99a97e3bfd41fe_@_%28%40VmessProtocol%29%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%88%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%87%A9%F0%9F%87%AA",
-      "c8f421de0a8c4073984fe02a2aae76eb_@_@Hope_Net-join-us-on-Telegram",
-      "78dace5128304546a5beb7cd0f1cfdd1_@_@Hope_Net-join-us-on-Telegram",
-      "70390dfddd974434a5440c059b2f3b5c_@_@Hope_Net-join-us-on-Telegram",
-      "2625ee36100e4432b0336d9d065e6ab3_@_@Hope_Net-join-us-on-Telegram",
-      "866fac24403748caab836f0145c04b5e_@_@Hope_Net-join-us-on-Telegram`"
+      "ea53d8186a85461c9b51cb853cd4b136_@_%28%40VmessProtocol%29%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%88%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%87%A9%F0%9F%87%AA",
+      "4bd22b46c2c54a7986a0a566c982ac30_@_@Hope_Net-join-us-on-Telegram",
+      "1f5eb108faf045aaa8dc61fd8b3a0bee_@_@Hope_Net-join-us-on-Telegram",
+      "fc226f6257bd41c194f19027b27bdef2_@_@Hope_Net-join-us-on-Telegram",
+      "43fecef6728940e78d9266381a0528d8_@_@Hope_Net-join-us-on-Telegram"
     ]
   },
   "dns": {
@@ -59,89 +56,6 @@
     "loglevel": "warning"
   },
   "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "199.232.33.29",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "en.mfa.gov.ir"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "en.mfa.gov.ir"
-          },
-          "path": "/H?ed=2560"
-        }
-      },
-      "tag": "bf6398b8991b42c7996d6e5acf558ec3_@_@Hope_Net-join-us-on-Telegram`"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "betty.ns.cloudflare.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "ad0a1c58-c267-405a-b7b6-f2c419f4010b",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "638991166348691947.corolla-amsia.info"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "638991166348691947.corolla-amsia.info"
-          },
-          "path": "/uywlzkws"
-        }
-      },
-      "tag": "9a23cb1c218746e880311572782019dc_@_%28%40VmessProtocol%29%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%88%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%87%A9%F0%9F%87%AA"
-    },
     {
       "mux": {
         "concurrency": -1,
@@ -198,7 +112,7 @@
           }
         }
       },
-      "tag": "cab85b7b04124404bf99a97e3bfd41fe_@_%28%40VmessProtocol%29%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%88%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%87%A9%F0%9F%87%AA"
+      "tag": "ea53d8186a85461c9b51cb853cd4b136_@_%28%40VmessProtocol%29%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%88%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%87%A9%F0%9F%87%AA"
     },
     {
       "mux": {
@@ -237,7 +151,7 @@
           "path": "/N9AxDoukMSap6Kq1?ed=2560"
         }
       },
-      "tag": "c8f421de0a8c4073984fe02a2aae76eb_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "4bd22b46c2c54a7986a0a566c982ac30_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -281,7 +195,7 @@
           "path": "/H?ed=2560"
         }
       },
-      "tag": "78dace5128304546a5beb7cd0f1cfdd1_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "1f5eb108faf045aaa8dc61fd8b3a0bee_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -320,7 +234,7 @@
           "path": "/telegram-channel-vlessconfig-ws"
         }
       },
-      "tag": "70390dfddd974434a5440c059b2f3b5c_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "fc226f6257bd41c194f19027b27bdef2_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -364,65 +278,7 @@
           "path": "/H?ed=2560"
         }
       },
-      "tag": "2625ee36100e4432b0336d9d065e6ab3_@_@Hope_Net-join-us-on-Telegram"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.233.13.10",
-            "port": 53700,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "b3402853-d5bc-4c78-a55f-2cc272d3446e",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none",
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "divarcdn.com"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "866fac24403748caab836f0145c04b5e_@_@Hope_Net-join-us-on-Telegram`"
+      "tag": "43fecef6728940e78d9266381a0528d8_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "protocol": "freedom",
@@ -447,14 +303,11 @@
     "balancers": [
       {
         "selector": [
-          "bf6398b8991b42c7996d6e5acf558ec3_@_@Hope_Net-join-us-on-Telegram`",
-          "9a23cb1c218746e880311572782019dc_@_%28%40VmessProtocol%29%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%88%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%87%A9%F0%9F%87%AA",
-          "cab85b7b04124404bf99a97e3bfd41fe_@_%28%40VmessProtocol%29%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%88%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%87%A9%F0%9F%87%AA",
-          "c8f421de0a8c4073984fe02a2aae76eb_@_@Hope_Net-join-us-on-Telegram",
-          "78dace5128304546a5beb7cd0f1cfdd1_@_@Hope_Net-join-us-on-Telegram",
-          "70390dfddd974434a5440c059b2f3b5c_@_@Hope_Net-join-us-on-Telegram",
-          "2625ee36100e4432b0336d9d065e6ab3_@_@Hope_Net-join-us-on-Telegram",
-          "866fac24403748caab836f0145c04b5e_@_@Hope_Net-join-us-on-Telegram`"
+          "ea53d8186a85461c9b51cb853cd4b136_@_%28%40VmessProtocol%29%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D9%88%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%87%A9%F0%9F%87%AA",
+          "4bd22b46c2c54a7986a0a566c982ac30_@_@Hope_Net-join-us-on-Telegram",
+          "1f5eb108faf045aaa8dc61fd8b3a0bee_@_@Hope_Net-join-us-on-Telegram",
+          "fc226f6257bd41c194f19027b27bdef2_@_@Hope_Net-join-us-on-Telegram",
+          "43fecef6728940e78d9266381a0528d8_@_@Hope_Net-join-us-on-Telegram"
         ],
         "strategy": {
           "type": "leastLoad"
