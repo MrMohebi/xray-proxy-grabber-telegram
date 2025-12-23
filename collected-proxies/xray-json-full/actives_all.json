@@ -8,20 +8,23 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "c5459e73ce5f4d5cad81146f0c4a5d52_@_@Hope_Net-join-us-on-Telegram",
-      "47ea4bcf0e434e5e94d55cf9f3b11f3c_@_🇺🇸[openproxylist.com] vless-US```",
-      "38b7a6ba74db412cbbc18b5a7ae6bb75_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_8%20%F0%9F%A7%AD%204.6MB%2Fs`",
-      "2fe6f090326a48bfa4d6751e35ed4e13_@_@VlessConfig 🇨🇵",
-      "993afe66f5cf455684704729b1c3fd47_@_🇺🇸[openproxylist.com] vless-US```",
-      "ea2733e751fe4d64bed7b991cf469999_@_%40v2ray1_ng",
-      "3e7c38134a4640afbf38cef21bbdbd48_@_%40v2ray1_ng",
-      "2d42c2ef2dc04b08a0f97f72dc9fee60_@_%40v2ray1_ng",
-      "ce7aeee604204511861e4160e43d82cd_@_%40V2ray1_ng",
-      "55b7c3c62bdb46be9ac6528b2b906437_@_%40v2ray1_ng",
-      "863d95cc64984da5aa54362b28b0d09f_@_%40v2ray1_ng",
-      "661268940f014e36a1f2716041afa807_@_@FarazV2ray",
-      "73d7ec2a44224b628f2e9fc84446c67f_@_%40V2ray1_ng",
-      "1c80f25fe7224e4c914881ac3c8e36fe_@_%40v2ray1_ng`"
+      "955bc146779b442ba679168f4c80c30d_@_I%20%2063%20%28%40Outline_Vpn%29%20free`",
+      "e2174fa3b4014859ba29cd37079663b9_@_@Hope_Net-join-us-on-Telegram",
+      "4874efd87bb14e488038ed6ac1064f81_@_@Hope_Net-join-us-on-Telegram",
+      "013c17222d674f7a90bfaf336f200777_@_@Hope_Net-join-us-on-Telegram",
+      "07ba794634d24a8d9450feab15aaddc2_@_🇺🇸[openproxylist.com] vless-US```",
+      "26ac263d3d484f1b8ee65a52a772b6d2_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_8%20%F0%9F%A7%AD%204.6MB%2Fs`",
+      "b1aae9d4a28d4f16baed11252d39a12c_@_@VlessConfig 🇨🇵",
+      "6624f25da26541568afe0e9ee6fd4c16_@_🇺🇸[openproxylist.com] vless-US```",
+      "e6274faf5d5e452fa44d9426a8a9f95e_@_%40v2ray1_ng",
+      "c36868f9ace945aab2dd339ddad8d451_@_%40v2ray1_ng",
+      "a29d2bacd3014032ac8fdc81bbe59a93_@_%40v2ray1_ng",
+      "fd696d94ebf6402ea8f11c8dfb3b75d8_@_%40V2ray1_ng",
+      "70a59c8d3e9f40839774735782facb55_@_%40v2ray1_ng",
+      "8b0a49cf3acf4a4488fb98417f11eedd_@_%40v2ray1_ng",
+      "49acfc268f9e4f848b23f99eec3b767d_@_@FarazV2ray",
+      "3a822c15ba7c42a28997dd2bf4fc2df8_@_%40V2ray1_ng",
+      "2e20082b096f417fbb6a77309e23a031_@_%40v2ray1_ng`"
     ]
   },
   "dns": {
@@ -74,6 +77,137 @@
       "settings": {
         "vnext": [
           {
+            "address": "138.68.160.230",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "72b36a89-a5bb-4c96-8cab-d0f560880ad6",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ozon.ru"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ozon.ru"
+          },
+          "path": "/feesdgws"
+        }
+      },
+      "tag": "955bc146779b442ba679168f4c80c30d_@_I%20%2063%20%28%40Outline_Vpn%29%20free`"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.60.212.122",
+            "port": 9129,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "71759f92-ede9-095b-291f-96f2ffb71a6a",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "speedtest.net"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "e2174fa3b4014859ba29cd37079663b9_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.26.15.148",
+            "port": 80,
+            "users": [
+              {
+                "alterId": "0",
+                "id": "0cb7b3c3-3c08-4391-af4d-3fc410c9c146",
+                "level": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": null,
+        "wsSettings": {
+          "headers": {
+            "Host": "68690907783461163508239105253758.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"
+          },
+          "path": "/V2LINE-TELEGRAM-CHANNEL-VMESS-WS"
+        }
+      },
+      "tag": "4874efd87bb14e488038ed6ac1064f81_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "162.159.252.236",
             "port": 443,
             "users": [
@@ -102,7 +236,7 @@
           "path": "/"
         }
       },
-      "tag": "c5459e73ce5f4d5cad81146f0c4a5d52_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "013c17222d674f7a90bfaf336f200777_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -141,7 +275,7 @@
           "path": "/tysgakws"
         }
       },
-      "tag": "47ea4bcf0e434e5e94d55cf9f3b11f3c_@_🇺🇸[openproxylist.com] vless-US```"
+      "tag": "07ba794634d24a8d9450feab15aaddc2_@_🇺🇸[openproxylist.com] vless-US```"
     },
     {
       "mux": {
@@ -185,7 +319,7 @@
           "path": "/---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080"
         }
       },
-      "tag": "38b7a6ba74db412cbbc18b5a7ae6bb75_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_8%20%F0%9F%A7%AD%204.6MB%2Fs`"
+      "tag": "26ac263d3d484f1b8ee65a52a772b6d2_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_8%20%F0%9F%A7%AD%204.6MB%2Fs`"
     },
     {
       "mux": {
@@ -224,7 +358,7 @@
           "path": "/telegram-channel-vlessconfig"
         }
       },
-      "tag": "2fe6f090326a48bfa4d6751e35ed4e13_@_@VlessConfig 🇨🇵"
+      "tag": "b1aae9d4a28d4f16baed11252d39a12c_@_@VlessConfig 🇨🇵"
     },
     {
       "mux": {
@@ -255,7 +389,7 @@
         "network": "grpc",
         "security": "none"
       },
-      "tag": "993afe66f5cf455684704729b1c3fd47_@_🇺🇸[openproxylist.com] vless-US```"
+      "tag": "6624f25da26541568afe0e9ee6fd4c16_@_🇺🇸[openproxylist.com] vless-US```"
     },
     {
       "mux": {
@@ -295,7 +429,7 @@
           "path": "/?ed"
         }
       },
-      "tag": "ea2733e751fe4d64bed7b991cf469999_@_%40v2ray1_ng"
+      "tag": "e6274faf5d5e452fa44d9426a8a9f95e_@_%40v2ray1_ng"
     },
     {
       "mux": {
@@ -335,7 +469,7 @@
           "path": "/?ed"
         }
       },
-      "tag": "3e7c38134a4640afbf38cef21bbdbd48_@_%40v2ray1_ng"
+      "tag": "c36868f9ace945aab2dd339ddad8d451_@_%40v2ray1_ng"
     },
     {
       "mux": {
@@ -371,7 +505,7 @@
           "path": "/?ed=2048"
         }
       },
-      "tag": "2d42c2ef2dc04b08a0f97f72dc9fee60_@_%40v2ray1_ng"
+      "tag": "a29d2bacd3014032ac8fdc81bbe59a93_@_%40v2ray1_ng"
     },
     {
       "mux": {
@@ -407,7 +541,7 @@
           "path": "/?ed=2048"
         }
       },
-      "tag": "ce7aeee604204511861e4160e43d82cd_@_%40V2ray1_ng"
+      "tag": "fd696d94ebf6402ea8f11c8dfb3b75d8_@_%40V2ray1_ng"
     },
     {
       "mux": {
@@ -447,7 +581,7 @@
           "path": "/?ed=2048"
         }
       },
-      "tag": "55b7c3c62bdb46be9ac6528b2b906437_@_%40v2ray1_ng"
+      "tag": "70a59c8d3e9f40839774735782facb55_@_%40v2ray1_ng"
     },
     {
       "mux": {
@@ -487,7 +621,7 @@
           "path": "/?ed=2048"
         }
       },
-      "tag": "863d95cc64984da5aa54362b28b0d09f_@_%40v2ray1_ng"
+      "tag": "8b0a49cf3acf4a4488fb98417f11eedd_@_%40v2ray1_ng"
     },
     {
       "mux": {
@@ -524,7 +658,7 @@
           "path": "linkvws"
         }
       },
-      "tag": "661268940f014e36a1f2716041afa807_@_@FarazV2ray"
+      "tag": "49acfc268f9e4f848b23f99eec3b767d_@_@FarazV2ray"
     },
     {
       "mux": {
@@ -564,7 +698,7 @@
           "path": "/?ed=2048"
         }
       },
-      "tag": "73d7ec2a44224b628f2e9fc84446c67f_@_%40V2ray1_ng"
+      "tag": "3a822c15ba7c42a28997dd2bf4fc2df8_@_%40V2ray1_ng"
     },
     {
       "mux": {
@@ -604,7 +738,7 @@
           "path": "/?ed=2048"
         }
       },
-      "tag": "1c80f25fe7224e4c914881ac3c8e36fe_@_%40v2ray1_ng`"
+      "tag": "2e20082b096f417fbb6a77309e23a031_@_%40v2ray1_ng`"
     },
     {
       "protocol": "freedom",
@@ -629,20 +763,23 @@
     "balancers": [
       {
         "selector": [
-          "c5459e73ce5f4d5cad81146f0c4a5d52_@_@Hope_Net-join-us-on-Telegram",
-          "47ea4bcf0e434e5e94d55cf9f3b11f3c_@_🇺🇸[openproxylist.com] vless-US```",
-          "38b7a6ba74db412cbbc18b5a7ae6bb75_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_8%20%F0%9F%A7%AD%204.6MB%2Fs`",
-          "2fe6f090326a48bfa4d6751e35ed4e13_@_@VlessConfig 🇨🇵",
-          "993afe66f5cf455684704729b1c3fd47_@_🇺🇸[openproxylist.com] vless-US```",
-          "ea2733e751fe4d64bed7b991cf469999_@_%40v2ray1_ng",
-          "3e7c38134a4640afbf38cef21bbdbd48_@_%40v2ray1_ng",
-          "2d42c2ef2dc04b08a0f97f72dc9fee60_@_%40v2ray1_ng",
-          "ce7aeee604204511861e4160e43d82cd_@_%40V2ray1_ng",
-          "55b7c3c62bdb46be9ac6528b2b906437_@_%40v2ray1_ng",
-          "863d95cc64984da5aa54362b28b0d09f_@_%40v2ray1_ng",
-          "661268940f014e36a1f2716041afa807_@_@FarazV2ray",
-          "73d7ec2a44224b628f2e9fc84446c67f_@_%40V2ray1_ng",
-          "1c80f25fe7224e4c914881ac3c8e36fe_@_%40v2ray1_ng`"
+          "955bc146779b442ba679168f4c80c30d_@_I%20%2063%20%28%40Outline_Vpn%29%20free`",
+          "e2174fa3b4014859ba29cd37079663b9_@_@Hope_Net-join-us-on-Telegram",
+          "4874efd87bb14e488038ed6ac1064f81_@_@Hope_Net-join-us-on-Telegram",
+          "013c17222d674f7a90bfaf336f200777_@_@Hope_Net-join-us-on-Telegram",
+          "07ba794634d24a8d9450feab15aaddc2_@_🇺🇸[openproxylist.com] vless-US```",
+          "26ac263d3d484f1b8ee65a52a772b6d2_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_8%20%F0%9F%A7%AD%204.6MB%2Fs`",
+          "b1aae9d4a28d4f16baed11252d39a12c_@_@VlessConfig 🇨🇵",
+          "6624f25da26541568afe0e9ee6fd4c16_@_🇺🇸[openproxylist.com] vless-US```",
+          "e6274faf5d5e452fa44d9426a8a9f95e_@_%40v2ray1_ng",
+          "c36868f9ace945aab2dd339ddad8d451_@_%40v2ray1_ng",
+          "a29d2bacd3014032ac8fdc81bbe59a93_@_%40v2ray1_ng",
+          "fd696d94ebf6402ea8f11c8dfb3b75d8_@_%40V2ray1_ng",
+          "70a59c8d3e9f40839774735782facb55_@_%40v2ray1_ng",
+          "8b0a49cf3acf4a4488fb98417f11eedd_@_%40v2ray1_ng",
+          "49acfc268f9e4f848b23f99eec3b767d_@_@FarazV2ray",
+          "3a822c15ba7c42a28997dd2bf4fc2df8_@_%40V2ray1_ng",
+          "2e20082b096f417fbb6a77309e23a031_@_%40v2ray1_ng`"
         ],
         "strategy": {
           "type": "leastLoad"
