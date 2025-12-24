@@ -8,15 +8,18 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "be0a9e5f3ddd4d598a384b65d4507d4f_@_@Hope_Net-join-us-on-Telegram",
-      "3f8a980519d44465a0bbe8ff9fdf58d9_@_@Hope_Net-join-us-on-Telegram",
-      "0e5e3add6f064c36972f91a828ccdace_@_@Hope_Net-join-us-on-Telegram",
-      "1a15b6f9e08b42779b4543d6a260e729_@_O%203%20%28%40Outline_Vpn%29%20free",
-      "dd6461c32d9a4a5b8161c7d290ce9ce1_@_O%207%20%28%40Outline_Vpn%29%20free",
-      "ae9d554ebd2649d0b58c8c22be697e04_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_1%20%F0%9F%A7%AD%205.2MB%2Fs`",
-      "51f6b895120c43b9ba9fc669071bccef_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%B3%F0%9F%87%B1NL_4%20%F0%9F%A7%AD%204.1MB%2Fs`",
-      "43451d5e122d4f1dbecded048c80b9ae_@_👉🆔 @v2ray_configs_pool 📡 🇩🇪DE_8 🧭 4.0MB/s",
-      "52235f32c8d841ee88569c4a28a21593_@_@VlessConfig 🇨🇵"
+      "eb5e6e917a3f4867a6b44a84d1a2e482_@_@Hope_Net-join-us-on-Telegram`",
+      "2d47c1c53fe54613b5c3746f171116df_@_@Hope_Net-join-us-on-Telegram",
+      "0eaaeb996ce340298364d5cfd2207326_@_@Hope_Net-join-us-on-Telegram",
+      "8a4c52e6bda04bbba9821541b0757116_@_@Hope_Net-join-us-on-Telegram",
+      "662c60cc3f684625966a7830551ff02e_@_@Hope_Net-join-us-on-Telegram`",
+      "96839087686c441088f1bbacb0667a6b_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%B3%F0%9F%87%B1NL_4%20%F0%9F%A7%AD%207.6MB%2Fs`",
+      "c678ef650d57468dbdfab91223daabbd_@_🇺🇸[openproxylist.com] vless-US```",
+      "03d949127f624a9085647ae8fe0ef75e_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_6%20%F0%9F%A7%AD%205.0MB%2Fs`",
+      "b0edf9dcb4e247c39e14362f6e5c1770_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_7%20%F0%9F%A7%AD%204.9MB%2Fs`",
+      "d955bb1f75834b23b6ff768a575b8bbb_@_@VlessConfig 🇩🇪",
+      "b6b8d6c76dcf4ab697d5b2540e6aff32_@_@Hope_Net-join-us-on-Telegram",
+      "5f6492cc13c44071aa9c6cffc900b144_@_@Hope_Net-join-us-on-Telegram"
     ]
   },
   "dns": {
@@ -69,7 +72,46 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.153.103.203",
+            "address": "94.131.15.61",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ja.ylks01.eu.org"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ja.ylks01.eu.org"
+          },
+          "path": "/?proxyip"
+        }
+      },
+      "tag": "eb5e6e917a3f4867a6b44a84d1a2e482_@_@Hope_Net-join-us-on-Telegram`"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "216.221.213.149",
             "port": 443,
             "users": [
               {
@@ -97,41 +139,7 @@
           "path": "/?proxyip"
         }
       },
-      "tag": "be0a9e5f3ddd4d598a384b65d4507d4f_@_@Hope_Net-join-us-on-Telegram"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ip.sb",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": "0",
-                "id": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-                "level": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": null,
-        "wsSettings": {
-          "headers": {
-            "Host": "ip1.1789034.xyz"
-          },
-          "path": "github.com/Alvin9999"
-        }
-      },
-      "tag": "3f8a980519d44465a0bbe8ff9fdf58d9_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "2d47c1c53fe54613b5c3746f171116df_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -142,15 +150,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "125.227.162.252",
-            "port": 31553,
+            "address": "198.62.62.53",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "93b99881-df03-4597-9146-0c11e46387f7",
+                "id": "48198295-b7ba-4b5c-8d85-085d55a6c869",
                 "security": "auto"
               }
             ]
@@ -161,48 +169,16 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "cfv.cscfwoker.fun"
+          "serverName": "xa.ylks.xyz"
         },
         "wsSettings": {
           "headers": {
-            "Host": "cfv.cscfwoker.fun"
+            "Host": "xa.ylks.xyz"
           },
-          "path": "/?ed"
+          "path": "/?proxyip"
         }
       },
-      "tag": "0e5e3add6f064c36972f91a828ccdace_@_@Hope_Net-join-us-on-Telegram"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "bisque.qzz.io",
-            "email": "t@t.tt",
-            "level": 1,
-            "password": "e86364fb-a5e3-42c3-b7fa-6ce8097fe19f",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "bisque.qzz.io"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "bisque.qzz.io"
-          },
-          "path": "/66.135.4.222:8443"
-        }
-      },
-      "tag": "1a15b6f9e08b42779b4543d6a260e729_@_O%203%20%28%40Outline_Vpn%29%20free"
+      "tag": "0eaaeb996ce340298364d5cfd2207326_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -213,7 +189,124 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.235.241.67",
+            "address": "69.84.182.141",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "xa.ylks.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "xa.ylks.xyz"
+          },
+          "path": "/?proxyip"
+        }
+      },
+      "tag": "8a4c52e6bda04bbba9821541b0757116_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "151.101.128.223",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "04fecd05-3d91-44f6-bef1-213fddc93e6c",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "firefox",
+          "serverName": "python.org"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "join-dailyconfigs.com"
+          },
+          "path": "/@Daily_Configs,@Daily_Configs,@Daily_Configs?ed=1024"
+        }
+      },
+      "tag": "662c60cc3f684625966a7830551ff02e_@_@Hope_Net-join-us-on-Telegram`"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "130.185.122.48",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "9dccbc23-a66b-4788-8e5b-424e88b6a7fb",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "headers": {},
+          "path": "/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN"
+        }
+      },
+      "tag": "96839087686c441088f1bbacb0667a6b_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%B3%F0%9F%87%B1NL_4%20%F0%9F%A7%AD%207.6MB%2Fs`"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "85.209.195.105",
             "port": 443,
             "users": [
               {
@@ -231,17 +324,13 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
-        "tlsSettings": {
-          "serverName": "web.max.ru"
-        },
+        "tlsSettings": {},
         "wsSettings": {
-          "headers": {
-            "Host": "web.max.ru"
-          },
+          "headers": {},
           "path": "/hormoz"
         }
       },
-      "tag": "dd6461c32d9a4a5b8161c7d290ce9ce1_@_O%207%20%28%40Outline_Vpn%29%20free"
+      "tag": "c678ef650d57468dbdfab91223daabbd_@_🇺🇸[openproxylist.com] vless-US```"
     },
     {
       "mux": {
@@ -253,14 +342,14 @@
         "vnext": [
           {
             "address": "5.75.200.72",
-            "port": 17985,
+            "port": 19784,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "2e814873-4c73-4916-a6d3-261e99139742",
+                "id": "6d23fb89-b2e6-429f-9b2c-d897de9abea2",
                 "security": "auto"
               }
             ]
@@ -272,10 +361,10 @@
         "security": "none",
         "wsSettings": {
           "headers": {},
-          "path": "/"
+          "path": "/@napsternetv20@napsternetv20@napsternetv20@napsternetv20@napsternetv20@napsternetv20@napsternetv20@napsternetv20@napsternetv20@napsternetv20"
         }
       },
-      "tag": "ae9d554ebd2649d0b58c8c22be697e04_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_1%20%F0%9F%A7%AD%205.2MB%2Fs`"
+      "tag": "03d949127f624a9085647ae8fe0ef75e_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_6%20%F0%9F%A7%AD%205.0MB%2Fs`"
     },
     {
       "mux": {
@@ -286,15 +375,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "nop.mestershopyt.ir",
-            "port": 443,
+            "address": "91.99.225.171",
+            "port": 80,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "5adb01b4-568d-48b3-8aea-2d74214e9672",
+                "id": "441c8fba-c064-44d8-be60-3215455ad26b",
                 "security": "auto"
               }
             ]
@@ -303,58 +392,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "alpn": [
-            "h3",
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "serverName": "naos.mestershopyt.ir"
-        },
+        "security": "none",
         "wsSettings": {
           "headers": {
-            "Host": "naos.mestershopyt.ir"
+            "Host": "/TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN"
           },
           "path": "/"
         }
       },
-      "tag": "51f6b895120c43b9ba9fc669071bccef_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%B3%F0%9F%87%B1NL_4%20%F0%9F%A7%AD%204.1MB%2Fs`"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cpanel.navar2.ir",
-            "port": 100,
-            "users": [
-              {
-                "alterId": "0",
-                "id": "26402bc7-7895-4dd0-ae6e-151a00c71145",
-                "level": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": null,
-        "wsSettings": {
-          "headers": {
-            "Host": "uploadboy.com"
-          },
-          "path": "/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn"
-        }
-      },
-      "tag": "43451d5e122d4f1dbecded048c80b9ae_@_👉🆔 @v2ray_configs_pool 📡 🇩🇪DE_8 🧭 4.0MB/s"
+      "tag": "b0edf9dcb4e247c39e14362f6e5c1770_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_7%20%F0%9F%A7%AD%204.9MB%2Fs`"
     },
     {
       "mux": {
@@ -365,7 +411,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "13.39.29.241",
+            "address": "52.58.93.190",
             "port": 22224,
             "users": [
               {
@@ -393,7 +439,85 @@
           "path": "/telegram-channel-vlessconfig"
         }
       },
-      "tag": "52235f32c8d841ee88569c4a28a21593_@_@VlessConfig 🇨🇵"
+      "tag": "d955bb1f75834b23b6ff768a575b8bbb_@_@VlessConfig 🇩🇪"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "69.84.182.21",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ka.ylks.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ka.ylks.xyz"
+          },
+          "path": "/blue"
+        }
+      },
+      "tag": "b6b8d6c76dcf4ab697d5b2540e6aff32_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "69.84.182.100",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "xa.ylks.xyz"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "xa.ylks.xyz"
+          },
+          "path": "/blue"
+        }
+      },
+      "tag": "5f6492cc13c44071aa9c6cffc900b144_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "protocol": "freedom",
@@ -418,15 +542,18 @@
     "balancers": [
       {
         "selector": [
-          "be0a9e5f3ddd4d598a384b65d4507d4f_@_@Hope_Net-join-us-on-Telegram",
-          "3f8a980519d44465a0bbe8ff9fdf58d9_@_@Hope_Net-join-us-on-Telegram",
-          "0e5e3add6f064c36972f91a828ccdace_@_@Hope_Net-join-us-on-Telegram",
-          "1a15b6f9e08b42779b4543d6a260e729_@_O%203%20%28%40Outline_Vpn%29%20free",
-          "dd6461c32d9a4a5b8161c7d290ce9ce1_@_O%207%20%28%40Outline_Vpn%29%20free",
-          "ae9d554ebd2649d0b58c8c22be697e04_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_1%20%F0%9F%A7%AD%205.2MB%2Fs`",
-          "51f6b895120c43b9ba9fc669071bccef_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%B3%F0%9F%87%B1NL_4%20%F0%9F%A7%AD%204.1MB%2Fs`",
-          "43451d5e122d4f1dbecded048c80b9ae_@_👉🆔 @v2ray_configs_pool 📡 🇩🇪DE_8 🧭 4.0MB/s",
-          "52235f32c8d841ee88569c4a28a21593_@_@VlessConfig 🇨🇵"
+          "eb5e6e917a3f4867a6b44a84d1a2e482_@_@Hope_Net-join-us-on-Telegram`",
+          "2d47c1c53fe54613b5c3746f171116df_@_@Hope_Net-join-us-on-Telegram",
+          "0eaaeb996ce340298364d5cfd2207326_@_@Hope_Net-join-us-on-Telegram",
+          "8a4c52e6bda04bbba9821541b0757116_@_@Hope_Net-join-us-on-Telegram",
+          "662c60cc3f684625966a7830551ff02e_@_@Hope_Net-join-us-on-Telegram`",
+          "96839087686c441088f1bbacb0667a6b_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%B3%F0%9F%87%B1NL_4%20%F0%9F%A7%AD%207.6MB%2Fs`",
+          "c678ef650d57468dbdfab91223daabbd_@_🇺🇸[openproxylist.com] vless-US```",
+          "03d949127f624a9085647ae8fe0ef75e_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_6%20%F0%9F%A7%AD%205.0MB%2Fs`",
+          "b0edf9dcb4e247c39e14362f6e5c1770_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_7%20%F0%9F%A7%AD%204.9MB%2Fs`",
+          "d955bb1f75834b23b6ff768a575b8bbb_@_@VlessConfig 🇩🇪",
+          "b6b8d6c76dcf4ab697d5b2540e6aff32_@_@Hope_Net-join-us-on-Telegram",
+          "5f6492cc13c44071aa9c6cffc900b144_@_@Hope_Net-join-us-on-Telegram"
         ],
         "strategy": {
           "type": "leastLoad"
