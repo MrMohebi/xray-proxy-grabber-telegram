@@ -8,8 +8,7 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "ac44a949cdd14e029648a60cb76ba8c7_@_@Hope_Net-join-us-on-Telegram`",
-      "ba5b06c892a34547921ac2ec7a8c8faa_@_%40V2ray1_Ng"
+      "e4c49b923e594c2abb648f999c76eb99_@_%40V2ray1_Ng"
     ]
   },
   "dns": {
@@ -62,45 +61,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.141",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "e10c0e4b.oodaeq2.pages.dev"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "e10c0e4b.oodaeq2.pages.dev"
-          },
-          "path": "TELEGRAM-PROXY_MTM/?ed=2048"
-        }
-      },
-      "tag": "ac44a949cdd14e029648a60cb76ba8c7_@_@Hope_Net-join-us-on-Telegram`"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "45.82.251.95",
             "port": 8880,
             "users": [
@@ -121,7 +81,7 @@
         "network": "grpc",
         "security": "none"
       },
-      "tag": "ba5b06c892a34547921ac2ec7a8c8faa_@_%40V2ray1_Ng"
+      "tag": "e4c49b923e594c2abb648f999c76eb99_@_%40V2ray1_Ng"
     },
     {
       "protocol": "freedom",
@@ -146,8 +106,7 @@
     "balancers": [
       {
         "selector": [
-          "ac44a949cdd14e029648a60cb76ba8c7_@_@Hope_Net-join-us-on-Telegram`",
-          "ba5b06c892a34547921ac2ec7a8c8faa_@_%40V2ray1_Ng"
+          "e4c49b923e594c2abb648f999c76eb99_@_%40V2ray1_Ng"
         ],
         "strategy": {
           "type": "leastLoad"
