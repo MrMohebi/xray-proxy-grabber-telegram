@@ -8,18 +8,19 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "72dfb3902df6491c86223ae88a6f4c57_@_%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-      "16e02009b41b4ed08731ecbe606807d5_@_✅سرورها بیشتردرکانال:prrofile_purple@✅",
-      "ca4461b58c424acf82273403b6dd7396_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`",
-      "72bbbbfec32c4de28f2e54e13e0bf93b_@_@Hope_Net-join-us-on-Telegram",
-      "3e304b08e69d4466a79b0308fcac70e2_@_%40V2ray1_Ng",
-      "334b8ccb305b42738f455d2a943ae56b_@_V2ray_",
-      "94e21894143e4bbb8a2e8b3892c39ccf_@_V2ray_```",
-      "cf641e7e16f6410bb4d3cd073be54037_@_S%201%20%28%40Outline_Vpn%29%20free",
-      "23c9986932044864bc643eb874b554e2_@_S%203%20%28%40Outline_Vpn%29%20free",
-      "4415f51f0fe2475fa507262cf925769c_@_S%205%20%28%40Outline_Vpn%29%20free`",
-      "fc445b3b4b134bf9931da5c3655badc5_@_@VlessConfig 🇩🇪",
-      "632a5d5cd253479ebd0397c6878990b5_@_@Hope_Net-join-us-on-Telegram"
+      "b2046d395e444e248b1cc60299b4b942_@_@Hope_Net-join-us-on-Telegram",
+      "448cdbe2c9744c2cb75d60ec8787be20_@_@Hope_Net-join-us-on-Telegram`",
+      "b67b94b6b6c34cc0b1694f2a63ecbd6b_@_@Hope_Net-join-us-on-Telegram",
+      "6835a10dcf2a4824a23007e290632e1a_@_%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
+      "6dd3b25d131e48f7a746e834fbef2ce4_@_✅سرورها بیشتردرکانال:prrofile_purple@✅",
+      "b958459e3733478fac695b253c59dda8_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`",
+      "738bf598b5e44180ba916aa8b8c753c0_@_@Hope_Net-join-us-on-Telegram",
+      "1b45d5c16d2f4d3488deed843298be0a_@_%40V2ray1_Ng",
+      "7e915c7a9943461e8848c835ceb1f931_@_V2ray_",
+      "9de35792d06942e5a0c59cf0569d990e_@_V2ray_```",
+      "e535849a80fc475fa83901eed5e1ea28_@_S%201%20%28%40Outline_Vpn%29%20free",
+      "ca6ad33a829d422d9de307912eedb63a_@_S%203%20%28%40Outline_Vpn%29%20free",
+      "2f8e3ae50c474332a4b18931ec9899ec_@_S%205%20%28%40Outline_Vpn%29%20free`"
     ]
   },
   "dns": {
@@ -68,6 +69,132 @@
         "concurrency": -1,
         "enabled": false
       },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "zula.ir",
+            "port": 2096,
+            "users": [
+              {
+                "alterId": "None",
+                "id": "30cab746-5ca5-46ef-aa9b-537f20f6a40c",
+                "level": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "kingo.hightechservice.ir"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "kingo.hightechservice.ir"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "b2046d395e444e248b1cc60299b4b942_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.111.69",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "randomized",
+          "serverName": "mmdv2.pages.dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "mmdv2.pages.dev"
+          },
+          "path": "/telegram-proxy_mtm?ed=2048"
+        }
+      },
+      "tag": "448cdbe2c9744c2cb75d60ec8787be20_@_@Hope_Net-join-us-on-Telegram`"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "zula.ir",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "TELgRaMCxroLVPN.PagES.Dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "TElGramcxrOLVPn.paGEs.Dev"
+          },
+          "path": "/Telegram@V2ray_Alpha/?ed=2560"
+        }
+      },
+      "tag": "b67b94b6b6c34cc0b1694f2a63ecbd6b_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -97,7 +224,7 @@
           "path": "/?ed=2052?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn"
         }
       },
-      "tag": "72dfb3902df6491c86223ae88a6f4c57_@_%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85"
+      "tag": "6835a10dcf2a4824a23007e290632e1a_@_%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85"
     },
     {
       "mux": {
@@ -131,7 +258,7 @@
           "path": "/github.com/Alvin9999"
         }
       },
-      "tag": "16e02009b41b4ed08731ecbe606807d5_@_✅سرورها بیشتردرکانال:prrofile_purple@✅"
+      "tag": "6dd3b25d131e48f7a746e834fbef2ce4_@_✅سرورها بیشتردرکانال:prrofile_purple@✅"
     },
     {
       "mux": {
@@ -174,7 +301,7 @@
           "path": "/eyJqdW5rIjoic0tFOE5ZYU5zNGwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI0NS4xMzUuMTY1LjI0NSIsIjExNi4yMDMuNTguMTY1Il19?ed=2560"
         }
       },
-      "tag": "ca4461b58c424acf82273403b6dd7396_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`"
+      "tag": "b958459e3733478fac695b253c59dda8_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`"
     },
     {
       "mux": {
@@ -210,7 +337,7 @@
           "path": "/"
         }
       },
-      "tag": "72bbbbfec32c4de28f2e54e13e0bf93b_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "738bf598b5e44180ba916aa8b8c753c0_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -253,7 +380,7 @@
           "path": "/eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
         }
       },
-      "tag": "3e304b08e69d4466a79b0308fcac70e2_@_%40V2ray1_Ng"
+      "tag": "1b45d5c16d2f4d3488deed843298be0a_@_%40V2ray1_Ng"
     },
     {
       "mux": {
@@ -311,7 +438,7 @@
           }
         }
       },
-      "tag": "334b8ccb305b42738f455d2a943ae56b_@_V2ray_"
+      "tag": "7e915c7a9943461e8848c835ceb1f931_@_V2ray_"
     },
     {
       "mux": {
@@ -369,7 +496,7 @@
           }
         }
       },
-      "tag": "94e21894143e4bbb8a2e8b3892c39ccf_@_V2ray_```"
+      "tag": "9de35792d06942e5a0c59cf0569d990e_@_V2ray_```"
     },
     {
       "mux": {
@@ -408,7 +535,7 @@
           "path": "/dar"
         }
       },
-      "tag": "cf641e7e16f6410bb4d3cd073be54037_@_S%201%20%28%40Outline_Vpn%29%20free"
+      "tag": "e535849a80fc475fa83901eed5e1ea28_@_S%201%20%28%40Outline_Vpn%29%20free"
     },
     {
       "mux": {
@@ -444,7 +571,7 @@
           "path": "/39427/Nextlife"
         }
       },
-      "tag": "23c9986932044864bc643eb874b554e2_@_S%203%20%28%40Outline_Vpn%29%20free"
+      "tag": "ca6ad33a829d422d9de307912eedb63a_@_S%203%20%28%40Outline_Vpn%29%20free"
     },
     {
       "mux": {
@@ -483,78 +610,7 @@
           "path": "/tyipizws"
         }
       },
-      "tag": "4415f51f0fe2475fa507262cf925769c_@_S%205%20%28%40Outline_Vpn%29%20free`"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "63.181.28.78",
-            "port": 22224,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "trojan.burgerip.co.uk"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "trojan.burgerip.co.uk"
-          },
-          "path": "/telegram-channel-vlessconfig"
-        }
-      },
-      "tag": "fc445b3b4b134bf9931da5c3655badc5_@_@VlessConfig 🇩🇪"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "blang.kcapsys.com",
-            "port": 80,
-            "users": [
-              {
-                "alterId": "0",
-                "id": "f0273043-d637-4fdf-971c-eb486efa9c4b",
-                "level": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": null,
-        "wsSettings": {
-          "headers": {},
-          "path": "/"
-        }
-      },
-      "tag": "632a5d5cd253479ebd0397c6878990b5_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "2f8e3ae50c474332a4b18931ec9899ec_@_S%205%20%28%40Outline_Vpn%29%20free`"
     },
     {
       "protocol": "freedom",
@@ -579,18 +635,19 @@
     "balancers": [
       {
         "selector": [
-          "72dfb3902df6491c86223ae88a6f4c57_@_%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-          "16e02009b41b4ed08731ecbe606807d5_@_✅سرورها بیشتردرکانال:prrofile_purple@✅",
-          "ca4461b58c424acf82273403b6dd7396_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`",
-          "72bbbbfec32c4de28f2e54e13e0bf93b_@_@Hope_Net-join-us-on-Telegram",
-          "3e304b08e69d4466a79b0308fcac70e2_@_%40V2ray1_Ng",
-          "334b8ccb305b42738f455d2a943ae56b_@_V2ray_",
-          "94e21894143e4bbb8a2e8b3892c39ccf_@_V2ray_```",
-          "cf641e7e16f6410bb4d3cd073be54037_@_S%201%20%28%40Outline_Vpn%29%20free",
-          "23c9986932044864bc643eb874b554e2_@_S%203%20%28%40Outline_Vpn%29%20free",
-          "4415f51f0fe2475fa507262cf925769c_@_S%205%20%28%40Outline_Vpn%29%20free`",
-          "fc445b3b4b134bf9931da5c3655badc5_@_@VlessConfig 🇩🇪",
-          "632a5d5cd253479ebd0397c6878990b5_@_@Hope_Net-join-us-on-Telegram"
+          "b2046d395e444e248b1cc60299b4b942_@_@Hope_Net-join-us-on-Telegram",
+          "448cdbe2c9744c2cb75d60ec8787be20_@_@Hope_Net-join-us-on-Telegram`",
+          "b67b94b6b6c34cc0b1694f2a63ecbd6b_@_@Hope_Net-join-us-on-Telegram",
+          "6835a10dcf2a4824a23007e290632e1a_@_%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
+          "6dd3b25d131e48f7a746e834fbef2ce4_@_✅سرورها بیشتردرکانال:prrofile_purple@✅",
+          "b958459e3733478fac695b253c59dda8_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`",
+          "738bf598b5e44180ba916aa8b8c753c0_@_@Hope_Net-join-us-on-Telegram",
+          "1b45d5c16d2f4d3488deed843298be0a_@_%40V2ray1_Ng",
+          "7e915c7a9943461e8848c835ceb1f931_@_V2ray_",
+          "9de35792d06942e5a0c59cf0569d990e_@_V2ray_```",
+          "e535849a80fc475fa83901eed5e1ea28_@_S%201%20%28%40Outline_Vpn%29%20free",
+          "ca6ad33a829d422d9de307912eedb63a_@_S%203%20%28%40Outline_Vpn%29%20free",
+          "2f8e3ae50c474332a4b18931ec9899ec_@_S%205%20%28%40Outline_Vpn%29%20free`"
         ],
         "strategy": {
           "type": "leastLoad"
