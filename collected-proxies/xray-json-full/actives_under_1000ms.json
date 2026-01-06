@@ -8,19 +8,14 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "331331c2678b4c8581a597273ac0ee92_@_V2ray_```",
-      "b30ba4552f154914a07b1d2e491cd011_@_%40V2ray1_Ng",
-      "b9fb08d25d2f44068e330cd15cf26c75_@_telegram%20%E2%98%82%EF%B8%8F%20dailyv2ry",
-      "b905c22ca32745548c4232f84ac69281_@_telegram%20%E2%9A%A1%EF%B8%8F%20dailyv2ry",
-      "02d37e4882814a9d9907f18378ae7d8b_@_telegram%20%F0%9F%8E%AF%20dailyv2ry",
-      "7e3de114809f47248b27f1f298009a83_@_telegram%20%F0%9F%8E%AA%20dailyv2ry",
-      "bec2fbe9a82d46fe84e6d3709532e185_@_telegram 🌈 dailyv2ry",
-      "09683614ff5e42a49c6911748e4a17fb_@_telegram%20%F0%9F%8C%BA%20dailyv2ry",
-      "61d89e143678426fa8f1906c3fc7e9e6_@_telegram%20%E2%98%82%EF%B8%8F%20dailyv2ry",
-      "a84c0fba26174b209ca41c1c17122430_@_telegram%20%F0%9F%8C%9F%20dailyv2ry",
-      "8a5688d3d42446628b448e930da0d59f_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`",
-      "7f22860f6c884f4998c41b30fb27e7ec_@_S%201%20%28%40Outline_Vpn%29%20free",
-      "7511c33f9b6441f3a66824eb171fc615_@_S%203%20%28%40Outline_Vpn%29%20free"
+      "56a8e14f18704f44b0643faea13c71e4_@_✅سرورها بیشتردرکانال:prrofile_purple@✅",
+      "b8956bd424924352958ad57297402f75_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`",
+      "4a111730f8c04b7c8f04394a8e1ffad7_@_@Hope_Net-join-us-on-Telegram",
+      "d4ee774bc8c04b5cbe8be6e71851b698_@_%40V2ray1_Ng",
+      "5f380f24a8c34413835ff844e3f31677_@_V2ray_",
+      "c7004303eb7446998e8fc46c3916aa84_@_V2ray_```",
+      "429a086232b846f2bf68227a047a94eb_@_S%201%20%28%40Outline_Vpn%29%20free",
+      "3b15aefdbc064aa2a26599416374459c_@_S%203%20%28%40Outline_Vpn%29%20free"
     ]
   },
   "dns": {
@@ -64,6 +59,220 @@
     "loglevel": "warning"
   },
   "outbounds": [
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "2001:bc8:32d7:2013::8",
+            "port": 62211,
+            "users": [
+              {
+                "alterId": "0",
+                "id": "e1786d49-ccba-466b-a0dd-e1ab59bd83bb",
+                "level": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": null,
+        "wsSettings": {
+          "headers": {
+            "Host": "www.bing.com"
+          },
+          "path": "/github.com/Alvin9999"
+        }
+      },
+      "tag": "56a8e14f18704f44b0643faea13c71e4_@_✅سرورها بیشتردرکانال:prrofile_purple@✅"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.114.96.3",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "b2ec85a7-9b56-4c8d-9bee-99e09490f21b",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "004.elEctROCeLlCO-cf-004.WORKers.Dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "004.electrocellco-cf-004.workers.dev"
+          },
+          "path": "/eyJqdW5rIjoic0tFOE5ZYU5zNGwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI0NS4xMzUuMTY1LjI0NSIsIjExNi4yMDMuNTguMTY1Il19?ed=2560"
+        }
+      },
+      "tag": "b8956bd424924352958ad57297402f75_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "speedtest.org",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "ff84663d-b92a-424b-b400-08b6f21ee0fb",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "headers": {
+            "Host": "wWw.SpEedTeSt.nEt.ZuLa.Ir.IkCoSaLeS.Ir.D662599.v01.dIgIkAlAcOmIrDiVaRiR.CoM."
+          },
+          "path": "/"
+        }
+      },
+      "tag": "4a111730f8c04b7c8f04394a8e1ffad7_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.speedtest.net",
+            "port": 2096,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "DiGIkALaA.dpdns.ORG"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "digikalaa.dpdns.org"
+          },
+          "path": "/eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        }
+      },
+      "tag": "d4ee774bc8c04b5cbe8be6e71851b698_@_%40V2ray1_Ng"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "151.234.162.60",
+            "port": 3339,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "45ecc395-d37d-4b5e-82d9-1cbfd689beff",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "telewebion.com"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "5f380f24a8c34413835ff844e3f31677_@_V2ray_"
+    },
     {
       "mux": {
         "concurrency": -1,
@@ -120,449 +329,7 @@
           }
         }
       },
-      "tag": "331331c2678b4c8581a597273ac0ee92_@_V2ray_```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.speedtest.net",
-            "port": 2096,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "alpn": [
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "serverName": "DiGIkALaA.dpdns.ORG"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "digikalaa.dpdns.org"
-          },
-          "path": "/eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
-        }
-      },
-      "tag": "b30ba4552f154914a07b1d2e491cd011_@_%40V2ray1_Ng"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "151.101.3.8",
-            "port": 80,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "headers": {
-            "Host": "mitivpn.global.ssl.fastly.net"
-          },
-          "path": "/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN"
-        }
-      },
-      "tag": "b9fb08d25d2f44068e330cd15cf26c75_@_telegram%20%E2%98%82%EF%B8%8F%20dailyv2ry"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.104.68",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "c9b45f2f-6cbe-4a86-b4d2-a327f4055a59",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "alpn": [
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "serverName": "001.eLeCtROcElLCO-cf-001.WOrKERS.Dev"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "001.electrocellco-cf-001.workers.dev"
-          },
-          "path": "/eyJqdW5rIjoiUmdrRUNsU0lwYThBTlp2bSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMTMuMjExLjI5IiwiMzEuNDQuMi41NyIsIjc3LjI0Ni4xMDguMTMwIl19?ed=2560"
-        }
-      },
-      "tag": "b905c22ca32745548c4232f84ac69281_@_telegram%20%E2%9A%A1%EF%B8%8F%20dailyv2ry"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "81.12.33.182",
-            "port": 3080,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "77877641-9d1f-4878-8909-fcfa0a058de9",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "headers": {
-            "Host": "parsabr.com"
-          },
-          "path": "/lklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwj?ed=4096"
-        }
-      },
-      "tag": "02d37e4882814a9d9907f18378ae7d8b_@_telegram%20%F0%9F%8E%AF%20dailyv2ry"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "us.sepshoping.de",
-            "port": 1121,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "f90b7a19-0b71-44b6-b95b-baab85af4d51",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none",
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "skyroom.online,gharar.ir,igap.net"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "7e3de114809f47248b27f1f298009a83_@_telegram%20%F0%9F%8E%AA%20dailyv2ry"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.254.106.77",
-            "port": 10000,
-            "users": [
-              {
-                "alterId": "0",
-                "id": "a6d83a36-e46b-11f0-83c8-066c57b94770",
-                "level": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": null,
-        "wsSettings": {
-          "headers": {},
-          "path": "/vpnjantit"
-        }
-      },
-      "tag": "bec2fbe9a82d46fe84e6d3709532e185_@_telegram 🌈 dailyv2ry"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "300.shecanmarket.com",
-            "port": 8443,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "77371595-b7aa-472a-9d61-e9731861af07",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none",
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "head.shecanMarket.com"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "09683614ff5e42a49c6911748e4a17fb_@_telegram%20%F0%9F%8C%BA%20dailyv2ry"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ovpn.radvin-shop.sbs",
-            "port": 39623,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "aa334ff5-a2a5-4d37-a4f5-374fb469ebc4",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none",
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "www.speedtest.net"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "61d89e143678426fa8f1906c3fc7e9e6_@_telegram%20%E2%98%82%EF%B8%8F%20dailyv2ry"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.235.241.99",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {},
-        "wsSettings": {
-          "headers": {},
-          "path": "/hormoz"
-        }
-      },
-      "tag": "a84c0fba26174b209ca41c1c17122430_@_telegram%20%F0%9F%8C%9F%20dailyv2ry"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.114.96.3",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "b2ec85a7-9b56-4c8d-9bee-99e09490f21b",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "alpn": [
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "serverName": "004.elEctROCeLlCO-cf-004.WORKers.Dev"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "004.electrocellco-cf-004.workers.dev"
-          },
-          "path": "/eyJqdW5rIjoic0tFOE5ZYU5zNGwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI0NS4xMzUuMTY1LjI0NSIsIjExNi4yMDMuNTguMTY1Il19?ed=2560"
-        }
-      },
-      "tag": "8a5688d3d42446628b448e930da0d59f_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`"
+      "tag": "c7004303eb7446998e8fc46c3916aa84_@_V2ray_```"
     },
     {
       "mux": {
@@ -601,7 +368,7 @@
           "path": "/dar"
         }
       },
-      "tag": "7f22860f6c884f4998c41b30fb27e7ec_@_S%201%20%28%40Outline_Vpn%29%20free"
+      "tag": "429a086232b846f2bf68227a047a94eb_@_S%201%20%28%40Outline_Vpn%29%20free"
     },
     {
       "mux": {
@@ -637,7 +404,7 @@
           "path": "/39427/Nextlife"
         }
       },
-      "tag": "7511c33f9b6441f3a66824eb171fc615_@_S%203%20%28%40Outline_Vpn%29%20free"
+      "tag": "3b15aefdbc064aa2a26599416374459c_@_S%203%20%28%40Outline_Vpn%29%20free"
     },
     {
       "protocol": "freedom",
@@ -662,19 +429,14 @@
     "balancers": [
       {
         "selector": [
-          "331331c2678b4c8581a597273ac0ee92_@_V2ray_```",
-          "b30ba4552f154914a07b1d2e491cd011_@_%40V2ray1_Ng",
-          "b9fb08d25d2f44068e330cd15cf26c75_@_telegram%20%E2%98%82%EF%B8%8F%20dailyv2ry",
-          "b905c22ca32745548c4232f84ac69281_@_telegram%20%E2%9A%A1%EF%B8%8F%20dailyv2ry",
-          "02d37e4882814a9d9907f18378ae7d8b_@_telegram%20%F0%9F%8E%AF%20dailyv2ry",
-          "7e3de114809f47248b27f1f298009a83_@_telegram%20%F0%9F%8E%AA%20dailyv2ry",
-          "bec2fbe9a82d46fe84e6d3709532e185_@_telegram 🌈 dailyv2ry",
-          "09683614ff5e42a49c6911748e4a17fb_@_telegram%20%F0%9F%8C%BA%20dailyv2ry",
-          "61d89e143678426fa8f1906c3fc7e9e6_@_telegram%20%E2%98%82%EF%B8%8F%20dailyv2ry",
-          "a84c0fba26174b209ca41c1c17122430_@_telegram%20%F0%9F%8C%9F%20dailyv2ry",
-          "8a5688d3d42446628b448e930da0d59f_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`",
-          "7f22860f6c884f4998c41b30fb27e7ec_@_S%201%20%28%40Outline_Vpn%29%20free",
-          "7511c33f9b6441f3a66824eb171fc615_@_S%203%20%28%40Outline_Vpn%29%20free"
+          "56a8e14f18704f44b0643faea13c71e4_@_✅سرورها بیشتردرکانال:prrofile_purple@✅",
+          "b8956bd424924352958ad57297402f75_@_%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE_2%20%F0%9F%A7%AD%204.8MB%2Fs`",
+          "4a111730f8c04b7c8f04394a8e1ffad7_@_@Hope_Net-join-us-on-Telegram",
+          "d4ee774bc8c04b5cbe8be6e71851b698_@_%40V2ray1_Ng",
+          "5f380f24a8c34413835ff844e3f31677_@_V2ray_",
+          "c7004303eb7446998e8fc46c3916aa84_@_V2ray_```",
+          "429a086232b846f2bf68227a047a94eb_@_S%201%20%28%40Outline_Vpn%29%20free",
+          "3b15aefdbc064aa2a26599416374459c_@_S%203%20%28%40Outline_Vpn%29%20free"
         ],
         "strategy": {
           "type": "leastLoad"
