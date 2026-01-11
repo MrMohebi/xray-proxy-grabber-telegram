@@ -8,10 +8,11 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "faa4dcff6cc6448eb1c10056dc16cbfb_@_@Hope_Net-join-us-on-Telegram",
-      "91b76e5f843541eb99e0b06758656b57_@_@Hope_Net-join-us-on-Telegram",
-      "e01614b10164405fb9ba51f8b717b880_@_🇩🇪[openproxylist.com] vless-DE```",
-      "5bdb222aaf9d4ef899129539ce25adb6_@_@Hope_Net-join-us-on-Telegram"
+      "d26145faeae140f4b1bf2fc4983ded3e_@_@Hope_Net-join-us-on-Telegram",
+      "bc2bcfbe4e6841ce9878e4300c5e53e8_@_@Hope_Net-join-us-on-Telegram",
+      "b2459e6ce5074be88aa53bc26a46600a_@_🇩🇪[openproxylist.com] vless-DE```",
+      "9a438b4e170243f08f87cdd3197b2c82_@_@Hope_Net-join-us-on-Telegram",
+      "2869987b633f4e5d961197e77a0e0984_@_@Hope_Net-join-us-on-Telegram`"
     ]
   },
   "dns": {
@@ -89,7 +90,7 @@
           "path": "/VPN_PROXY66.VPN_PROXY66"
         }
       },
-      "tag": "faa4dcff6cc6448eb1c10056dc16cbfb_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "d26145faeae140f4b1bf2fc4983ded3e_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -125,7 +126,7 @@
           "path": "/fastssh/xmxmmxmxm/63482aa422d82/"
         }
       },
-      "tag": "91b76e5f843541eb99e0b06758656b57_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "bc2bcfbe4e6841ce9878e4300c5e53e8_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -165,7 +166,7 @@
           "path": "/"
         }
       },
-      "tag": "e01614b10164405fb9ba51f8b717b880_@_🇩🇪[openproxylist.com] vless-DE```"
+      "tag": "b2459e6ce5074be88aa53bc26a46600a_@_🇩🇪[openproxylist.com] vless-DE```"
     },
     {
       "mux": {
@@ -204,7 +205,47 @@
           "path": "/telegram-proxy_mtm?ed=2048"
         }
       },
-      "tag": "5bdb222aaf9d4ef899129539ce25adb6_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "9a438b4e170243f08f87cdd3197b2c82_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.21.34.74",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "d6f79630-aa94-4536-b2ef-899b5acb3b49",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "unmanliest.appreviewcenter.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "unmanliest.appreviewcenter.com"
+          },
+          "path": "/nimws"
+        }
+      },
+      "tag": "2869987b633f4e5d961197e77a0e0984_@_@Hope_Net-join-us-on-Telegram`"
     },
     {
       "protocol": "freedom",
@@ -229,10 +270,11 @@
     "balancers": [
       {
         "selector": [
-          "faa4dcff6cc6448eb1c10056dc16cbfb_@_@Hope_Net-join-us-on-Telegram",
-          "91b76e5f843541eb99e0b06758656b57_@_@Hope_Net-join-us-on-Telegram",
-          "e01614b10164405fb9ba51f8b717b880_@_🇩🇪[openproxylist.com] vless-DE```",
-          "5bdb222aaf9d4ef899129539ce25adb6_@_@Hope_Net-join-us-on-Telegram"
+          "d26145faeae140f4b1bf2fc4983ded3e_@_@Hope_Net-join-us-on-Telegram",
+          "bc2bcfbe4e6841ce9878e4300c5e53e8_@_@Hope_Net-join-us-on-Telegram",
+          "b2459e6ce5074be88aa53bc26a46600a_@_🇩🇪[openproxylist.com] vless-DE```",
+          "9a438b4e170243f08f87cdd3197b2c82_@_@Hope_Net-join-us-on-Telegram",
+          "2869987b633f4e5d961197e77a0e0984_@_@Hope_Net-join-us-on-Telegram`"
         ],
         "strategy": {
           "type": "leastLoad"
