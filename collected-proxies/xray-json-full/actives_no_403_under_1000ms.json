@@ -8,14 +8,16 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "c2a809b8f4a44ba6bbad9b8679f2b22b_@_@Hope_Net-join-us-on-Telegram",
-      "8ba9fe37d14644faa3477046ee71de6d_@_@Hope_Net-join-us-on-Telegram`",
-      "e42f3ae101624f2db0711b47a168e06a_@_@Hope_Net-join-us-on-Telegram",
-      "43908d1cea7241518e743a9e67d4289c_@_@Hope_Net-join-us-on-Telegram",
-      "4079f096f3af422ba8f495019754b7c6_@_@Hope_Net-join-us-on-Telegram`",
-      "ee6086df908946219eca7c6ff7bc8477_@_@Hope_Net-join-us-on-Telegram",
-      "9da8ce9a167941fb8a81d6b9d5cdefbd_@_@Hope_Net-join-us-on-Telegram",
-      "25aece56b1184c07a9b770b30a91e943_@_@Hope_Net-join-us-on-Telegram"
+      "98c1938b6f9b4f62ba30f87ffc9520bc_@_@Hope_Net-join-us-on-Telegram`",
+      "0f21bfed86e54079ac27f78bf92e6648_@_@Hope_Net-join-us-on-Telegram",
+      "a55cad8416bc4300a2edeb78cff6ce00_@_@Hope_Net-join-us-on-Telegram",
+      "3dc7ce12c0c24d18bf9036523ec595d4_@_@Hope_Net-join-us-on-Telegram`",
+      "e023347c303c42a8b5564e1790177879_@_@Hope_Net-join-us-on-Telegram",
+      "d1391e68ed9b493d985a65bafaa4ec16_@_@Hope_Net-join-us-on-Telegram",
+      "fed5215b2d9443a383ec1c6207133431_@_@Hope_Net-join-us-on-Telegram",
+      "1a1a562dc3cf4e2f8792ffb205e5b488_@_@Hope_Net-join-us-on-Telegram",
+      "fc4e9ca8adfc4a9a9d8be02fa9f5ba71_@_@Hope_Net-join-us-on-Telegram",
+      "10c8f3b633364923a316e1f112834fc1_@_@Hope_Net-join-us-on-Telegram`"
     ]
   },
   "dns": {
@@ -64,17 +66,19 @@
         "concurrency": -1,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.ir",
-            "port": 80,
+            "address": "104.16.61.8",
+            "port": 443,
             "users": [
               {
-                "alterId": "0",
-                "id": "2e0ce6f3-7dc7-469a-9611-c8405a8ea5c1",
-                "level": 0,
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "d41faf1e-054b-48e9-9487-40747f230808",
                 "security": "auto"
               }
             ]
@@ -83,15 +87,21 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "f-dl.chawoshco.ir"
+        },
         "wsSettings": {
           "headers": {
-            "Host": "nlch.blueberrynetwork.store"
+            "Host": "f-dl.chawoshco.ir"
           },
-          "path": "/"
+          "path": "/ws"
         }
       },
-      "tag": "c2a809b8f4a44ba6bbad9b8679f2b22b_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "98c1938b6f9b4f62ba30f87ffc9520bc_@_@Hope_Net-join-us-on-Telegram`"
     },
     {
       "mux": {
@@ -102,8 +112,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "150.230.107.234",
-            "port": 53780,
+            "address": "45.159.218.167",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
@@ -121,16 +131,196 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "hkg.ylks.xyz"
+          "serverName": "jpg.ylks01.eu.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "hkg.ylks.xyz"
+            "Host": "jpg.ylks01.eu.org"
+          },
+          "path": "/blue"
+        }
+      },
+      "tag": "0f21bfed86e54079ac27f78bf92e6648_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.74.133",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mmdv2.pages.dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "mmdv2.pages.dev"
           },
           "path": "/"
         }
       },
-      "tag": "8ba9fe37d14644faa3477046ee71de6d_@_@Hope_Net-join-us-on-Telegram`"
+      "tag": "a55cad8416bc4300a2edeb78cff6ce00_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.193.80",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "44b3cbba-e6ac-485a-9481-981a0415eab9",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "BROKen-baR-5948.nepog45969.WoRkERS.DEv"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "BRoKEN-BAr-5948.NEpOG45969.woRkErS.dEv"
+          },
+          "path": "/tNJMW539ct313Plo?ed=2560"
+        }
+      },
+      "tag": "3dc7ce12c0c24d18bf9036523ec595d4_@_@Hope_Net-join-us-on-Telegram`"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.131.191",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mmdv2.pages.dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "mmdv2.pages.dev"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "e023347c303c42a8b5564e1790177879_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "88.135.46.45",
+            "port": 2053,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "318522ba-f359-4f7f-df14-bbb5efbeec5e",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "speedtest.net"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "d1391e68ed9b493d985a65bafaa4ec16_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -141,12 +331,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "zula.ir",
-            "port": 443,
+            "address": "38.33.45.87",
+            "port": 37000,
             "users": [
               {
-                "alterId": "0",
-                "id": "4e0ffe46-79da-4173-869e-a959529ff020",
+                "alterId": "64",
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
                 "level": 0,
                 "security": "auto"
               }
@@ -157,21 +347,13 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
-        "tlsSettings": {
-          "alpn": [
-            "h2"
-          ],
-          "fingerprint": "chrome",
-          "serverName": "re.kalepacheh.monster"
-        },
+        "tlsSettings": {},
         "wsSettings": {
-          "headers": {
-            "Host": "re.kalepacheh.monster"
-          },
-          "path": "/9f264ded-e3c1-4b90-c503-4f40eb00fa11"
+          "headers": {},
+          "path": "/path/133220121417"
         }
       },
-      "tag": "e42f3ae101624f2db0711b47a168e06a_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "fed5215b2d9443a383ec1c6207133431_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -182,15 +364,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.146.173.58",
-            "port": 2082,
+            "address": "151.101.66.133",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "3036f626-053d-444f-ba1f-bd3ebbad0387",
+                "id": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
                 "security": "auto"
               }
             ]
@@ -199,15 +381,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.Arizona.edu"
+        },
         "wsSettings": {
           "headers": {
-            "Host": "1.6.列列男事的事列上赛男78.com."
+            "Host": "fraud.chase"
           },
-          "path": "/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER"
+          "path": "/"
         }
       },
-      "tag": "43908d1cea7241518e743a9e67d4289c_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "1a1a562dc3cf4e2f8792ffb205e5b488_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -218,7 +403,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.64.12.69",
+            "address": "104.19.230.57",
             "port": 443,
             "users": [
               {
@@ -226,7 +411,7 @@
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
+                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
                 "security": "auto"
               }
             ]
@@ -238,19 +423,20 @@
         "security": "tls",
         "tlsSettings": {
           "alpn": [
+            "h2",
             "http/1.1"
           ],
-          "fingerprint": "chrome",
-          "serverName": "de.tradex2080.com"
+          "fingerprint": "randomized",
+          "serverName": "523afb17.IRS23.pAgES.Dev"
         },
         "wsSettings": {
           "headers": {
-            "Host": "de.tradex2080.com"
+            "Host": "523AfB17.IRS23.pagES.DEv"
           },
-          "path": "/gPGhgE3kwHBXqpNptGAxAtI0QM"
+          "path": "/Tel-@V2ray_Alpha/?ed=2560"
         }
       },
-      "tag": "4079f096f3af422ba8f495019754b7c6_@_@Hope_Net-join-us-on-Telegram`"
+      "tag": "fc4e9ca8adfc4a9a9d8be02fa9f5ba71_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -261,15 +447,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.229.240",
-            "port": 80,
+            "address": "141.101.123.72",
+            "port": 8443,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
+                "id": "c3388667-987b-40eb-bd28-2540961cab07",
                 "security": "auto"
               }
             ]
@@ -278,87 +464,23 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "server18.aibox.tv"
+        },
         "wsSettings": {
           "headers": {
-            "Host": "us3.rtacg.com"
+            "Host": "server18.aibox.tv"
           },
-          "path": "/"
+          "path": "/TG-AiLuMao/"
         }
       },
-      "tag": "ee6086df908946219eca7c6ff7bc8477_@_@Hope_Net-join-us-on-Telegram"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.114.97.2",
-            "port": 8880,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "20285635-e8e8-40f0-b6b2-c4312751d817",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "headers": {
-            "Host": "116.v.v.y.www.speedtest.net.ftp.debian.org.bklink.iR."
-          },
-          "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048"
-        }
-      },
-      "tag": "9da8ce9a167941fb8a81d6b9d5cdefbd_@_@Hope_Net-join-us-on-Telegram"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.17.200.73",
-            "port": 80,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "headers": {
-            "Host": "us3.rtacg.com"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "25aece56b1184c07a9b770b30a91e943_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "10c8f3b633364923a316e1f112834fc1_@_@Hope_Net-join-us-on-Telegram`"
     },
     {
       "protocol": "freedom",
@@ -383,14 +505,16 @@
     "balancers": [
       {
         "selector": [
-          "c2a809b8f4a44ba6bbad9b8679f2b22b_@_@Hope_Net-join-us-on-Telegram",
-          "8ba9fe37d14644faa3477046ee71de6d_@_@Hope_Net-join-us-on-Telegram`",
-          "e42f3ae101624f2db0711b47a168e06a_@_@Hope_Net-join-us-on-Telegram",
-          "43908d1cea7241518e743a9e67d4289c_@_@Hope_Net-join-us-on-Telegram",
-          "4079f096f3af422ba8f495019754b7c6_@_@Hope_Net-join-us-on-Telegram`",
-          "ee6086df908946219eca7c6ff7bc8477_@_@Hope_Net-join-us-on-Telegram",
-          "9da8ce9a167941fb8a81d6b9d5cdefbd_@_@Hope_Net-join-us-on-Telegram",
-          "25aece56b1184c07a9b770b30a91e943_@_@Hope_Net-join-us-on-Telegram"
+          "98c1938b6f9b4f62ba30f87ffc9520bc_@_@Hope_Net-join-us-on-Telegram`",
+          "0f21bfed86e54079ac27f78bf92e6648_@_@Hope_Net-join-us-on-Telegram",
+          "a55cad8416bc4300a2edeb78cff6ce00_@_@Hope_Net-join-us-on-Telegram",
+          "3dc7ce12c0c24d18bf9036523ec595d4_@_@Hope_Net-join-us-on-Telegram`",
+          "e023347c303c42a8b5564e1790177879_@_@Hope_Net-join-us-on-Telegram",
+          "d1391e68ed9b493d985a65bafaa4ec16_@_@Hope_Net-join-us-on-Telegram",
+          "fed5215b2d9443a383ec1c6207133431_@_@Hope_Net-join-us-on-Telegram",
+          "1a1a562dc3cf4e2f8792ffb205e5b488_@_@Hope_Net-join-us-on-Telegram",
+          "fc4e9ca8adfc4a9a9d8be02fa9f5ba71_@_@Hope_Net-join-us-on-Telegram",
+          "10c8f3b633364923a316e1f112834fc1_@_@Hope_Net-join-us-on-Telegram`"
         ],
         "strategy": {
           "type": "leastLoad"
