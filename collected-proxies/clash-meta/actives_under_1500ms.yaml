@@ -1,1 +1,30 @@
-proxies: []
+proxies:
+- uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 162.159.1.94
+  name: 19139be7ced74165ae4d9b8abb6afa78_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: edtunnel-csc.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: edtunnel-csc.pages.dev
+    path: /
+- uuid: 7c5df627-a185-468b-a90a-1b162e673a68
+  cipher: auto
+  alterId: 0
+  server: www.speedtest.net
+  name: 177a8c6e6709472ba61a4a3a8be45612_@_@Hope_Net-join-us-on-Telegram
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /RACEVPN
