@@ -8,8 +8,10 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "19139be7ced74165ae4d9b8abb6afa78_@_@Hope_Net-join-us-on-Telegram",
-      "177a8c6e6709472ba61a4a3a8be45612_@_@Hope_Net-join-us-on-Telegram"
+      "53669a71a6804e8997486c41cee3744d_@_@Hope_Net-join-us-on-Telegram",
+      "fc5d2b65ad1341febdeb2da41d3fd4dd_@_@Hope_Net-join-us-on-Telegram",
+      "4802460cf584405a9fd39178a7b71c55_@_@Hope_Net-join-us-on-Telegram",
+      "d61c73e3950a4a43b5803201121386d1_@_@Hope_Net-join-us-on-Telegram"
     ]
   },
   "dns": {
@@ -58,6 +60,74 @@
         "concurrency": -1,
         "enabled": false
       },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.19.59.99",
+            "port": 2052,
+            "users": [
+              {
+                "alterId": "0",
+                "id": "d6b6d982-d52f-465a-b988-85670b23f64a",
+                "level": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": null,
+        "wsSettings": {
+          "headers": {
+            "Host": "cdn3.freegradely.xyz"
+          },
+          "path": "github.com/Alvin9999"
+        }
+      },
+      "tag": "53669a71a6804e8997486c41cee3744d_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "zula.ir",
+            "port": 8080,
+            "users": [
+              {
+                "alterId": "0",
+                "id": "e9652542-2585-470b-8cc5-06135eec8601",
+                "level": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": null,
+        "wsSettings": {
+          "headers": {
+            "Host": "www.speedtest.net.75.mralpha-vpn.COM."
+          },
+          "path": "/Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder?ed=2048"
+        }
+      },
+      "tag": "fc5d2b65ad1341febdeb2da41d3fd4dd_@_@Hope_Net-join-us-on-Telegram"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -90,7 +160,7 @@
           "path": "/"
         }
       },
-      "tag": "19139be7ced74165ae4d9b8abb6afa78_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "4802460cf584405a9fd39178a7b71c55_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "mux": {
@@ -124,7 +194,7 @@
           "path": "/RACEVPN"
         }
       },
-      "tag": "177a8c6e6709472ba61a4a3a8be45612_@_@Hope_Net-join-us-on-Telegram"
+      "tag": "d61c73e3950a4a43b5803201121386d1_@_@Hope_Net-join-us-on-Telegram"
     },
     {
       "protocol": "freedom",
@@ -149,8 +219,10 @@
     "balancers": [
       {
         "selector": [
-          "19139be7ced74165ae4d9b8abb6afa78_@_@Hope_Net-join-us-on-Telegram",
-          "177a8c6e6709472ba61a4a3a8be45612_@_@Hope_Net-join-us-on-Telegram"
+          "53669a71a6804e8997486c41cee3744d_@_@Hope_Net-join-us-on-Telegram",
+          "fc5d2b65ad1341febdeb2da41d3fd4dd_@_@Hope_Net-join-us-on-Telegram",
+          "4802460cf584405a9fd39178a7b71c55_@_@Hope_Net-join-us-on-Telegram",
+          "d61c73e3950a4a43b5803201121386d1_@_@Hope_Net-join-us-on-Telegram"
         ],
         "strategy": {
           "type": "leastLoad"
