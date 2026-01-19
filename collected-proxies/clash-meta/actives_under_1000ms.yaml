@@ -1,17 +1,7 @@
 proxies:
-- uuid: f8e5817e-8487-4239-be14-c1ea3284719c
-  server: 62.60.210.141
-  name: 274a6fb703ec4222a2632c5439443698_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 29098
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
 - uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-  server: 104.21.65.183
-  name: f6a408ff675e4e20863cee93be996a97_@_@Hope_Net-join-us-on-Telegram`
+  server: 104.17.89.96
+  name: 17badfb71c4f4b07b570d00d0870e44b_@_@Hope_Net-join-us-on-Telegram`
   type: vless
   port: 80
   network: ws
@@ -21,15 +11,48 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: /
-- uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
-  server: 185.235.241.131
-  name: b4df1ff4e0a04dc290e5e87ab2f56d2c_@_telegram%20%F0%9F%8C%88%20dailyv2ry
+- uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  server: 65.75.193.21
+  name: b80e522cb48e4524b003aae3d870038f_@_@Hope_Net-join-us-on-Telegram
+  type: vless
+  port: 37813
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: xinm.ylks.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: xinm.ylks.link
+    path: /blue
+- uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  server: 205.233.181.41
+  name: 09d3d93ef276488186d340577829177b_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
+  servername: hkx.ylks.xyz
   fingerprint: ''
   ws-opts:
-    path: /hormoz
+    headers:
+      host: hkx.ylks.xyz
+    path: /blue
+- uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  server: 69.84.182.212
+  name: 1069585189014335b77c458b84282053_@_@Hope_Net-join-us-on-Telegram`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: hke.ylks.xyz
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: hke.ylks.xyz
+    path: /blue
