@@ -1,1 +1,28 @@
-proxies: []
+proxies:
+- uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+  server: 104.18.191.253
+  name: fa63160cdee54d2db6b81bc497d2de6a_@_@Hope_Net-join-us-on-Telegram`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  server: 18.184.107.87
+  name: b7e3c8e226ba4f2a9e53cd75202d4fa6_@_@VlessConfig 🇩🇪
+  type: vless
+  port: 22224
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: trojan.burgerip.co.uk
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: trojan.burgerip.co.uk
+    path: /telegram-channel-vlessconfig
