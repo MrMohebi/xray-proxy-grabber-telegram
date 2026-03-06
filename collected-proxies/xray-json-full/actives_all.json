@@ -8,24 +8,28 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "e7c995311ede495f8f3acd9a521ed318_@_[🇮🇷]t.me/ConfigsHub```",
-      "7fc6788f5d6e42ab91bc42fed83d4c2b_@_[🇮🇷]t.me/ConfigsHub```",
-      "3600d0916a34463385eded640b13ee57_@_[🇮🇷]t.me/ConfigsHub```",
-      "6236fd75c1c04b31a67bbfdc8c6fd3de_@_[🇷🇺]t.me/ConfigsHub```",
-      "a3cee9311a784447aaa07b96c1a6f42b_@_[🇷🇺]t.me/ConfigsHub```",
-      "d259430c614649ccb689f0f173fe835b_@_[🇹🇷]t.me/ConfigsHub```",
-      "41bf691f35fa4b86a0d890d8def6b014_@_[🇮🇷]t.me/ConfigsHub```",
-      "6e574fd9005a47fa8b36485d753222cc_@_[🇷🇺]t.me/ConfigsHub```",
-      "cb5d12b7f686494eaec51de0c6cd39f4_@_[🇮🇷]t.me/ConfigsHub```",
-      "1ca0f84ae2e94631be237d4eaebbf88d_@_[🇷🇺]t.me/ConfigsHub```",
-      "08f39bc6fb4a4ebb9820ad4775b1fb1a_@_[🇮🇷]t.me/ConfigsHub```",
-      "d99c1a7d43cd4c1db56417562dee6d51_@_[🇹🇷]t.me/ConfigsHub```",
-      "a0e0cf3c54d34fd3b8f377a9b6cc6be3_@_[🇷🇺]t.me/ConfigsHub```",
-      "efca0a7c19094e39b3b79952ffe19ee3_@_[🇷🇺]t.me/ConfigsHub```",
-      "981c988f456c4aec94542352c60e42dc_@_[🇹🇷]t.me/ConfigsHub```",
-      "22d0d25d3f27442a938f613b0840a056_@_[🇹🇷]t.me/ConfigsHub```",
-      "d9e7a89b464241948d5ca658ff8174f8_@_[🇮🇷]t.me/ConfigsHub```",
-      "5fc35175d1844cbfa4af619a85381141_@_[🇷🇺]t.me/ConfigsHub```"
+      "b812dba18819442cb8c1b59c8c510a02_@_[🇹🇷]t.me/ConfigsHub```",
+      "f6615e8ae16a483da1aa547e140f3de2_@_[🇮🇷]t.me/ConfigsHub```",
+      "308808f3281741a985f4822656570535_@_[🇷🇺]t.me/ConfigsHub```",
+      "67edfc43c3994340bf93509e15f5e87e_@_[🇮🇷]t.me/ConfigsHub```",
+      "5f19c0508b1e47028e4a41c47bac869e_@_[🇮🇷]t.me/ConfigsHub```",
+      "52b94453fc8348608a6e1ac55b7980c3_@_[🇮🇷]t.me/ConfigsHub```",
+      "bf0858d0086e42e0937772e391a93d35_@_[🇷🇺]t.me/ConfigsHub```",
+      "8e6293fbdb3b499481737a165bc310be_@_[🇮🇷]t.me/ConfigsHub```",
+      "83932b89862246dda9a516380408bc97_@_[🇮🇷]t.me/ConfigsHub```",
+      "c1ec3d2758fc4c83b70ef4b4b9e51525_@_[🇮🇷]t.me/ConfigsHub```",
+      "6541157be6204a7dbf956c101097c122_@_[🇮🇷]t.me/ConfigsHub```",
+      "3f304e4b27a249a5bcbc7f2bae7b2adb_@_[🇮🇷]t.me/ConfigsHub```",
+      "83f34305d7ef4a0bb2a8ad6ef8a1fe46_@_[🇮🇷]t.me/ConfigsHub```",
+      "411464c713054bbba01c0daebce6d099_@_[🇮🇷]t.me/ConfigsHub```",
+      "e58ea0834a964daba09d16e6677e5a4c_@_[🇮🇷]t.me/ConfigsHub```",
+      "4feba5638aee414d9f832859d4a98678_@_[🇮🇷]t.me/ConfigsHub```",
+      "a3d308ea3336447fb0e1ffc1f56cff65_@_[🇮🇷]t.me/ConfigsHub```",
+      "74a97c18dccb4fb5a7497ee789f32abd_@_[🇳🇱]t.me/ConfigsHub```",
+      "f2fb161507914b2596dcd97448e68b7f_@_[🇳🇱]t.me/ConfigsHub```",
+      "b1ac3c9bbfcf4a32b441b6cf0c103107_@_[🇩🇪]t.me/ConfigsHub```",
+      "bc72303b733248ab9b076881a0694222_@_[🇮🇨]t.me/ConfigsHub```",
+      "54da6c03436d4e1c9a44479c10dd0755_@_[🇳🇱]t.me/ConfigsHub```"
     ]
   },
   "dns": {
@@ -69,6 +73,180 @@
     "loglevel": "warning"
   },
   "outbounds": [
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ir-www-germani1.khabarkamkwww.fun",
+            "port": 8081,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "16a42115-baeb-4b2f-9ffc-27a5019e8253",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "www.speedtest.net"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "b812dba18819442cb8c1b59c8c510a02_@_[🇹🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.60.228.73",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "1de3c813-46ff-4403-9339-5f1d2e1f97dd",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  null
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "f6615e8ae16a483da1aa547e140f3de2_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "gb1.vnet500.xyz",
+            "port": 32040,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "93c6a92b-3e91-4ec9-9d48-5a9efdc79a87",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "soft98.ir"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "308808f3281741a985f4822656570535_@_[🇷🇺]t.me/ConfigsHub```"
+    },
     {
       "mux": {
         "concurrency": -1,
@@ -125,65 +303,7 @@
           }
         }
       },
-      "tag": "e7c995311ede495f8f3acd9a521ed318_@_[🇮🇷]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "s4.farzandeiran.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "2a628533-74e2-40b7-a072-68140e922414",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none",
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "telewebion.ir"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "7fc6788f5d6e42ab91bc42fed83d4c2b_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "67edfc43c3994340bf93509e15f5e87e_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -217,7 +337,7 @@
           "path": "/"
         }
       },
-      "tag": "3600d0916a34463385eded640b13ee57_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "5f19c0508b1e47028e4a41c47bac869e_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -228,15 +348,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "gb1.vnet500.xyz",
-            "port": 32040,
+            "address": "194.60.228.73",
+            "port": 80,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "93c6a92b-3e91-4ec9-9d48-5a9efdc79a87",
+                "id": "1de3c813-46ff-4403-9339-5f1d2e1f97dd",
                 "security": "auto"
               }
             ]
@@ -245,7 +365,7 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "security": null,
+        "security": "none",
         "tcpSettings": {
           "acceptProxyProtocol": false,
           "header": {
@@ -258,7 +378,7 @@
                   "keep-alive"
                 ],
                 "Host": [
-                  "soft98.ir"
+                  null
                 ],
                 "Pragma": "no-cache",
                 "User-Agent": [
@@ -275,7 +395,7 @@
           }
         }
       },
-      "tag": "6236fd75c1c04b31a67bbfdc8c6fd3de_@_[🇷🇺]t.me/ConfigsHub```"
+      "tag": "52b94453fc8348608a6e1ac55b7980c3_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -333,7 +453,7 @@
           }
         }
       },
-      "tag": "a3cee9311a784447aaa07b96c1a6f42b_@_[🇷🇺]t.me/ConfigsHub```"
+      "tag": "bf0858d0086e42e0937772e391a93d35_@_[🇷🇺]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -344,15 +464,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "vip2.xqfire.ir",
-            "port": 812,
+            "address": "vipde1.persianpinggame.com",
+            "port": 9091,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "6a6f8ec9-f485-491e-ba65-7e8c0a2f8608",
+                "id": "f0874314-b134-4d38-84c2-d1b32cd30136",
                 "security": "auto"
               }
             ]
@@ -374,7 +494,7 @@
                   "keep-alive"
                 ],
                 "Host": [
-                  "telewebion.com"
+                  "myket.ir"
                 ],
                 "Pragma": "no-cache",
                 "User-Agent": [
@@ -391,7 +511,7 @@
           }
         }
       },
-      "tag": "d259430c614649ccb689f0f173fe835b_@_[🇹🇷]t.me/ConfigsHub```"
+      "tag": "8e6293fbdb3b499481737a165bc310be_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -425,7 +545,7 @@
           "path": "/"
         }
       },
-      "tag": "41bf691f35fa4b86a0d890d8def6b014_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "83932b89862246dda9a516380408bc97_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -436,73 +556,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "gb1.vnet500.xyz",
-            "port": 32040,
+            "address": "194.60.228.73",
+            "port": 80,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "93c6a92b-3e91-4ec9-9d48-5a9efdc79a87",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "soft98.ir"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "6e574fd9005a47fa8b36485d753222cc_@_[🇷🇺]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "s4.farzandeiran.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "2a628533-74e2-40b7-a072-68140e922414",
+                "id": "1de3c813-46ff-4403-9339-5f1d2e1f97dd",
                 "security": "auto"
               }
             ]
@@ -524,7 +586,7 @@
                   "keep-alive"
                 ],
                 "Host": [
-                  "telewebion.ir"
+                  null
                 ],
                 "Pragma": "no-cache",
                 "User-Agent": [
@@ -541,7 +603,7 @@
           }
         }
       },
-      "tag": "cb5d12b7f686494eaec51de0c6cd39f4_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "c1ec3d2758fc4c83b70ef4b4b9e51525_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -552,15 +614,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "gb1.vnet500.xyz",
-            "port": 32040,
+            "address": "194.60.228.73",
+            "port": 80,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "93c6a92b-3e91-4ec9-9d48-5a9efdc79a87",
+                "id": "1de3c813-46ff-4403-9339-5f1d2e1f97dd",
                 "security": "auto"
               }
             ]
@@ -582,7 +644,7 @@
                   "keep-alive"
                 ],
                 "Host": [
-                  "soft98.ir"
+                  null
                 ],
                 "Pragma": "no-cache",
                 "User-Agent": [
@@ -599,7 +661,7 @@
           }
         }
       },
-      "tag": "1ca0f84ae2e94631be237d4eaebbf88d_@_[🇷🇺]t.me/ConfigsHub```"
+      "tag": "6541157be6204a7dbf956c101097c122_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -610,15 +672,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "s4.farzandeiran.com",
-            "port": 443,
+            "address": "194.60.228.73",
+            "port": 80,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "2a628533-74e2-40b7-a072-68140e922414",
+                "id": "1de3c813-46ff-4403-9339-5f1d2e1f97dd",
                 "security": "auto"
               }
             ]
@@ -640,7 +702,7 @@
                   "keep-alive"
                 ],
                 "Host": [
-                  "telewebion.ir"
+                  null
                 ],
                 "Pragma": "no-cache",
                 "User-Agent": [
@@ -657,7 +719,7 @@
           }
         }
       },
-      "tag": "08f39bc6fb4a4ebb9820ad4775b1fb1a_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "3f304e4b27a249a5bcbc7f2bae7b2adb_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -668,189 +730,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "vip2.xqfire.ir",
-            "port": 812,
+            "address": "194.60.228.73",
+            "port": 80,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "6a6f8ec9-f485-491e-ba65-7e8c0a2f8608",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "telewebion.com"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "d99c1a7d43cd4c1db56417562dee6d51_@_[🇹🇷]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "gb1.vnet500.xyz",
-            "port": 32040,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "93c6a92b-3e91-4ec9-9d48-5a9efdc79a87",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "soft98.ir"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "a0e0cf3c54d34fd3b8f377a9b6cc6be3_@_[🇷🇺]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "nl1.vnet500.xyz",
-            "port": 26083,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "0cac6955-f1ed-4eff-941c-bef4adbee920",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "soft98.ir"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "efca0a7c19094e39b3b79952ffe19ee3_@_[🇷🇺]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "connected5.starpo5.ir",
-            "port": 8080,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "b083b539-a43a-44d1-a7dd-f90f94b9cfc6",
+                "id": "1de3c813-46ff-4403-9339-5f1d2e1f97dd",
                 "security": "auto"
               }
             ]
@@ -872,7 +760,7 @@
                   "keep-alive"
                 ],
                 "Host": [
-                  "divarcdn.com"
+                  null
                 ],
                 "Pragma": "no-cache",
                 "User-Agent": [
@@ -889,7 +777,7 @@
           }
         }
       },
-      "tag": "981c988f456c4aec94542352c60e42dc_@_[🇹🇷]t.me/ConfigsHub```"
+      "tag": "83f34305d7ef4a0bb2a8ad6ef8a1fe46_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -900,15 +788,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "de-2-tun-single.starping1.fun",
-            "port": 8083,
+            "address": "194.60.228.73",
+            "port": 80,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "ee73ff6e-af32-43df-854e-754253bd1bd8",
+                "id": "1de3c813-46ff-4403-9339-5f1d2e1f97dd",
                 "security": "auto"
               }
             ]
@@ -930,7 +818,7 @@
                   "keep-alive"
                 ],
                 "Host": [
-                  "www.speedtest.net"
+                  null
                 ],
                 "Pragma": "no-cache",
                 "User-Agent": [
@@ -947,7 +835,7 @@
           }
         }
       },
-      "tag": "22d0d25d3f27442a938f613b0840a056_@_[🇹🇷]t.me/ConfigsHub```"
+      "tag": "411464c713054bbba01c0daebce6d099_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -958,15 +846,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.60.228.158",
-            "port": 7710,
+            "address": "194.60.228.73",
+            "port": 80,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "585e33d7-c503-4b90-bff7-aca1b1bb8e4f",
+                "id": "1de3c813-46ff-4403-9339-5f1d2e1f97dd",
                 "security": "auto"
               }
             ]
@@ -974,13 +862,320 @@
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "qwemmqwoedmqwoemdoqwmedpmqwedmpm"
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  null
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "e58ea0834a964daba09d16e6677e5a4c_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.60.228.73",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "1de3c813-46ff-4403-9339-5f1d2e1f97dd",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  null
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "4feba5638aee414d9f832859d4a98678_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ge.configfast.site",
+            "port": 3013,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "47d440a1-83ac-4d0f-b2b4-e51a8526f55a",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "bale.ai,web.splus.ir,igap.net"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "a3d308ea3336447fb0e1ffc1f56cff65_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "146.103.102.82",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "e08f1ad7-0c60-446d-baec-08b3b69bb3d0",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "headers": {},
+          "path": "/getWorkerUpdates"
+        }
+      },
+      "tag": "74a97c18dccb4fb5a7497ee789f32abd_@_[🇳🇱]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "146.103.102.82",
+            "port": 80,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "e08f1ad7-0c60-446d-baec-08b3b69bb3d0",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "headers": {},
+          "path": "/getWorkerUpdates"
+        }
+      },
+      "tag": "f2fb161507914b2596dcd97448e68b7f_@_[🇳🇱]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "138.199.150.141",
+            "port": 44344,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "a62c4be7-04b0-405c-ae9f-d04f2a43ec13",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  null
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "b1ac3c9bbfcf4a32b441b6cf0c103107_@_[🇩🇪]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cosmin.ns.cloudflare.com",
+            "port": 2096,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "hetz.x-smm.com"
         },
-        "network": "grpc",
-        "security": "none"
+        "wsSettings": {
+          "headers": {
+            "Host": "hetz.x-smm.com"
+          },
+          "path": "/45.76.183.217=49292"
+        }
       },
-      "tag": "d9e7a89b464241948d5ca658ff8174f8_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "bc72303b733248ab9b076881a0694222_@_[🇮🇨]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -991,15 +1186,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "gb1.vnet500.xyz",
-            "port": 32040,
+            "address": "5.255.114.61",
+            "port": 2083,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "93c6a92b-3e91-4ec9-9d48-5a9efdc79a87",
+                "id": "b658a9a6-f8f5-4a86-a438-f912a8509db2",
                 "security": "auto"
               }
             ]
@@ -1007,38 +1202,22 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "soft98.ir"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "native.loveplus.de5.net"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "native.loveplus.de5.net"
+          },
+          "path": "/ehueueuejs"
         }
       },
-      "tag": "5fc35175d1844cbfa4af619a85381141_@_[🇷🇺]t.me/ConfigsHub```"
+      "tag": "54da6c03436d4e1c9a44479c10dd0755_@_[🇳🇱]t.me/ConfigsHub```"
     },
     {
       "protocol": "freedom",
@@ -1063,24 +1242,28 @@
     "balancers": [
       {
         "selector": [
-          "e7c995311ede495f8f3acd9a521ed318_@_[🇮🇷]t.me/ConfigsHub```",
-          "7fc6788f5d6e42ab91bc42fed83d4c2b_@_[🇮🇷]t.me/ConfigsHub```",
-          "3600d0916a34463385eded640b13ee57_@_[🇮🇷]t.me/ConfigsHub```",
-          "6236fd75c1c04b31a67bbfdc8c6fd3de_@_[🇷🇺]t.me/ConfigsHub```",
-          "a3cee9311a784447aaa07b96c1a6f42b_@_[🇷🇺]t.me/ConfigsHub```",
-          "d259430c614649ccb689f0f173fe835b_@_[🇹🇷]t.me/ConfigsHub```",
-          "41bf691f35fa4b86a0d890d8def6b014_@_[🇮🇷]t.me/ConfigsHub```",
-          "6e574fd9005a47fa8b36485d753222cc_@_[🇷🇺]t.me/ConfigsHub```",
-          "cb5d12b7f686494eaec51de0c6cd39f4_@_[🇮🇷]t.me/ConfigsHub```",
-          "1ca0f84ae2e94631be237d4eaebbf88d_@_[🇷🇺]t.me/ConfigsHub```",
-          "08f39bc6fb4a4ebb9820ad4775b1fb1a_@_[🇮🇷]t.me/ConfigsHub```",
-          "d99c1a7d43cd4c1db56417562dee6d51_@_[🇹🇷]t.me/ConfigsHub```",
-          "a0e0cf3c54d34fd3b8f377a9b6cc6be3_@_[🇷🇺]t.me/ConfigsHub```",
-          "efca0a7c19094e39b3b79952ffe19ee3_@_[🇷🇺]t.me/ConfigsHub```",
-          "981c988f456c4aec94542352c60e42dc_@_[🇹🇷]t.me/ConfigsHub```",
-          "22d0d25d3f27442a938f613b0840a056_@_[🇹🇷]t.me/ConfigsHub```",
-          "d9e7a89b464241948d5ca658ff8174f8_@_[🇮🇷]t.me/ConfigsHub```",
-          "5fc35175d1844cbfa4af619a85381141_@_[🇷🇺]t.me/ConfigsHub```"
+          "b812dba18819442cb8c1b59c8c510a02_@_[🇹🇷]t.me/ConfigsHub```",
+          "f6615e8ae16a483da1aa547e140f3de2_@_[🇮🇷]t.me/ConfigsHub```",
+          "308808f3281741a985f4822656570535_@_[🇷🇺]t.me/ConfigsHub```",
+          "67edfc43c3994340bf93509e15f5e87e_@_[🇮🇷]t.me/ConfigsHub```",
+          "5f19c0508b1e47028e4a41c47bac869e_@_[🇮🇷]t.me/ConfigsHub```",
+          "52b94453fc8348608a6e1ac55b7980c3_@_[🇮🇷]t.me/ConfigsHub```",
+          "bf0858d0086e42e0937772e391a93d35_@_[🇷🇺]t.me/ConfigsHub```",
+          "8e6293fbdb3b499481737a165bc310be_@_[🇮🇷]t.me/ConfigsHub```",
+          "83932b89862246dda9a516380408bc97_@_[🇮🇷]t.me/ConfigsHub```",
+          "c1ec3d2758fc4c83b70ef4b4b9e51525_@_[🇮🇷]t.me/ConfigsHub```",
+          "6541157be6204a7dbf956c101097c122_@_[🇮🇷]t.me/ConfigsHub```",
+          "3f304e4b27a249a5bcbc7f2bae7b2adb_@_[🇮🇷]t.me/ConfigsHub```",
+          "83f34305d7ef4a0bb2a8ad6ef8a1fe46_@_[🇮🇷]t.me/ConfigsHub```",
+          "411464c713054bbba01c0daebce6d099_@_[🇮🇷]t.me/ConfigsHub```",
+          "e58ea0834a964daba09d16e6677e5a4c_@_[🇮🇷]t.me/ConfigsHub```",
+          "4feba5638aee414d9f832859d4a98678_@_[🇮🇷]t.me/ConfigsHub```",
+          "a3d308ea3336447fb0e1ffc1f56cff65_@_[🇮🇷]t.me/ConfigsHub```",
+          "74a97c18dccb4fb5a7497ee789f32abd_@_[🇳🇱]t.me/ConfigsHub```",
+          "f2fb161507914b2596dcd97448e68b7f_@_[🇳🇱]t.me/ConfigsHub```",
+          "b1ac3c9bbfcf4a32b441b6cf0c103107_@_[🇩🇪]t.me/ConfigsHub```",
+          "bc72303b733248ab9b076881a0694222_@_[🇮🇨]t.me/ConfigsHub```",
+          "54da6c03436d4e1c9a44479c10dd0755_@_[🇳🇱]t.me/ConfigsHub```"
         ],
         "strategy": {
           "type": "leastLoad"
