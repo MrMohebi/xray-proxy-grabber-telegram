@@ -8,7 +8,8 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "0555ba04ce94449180fb18ceda8c23cc_@_[🇮🇷]t.me/ConfigsHub```"
+      "0d35ce9852234881bb42d83c4735b3b1_@_[🇮🇷]t.me/ConfigsHub```",
+      "914a8ea8ed90435ebcb0de495abd7670_@_[🇨🇦]t.me/ConfigsHub```"
     ]
   },
   "dns": {
@@ -69,7 +70,7 @@
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "08238f73-88ae-49e0-81ad-aa0cf0e901d9",
+                "id": "16701dd7-3f22-483d-8a97-80501e5986a1",
                 "security": "auto"
               }
             ]
@@ -78,7 +79,7 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "none",
+        "security": null,
         "tcpSettings": {
           "acceptProxyProtocol": false,
           "header": {
@@ -108,7 +109,47 @@
           }
         }
       },
-      "tag": "0555ba04ce94449180fb18ceda8c23cc_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "0d35ce9852234881bb42d83c4735b3b1_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nekopingbot.thisiswe.uno",
+            "port": 2053,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "cd11.thisiswe.uno"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "cd11.thisiswe.uno"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "914a8ea8ed90435ebcb0de495abd7670_@_[🇨🇦]t.me/ConfigsHub```"
     },
     {
       "protocol": "freedom",
@@ -133,7 +174,8 @@
     "balancers": [
       {
         "selector": [
-          "0555ba04ce94449180fb18ceda8c23cc_@_[🇮🇷]t.me/ConfigsHub```"
+          "0d35ce9852234881bb42d83c4735b3b1_@_[🇮🇷]t.me/ConfigsHub```",
+          "914a8ea8ed90435ebcb0de495abd7670_@_[🇨🇦]t.me/ConfigsHub```"
         ],
         "strategy": {
           "type": "leastLoad"
