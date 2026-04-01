@@ -8,12 +8,11 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "6d1c453b268e4540a393f6e542658c43_@_[🇮🇷]t.me/ConfigsHub```",
-      "0b6bf8285004470bb8ba8b93346b94b0_@_[🇮🇷]t.me/ConfigsHub```",
-      "46a3306ca48c48679a337f7619cb6853_@_[🇮🇷]t.me/ConfigsHub```",
-      "047a837522c84cbea998ff49b25c3e9c_@_[🇮🇷]t.me/ConfigsHub```",
-      "a7c1e7295d6b492eaf655140f3ed8661_@_[🇮🇷]t.me/ConfigsHub```",
-      "d5bb411582cb4a2891f48f79d2c5423a_@_[🇮🇷]t.me/ConfigsHub```"
+      "f08a1590601e426d8e7c7d50def21151_@_[🇮🇷]t.me/ConfigsHub```",
+      "6c1d6466bd4b461db4c3e513e898d616_@_[🇮🇷]t.me/ConfigsHub```",
+      "7318ac8acefd4b99afa630fef1eb8673_@_@icv2ray",
+      "dae0f9221f6e42eb840d5c75193e4423_@_[🇮🇷]t.me/ConfigsHub```",
+      "0b0213130890484692dc861015bd6a84_@_[🇮🇷]t.me/ConfigsHub```"
     ]
   },
   "dns": {
@@ -66,15 +65,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "snapp.ir",
-            "port": 80,
+            "address": "s10.x2fast.top",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "d8680ca0-b97c-40cf-9726-16c362eadf88",
+                "id": "6f02f9ba-0bf3-4b24-9ce8-a669ce9305e5",
                 "security": "auto"
               }
             ]
@@ -83,217 +82,191 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "s10.x2fast.top"
+        },
         "wsSettings": {
           "headers": {
-            "Host": "alfred-af5ad8949d-alfred13.apps.ir-central1.arvancaas.ir"
-          },
-          "path": "/?ed=2048"
-        }
-      },
-      "tag": "6d1c453b268e4540a393f6e542658c43_@_[🇮🇷]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "81.12.34.37",
-            "port": 8080,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "e6d862ac-398b-4488-88e0-e5879923934d",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none",
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "bama.ir"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "0b6bf8285004470bb8ba8b93346b94b0_@_[🇮🇷]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "varzesh3.com",
-            "port": 80,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "6474f608-e5aa-4f81-8a2b-600d10c257da",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "headers": {
-            "Host": "m3.y101.ir"
-          },
-          "path": "/ir"
-        }
-      },
-      "tag": "46a3306ca48c48679a337f7619cb6853_@_[🇮🇷]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tamin.ir",
-            "port": 80,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "6474f608-e5aa-4f81-8a2b-600d10c257da",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "headers": {
-            "Host": "m2.y101.ir"
-          },
-          "path": "/ir"
-        }
-      },
-      "tag": "047a837522c84cbea998ff49b25c3e9c_@_[🇮🇷]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "varzesh3.com",
-            "port": 80,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "6474f608-e5aa-4f81-8a2b-600d10c257da",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "headers": {
-            "Host": "m3.y101.ir"
-          },
-          "path": "/ir"
-        }
-      },
-      "tag": "a7c1e7295d6b492eaf655140f3ed8661_@_[🇮🇷]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "snapp.ir",
-            "port": 80,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "cde730ef-5d37-42dc-b59b-0c9b918d79b9",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "headers": {
-            "Host": "ar.liarashop.ir"
+            "Host": "s10.x2fast.top"
           },
           "path": "/"
         }
       },
-      "tag": "d5bb411582cb4a2891f48f79d2c5423a_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "f08a1590601e426d8e7c7d50def21151_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.151.158.147",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "4b3086ce-cf5c-4f14-8f3d-4d5f074cd84e",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "api.meibourse.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "api.meibourse.com"
+          },
+          "path": "/no?ed=443"
+        }
+      },
+      "tag": "6c1d6466bd4b461db4c3e513e898d616_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "new.sordo.store",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "96333d44-254e-4180-92c8-c35d95529ab2",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "new.sordo.store"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "new.sordo.store"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "7318ac8acefd4b99afa630fef1eb8673_@_@icv2ray"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "adi.asaltabie.online",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "b3845dc9-26af-47fe-8b5c-4b94d1cfdc59",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "adi.asaltabie.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "adi.asaltabie.online"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "dae0f9221f6e42eb840d5c75193e4423_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.143.233.200",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "a32240a5-ad06-4075-954b-2fcdd6df5616",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "randomized",
+          "serverName": "alef.ir.oadeflantrogm.airasiadl.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "alef.ir.oadeflantrogm.airasiadl.com"
+          },
+          "path": "/?ed=443"
+        }
+      },
+      "tag": "0b0213130890484692dc861015bd6a84_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "protocol": "freedom",
@@ -318,12 +291,11 @@
     "balancers": [
       {
         "selector": [
-          "6d1c453b268e4540a393f6e542658c43_@_[🇮🇷]t.me/ConfigsHub```",
-          "0b6bf8285004470bb8ba8b93346b94b0_@_[🇮🇷]t.me/ConfigsHub```",
-          "46a3306ca48c48679a337f7619cb6853_@_[🇮🇷]t.me/ConfigsHub```",
-          "047a837522c84cbea998ff49b25c3e9c_@_[🇮🇷]t.me/ConfigsHub```",
-          "a7c1e7295d6b492eaf655140f3ed8661_@_[🇮🇷]t.me/ConfigsHub```",
-          "d5bb411582cb4a2891f48f79d2c5423a_@_[🇮🇷]t.me/ConfigsHub```"
+          "f08a1590601e426d8e7c7d50def21151_@_[🇮🇷]t.me/ConfigsHub```",
+          "6c1d6466bd4b461db4c3e513e898d616_@_[🇮🇷]t.me/ConfigsHub```",
+          "7318ac8acefd4b99afa630fef1eb8673_@_@icv2ray",
+          "dae0f9221f6e42eb840d5c75193e4423_@_[🇮🇷]t.me/ConfigsHub```",
+          "0b0213130890484692dc861015bd6a84_@_[🇮🇷]t.me/ConfigsHub```"
         ],
         "strategy": {
           "type": "leastLoad"

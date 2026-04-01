@@ -8,9 +8,8 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "6d1c453b268e4540a393f6e542658c43_@_[🇮🇷]t.me/ConfigsHub```",
-      "0b6bf8285004470bb8ba8b93346b94b0_@_[🇮🇷]t.me/ConfigsHub```",
-      "46a3306ca48c48679a337f7619cb6853_@_[🇮🇷]t.me/ConfigsHub```"
+      "f08a1590601e426d8e7c7d50def21151_@_[🇮🇷]t.me/ConfigsHub```",
+      "6c1d6466bd4b461db4c3e513e898d616_@_[🇮🇷]t.me/ConfigsHub```"
     ]
   },
   "dns": {
@@ -63,15 +62,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "snapp.ir",
-            "port": 80,
+            "address": "s10.x2fast.top",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "d8680ca0-b97c-40cf-9726-16c362eadf88",
+                "id": "6f02f9ba-0bf3-4b24-9ce8-a669ce9305e5",
                 "security": "auto"
               }
             ]
@@ -80,15 +79,23 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "serverName": "s10.x2fast.top"
+        },
         "wsSettings": {
           "headers": {
-            "Host": "alfred-af5ad8949d-alfred13.apps.ir-central1.arvancaas.ir"
+            "Host": "s10.x2fast.top"
           },
-          "path": "/?ed=2048"
+          "path": "/"
         }
       },
-      "tag": "6d1c453b268e4540a393f6e542658c43_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "f08a1590601e426d8e7c7d50def21151_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -99,73 +106,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "81.12.34.37",
-            "port": 8080,
+            "address": "193.151.158.147",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "e6d862ac-398b-4488-88e0-e5879923934d",
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none",
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "bama.ir"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
-        }
-      },
-      "tag": "0b6bf8285004470bb8ba8b93346b94b0_@_[🇮🇷]t.me/ConfigsHub```"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "varzesh3.com",
-            "port": 80,
-            "users": [
-              {
-                "alterId": 0,
-                "email": "t@t.tt",
-                "encryption": "none",
-                "flow": null,
-                "id": "6474f608-e5aa-4f81-8a2b-600d10c257da",
+                "id": "4b3086ce-cf5c-4f14-8f3d-4d5f074cd84e",
                 "security": "auto"
               }
             ]
@@ -174,15 +123,19 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "api.meibourse.com"
+        },
         "wsSettings": {
           "headers": {
-            "Host": "m3.y101.ir"
+            "Host": "api.meibourse.com"
           },
-          "path": "/ir"
+          "path": "/no?ed=443"
         }
       },
-      "tag": "46a3306ca48c48679a337f7619cb6853_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "6c1d6466bd4b461db4c3e513e898d616_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "protocol": "freedom",
@@ -207,9 +160,8 @@
     "balancers": [
       {
         "selector": [
-          "6d1c453b268e4540a393f6e542658c43_@_[🇮🇷]t.me/ConfigsHub```",
-          "0b6bf8285004470bb8ba8b93346b94b0_@_[🇮🇷]t.me/ConfigsHub```",
-          "46a3306ca48c48679a337f7619cb6853_@_[🇮🇷]t.me/ConfigsHub```"
+          "f08a1590601e426d8e7c7d50def21151_@_[🇮🇷]t.me/ConfigsHub```",
+          "6c1d6466bd4b461db4c3e513e898d616_@_[🇮🇷]t.me/ConfigsHub```"
         ],
         "strategy": {
           "type": "leastLoad"
