@@ -8,7 +8,7 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "0fa2be0fd1ef45a4abaf718b5e9702b6_@_[🇮🇷]t.me/ConfigsHub```"
+      "c9133a4d54694561956b8a0b9ad2fff9_@_[🇨🇦]t.me/ConfigsHub```"
     ]
   },
   "dns": {
@@ -61,15 +61,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "bo2.ghognus.com",
-            "port": 29096,
+            "address": "cf1.redforever.top",
+            "port": 2087,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "832169cc-30ca-4e00-bb34-fdee426ef46c",
+                "id": "a0d9fda7-3694-4c6f-8486-b06f292b06a2",
                 "security": "auto"
               }
             ]
@@ -77,38 +77,19 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "none",
-        "tcpSettings": {
-          "acceptProxyProtocol": false,
-          "header": {
-            "request": {
-              "headers": {
-                "Accept-Encoding": [
-                  "gzip, deflate"
-                ],
-                "Connection": [
-                  "keep-alive"
-                ],
-                "Host": [
-                  "nic.ir"
-                ],
-                "Pragma": "no-cache",
-                "User-Agent": [
-                  ""
-                ]
-              },
-              "method": "GET",
-              "path": [
-                "/"
-              ],
-              "version": "1.1"
-            },
-            "type": "http"
-          }
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.harchihast.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "cdn.harchihast.com"
+          },
+          "path": "//ws"
         }
       },
-      "tag": "0fa2be0fd1ef45a4abaf718b5e9702b6_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "c9133a4d54694561956b8a0b9ad2fff9_@_[🇨🇦]t.me/ConfigsHub```"
     },
     {
       "protocol": "freedom",
@@ -133,7 +114,7 @@
     "balancers": [
       {
         "selector": [
-          "0fa2be0fd1ef45a4abaf718b5e9702b6_@_[🇮🇷]t.me/ConfigsHub```"
+          "c9133a4d54694561956b8a0b9ad2fff9_@_[🇨🇦]t.me/ConfigsHub```"
         ],
         "strategy": {
           "type": "leastLoad"
