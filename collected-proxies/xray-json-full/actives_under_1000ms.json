@@ -8,8 +8,14 @@
       "timeout": "3s"
     },
     "subjectSelector": [
-      "f08a1590601e426d8e7c7d50def21151_@_[🇮🇷]t.me/ConfigsHub```",
-      "6c1d6466bd4b461db4c3e513e898d616_@_[🇮🇷]t.me/ConfigsHub```"
+      "d1daa96911124dc19c4be5efc6828092_@_[🇮🇷]t.me/ConfigsHub```",
+      "012ef002136647c68858fc37edf822e4_@_[🇮🇷]t.me/ConfigsHub```",
+      "803ab9f672f343c2b518c0a7c59b3d67_@_[🏁]t.me/ConfigsHub```",
+      "ab3818aad94343a59422b1c9493c56be_@_[🏁]t.me/ConfigsHub```",
+      "1bfe2005a89740d1b1182ff374a7f9e0_@_[🇮🇷]t.me/ConfigsHub```",
+      "527da5f8a25442f28baf08133f6dbd07_@_[🇮🇷]t.me/ConfigsHub```",
+      "af3459166f49414d8b38b227e74dbe14_@_[🇮🇷]t.me/ConfigsHub```",
+      "7da58d6470c343ab880cb12abb9c9f2f_@_[🏁]t.me/ConfigsHub```"
     ]
   },
   "dns": {
@@ -62,15 +68,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "s10.x2fast.top",
-            "port": 443,
+            "address": "dlc-new9.persianpinggame.com",
+            "port": 5109,
             "users": [
               {
                 "alterId": 0,
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "6f02f9ba-0bf3-4b24-9ce8-a669ce9305e5",
+                "id": "50390dae-1bdb-11f1-9350-92000723b4ab",
                 "security": "auto"
               }
             ]
@@ -78,24 +84,38 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
-          "serverName": "s10.x2fast.top"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "s10.x2fast.top"
-          },
-          "path": "/"
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "filmnet.ir"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
         }
       },
-      "tag": "f08a1590601e426d8e7c7d50def21151_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "d1daa96911124dc19c4be5efc6828092_@_[🇮🇷]t.me/ConfigsHub```"
     },
     {
       "mux": {
@@ -106,7 +126,123 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.151.158.147",
+            "address": "dlc-new9.persianpinggame.com",
+            "port": 5109,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "50390dae-1bdb-11f1-9350-92000723b4ab",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "filmnet.ir"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "012ef002136647c68858fc37edf822e4_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "l-iq-emergency2-7788yo.j0je.ir",
+            "port": 5480,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "d40e96b2-0203-4e62-bffb-cc8f338917dd",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "anten.ir"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "803ab9f672f343c2b518c0a7c59b3d67_@_[🏁]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "140.248.155.104",
             "port": 443,
             "users": [
               {
@@ -114,7 +250,7 @@
                 "email": "t@t.tt",
                 "encryption": "none",
                 "flow": null,
-                "id": "4b3086ce-cf5c-4f14-8f3d-4d5f074cd84e",
+                "id": "17f100d3-4b31-47f9-b8df-94d1a723d43e",
                 "security": "auto"
               }
             ]
@@ -125,17 +261,248 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "api.meibourse.com"
+          "serverName": "default.ssl.fastly.net"
         },
         "wsSettings": {
           "headers": {
-            "Host": "api.meibourse.com"
+            "Host": "efixshop.global.ssl.fastly.net"
           },
-          "path": "/no?ed=443"
+          "path": "/"
         }
       },
-      "tag": "6c1d6466bd4b461db4c3e513e898d616_@_[🇮🇷]t.me/ConfigsHub```"
+      "tag": "ab3818aad94343a59422b1c9493c56be_@_[🏁]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "dlc-new9.persianpinggame.com",
+            "port": 5109,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "50390dae-1bdb-11f1-9350-92000723b4ab",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "filmnet.ir"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "1bfe2005a89740d1b1182ff374a7f9e0_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "dlc-new9.persianpinggame.com",
+            "port": 5109,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "50390dae-1bdb-11f1-9350-92000723b4ab",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "filmnet.ir"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "527da5f8a25442f28baf08133f6dbd07_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "dlc-new9.persianpinggame.com",
+            "port": 5109,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "50390dae-1bdb-11f1-9350-92000723b4ab",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "filmnet.ir"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "af3459166f49414d8b38b227e74dbe14_@_[🇮🇷]t.me/ConfigsHub```"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "l-iq-emergency2-7788yo.j0je.ir",
+            "port": 5480,
+            "users": [
+              {
+                "alterId": 0,
+                "email": "t@t.tt",
+                "encryption": "none",
+                "flow": null,
+                "id": "d40e96b2-0203-4e62-bffb-cc8f338917dd",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "tcpSettings": {
+          "acceptProxyProtocol": false,
+          "header": {
+            "request": {
+              "headers": {
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Host": [
+                  "anten.ir"
+                ],
+                "Pragma": "no-cache",
+                "User-Agent": [
+                  ""
+                ]
+              },
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "version": "1.1"
+            },
+            "type": "http"
+          }
+        }
+      },
+      "tag": "7da58d6470c343ab880cb12abb9c9f2f_@_[🏁]t.me/ConfigsHub```"
     },
     {
       "protocol": "freedom",
@@ -160,8 +527,14 @@
     "balancers": [
       {
         "selector": [
-          "f08a1590601e426d8e7c7d50def21151_@_[🇮🇷]t.me/ConfigsHub```",
-          "6c1d6466bd4b461db4c3e513e898d616_@_[🇮🇷]t.me/ConfigsHub```"
+          "d1daa96911124dc19c4be5efc6828092_@_[🇮🇷]t.me/ConfigsHub```",
+          "012ef002136647c68858fc37edf822e4_@_[🇮🇷]t.me/ConfigsHub```",
+          "803ab9f672f343c2b518c0a7c59b3d67_@_[🏁]t.me/ConfigsHub```",
+          "ab3818aad94343a59422b1c9493c56be_@_[🏁]t.me/ConfigsHub```",
+          "1bfe2005a89740d1b1182ff374a7f9e0_@_[🇮🇷]t.me/ConfigsHub```",
+          "527da5f8a25442f28baf08133f6dbd07_@_[🇮🇷]t.me/ConfigsHub```",
+          "af3459166f49414d8b38b227e74dbe14_@_[🇮🇷]t.me/ConfigsHub```",
+          "7da58d6470c343ab880cb12abb9c9f2f_@_[🏁]t.me/ConfigsHub```"
         ],
         "strategy": {
           "type": "leastLoad"
