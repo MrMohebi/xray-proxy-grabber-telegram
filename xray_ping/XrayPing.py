@@ -101,7 +101,7 @@ class XrayPing:
         confFinalStr = json.dumps(xrayConfig, default=lambda x: x.__dict__)
 
         configFilePath = "./xray_config_ping.json"
-        with open(configFilePath, 'w') as f:
+        with open(configFilePath, 'w', encoding="utf-8") as f:
             f.write(confFinalStr)
 
         runXrayThread = Thread(target=subprocess.run,

@@ -27,7 +27,7 @@ def is_buggy_in_clash_meta(config: ClashMetaDecoder):
 
 
 
-with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
+with open("collected-proxies/row-url/all.txt", 'r', encoding="utf-8") as rowProxiesFile:
     configs = []
     clash_meta_configs = []
     for_game_proxies = []
@@ -63,32 +63,32 @@ with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
     getLatestActiveConfigs()
 
     yaml = YAML()
-    with open("collected-proxies/clash-meta/all.yaml", 'w') as allClashProxiesFile:
+    with open("collected-proxies/clash-meta/all.yaml", 'w', encoding="utf-8") as allClashProxiesFile:
         yaml.dump({"proxies": clash_meta_configs}, allClashProxiesFile)
 
-    with open("collected-proxies/clash-meta/actives_under_1000ms.yaml", 'w') as active1000ClashProxiesFile:
+    with open("collected-proxies/clash-meta/actives_under_1000ms.yaml", 'w', encoding="utf-8") as active1000ClashProxiesFile:
         values_to_filter = {d['proxy']['tag'].split("_@_")[0] for d in delays.realDelay_under_1000}
         filtered_array = [item for item in clash_meta_configs if item['name'].split("_@_")[0] in values_to_filter]
         yaml.dump({"proxies": filtered_array}, active1000ClashProxiesFile)
 
-    with open("collected-proxies/clash-meta/actives_under_1500ms.yaml", 'w') as active1500ClashProxiesFile:
+    with open("collected-proxies/clash-meta/actives_under_1500ms.yaml", 'w', encoding="utf-8") as active1500ClashProxiesFile:
         values_to_filter = {d['proxy']['tag'].split("_@_")[0] for d in delays.realDelay_under_1500}
         filtered_array = [item for item in clash_meta_configs if item['name'].split("_@_")[0] in values_to_filter]
         yaml.dump({"proxies": filtered_array}, active1500ClashProxiesFile)
 
-    with open(consts.xrayJsonPath["active"]["all"], 'w') as activeProxiesFile:
+    with open(consts.xrayJsonPath["active"]["all"], 'w', encoding="utf-8") as activeProxiesFile:
         for active in delays.actives:
             activeProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
-    with open(consts.xrayJsonPath["active"]["under1000ms"], 'w') as active1000ProxiesFile:
+    with open(consts.xrayJsonPath["active"]["under1000ms"], 'w', encoding="utf-8") as active1000ProxiesFile:
         for active in delays.realDelay_under_1000:
             active1000ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
-    with open(consts.xrayJsonPath["active"]["under1500ms"], 'w') as active1500ProxiesFile:
+    with open(consts.xrayJsonPath["active"]["under1500ms"], 'w', encoding="utf-8") as active1500ProxiesFile:
         for active in delays.realDelay_under_1500:
             active1500ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
-    with open(consts.xrayJsonPath["active"]["no403under1000ms"], 'w') as active1000no403ProxiesFile:
+    with open(consts.xrayJsonPath["active"]["no403under1000ms"], 'w', encoding="utf-8") as active1000no403ProxiesFile:
         for active in delays.no403_realDelay_under_1000:
             active1000no403ProxiesFile.write(json.dumps(active['proxy']) + "\n")
 
