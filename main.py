@@ -34,7 +34,7 @@ async def handler(event):
 
             if len(temp_proxy_holder) > PROXY_COUNTER_DEFAULT:
                 getLatestRowProxies()
-                with open("collected-proxies/row-url/all.txt", 'a') as f:
+                with open("collected-proxies/row-url/all.txt", 'a', encoding="utf-8") as f:
                     f.write("\n".join(temp_proxy_holder))
                     f.write("\n")
                 commitPushRowProxiesFile(event.sender.username)

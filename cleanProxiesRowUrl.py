@@ -32,7 +32,7 @@ def is_duplicated_config(proxy: str, seen_lines: set[str]):
 
 
 def keep_only_lines_and_remove_duplicates(file_path, lines_to_keep):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding="utf-8") as file:
         lines = file.readlines()
 
     if lines_to_keep is None:
@@ -51,7 +51,7 @@ def keep_only_lines_and_remove_duplicates(file_path, lines_to_keep):
 
     new_content = '\n'.join(line.rstrip() for line in unique_lines if line.strip())
 
-    with open(file_path, 'w') as file:
+    with open(file_path, 'w', encoding="utf-8") as file:
         file.write(new_content)
 
 
@@ -59,11 +59,11 @@ getLatestActiveConfigs()
 getLatestRowProxies()
 
 lineNumberOfFounds = []
-with open("collected-proxies/xray-json/actives_all.txt", 'r') as activeProxiesFile:
+with open("collected-proxies/xray-json/actives_all.txt", 'r', encoding="utf-8") as activeProxiesFile:
     for activeConfig in activeProxiesFile:
         if len(activeConfig) < 10: continue
 
-        with open("collected-proxies/row-url/all.txt", 'r') as rowProxiesFile:
+        with open("collected-proxies/row-url/all.txt", 'r', encoding="utf-8") as rowProxiesFile:
             # remove if it's not in active proxies
             for (index, rowProxyUrl) in enumerate(rowProxiesFile):
                 if len(rowProxyUrl) < 10: continue
